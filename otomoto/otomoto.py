@@ -1,1 +1,2 @@
-import "/Users/jakub/Documents/PYTHON Projects/Scraper_Unified"
+from .link_scrape_script import get_all_car_brands
+
