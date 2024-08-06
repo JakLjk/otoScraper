@@ -6,15 +6,23 @@ from selenium.common.exceptions import NoSuchElementException
 from typing import Literal
 
 class webpageElements():
+    # TODO
+    def __repr__(self) -> str:
+        l = []
+        for e in self.elements:
+            s = f"Element ID: {1} | "
+        return f"""{len(self.elements)} elements contained within this {__name__} instance."""
+
     def __init__(self, 
                 driver:WebDriver,
                 searched_key:str,
-                element_type:Literal["div", "id", "css-selector"],
+                element_type:Literal["div", "id", "css-selector", "class"],
                 wait_for_element:int=0,
                 raise_error_if_multiple_elements:bool=True) -> None:
         by_type = {
                 "id":By.ID,
-                "css-selector":By.CSS_SELECTOR}
+                "css-selector":By.CSS_SELECTOR,
+                "class":By.CLASS_NAME}
         wd = driver
         if wait_for_element > 0:
             (WebDriverWait(driver, wait_for_element)
@@ -31,3 +39,11 @@ class webpageElements():
     def click_element(self):
         for element in self.elements:
             element.click()
+
+    def get_value(self, value=Literal["id"]):
+        l = []
+        for element in self.elements:
+            if value == "id":
+                l.append(element.get_attribute("id"))
+            
+            
