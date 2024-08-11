@@ -16,5 +16,5 @@ def get_all_car_brands():
     car_type_list = wp.get_element("ooa-x4ohs6", "class")
 
 
-    time.sleep()
+    time.sleep(5)
     wp.close_webpage()
