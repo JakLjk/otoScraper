@@ -1,10 +1,26 @@
 from driver import initialise_selenium
-from otomoto.scripts import get_all_car_brands
+
+from otomoto import scripts, objects
+
+
 
 def main():
-    wd = initialise_selenium()
-    car_brands = get_all_car_brands(wd)
+    wd = initialise_selenium(
+        browser_type="firefox",
+        headless=False)
+    
+    try:
+        # car_brands = scripts.get_all_car_brands(wd)
+        # num_pages = scripts.get_number_of_pages(wd, "https://www.otomoto.pl/osobowe/bmw")
+        offer_links = scripts.get_all_offer_links_from_scrollpage(wd,
+                                                                  "https://www.otomoto.pl/osobowe/bmw"
+                                                                  )
+    finally:
+        wd.quit()
+        pass
 
+    # print(car_brands)
+    # print(num_pages)
 
 if __name__ == "__main__":
     main()

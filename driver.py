@@ -1,12 +1,12 @@
 from typing import Literal
-from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options as firefoxOptions
+from selenium.webdriver.remote.webdriver import WebDriver
 
 
 
 def initialise_selenium(browser_type:Literal["firefox"],
-                        headless:bool=True) -> webdriver:
+                        headless:bool=True) ->WebDriver:
     accepted_drivers = {
         "firefox":webdriver.Firefox}
     accepted_options = {

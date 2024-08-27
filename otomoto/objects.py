@@ -1,0 +1,2 @@
+class OFFER:
+    pass
