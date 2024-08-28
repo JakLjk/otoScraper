@@ -1,39 +1,42 @@
+from dataclasses import dataclass
+
+@dataclass
 class OFFER:
     def __repr__(self) -> str:
-        pass
+        return
 
-    def __init__(self, link) -> None:
-        self.link:str = link
-        self.data_dodania:str = None
-        self.id:int = None
-        self.tytul:str = None
+    link:str 
+    data_dodania:str
+    id:int
+    tytul:str
 
-        self.cena:float = None
-        self.przebieg:int = None
-        self.rodzaj_paliwa:str = None
-        self.skrzynia_biegow:str = None
-        self.typ_nadwozia:str = None
-        self.pojemnosc_silnika:int = None
-        self.moc_silnika:int = None
+    cena:float 
+    przebieg:int
+    rodzaj_paliwa:str
+    skrzynia_biegow:str
+    typ_nadwozia:str
+    pojemnosc_silnika:int 
+    moc_silnika:int
 
-        # Offer coordinates
-        self.x_coord:float = None
-        self.y_coord:float = None
-        self.coords_exact:bool = None
+    opis:str
+
+    # DETAILS
+    szczegoly:dict
+
+    # EQUIPMENT
+    wyposazenie:list
+
+    # Seller info
+    sprzedawca_nr_tel:int = None
+    sprzedawca_imie:str = None
+    sprzedawca_data_od_kiedy_na_otomoto:str = None
+
+    # Offer coordinates
+    x_coord:float = None
+    y_coord:float = None
+    coords_exact:bool = None
         
-        self.opis:str = None
-
-        # Seller info
-        self.sprzedawca_nr_tel:int = None
-        self.sprzedawca_imie:str = None
-        self.sprzedawca_data_od_kiedy_na_otomoto:str = None
-
-        # DETAILS
-        self.details:dict = None
-
-        # EQUIPMENT
-        self.equipment:dict = None
-
 
     def check_data_integrity(self):
+        # check like if offer id is int with 10 chars
         pass

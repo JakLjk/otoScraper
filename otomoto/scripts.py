@@ -60,12 +60,39 @@ def get_all_offer_links_from_scrollpage(driver:WebDriver,
 
 def get_offer_details(driver:WebDriver,
                     link:str) -> OFFER:
-    offer = OFFER(link)
+
     wd = driver 
     wd.get(link)
     try_close_onetrust_button(wd)
-    # Get title
-    title = wd.find_element(By.CLASS_NAME, "offer-title.big-text.etrkop92.ooa-13tge55.er34gjf0")
-    title = title.text
+    tytul = wd.find_element(By.CLASS_NAME, "offer-title.big-text.etrkop92.ooa-13tge55.er34gjf0").text
 
-    
+    _box = wd.find_elements(By.CLASS_NAME, "edazosu4.ooa-1afacld.er34gjf0")
+    data_dodatnia = _box[0].text
+    id_oferty = _box[1].text
+
+    cena = wd.find_element(By.CLASS_NAME, "offer-price__number").text
+
+    _box = wd.find_elements(By.CLASS_NAME, "e1ho6mkz2.ooa-1rcllto.er34gjf0")
+    przebieg = _box[0].text
+    rodzaj_paliwa = _box[1].text
+    skrzynia_biegow = _box[2].text
+    typ_nadwozia = _box[3].text
+    pojemnosc_silnika = _box[4].text
+    moc_silnika = _box[5].text
+
+    opis = wd.find_element(By.CLASS_NAME, "ooa-unlmzs.e18op59x2").text
+
+    szczegoly = wd.find_element(By.CLASS_NAME, "ooa-h9kvji.eyfqfx02")
+    szczegoly = szczegoly.find_elements(By.CLASS_NAME, "ooa-162vy3d.eyfqfx03")
+    szczegoly = {k: v for k,v in [s.text.split("\n") for s in szczegoly]}
+
+    wyposazenie = wd.find_elements(By.CLASS_NAME, "evespt84.ooa-1i4y99d.er34gjf0")
+    wyposazenie = [w.text for w in wyposazenie]
+    print(wyposazenie)
+
+
+
+
+
+
+    return tytul, data_dodatnia, id_oferty, cena, przebieg, moc_silnika, opis

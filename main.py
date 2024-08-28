@@ -17,7 +17,7 @@ def main():
         #
         #
         offer = scripts.get_offer_details(wd, "https://www.otomoto.pl/osobowe/oferta/bmw-seria-1-bmw-seria-1-e87-ID6GGm5L.html")
-        
+        print(offer)
     finally:
         wd.quit()
         pass
