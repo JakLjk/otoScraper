@@ -29,6 +29,7 @@ class OFFER:
     # Seller info
     sprzedawca_nr_tel:int = None
     sprzedawca_imie:str = None
+    sprzedawca_rodzaj:str = None
     sprzedawca_data_od_kiedy_na_otomoto:str = None
 
     # Offer coordinates

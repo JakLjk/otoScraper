@@ -16,7 +16,7 @@ def main():
         #                                                           "https://www.otomoto.pl/osobowe/bmw"
         #
         #
-        offer = scripts.get_offer_details(wd, "https://www.otomoto.pl/osobowe/oferta/bmw-seria-1-bmw-seria-1-e87-ID6GGm5L.html")
+        offer = scripts.get_offer_details(wd, "https://www.otomoto.pl/osobowe/oferta/bmw-seria-3-kabriolet-bmw-320i-ID6GCN7n.html")
         print(offer)
     finally:
         wd.quit()

@@ -2,7 +2,12 @@ from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.remote.webelement import WebElement
+import re
+
 from time import sleep
+from urllib.parse import urlparse, parse_qs
 
 from config import URL, TIMERS
 from otomoto.objects import OFFER
@@ -16,6 +21,25 @@ def try_close_onetrust_button(wd:WebDriver):
     )
     onetrust_button.click()
 
+def scroll_to_bottom_of_webpage(driver:WebDriver):
+    driver.execute_script(f"window.scrollTo(0, document.body.scrollHeight);")
+
+def scroll_by_amount_of_pixels(driver:WebDriver, 
+                            pixels:int,
+                            pixel_step:int,
+                            delay_between_scrolls:float):
+
+    for _ in range(0, pixels, pixel_step):
+        driver.execute_script(f"window.scrollBy(0, {pixel_step});")
+        sleep(delay_between_scrolls)
+
+
+def scroll_to_element(driver:WebDriver, element:WebElement):
+    actions = ActionChains(driver)
+    actions.move_to_element(element).perform
+
+def string_is_made_from_digits(string:str) -> bool:
+    return string.isdigit()
 
 def get_all_car_brands(driver:WebDriver) -> list:
     """Get all brand names that are available on the otomoto webpage"""
@@ -40,7 +64,8 @@ def get_number_of_pages(driver:WebDriver,
     wd = driver
     wd.get(scrollpage_link)
     try_close_onetrust_button(wd)
-    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    scroll_to_bottom_of_webpage(wd)
+    scroll_by_amount_of_pixels(wd, 200)
     num_pages = wd.find_elements(By.CLASS_NAME, "ooa-1xgr17q")
     num_pages = num_pages[-1].text
     return num_pages
@@ -62,8 +87,13 @@ def get_offer_details(driver:WebDriver,
                     link:str) -> OFFER:
 
     wd = driver 
+    wait = WebDriverWait(wd, load_time)
     wd.get(link)
     try_close_onetrust_button(wd)
+    # scroll_to_bottom_of_webpage(wd)
+    # sleep(6)
+    # scroll_by_amount_of_pixels(wd, 250)
+    scroll_by_amount_of_pixels(wd, 4200, 2100, 0.1)
     tytul = wd.find_element(By.CLASS_NAME, "offer-title.big-text.etrkop92.ooa-13tge55.er34gjf0").text
 
     _box = wd.find_elements(By.CLASS_NAME, "edazosu4.ooa-1afacld.er34gjf0")
@@ -82,17 +112,40 @@ def get_offer_details(driver:WebDriver,
 
     opis = wd.find_element(By.CLASS_NAME, "ooa-unlmzs.e18op59x2").text
 
-    szczegoly = wd.find_element(By.CLASS_NAME, "ooa-h9kvji.eyfqfx02")
-    szczegoly = szczegoly.find_elements(By.CLASS_NAME, "ooa-162vy3d.eyfqfx03")
+    szczegoly = wd.find_elements(By.CLASS_NAME, "ooa-162vy3d.eyfqfx03")
     szczegoly = {k: v for k,v in [s.text.split("\n") for s in szczegoly]}
 
     wyposazenie = wd.find_elements(By.CLASS_NAME, "evespt84.ooa-1i4y99d.er34gjf0")
     wyposazenie = [w.text for w in wyposazenie]
-    print(wyposazenie)
+
+    sprzedawca_imie = wd.find_element(By.CLASS_NAME, "ern8z622.ooa-hlpbot.er34gjf0").text
+    _box = wd.find_elements(By.CLASS_NAME, "ooa-1v45bqa.er34gjf0")
+    sprzedawca_rodzaj = _box[0].text
+    sprzedawca_od = _box[1].text
+    nr_tel_button = wd.find_element(By.CLASS_NAME, "e9396dr1.ep2wx1j0.ooa-1cqwd9z").click()
+    _box = wd.find_elements(By.CLASS_NAME, "button-text-wrapper.ooa-5umjpb")
+    sprzedawca_nr_tel = "BRAK"
+    for e in _box:
+        if string_is_made_from_digits(e.text):
+            sprzedawca_nr_tel = e.text
+
+    print(sprzedawca_imie, sprzedawca_rodzaj, sprzedawca_od)
+    print(f"nr tel: {sprzedawca_nr_tel}")
 
 
+    map_url = wd.find_elements(By.CLASS_NAME, "e1m6rqv1.ooa-lygf4m")[0]
+    map_url = map_url.get_attribute('href')
 
+    pattern = r'center=([0-9.-]+)%2C([0-9.-]+)'
+    match = re.search(pattern, map_url)
 
+    if match:
+        latitude = match.group(1)
+        longitude = match.group(2)
+        print(f"Latitude: {latitude}")
+        print(f"Longitude: {longitude}")
+    else:
+        raise Exception("Lat/Long could not be scrapped")
 
 
     return tytul, data_dodatnia, id_oferty, cena, przebieg, moc_silnika, opis
