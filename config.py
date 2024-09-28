@@ -8,7 +8,7 @@ class TIMERS:
 
 
 class APPCONFIG:
-    SQLALCHEMY_DATABASE_URI = ""
+    SQLALCHEMY_DATABASE_URI = 'mysql://root:casaos@192.168.0.226:3306/OTOMOTO'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     
     REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379/0")

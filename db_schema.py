@@ -3,8 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 db = SQLAlchemy()
 
 
-
-class link_table(db.Model):
+class links_table(db.Model):
     __tablename__ = "links"
 
     id = db.Column(db.Integer, primary_key=True)
