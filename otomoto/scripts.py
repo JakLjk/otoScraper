@@ -4,6 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.remote.webelement import WebElement
+from selenium.common.exceptions import TimeoutException
 import re
 
 from time import sleep
@@ -18,10 +19,13 @@ def generate_list_of_links_to_scrape(car_brand, num_pages) -> list:
     return [f"https://www.otomoto.pl/osobowe/{car_brand}?page={i}" for i in range(num_pages)]
 
 def try_close_onetrust_button(wd:WebDriver):
-    onetrust_button = WebDriverWait(wd, load_time).until(
-        EC.presence_of_element_located((By.ID, "onetrust-accept-btn-handler"))
-    )
-    onetrust_button.click()
+    try:
+        onetrust_button = WebDriverWait(wd, load_time).until(
+            EC.presence_of_element_located((By.ID, "onetrust-accept-btn-handler"))
+        )
+        onetrust_button.click()
+    except TimeoutException:
+        pass
 
 def scroll_to_bottom_of_webpage(driver:WebDriver):
     driver.execute_script(f"window.scrollTo(0, document.body.scrollHeight);")
@@ -57,8 +61,8 @@ def get_all_car_brands(driver:WebDriver) -> list:
     car_type_list_button.click()
     car_list = wd.find_element(By.CLASS_NAME, "ooa-1ohf0ui")
     car_list = car_list.find_elements(By.CLASS_NAME, "ooa-x4ohs6")
-    car_list = [link.get_attribute('id') for link in car_list]    
-    return car_list
+    car_list = [link.get_attribute('id') for link in car_list]
+    return car_list[1:]
 
 
 def get_number_of_pages(driver:WebDriver,
@@ -67,10 +71,13 @@ def get_number_of_pages(driver:WebDriver,
     wd.get(scrollpage_link)
     try_close_onetrust_button(wd)
     scroll_to_bottom_of_webpage(wd)
-    scroll_by_amount_of_pixels(wd, 200)
+    scroll_by_amount_of_pixels(wd, 20, 5, 0.01)
     num_pages = wd.find_elements(By.CLASS_NAME, "ooa-1xgr17q")
-    num_pages = num_pages[-1].text
-    return num_pages
+    if num_pages == []:
+        return 1
+    else:
+        num_pages = num_pages[-1].text
+        return int(num_pages)
 
 
 def get_all_offer_links_from_scrollpage(driver:WebDriver,
