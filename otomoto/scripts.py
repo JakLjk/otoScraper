@@ -16,7 +16,7 @@ from otomoto.objects import OFFER
 load_time = TIMERS.standard_load_element_wait
 
 def generate_list_of_links_to_scrape(car_brand, num_pages) -> list:
-    return [f"https://www.otomoto.pl/osobowe/{car_brand}?page={i}" for i in range(num_pages)]
+    return [f"https://www.otomoto.pl/osobowe/{car_brand}?page={i+1}" for i in range(num_pages)]
 
 def try_close_onetrust_button(wd:WebDriver):
     try:
