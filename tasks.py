@@ -20,7 +20,7 @@ def scrape_links(links_scrollpage:list):
                 "http://127.0.0.1:5000/pass_links_to_db",
                 json={"status":ScrapingStatus.status_ok,
                       "error_message": "",
-                      "all_links_len":all_offer_links}
+                      "all_links":all_offer_links}
             )
     except Exception as e:
         response = requests.post(
@@ -32,4 +32,3 @@ def scrape_links(links_scrollpage:list):
     finally:
         wd.close()
     
-    print("Response sent.")

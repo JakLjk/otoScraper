@@ -1,0 +1,83 @@
+|MAIN_LOG| 2024-09-29 21:22:20,835 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:22:20,835 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:22:20,835 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:22:20,836 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:22:20,859 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:22:20,859 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:22:21,093 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:22:21,093 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:22:21,093 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:22:21,094 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:22:21,103 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:22:21,104 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:27:50,739 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-29 21:27:53,395 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-29 21:28:32,721 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:28:32,721 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:28:32,721 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:28:32,723 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:28:32,743 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:28:32,743 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:28:32,777 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-29 21:28:35,334 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-29 21:28:37,911 - ERROR - Failed to add offer scrollpage links to scraping queue 
+ Message: Element <div class="ooa-1jvnkjg eygbkhv0"> is not clickable at point (204,184) because another element <div class="onetrust-pc-dark-filter ot-fade-in"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:189:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:333:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:176:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:135:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:84:31
+
+|MAIN_LOG| 2024-09-29 21:28:38,599 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:28:38,599 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:28:38,599 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:28:38,599 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:28:38,622 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:28:38,623 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:28:38,659 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-29 21:28:40,741 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-29 21:29:16,329 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:29:16,330 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:29:16,330 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:29:16,331 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:29:16,360 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:29:16,360 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:29:42,180 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:29:42,187 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:29:42,187 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:29:42,187 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:29:42,201 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:29:42,201 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:30:41,495 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:30:41,496 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:30:41,496 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:30:41,499 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:30:41,531 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:30:41,531 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:30:41,763 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:30:41,763 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:30:41,763 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:30:41,764 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:30:41,774 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:30:41,774 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:31:36,471 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:31:36,472 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:31:36,472 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:31:36,472 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:31:36,484 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:31:36,485 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:32:47,298 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:32:47,298 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:32:47,298 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:32:47,299 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:32:47,311 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:32:47,312 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:32:59,427 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:32:59,427 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:32:59,427 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:32:59,428 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:32:59,439 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:32:59,439 - INFO - Defining queues

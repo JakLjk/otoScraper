@@ -1,0 +1,2 @@
+        # l = [['https://www.otomoto.pl/osobowe/bmw?page=1', "https://www.otomoto.pl/osobowe/bmw?page=2"], 
+        #          ["https://www.otomoto.pl/osobowe/bmw?page=3", "https://www.otomoto.pl/osobowe/bmw?page=4"]]
