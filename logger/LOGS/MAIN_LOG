@@ -81,3 +81,2299 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 |MAIN_LOG| 2024-09-29 21:32:59,428 - INFO - Initialising Database
 |MAIN_LOG| 2024-09-29 21:32:59,439 - INFO - Initialising redis.
 |MAIN_LOG| 2024-09-29 21:32:59,439 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:34:01,384 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:34:01,385 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:34:01,385 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:34:01,385 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:34:01,400 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:34:01,400 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:34:43,133 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:34:43,133 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:34:43,134 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:34:43,135 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:34:43,148 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:34:43,148 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:34:58,461 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:34:58,461 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:34:58,461 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:34:58,461 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:34:58,476 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:34:58,476 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:35:09,440 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:35:09,440 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:35:09,440 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:35:09,441 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:35:09,459 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:35:09,459 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:35:20,449 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:35:20,449 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:35:20,450 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:35:20,450 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:35:20,462 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:35:20,462 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:35:37,460 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:35:37,460 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:35:37,460 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:35:37,461 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:35:37,473 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:35:37,473 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:35:37,681 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:35:37,681 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:35:37,681 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:35:37,681 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:35:37,691 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:35:37,691 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:35:42,734 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-29 21:36:52,060 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:36:52,060 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:36:52,060 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:36:52,061 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:36:52,079 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:36:52,079 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:36:52,282 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:36:52,282 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:36:52,282 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:36:52,283 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:36:52,292 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:36:52,292 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:36:54,577 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-29 21:36:56,664 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-29 21:40:49,239 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:40:49,240 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:40:49,240 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:40:49,241 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:40:49,270 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:40:49,270 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:40:49,309 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-29 21:40:51,118 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-29 21:40:55,919 - INFO - Scraping offer links
+|MAIN_LOG| 2024-09-29 21:40:57,085 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:40:57,085 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:40:57,086 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:40:57,086 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:40:57,107 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:40:57,108 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:40:57,154 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-29 21:40:59,206 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-29 21:41:05,432 - INFO - Scraping offer links for each brand
+|MAIN_LOG| 2024-09-29 21:41:59,510 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:41:59,511 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:41:59,511 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:41:59,512 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:41:59,547 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:41:59,548 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:42:33,007 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:42:33,008 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:42:33,008 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:42:33,009 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:42:33,038 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:42:33,039 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:45:09,489 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:45:09,490 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:45:09,490 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:45:09,491 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:45:09,519 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:45:09,519 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:45:14,074 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:45:14,074 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:45:14,074 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:45:14,075 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:45:14,086 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:45:14,086 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:46:03,357 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:46:03,357 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:46:03,357 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:46:03,357 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:46:03,374 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:46:03,374 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:46:30,321 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:46:30,321 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:46:30,321 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:46:30,322 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:46:30,335 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:46:30,335 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:57:01,920 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:57:01,921 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:57:01,922 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:57:01,922 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:57:01,952 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:57:01,952 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:57:02,160 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:57:02,160 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:57:02,160 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:57:02,160 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:57:02,170 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:57:02,170 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:57:20,921 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-29 21:57:25,533 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-29 21:57:29,012 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-09-29 21:57:59,826 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:57:59,826 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:57:59,826 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:57:59,827 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:57:59,883 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:57:59,883 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:58:02,134 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:58:02,134 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:58:02,134 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:58:02,138 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:58:02,148 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:58:02,148 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:58:02,357 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:58:02,358 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:58:02,358 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:58:02,358 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:58:02,369 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:58:02,369 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:58:04,534 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-29 21:58:04,608 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-29 21:58:27,415 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:58:27,415 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:58:27,415 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:58:27,416 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:58:27,429 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:58:27,430 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:58:40,483 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:58:40,484 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:58:40,484 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:58:40,484 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:58:40,499 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:58:40,499 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:58:46,311 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:58:46,311 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:58:46,311 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:58:46,312 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:58:46,326 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:58:46,326 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:58:47,740 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-29 21:58:47,822 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-29 21:59:32,152 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:59:32,153 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:59:32,153 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:59:32,153 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:59:32,168 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:59:32,168 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:59:32,375 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 21:59:32,375 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 21:59:32,375 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 21:59:32,375 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 21:59:32,385 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 21:59:32,386 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 21:59:36,407 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-29 21:59:38,383 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-29 21:59:42,066 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-09-29 22:00:32,497 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:00:32,499 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:00:32,499 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:00:32,500 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:00:32,528 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:00:32,528 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:00:32,562 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-29 22:00:40,841 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:00:40,842 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:00:40,842 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:00:40,842 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:00:40,854 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:00:40,854 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:00:41,069 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:00:41,069 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:00:41,069 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:00:41,070 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:00:41,081 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:00:41,081 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:01:11,611 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-29 22:01:11,697 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-29 22:01:18,886 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-29 22:01:20,827 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-29 22:01:24,366 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-09-29 22:01:35,738 - INFO - passing links to queue
+|MAIN_LOG| 2024-09-29 22:01:35,984 - INFO - Added 1343 offer scrollpage links to scrape
+|MAIN_LOG| 2024-09-29 22:04:41,084 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:04:41,087 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:04:41,087 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:04:41,088 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:04:41,114 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:04:41,125 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:05:18,428 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:05:18,431 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:05:18,431 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:05:18,432 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:05:18,448 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:05:18,448 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:05:18,655 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:05:18,655 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:05:18,655 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:05:18,656 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:05:18,666 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:05:18,666 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:05:32,044 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-29 22:05:33,999 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-29 22:05:37,013 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-09-29 22:05:46,214 - INFO - passing links to queue
+|MAIN_LOG| 2024-09-29 22:05:46,425 - INFO - Added 1351 offer scrollpage links to scrape queue
+|MAIN_LOG| 2024-09-29 22:11:04,552 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:11:04,553 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:11:04,553 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:11:04,555 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:11:04,587 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:11:04,587 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:11:04,797 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:11:04,797 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:11:04,797 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:11:04,798 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:11:04,808 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:11:04,808 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:11:41,412 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:11:41,413 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:11:41,413 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:11:41,413 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:11:41,429 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:11:41,429 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:11:51,334 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:11:51,334 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:11:51,334 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:11:51,335 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:11:51,347 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:11:51,348 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:11:59,994 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:11:59,994 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:11:59,994 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:11:59,995 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:12:00,009 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:12:00,009 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:12:00,220 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:12:00,221 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:12:00,221 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:12:00,221 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:12:00,231 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:12:00,231 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:12:01,900 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-29 22:12:04,295 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-29 22:12:08,115 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-09-29 22:12:18,341 - INFO - passing links to queue
+|MAIN_LOG| 2024-09-29 22:12:18,378 - INFO - Added 1351 offer scrollpage links to scrape queue
+|MAIN_LOG| 2024-09-29 22:12:56,683 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:12:56,683 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:12:56,683 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:12:56,684 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:12:56,710 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:12:56,710 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:12:56,920 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:12:56,920 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:12:56,920 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:12:56,920 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:12:56,930 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:12:56,930 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:12:59,335 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-29 22:13:00,885 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-29 22:13:04,000 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-09-29 22:13:15,232 - INFO - passing links to queue
+|MAIN_LOG| 2024-09-29 22:13:15,274 - INFO - Added 1351 offer scrollpage links to scrape queue
+|MAIN_LOG| 2024-09-29 22:14:33,882 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-29 22:14:35,562 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-29 22:14:39,034 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-09-29 22:14:48,522 - INFO - passing links to queue
+|MAIN_LOG| 2024-09-29 22:14:48,548 - INFO - Added 1351 offer scrollpage links to scrape queue
+|MAIN_LOG| 2024-09-29 22:17:02,967 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:17:02,969 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:17:02,969 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:17:02,970 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:17:03,000 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:17:03,000 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:17:03,215 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:17:03,215 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:17:03,215 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:17:03,215 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:17:03,226 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:17:03,226 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:17:07,161 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-29 22:17:07,247 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-29 22:20:39,555 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-29 22:20:41,877 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-29 22:20:45,030 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-09-29 22:20:47,174 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-29 22:20:47,205 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-29 22:20:55,224 - INFO - passing links to queue
+|MAIN_LOG| 2024-09-29 22:20:55,269 - INFO - Added 1352 offer scrollpage links to scrape queue
+|MAIN_LOG| 2024-09-29 22:26:24,912 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:26:24,915 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:26:24,915 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:26:24,916 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:26:24,949 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:26:24,949 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:26:25,163 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:26:25,163 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:26:25,163 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:26:25,164 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:26:25,174 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:26:25,174 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:27:14,216 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:27:14,220 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:27:14,220 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:27:14,220 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:27:14,237 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:27:14,237 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:27:14,456 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:27:14,457 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:27:14,457 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:27:14,457 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:27:14,468 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:27:14,468 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:27:21,002 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-29 22:27:21,081 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-29 22:28:00,038 - INFO - Emptying queue link_scraping_queue
+|MAIN_LOG| 2024-09-29 22:28:00,065 - INFO - Queue link_scraping_queue was emptied
+|MAIN_LOG| 2024-09-29 22:28:48,084 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:28:48,085 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:28:48,085 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:28:48,086 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:28:48,116 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:28:48,117 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:28:58,879 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-29 22:29:01,069 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-29 22:29:04,265 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-09-29 22:29:13,369 - INFO - passing links to queue
+|MAIN_LOG| 2024-09-29 22:29:13,397 - INFO - Added 1352 offer scrollpage links to scrape queue
+|MAIN_LOG| 2024-09-29 22:29:39,035 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:29:39,035 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:29:39,035 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:29:39,036 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:29:39,067 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:29:39,067 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:29:56,339 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-29 22:30:33,565 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:30:33,569 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:30:33,569 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:30:33,580 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:30:33,625 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:30:33,626 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:31:12,150 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:31:12,152 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:31:12,152 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:31:12,153 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:31:12,218 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:31:12,219 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:31:21,082 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:31:21,086 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:31:21,086 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:31:21,087 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:31:21,113 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:31:21,114 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:31:24,996 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-29 22:31:24,998 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-29 22:31:27,161 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-29 22:31:27,227 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-29 22:31:30,322 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-29 22:31:30,324 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-29 22:31:33,027 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-29 22:31:33,097 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-29 22:34:37,272 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:34:37,273 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:34:37,273 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:34:37,274 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:34:37,290 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:34:37,290 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:35:45,583 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:35:45,584 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:35:45,584 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:35:45,584 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:35:45,600 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:35:45,600 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:35:53,477 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:35:53,477 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:35:53,477 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:35:53,478 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:35:53,492 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:35:53,492 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:36:02,331 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:36:02,331 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:36:02,331 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:36:02,332 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:36:02,346 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:36:02,346 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:36:13,308 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:36:13,308 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:36:13,308 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:36:13,309 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:36:13,325 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:36:13,325 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:36:28,605 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:36:28,606 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:36:28,606 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:36:28,607 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:36:28,622 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:36:28,622 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:36:34,180 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:36:34,180 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:36:34,180 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:36:34,181 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:36:34,191 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:36:34,191 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:36:37,656 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:36:37,656 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:36:37,656 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:36:37,657 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:36:37,667 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:36:37,667 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:36:42,294 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:36:42,295 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:36:42,295 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:36:42,295 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:36:42,310 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:36:42,311 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:36:53,950 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:36:53,950 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:36:53,950 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:36:53,950 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:36:53,963 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:36:53,963 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:36:54,180 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:36:54,181 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:36:54,181 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:36:54,181 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:36:54,191 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:36:54,191 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:37:48,891 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:37:48,897 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:37:48,897 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:37:48,901 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:37:49,029 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:37:49,029 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:37:55,182 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:37:55,182 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:37:55,183 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:37:55,184 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:37:55,216 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:37:55,217 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:38:33,912 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-29 22:38:33,929 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-29 22:38:38,126 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-29 22:38:38,230 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-29 22:38:40,184 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-29 22:38:40,196 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-29 22:38:44,264 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-29 22:38:44,328 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-29 22:38:51,302 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:38:51,302 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:38:51,302 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:38:51,303 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:38:51,320 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:38:51,320 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:39:01,316 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:39:01,318 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:39:01,318 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:39:01,321 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:39:01,348 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:39:01,350 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:39:33,994 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:39:33,997 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:39:33,997 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:39:34,008 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:39:34,181 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:39:34,181 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:39:39,853 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:39:39,853 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:39:39,853 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:39:39,855 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:39:39,915 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:39:39,915 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:39:40,528 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 22:39:40,528 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 22:39:40,528 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 22:39:40,529 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 22:39:40,557 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 22:39:40,558 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 22:39:55,859 - INFO - Emptying queue link_scraping_queue
+|MAIN_LOG| 2024-09-29 22:39:55,894 - INFO - Queue link_scraping_queue was emptied
+|MAIN_LOG| 2024-09-29 22:40:00,196 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-29 22:40:00,648 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-29 22:40:10,035 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-29 22:40:21,010 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-29 22:40:25,659 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-09-29 22:40:35,217 - INFO - passing links to queue
+|MAIN_LOG| 2024-09-29 22:40:35,302 - INFO - Added 1352 offer scrollpage links to scrape queue
+|MAIN_LOG| 2024-09-29 22:40:52,060 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-29 22:40:52,061 - INFO - Adding 100 links to Database
+|MAIN_LOG| 2024-09-29 22:40:52,520 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-29 22:40:52,520 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-29 22:40:53,910 - INFO - Commiting 100 / 100 links to the Database.
+|MAIN_LOG| 2024-09-29 22:40:53,948 - INFO - Added 100 / 100 links to the Database.
+|MAIN_LOG| 2024-09-29 22:40:54,499 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 22:40:54,526 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 22:41:17,207 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-29 22:41:17,208 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-29 22:41:18,549 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 22:41:18,576 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 22:41:20,221 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-29 22:41:20,222 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-29 22:41:21,356 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 22:41:21,381 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 22:41:36,575 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-29 22:41:36,577 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-29 22:41:37,774 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 22:41:37,798 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 22:41:40,975 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-29 22:41:40,976 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-29 22:41:42,237 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 22:41:42,262 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 22:41:55,610 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-29 22:41:55,611 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-29 22:41:56,848 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 22:41:56,876 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 22:42:02,912 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-29 22:42:02,913 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-29 22:42:04,661 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 22:42:04,694 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 22:42:13,639 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-29 22:42:13,663 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-29 22:42:15,265 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 22:42:15,546 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 22:42:19,349 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-29 22:42:19,389 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-29 22:42:23,930 - INFO - Emptying queue link_scraping_queue
+|MAIN_LOG| 2024-09-29 22:42:23,940 - INFO - Queue link_scraping_queue was emptied
+|MAIN_LOG| 2024-09-29 22:42:26,989 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-29 22:42:26,991 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-29 22:42:28,401 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 22:42:28,430 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 22:42:33,891 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-29 22:42:33,893 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-29 22:42:35,268 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 22:42:35,293 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-29 23:02:39,545 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 23:02:39,548 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 23:02:39,548 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 23:02:39,549 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 23:02:39,580 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 23:02:39,580 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 23:02:39,796 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-29 23:02:39,796 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-29 23:02:39,796 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-29 23:02:39,797 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-29 23:02:39,807 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-29 23:02:39,807 - INFO - Defining queues
+|MAIN_LOG| 2024-09-29 23:02:48,662 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-29 23:02:48,776 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-29 23:02:51,533 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-29 23:02:53,683 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-29 23:02:57,204 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-09-29 23:38:27,819 - ERROR - Failed to add offer scrollpage links to scraping queue 
+ Message: Navigation timed out after 300000 ms
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:189:5
+TimeoutError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:691:5
+bail@chrome://remote/content/marionette/sync.sys.mjs:211:19
+
+|MAIN_LOG| 2024-09-30 13:10:46,903 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-30 13:10:47,004 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-30 13:10:52,384 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-30 13:10:54,803 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-30 13:10:58,245 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-09-30 13:24:15,623 - INFO - passing links to queue
+|MAIN_LOG| 2024-09-30 13:24:17,783 - INFO - Added 14838 offer scrollpage links to scrape queue
+|MAIN_LOG| 2024-09-30 13:24:32,152 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:24:32,154 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:24:32,733 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:24:32,733 - INFO - Adding 99 links to Database
+|MAIN_LOG| 2024-09-30 13:24:33,983 - INFO - Commiting 99 / 99 links to the Database.
+|MAIN_LOG| 2024-09-30 13:24:34,012 - INFO - Added 99 / 99 links to the Database.
+|MAIN_LOG| 2024-09-30 13:24:49,712 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:24:49,714 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:24:51,132 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:24:51,133 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:24:51,133 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:24:51,163 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:24:52,691 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:24:52,713 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:25:08,214 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:25:08,215 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:25:08,566 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:25:08,566 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:25:11,148 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:25:11,170 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:25:11,453 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:25:11,483 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:25:27,960 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:25:27,960 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:25:29,328 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:25:29,354 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:25:29,933 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:25:29,933 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:25:31,327 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:25:31,351 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:25:48,546 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:25:48,556 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:25:50,002 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:25:50,024 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:25:50,274 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:25:50,274 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:25:51,683 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:25:51,765 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:26:08,897 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:26:08,901 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:26:09,486 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:26:09,487 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:26:12,128 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:26:12,157 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:26:12,725 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:26:12,770 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:26:29,238 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:26:29,239 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:26:30,434 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:26:30,434 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:26:31,425 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:26:31,442 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:26:32,575 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:26:32,594 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:26:48,824 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:26:48,825 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:26:49,130 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:26:49,130 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:26:53,008 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:26:53,028 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:26:53,252 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:26:53,269 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:27:10,645 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:27:10,646 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:27:10,871 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:27:10,872 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:27:14,998 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:27:15,015 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:27:15,217 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:27:15,240 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:27:30,667 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:27:30,667 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:27:31,509 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:27:31,510 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:27:34,385 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:27:34,415 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:27:35,248 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:27:35,266 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:27:50,697 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:27:50,699 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:27:52,696 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:27:52,716 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:27:52,839 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:27:52,839 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:27:54,667 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:27:54,685 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:28:08,643 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:28:08,644 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:28:10,584 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:28:10,609 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:28:11,940 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:28:11,941 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:28:13,831 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:28:13,851 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:28:26,502 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:28:26,503 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:28:28,669 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:28:28,693 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:28:30,302 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:28:30,303 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:28:32,172 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:28:32,191 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:28:46,979 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:28:46,980 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:28:48,909 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:28:48,929 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:28:49,667 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:28:49,667 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:28:51,686 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:28:51,705 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:29:03,856 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:29:03,857 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:29:05,888 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:29:05,911 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:29:09,213 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:29:09,213 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:29:11,271 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:29:11,308 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:29:22,856 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:29:22,857 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:29:24,861 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:29:24,881 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:29:28,210 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:29:28,211 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:29:30,625 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:29:30,649 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:29:40,435 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-30 13:29:40,496 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-30 13:29:41,911 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:29:41,911 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:29:42,832 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-30 13:29:42,861 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-30 13:29:43,615 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-30 13:29:43,646 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-30 13:29:44,006 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:29:44,028 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:29:44,346 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-30 13:29:44,415 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-30 13:29:45,009 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-30 13:29:45,061 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-30 13:29:48,829 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:29:48,830 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:29:51,246 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:29:51,269 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:30:02,129 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:30:02,131 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:30:04,331 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:30:04,361 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:30:10,042 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:30:10,044 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:30:12,204 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:30:12,226 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:30:22,346 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:30:22,347 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:30:24,567 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:30:24,587 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:30:29,131 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:30:29,134 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:30:31,344 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:30:31,365 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:30:42,955 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:30:42,956 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:30:45,397 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:30:45,427 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:30:48,726 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:30:48,727 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:30:51,063 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:30:51,085 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:31:01,729 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:31:01,730 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:31:04,141 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:31:04,166 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:31:08,308 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:31:08,311 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:31:10,698 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:31:10,717 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:31:21,962 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:31:21,964 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:31:24,334 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:31:24,354 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:31:27,327 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:31:27,328 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:31:29,744 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:31:29,771 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:31:40,913 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:31:40,914 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:31:43,323 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:31:43,344 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:31:46,758 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:31:46,759 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:31:49,219 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:31:49,238 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:32:00,138 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:32:00,139 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:32:02,889 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:32:02,916 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:32:06,075 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:32:06,077 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:32:08,673 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:32:08,712 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:32:20,770 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:32:20,772 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:32:23,685 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:32:23,713 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:32:27,655 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:32:27,656 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:32:30,595 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:32:30,625 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:32:39,042 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:32:40,388 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:32:40,390 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:32:43,189 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:32:43,217 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:32:44,748 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:32:53,800 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-30 13:32:53,804 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-30 13:32:53,804 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-30 13:32:53,805 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-30 13:32:53,835 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-30 13:32:53,835 - INFO - Defining queues
+|MAIN_LOG| 2024-09-30 13:32:54,058 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-30 13:32:54,058 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-30 13:32:54,058 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-30 13:32:54,059 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-30 13:32:54,069 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-30 13:32:54,070 - INFO - Defining queues
+|MAIN_LOG| 2024-09-30 13:33:12,286 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:33:12,288 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:33:15,501 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:33:15,558 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:33:19,100 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:33:19,101 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:33:22,361 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:33:22,385 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:33:37,572 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:33:37,574 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:33:41,000 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:33:41,028 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:33:47,101 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:33:47,103 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:33:50,639 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:33:50,682 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:33:52,613 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:33:52,614 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:33:56,034 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:33:56,058 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:34:20,665 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:34:20,670 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:34:23,757 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:34:23,759 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:34:25,271 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:34:25,310 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:34:25,835 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:34:25,835 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:34:32,304 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:34:32,325 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:34:33,309 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:34:33,342 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:34:47,349 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:34:47,350 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:34:50,205 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:34:50,229 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:34:54,496 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:34:54,500 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:34:56,540 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:34:56,541 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:35:00,589 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:35:00,622 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:35:02,625 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:35:02,649 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:35:13,960 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:35:13,961 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:35:17,076 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:35:17,106 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:35:23,635 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:35:23,636 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:35:23,798 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:35:23,798 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:35:34,371 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:35:34,390 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:35:34,543 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:35:34,568 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:35:38,637 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:35:38,638 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:35:41,647 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:35:41,670 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:35:54,544 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:35:54,546 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:35:54,929 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:35:54,930 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:36:04,821 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:36:04,843 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:36:05,230 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:36:05,230 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:36:05,504 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:36:05,525 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:36:08,440 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:36:08,458 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:36:23,991 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:36:23,994 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:36:27,253 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:36:27,298 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:36:27,418 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:36:27,420 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:36:28,786 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:36:28,787 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:36:37,533 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:36:37,552 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:36:38,401 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:36:38,423 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:36:46,113 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:36:46,114 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:36:49,314 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:36:49,342 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:36:56,620 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:36:56,621 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:36:57,595 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:36:57,597 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:37:06,127 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:37:06,144 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:37:07,158 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:37:07,177 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:37:10,569 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:37:10,570 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:37:14,030 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:37:14,073 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:37:26,942 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:37:26,944 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:37:30,359 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:37:30,360 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:37:30,582 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:37:30,602 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:37:33,873 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:37:33,896 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:37:36,555 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:37:36,555 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:37:40,050 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:37:40,074 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:37:50,309 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:37:50,312 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:37:54,189 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:37:54,213 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:37:55,410 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:37:55,411 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:37:59,135 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:37:59,161 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:38:00,750 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:38:00,750 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:38:04,301 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:38:04,326 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:38:13,787 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:38:13,788 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:38:17,448 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:38:17,480 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:38:18,676 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:38:18,676 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:38:22,291 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:38:22,337 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:38:25,131 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:38:25,131 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:38:28,789 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:38:28,811 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:38:30,174 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:38:36,600 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:38:36,601 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:38:40,309 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:38:40,335 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:38:56,105 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:38:56,108 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:38:56,613 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:38:56,614 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:39:05,505 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:39:05,506 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:39:06,587 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-30 13:39:06,683 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-30 13:39:07,275 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:39:07,302 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:39:07,644 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:39:07,672 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:39:07,684 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-30 13:39:07,741 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-30 13:39:09,715 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:39:09,734 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:39:19,973 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-30 13:39:20,060 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-30 13:39:28,697 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:39:28,699 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:39:29,835 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:39:29,836 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:39:32,789 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:39:32,822 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:39:33,942 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:39:33,968 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:39:34,687 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:39:34,687 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:39:38,430 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:39:38,457 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:39:54,657 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:39:54,658 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:39:54,687 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:39:54,687 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:39:59,423 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:39:59,440 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:39:59,488 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:39:59,490 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:40:02,437 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:40:02,437 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:40:06,619 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:40:06,640 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:40:18,893 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:40:18,894 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:40:19,729 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:40:19,730 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:40:23,370 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:40:23,396 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:40:24,249 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:40:24,269 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:40:27,505 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:40:27,506 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:40:31,842 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:40:31,862 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:40:42,416 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:40:42,417 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:40:46,421 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:40:46,455 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:40:49,582 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:40:49,585 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:40:51,347 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:40:51,348 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:40:53,829 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:40:53,854 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:40:55,526 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:40:55,553 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:41:01,703 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-30 13:41:01,800 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-30 13:41:02,159 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-30 13:41:02,254 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-30 13:41:05,321 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:41:05,322 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:41:09,660 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:41:09,690 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:41:12,969 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:41:12,971 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:41:15,598 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:41:15,599 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:41:17,534 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:41:17,558 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:41:20,117 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:41:20,152 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:41:30,039 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:41:30,040 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:41:34,284 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:41:34,314 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:41:40,749 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:41:40,750 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:41:41,039 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:41:41,040 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:41:45,448 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:41:45,481 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:41:45,604 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:41:45,629 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:41:55,145 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:41:55,145 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:41:59,621 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:41:59,658 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:42:06,304 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:42:06,305 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:42:06,825 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:42:06,825 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:42:11,101 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:42:11,128 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:42:11,584 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:42:11,607 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:42:21,122 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:42:21,123 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:42:25,464 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:42:25,490 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:42:32,562 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:42:32,563 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:42:32,746 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:42:32,746 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:42:37,576 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:42:37,612 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:42:37,743 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:42:37,779 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:42:46,690 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:42:46,691 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:42:51,398 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:42:51,426 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:42:58,805 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:42:58,809 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:42:59,439 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:42:59,439 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:43:03,738 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:43:03,770 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:43:04,320 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:43:04,368 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:43:13,235 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:43:13,236 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:43:17,797 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:43:17,826 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:43:25,681 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:43:25,682 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:43:26,595 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:43:26,596 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:43:30,675 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:43:30,694 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:43:31,559 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:43:31,584 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:43:39,518 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:43:39,519 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:43:44,281 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:43:44,312 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:43:50,458 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:43:50,459 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:43:50,987 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:43:50,988 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:43:55,489 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:43:55,534 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:43:55,975 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:43:56,000 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:44:06,212 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:44:06,216 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:44:11,092 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:44:11,120 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:44:16,369 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:44:16,370 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:44:17,092 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:44:17,092 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:44:21,522 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:44:21,550 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:44:22,153 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:44:22,216 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:44:31,829 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:44:31,830 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:44:36,927 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:44:36,964 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:44:42,321 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:44:42,322 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:44:47,179 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:44:47,222 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:44:47,560 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:44:47,560 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:44:52,710 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:44:52,734 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:44:59,555 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:44:59,557 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:45:04,579 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:45:04,601 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:45:08,083 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:45:08,084 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:45:11,226 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:45:11,227 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:45:13,181 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:45:13,223 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:45:16,293 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:45:16,315 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:45:19,310 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:45:23,208 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:45:23,209 - INFO - Adding 67 links to Database
+|MAIN_LOG| 2024-09-30 13:45:26,708 - INFO - Commiting 67 / 67 links to the Database.
+|MAIN_LOG| 2024-09-30 13:45:26,738 - INFO - Added 67 / 67 links to the Database.
+|MAIN_LOG| 2024-09-30 13:45:34,353 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:45:34,355 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:45:39,317 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:45:39,343 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:45:39,916 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:45:39,918 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:45:45,159 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:45:45,182 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:45:47,660 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:45:47,661 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:45:52,649 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:45:52,685 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:45:59,520 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:45:59,521 - INFO - Adding 119 links to Database
+|MAIN_LOG| 2024-09-30 13:46:05,787 - INFO - Commiting 119 / 119 links to the Database.
+|MAIN_LOG| 2024-09-30 13:46:05,825 - INFO - Added 119 / 119 links to the Database.
+|MAIN_LOG| 2024-09-30 13:46:06,855 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:46:06,855 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:46:11,958 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:46:11,982 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:46:12,270 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:46:12,271 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:46:17,400 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:46:17,425 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:46:25,544 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:46:25,547 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:46:31,009 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:46:31,043 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:46:32,613 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:46:32,614 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:46:37,834 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:46:37,867 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:46:41,149 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:46:41,152 - INFO - Adding 84 links to Database
+|MAIN_LOG| 2024-09-30 13:46:45,753 - INFO - Commiting 84 / 84 links to the Database.
+|MAIN_LOG| 2024-09-30 13:46:45,782 - INFO - Added 84 / 84 links to the Database.
+|MAIN_LOG| 2024-09-30 13:46:51,764 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:46:51,765 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:46:52,588 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:46:57,284 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:46:57,319 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:46:57,875 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:46:57,876 - INFO - Adding 71 links to Database
+|MAIN_LOG| 2024-09-30 13:47:02,159 - INFO - Commiting 71 / 71 links to the Database.
+|MAIN_LOG| 2024-09-30 13:47:02,220 - INFO - Added 71 / 71 links to the Database.
+|MAIN_LOG| 2024-09-30 13:47:14,326 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:47:14,328 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:47:19,929 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:47:19,960 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:47:21,415 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:47:21,416 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:47:24,842 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:47:24,843 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:47:26,909 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:47:26,944 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:47:30,302 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:47:30,324 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:47:41,757 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:47:41,759 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:47:47,199 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:47:47,235 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:47:48,283 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:47:48,284 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:47:52,604 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:47:52,605 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:47:53,824 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:47:53,846 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:47:58,061 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:47:58,085 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:48:09,303 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:48:09,312 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:48:14,909 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:48:14,936 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:48:17,734 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:48:17,735 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:48:20,654 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:48:20,654 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:48:23,642 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:48:23,663 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:48:26,338 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:48:26,359 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:48:38,592 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:48:38,593 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:48:44,166 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:48:44,195 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:48:45,981 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:48:45,981 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:48:46,496 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:48:46,497 - INFO - Adding 65 links to Database
+|MAIN_LOG| 2024-09-30 13:48:50,730 - INFO - Commiting 65 / 65 links to the Database.
+|MAIN_LOG| 2024-09-30 13:48:50,755 - INFO - Added 65 / 65 links to the Database.
+|MAIN_LOG| 2024-09-30 13:48:52,257 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:48:52,283 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:49:06,390 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:49:06,396 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:49:12,184 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:49:12,215 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:49:16,230 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:49:16,231 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:49:17,176 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:49:17,177 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:49:22,291 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:49:22,313 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:49:23,244 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:49:23,297 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:49:33,530 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:49:33,531 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:49:39,351 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:49:39,377 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:49:43,682 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:49:43,683 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:49:43,737 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:49:43,737 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:49:54,956 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:49:54,958 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:49:54,987 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:49:54,990 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:50:00,962 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:50:00,965 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:50:06,876 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:50:06,908 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:50:14,617 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:50:14,896 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:50:14,896 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:50:15,440 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:50:15,440 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:50:21,140 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:50:21,168 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:50:21,669 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:50:21,691 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:50:32,179 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:50:32,185 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:50:38,418 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:50:38,446 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:50:42,159 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:50:42,160 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:50:42,506 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:50:42,507 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:50:48,933 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:50:48,957 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:50:49,187 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:50:49,208 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:50:58,571 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:50:58,572 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:51:04,947 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:51:04,972 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:51:10,185 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:51:10,187 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:51:10,533 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:51:10,534 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:51:16,807 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:51:16,854 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:51:17,117 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:51:17,138 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:51:28,411 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:51:28,412 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:51:34,443 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:51:34,471 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:51:38,342 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:51:38,343 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:51:38,626 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:51:38,626 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:51:44,982 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:51:45,002 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:51:45,234 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:51:45,258 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:51:56,884 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:51:56,886 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:52:03,504 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:52:03,541 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:52:06,096 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:52:06,098 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:52:07,571 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:52:07,572 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:52:12,776 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:52:12,827 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:52:14,230 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:52:14,254 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:52:25,793 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:52:25,794 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:52:32,149 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:52:32,181 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:52:34,294 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:52:34,295 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:52:36,399 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:52:36,404 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:52:41,378 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:52:41,420 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:52:43,229 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:52:43,254 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:52:53,924 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:52:53,926 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:53:00,730 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:53:00,769 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:53:02,449 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:53:02,450 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:53:03,474 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:53:03,476 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:53:09,233 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:53:09,268 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:53:10,227 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:53:10,246 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:53:21,393 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:53:21,394 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:53:27,933 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:53:27,985 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:53:29,530 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:53:29,530 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:53:30,345 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:53:30,346 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:53:36,451 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:53:36,485 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:53:37,194 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:53:37,215 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:53:47,417 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:53:47,419 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:53:53,827 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:53:53,850 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:53:53,974 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:53:53,974 - INFO - Adding 28 links to Database
+|MAIN_LOG| 2024-09-30 13:53:55,923 - INFO - Commiting 28 / 28 links to the Database.
+|MAIN_LOG| 2024-09-30 13:53:55,938 - INFO - Added 28 / 28 links to the Database.
+|MAIN_LOG| 2024-09-30 13:53:57,680 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:53:57,680 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:54:04,204 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:54:04,228 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:54:15,281 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:54:15,282 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:54:15,945 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:54:15,946 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:54:22,285 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:54:22,305 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:54:22,993 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:54:23,021 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:54:29,820 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:54:29,821 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:54:36,388 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:54:36,409 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:54:43,125 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:54:43,127 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:54:43,472 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:54:43,473 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:54:50,425 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:54:50,447 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:54:50,699 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:54:50,726 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:54:57,968 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:54:57,969 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:55:05,143 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:55:05,165 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:55:11,022 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:55:11,024 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:55:11,165 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:55:11,166 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:55:18,172 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:55:18,194 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:55:18,386 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:55:18,414 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:55:26,028 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:55:26,029 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:55:32,840 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:55:32,863 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:55:38,982 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:55:38,982 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:55:39,413 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:55:39,413 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:55:46,328 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:55:46,348 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:55:46,752 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:55:46,784 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:55:48,875 - INFO - Emptying queue link_scraping_queue
+|MAIN_LOG| 2024-09-30 13:55:48,895 - INFO - Queue link_scraping_queue was emptied
+|MAIN_LOG| 2024-09-30 13:55:52,506 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-30 13:55:52,643 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-30 13:55:55,727 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:55:55,732 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:56:03,384 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:56:03,424 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:56:16,008 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:56:16,023 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:56:16,706 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:56:16,743 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:56:17,107 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 13:56:17,108 - INFO - Adding 96 links to Database
+|MAIN_LOG| 2024-09-30 13:56:17,857 - INFO - Commiting 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:56:17,889 - INFO - Added 96 / 96 links to the Database.
+|MAIN_LOG| 2024-09-30 13:56:44,061 - INFO - Emptying queue link_scraping_queue
+|MAIN_LOG| 2024-09-30 13:56:44,072 - INFO - Queue link_scraping_queue was emptied
+|MAIN_LOG| 2024-09-30 13:56:47,380 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-30 13:56:47,408 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-30 13:56:50,851 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-30 13:56:52,608 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-30 13:56:55,301 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-09-30 14:04:10,806 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-30 14:04:10,813 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-30 14:04:10,813 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-30 14:04:10,816 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-30 14:04:10,866 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-30 14:04:10,867 - INFO - Defining queues
+|MAIN_LOG| 2024-09-30 14:04:11,094 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-30 14:04:11,094 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-30 14:04:11,094 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-30 14:04:11,095 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-30 14:04:11,107 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-30 14:04:11,107 - INFO - Defining queues
+|MAIN_LOG| 2024-09-30 14:04:17,502 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-30 14:04:17,569 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-30 14:04:32,751 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-30 14:04:35,190 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-30 14:04:38,418 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-09-30 14:04:38,418 - INFO - Generating scrollpage links for brand bmw. <0 / 167>
+|MAIN_LOG| 2024-09-30 14:04:44,277 - INFO - Generating scrollpage links for brand audi. <1 / 167>
+|MAIN_LOG| 2024-09-30 14:05:30,916 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-30 14:05:30,920 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-30 14:05:30,920 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-30 14:05:30,921 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-30 14:05:30,947 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-30 14:05:30,947 - INFO - Defining queues
+|MAIN_LOG| 2024-09-30 14:05:31,156 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-30 14:05:31,156 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-30 14:05:31,156 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-30 14:05:31,157 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-30 14:05:31,167 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-30 14:05:31,167 - INFO - Defining queues
+|MAIN_LOG| 2024-09-30 14:05:48,517 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-09-30 14:05:50,380 - INFO - Getting car brands
+|MAIN_LOG| 2024-09-30 14:05:53,561 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-09-30 14:05:53,565 - INFO - Generating scrollpage links for brand bmw. <1 / 167>
+|MAIN_LOG| 2024-09-30 14:05:58,489 - INFO - Generating scrollpage links for brand audi. <2 / 167>
+|MAIN_LOG| 2024-09-30 14:06:03,476 - INFO - Generating scrollpage links for brand volkswagen. <3 / 167>
+|MAIN_LOG| 2024-09-30 14:06:08,765 - INFO - Generating scrollpage links for brand ford. <4 / 167>
+|MAIN_LOG| 2024-09-30 14:06:23,442 - INFO - Generating scrollpage links for brand mercedes-benz. <5 / 167>
+|MAIN_LOG| 2024-09-30 14:06:27,745 - INFO - Generating scrollpage links for brand opel. <6 / 167>
+|MAIN_LOG| 2024-09-30 14:06:32,134 - INFO - Generating scrollpage links for brand toyota. <7 / 167>
+|MAIN_LOG| 2024-09-30 14:06:37,173 - INFO - Generating scrollpage links for brand renault. <8 / 167>
+|MAIN_LOG| 2024-09-30 14:06:41,400 - INFO - Generating scrollpage links for brand skoda. <9 / 167>
+|MAIN_LOG| 2024-09-30 14:06:46,068 - INFO - Generating scrollpage links for brand peugeot. <10 / 167>
+|MAIN_LOG| 2024-09-30 14:06:51,180 - INFO - Generating scrollpage links for brand abarth. <11 / 167>
+|MAIN_LOG| 2024-09-30 14:07:12,849 - INFO - Generating scrollpage links for brand acura. <12 / 167>
+|MAIN_LOG| 2024-09-30 14:07:18,183 - INFO - Generating scrollpage links for brand aiways. <13 / 167>
+|MAIN_LOG| 2024-09-30 14:07:22,527 - INFO - Generating scrollpage links for brand aixam. <14 / 167>
+|MAIN_LOG| 2024-09-30 14:07:32,058 - INFO - Generating scrollpage links for brand alfa-romeo. <15 / 167>
+|MAIN_LOG| 2024-09-30 14:07:36,431 - INFO - Generating scrollpage links for brand alpine. <16 / 167>
+|MAIN_LOG| 2024-09-30 14:07:40,703 - INFO - Generating scrollpage links for brand arcfox. <17 / 167>
+|MAIN_LOG| 2024-09-30 14:07:44,997 - INFO - Generating scrollpage links for brand asia. <18 / 167>
+|MAIN_LOG| 2024-09-30 14:07:49,524 - INFO - Generating scrollpage links for brand aston-martin. <19 / 167>
+|MAIN_LOG| 2024-09-30 14:07:54,785 - INFO - Generating scrollpage links for brand audi. <20 / 167>
+|MAIN_LOG| 2024-09-30 14:07:59,516 - INFO - Generating scrollpage links for brand austin. <21 / 167>
+|MAIN_LOG| 2024-09-30 14:08:03,814 - INFO - Generating scrollpage links for brand autobianchi. <22 / 167>
+|MAIN_LOG| 2024-09-30 14:08:08,307 - INFO - Generating scrollpage links for brand avatr. <23 / 167>
+|MAIN_LOG| 2024-09-30 14:08:14,911 - INFO - Generating scrollpage links for brand baic. <24 / 167>
+|MAIN_LOG| 2024-09-30 14:08:22,240 - INFO - Generating scrollpage links for brand bentley. <25 / 167>
+|MAIN_LOG| 2024-09-30 14:08:27,525 - INFO - Generating scrollpage links for brand bmw. <26 / 167>
+|MAIN_LOG| 2024-09-30 14:08:32,381 - INFO - Generating scrollpage links for brand alpina. <27 / 167>
+|MAIN_LOG| 2024-09-30 14:08:37,064 - INFO - Generating scrollpage links for brand brilliance. <28 / 167>
+|MAIN_LOG| 2024-09-30 14:08:41,159 - INFO - Generating scrollpage links for brand bugatti. <29 / 167>
+|MAIN_LOG| 2024-09-30 14:08:45,209 - INFO - Generating scrollpage links for brand buick. <30 / 167>
+|MAIN_LOG| 2024-09-30 14:08:50,013 - INFO - Generating scrollpage links for brand byd. <31 / 167>
+|MAIN_LOG| 2024-09-30 14:08:55,604 - INFO - Generating scrollpage links for brand cadillac. <32 / 167>
+|MAIN_LOG| 2024-09-30 14:09:00,517 - INFO - Generating scrollpage links for brand casalini. <33 / 167>
+|MAIN_LOG| 2024-09-30 14:09:05,212 - INFO - Generating scrollpage links for brand caterham. <34 / 167>
+|MAIN_LOG| 2024-09-30 14:09:09,333 - INFO - Generating scrollpage links for brand cenntro. <35 / 167>
+|MAIN_LOG| 2024-09-30 14:09:13,622 - INFO - Generating scrollpage links for brand changan. <36 / 167>
+|MAIN_LOG| 2024-09-30 14:09:17,725 - INFO - Generating scrollpage links for brand chatenet. <37 / 167>
+|MAIN_LOG| 2024-09-30 14:09:25,073 - INFO - Generating scrollpage links for brand chevrolet. <38 / 167>
+|MAIN_LOG| 2024-09-30 14:09:29,620 - INFO - Generating scrollpage links for brand chrysler. <39 / 167>
+|MAIN_LOG| 2024-09-30 14:09:34,875 - INFO - Generating scrollpage links for brand citroen. <40 / 167>
+|MAIN_LOG| 2024-09-30 14:09:40,375 - INFO - Generating scrollpage links for brand cupra. <41 / 167>
+|MAIN_LOG| 2024-09-30 14:09:46,351 - INFO - Generating scrollpage links for brand dacia. <42 / 167>
+|MAIN_LOG| 2024-09-30 14:09:52,016 - INFO - Generating scrollpage links for brand daewoo. <43 / 167>
+|MAIN_LOG| 2024-09-30 14:09:57,586 - INFO - Generating scrollpage links for brand daihatsu. <44 / 167>
+|MAIN_LOG| 2024-09-30 14:10:03,674 - INFO - Generating scrollpage links for brand delorean. <45 / 167>
+|MAIN_LOG| 2024-09-30 14:10:07,928 - INFO - Generating scrollpage links for brand dfm. <46 / 167>
+|MAIN_LOG| 2024-09-30 14:10:12,130 - INFO - Generating scrollpage links for brand dfsk. <47 / 167>
+|MAIN_LOG| 2024-09-30 14:10:16,854 - INFO - Generating scrollpage links for brand dkw. <48 / 167>
+|MAIN_LOG| 2024-09-30 14:10:21,008 - INFO - Generating scrollpage links for brand dodge. <49 / 167>
+|MAIN_LOG| 2024-09-30 14:10:25,448 - INFO - Generating scrollpage links for brand doosan. <50 / 167>
+|MAIN_LOG| 2024-09-30 14:10:29,486 - INFO - Generating scrollpage links for brand dr-motor. <51 / 167>
+|MAIN_LOG| 2024-09-30 14:10:33,536 - INFO - Generating scrollpage links for brand ds-automobiles. <52 / 167>
+|MAIN_LOG| 2024-09-30 14:10:38,025 - INFO - Generating scrollpage links for brand e-go. <53 / 167>
+|MAIN_LOG| 2024-09-30 14:10:42,583 - INFO - Generating scrollpage links for brand elaris. <54 / 167>
+|MAIN_LOG| 2024-09-30 14:10:46,647 - INFO - Generating scrollpage links for brand faw. <55 / 167>
+|MAIN_LOG| 2024-09-30 14:10:50,985 - INFO - Generating scrollpage links for brand fendt. <56 / 167>
+|MAIN_LOG| 2024-09-30 14:10:55,055 - INFO - Generating scrollpage links for brand ferrari. <57 / 167>
+|MAIN_LOG| 2024-09-30 14:11:00,837 - INFO - Generating scrollpage links for brand fiat. <58 / 167>
+|MAIN_LOG| 2024-09-30 14:11:05,648 - INFO - Generating scrollpage links for brand fisker. <59 / 167>
+|MAIN_LOG| 2024-09-30 14:11:10,154 - INFO - Generating scrollpage links for brand ford. <60 / 167>
+|MAIN_LOG| 2024-09-30 14:11:14,855 - INFO - Generating scrollpage links for brand forthing. <61 / 167>
+|MAIN_LOG| 2024-09-30 14:11:19,439 - INFO - Generating scrollpage links for brand gaz. <62 / 167>
+|MAIN_LOG| 2024-09-30 14:11:24,556 - INFO - Generating scrollpage links for brand geely. <63 / 167>
+|MAIN_LOG| 2024-09-30 14:11:28,914 - INFO - Generating scrollpage links for brand genesis. <64 / 167>
+|MAIN_LOG| 2024-09-30 14:11:33,255 - INFO - Generating scrollpage links for brand gmc. <65 / 167>
+|MAIN_LOG| 2024-09-30 14:11:38,167 - INFO - Generating scrollpage links for brand gwm. <66 / 167>
+|MAIN_LOG| 2024-09-30 14:11:42,476 - INFO - Generating scrollpage links for brand hiphi. <67 / 167>
+|MAIN_LOG| 2024-09-30 14:11:46,961 - INFO - Generating scrollpage links for brand honda. <68 / 167>
+|MAIN_LOG| 2024-09-30 14:11:51,926 - INFO - Generating scrollpage links for brand hongqi. <69 / 167>
+|MAIN_LOG| 2024-09-30 14:11:56,228 - INFO - Generating scrollpage links for brand hummer. <70 / 167>
+|MAIN_LOG| 2024-09-30 14:12:01,283 - INFO - Generating scrollpage links for brand hyundai. <71 / 167>
+|MAIN_LOG| 2024-09-30 14:12:07,461 - INFO - Generating scrollpage links for brand iamelectric. <72 / 167>
+|MAIN_LOG| 2024-09-30 14:12:21,134 - INFO - Generating scrollpage links for brand ineos. <73 / 167>
+|MAIN_LOG| 2024-09-30 14:12:26,495 - INFO - Generating scrollpage links for brand infiniti. <74 / 167>
+|MAIN_LOG| 2024-09-30 14:12:31,207 - INFO - Generating scrollpage links for brand other. <75 / 167>
+|MAIN_LOG| 2024-09-30 14:12:36,150 - INFO - Generating scrollpage links for brand isuzu. <76 / 167>
+|MAIN_LOG| 2024-09-30 14:12:41,481 - INFO - Generating scrollpage links for brand iveco. <77 / 167>
+|MAIN_LOG| 2024-09-30 14:12:45,967 - INFO - Generating scrollpage links for brand jac. <78 / 167>
+|MAIN_LOG| 2024-09-30 14:12:50,183 - INFO - Generating scrollpage links for brand jaecoo. <79 / 167>
+|MAIN_LOG| 2024-09-30 14:12:54,281 - INFO - Generating scrollpage links for brand jaguar. <80 / 167>
+|MAIN_LOG| 2024-09-30 14:12:59,599 - INFO - Generating scrollpage links for brand jeep. <81 / 167>
+|MAIN_LOG| 2024-09-30 14:13:04,381 - INFO - Generating scrollpage links for brand jetour. <82 / 167>
+|MAIN_LOG| 2024-09-30 14:13:08,767 - INFO - Generating scrollpage links for brand jinpeng. <83 / 167>
+|MAIN_LOG| 2024-09-30 14:13:13,206 - INFO - Generating scrollpage links for brand kia. <84 / 167>
+|MAIN_LOG| 2024-09-30 14:13:17,718 - INFO - Generating scrollpage links for brand ktm. <85 / 167>
+|MAIN_LOG| 2024-09-30 14:13:21,827 - INFO - Generating scrollpage links for brand lada. <86 / 167>
+|MAIN_LOG| 2024-09-30 14:13:26,349 - INFO - Generating scrollpage links for brand lamborghini. <87 / 167>
+|MAIN_LOG| 2024-09-30 14:13:33,385 - INFO - Generating scrollpage links for brand lancia. <88 / 167>
+|MAIN_LOG| 2024-09-30 14:13:38,632 - INFO - Generating scrollpage links for brand land-rover. <89 / 167>
+|MAIN_LOG| 2024-09-30 14:13:44,153 - INFO - Generating scrollpage links for brand leapmotor. <90 / 167>
+|MAIN_LOG| 2024-09-30 14:13:48,867 - INFO - Generating scrollpage links for brand levc. <91 / 167>
+|MAIN_LOG| 2024-09-30 14:13:52,908 - INFO - Generating scrollpage links for brand lexus. <92 / 167>
+|MAIN_LOG| 2024-09-30 14:13:58,126 - INFO - Generating scrollpage links for brand ligier. <93 / 167>
+|MAIN_LOG| 2024-09-30 14:14:02,955 - INFO - Generating scrollpage links for brand lincoln. <94 / 167>
+|MAIN_LOG| 2024-09-30 14:14:08,076 - INFO - Generating scrollpage links for brand lixiang. <95 / 167>
+|MAIN_LOG| 2024-09-30 14:14:12,801 - INFO - Generating scrollpage links for brand lotus. <96 / 167>
+|MAIN_LOG| 2024-09-30 14:14:17,401 - INFO - Generating scrollpage links for brand lti. <97 / 167>
+|MAIN_LOG| 2024-09-30 14:14:21,774 - INFO - Generating scrollpage links for brand lucid. <98 / 167>
+|MAIN_LOG| 2024-09-30 14:14:26,045 - INFO - Generating scrollpage links for brand lynk-and-co. <99 / 167>
+|MAIN_LOG| 2024-09-30 14:14:30,497 - INFO - Generating scrollpage links for brand man. <100 / 167>
+|MAIN_LOG| 2024-09-30 14:14:34,762 - INFO - Generating scrollpage links for brand maserati. <101 / 167>
+|MAIN_LOG| 2024-09-30 14:14:39,583 - INFO - Generating scrollpage links for brand maximus. <102 / 167>
+|MAIN_LOG| 2024-09-30 14:14:44,034 - INFO - Generating scrollpage links for brand maxus. <103 / 167>
+|MAIN_LOG| 2024-09-30 14:14:49,062 - INFO - Generating scrollpage links for brand maybach. <104 / 167>
+|MAIN_LOG| 2024-09-30 14:14:54,779 - INFO - Generating scrollpage links for brand mazda. <105 / 167>
+|MAIN_LOG| 2024-09-30 14:14:59,252 - INFO - Generating scrollpage links for brand mclaren. <106 / 167>
+|MAIN_LOG| 2024-09-30 14:15:03,957 - INFO - Generating scrollpage links for brand mercedes-benz. <107 / 167>
+|MAIN_LOG| 2024-09-30 14:15:09,557 - INFO - Generating scrollpage links for brand mercury. <108 / 167>
+|MAIN_LOG| 2024-09-30 14:15:13,762 - INFO - Generating scrollpage links for brand mg. <109 / 167>
+|MAIN_LOG| 2024-09-30 14:15:18,840 - INFO - Generating scrollpage links for brand microcar. <110 / 167>
+|MAIN_LOG| 2024-09-30 14:15:24,356 - INFO - Generating scrollpage links for brand mini. <111 / 167>
+|MAIN_LOG| 2024-09-30 14:15:30,088 - INFO - Generating scrollpage links for brand mitsubishi. <112 / 167>
+|MAIN_LOG| 2024-09-30 14:15:34,769 - INFO - Generating scrollpage links for brand morgan. <113 / 167>
+|MAIN_LOG| 2024-09-30 14:15:39,801 - INFO - Generating scrollpage links for brand nio. <114 / 167>
+|MAIN_LOG| 2024-09-30 14:15:43,918 - INFO - Generating scrollpage links for brand nissan. <115 / 167>
+|MAIN_LOG| 2024-09-30 14:15:49,234 - INFO - Generating scrollpage links for brand nysa. <116 / 167>
+|MAIN_LOG| 2024-09-30 14:15:53,618 - INFO - Generating scrollpage links for brand oldsmobile. <117 / 167>
+|MAIN_LOG| 2024-09-30 14:15:58,101 - INFO - Generating scrollpage links for brand omoda. <118 / 167>
+|MAIN_LOG| 2024-09-30 14:16:03,407 - INFO - Generating scrollpage links for brand opel. <119 / 167>
+|MAIN_LOG| 2024-09-30 14:16:08,499 - INFO - Generating scrollpage links for brand peugeot. <120 / 167>
+|MAIN_LOG| 2024-09-30 14:16:12,922 - INFO - Generating scrollpage links for brand piaggio. <121 / 167>
+|MAIN_LOG| 2024-09-30 14:16:17,192 - INFO - Generating scrollpage links for brand plymouth. <122 / 167>
+|MAIN_LOG| 2024-09-30 14:16:21,435 - INFO - Generating scrollpage links for brand polestar. <123 / 167>
+|MAIN_LOG| 2024-09-30 14:16:26,079 - INFO - Generating scrollpage links for brand polonez. <124 / 167>
+|MAIN_LOG| 2024-09-30 14:16:31,501 - INFO - Generating scrollpage links for brand pontiac. <125 / 167>
+|MAIN_LOG| 2024-09-30 14:16:36,211 - INFO - Generating scrollpage links for brand porsche. <126 / 167>
+|MAIN_LOG| 2024-09-30 14:16:40,989 - INFO - Generating scrollpage links for brand ram. <127 / 167>
+|MAIN_LOG| 2024-09-30 14:16:45,698 - INFO - Generating scrollpage links for brand renault. <128 / 167>
+|MAIN_LOG| 2024-09-30 14:16:50,889 - INFO - Generating scrollpage links for brand rolls-royce. <129 / 167>
+|MAIN_LOG| 2024-09-30 14:16:57,175 - INFO - Generating scrollpage links for brand rover. <130 / 167>
+|MAIN_LOG| 2024-09-30 14:17:02,144 - INFO - Generating scrollpage links for brand saab. <131 / 167>
+|MAIN_LOG| 2024-09-30 14:17:06,938 - INFO - Generating scrollpage links for brand sarini. <132 / 167>
+|MAIN_LOG| 2024-09-30 14:17:11,275 - INFO - Generating scrollpage links for brand saturn. <133 / 167>
+|MAIN_LOG| 2024-09-30 14:17:15,863 - INFO - Generating scrollpage links for brand seat. <134 / 167>
+|MAIN_LOG| 2024-09-30 14:17:20,286 - INFO - Generating scrollpage links for brand seres. <135 / 167>
+|MAIN_LOG| 2024-09-30 14:17:24,630 - INFO - Generating scrollpage links for brand shuanghuan. <136 / 167>
+|MAIN_LOG| 2024-09-30 14:17:28,606 - INFO - Generating scrollpage links for brand skoda. <137 / 167>
+|MAIN_LOG| 2024-09-30 14:17:34,850 - INFO - Generating scrollpage links for brand skywell. <138 / 167>
+|MAIN_LOG| 2024-09-30 14:17:38,915 - INFO - Generating scrollpage links for brand skyworth. <139 / 167>
+|MAIN_LOG| 2024-09-30 14:17:43,721 - INFO - Generating scrollpage links for brand smart. <140 / 167>
+|MAIN_LOG| 2024-09-30 14:17:48,650 - INFO - Generating scrollpage links for brand ssangyong. <141 / 167>
+|MAIN_LOG| 2024-09-30 14:17:54,173 - INFO - Generating scrollpage links for brand subaru. <142 / 167>
+|MAIN_LOG| 2024-09-30 14:18:00,290 - INFO - Generating scrollpage links for brand suzuki. <143 / 167>
+|MAIN_LOG| 2024-09-30 14:18:05,729 - INFO - Generating scrollpage links for brand syrena. <144 / 167>
+|MAIN_LOG| 2024-09-30 14:18:10,110 - INFO - Generating scrollpage links for brand tarpan. <145 / 167>
+|MAIN_LOG| 2024-09-30 14:18:15,102 - INFO - Generating scrollpage links for brand tata. <146 / 167>
+|MAIN_LOG| 2024-09-30 14:18:19,512 - INFO - Generating scrollpage links for brand tesla. <147 / 167>
+|MAIN_LOG| 2024-09-30 14:18:25,584 - INFO - Generating scrollpage links for brand toyota. <148 / 167>
+|MAIN_LOG| 2024-09-30 14:18:30,530 - INFO - Generating scrollpage links for brand trabant. <149 / 167>
+|MAIN_LOG| 2024-09-30 14:18:34,895 - INFO - Generating scrollpage links for brand triumph. <150 / 167>
+|MAIN_LOG| 2024-09-30 14:18:39,050 - INFO - Generating scrollpage links for brand uaz. <151 / 167>
+|MAIN_LOG| 2024-09-30 14:18:43,858 - INFO - Generating scrollpage links for brand vauxhall. <152 / 167>
+|MAIN_LOG| 2024-09-30 14:18:47,874 - INFO - Generating scrollpage links for brand velex. <153 / 167>
+|MAIN_LOG| 2024-09-30 14:18:52,185 - INFO - Generating scrollpage links for brand volkswagen. <154 / 167>
+|MAIN_LOG| 2024-09-30 14:18:56,768 - INFO - Generating scrollpage links for brand volvo. <155 / 167>
+|MAIN_LOG| 2024-09-30 14:19:03,599 - INFO - Generating scrollpage links for brand voyah. <156 / 167>
+|MAIN_LOG| 2024-09-30 14:19:08,174 - INFO - Generating scrollpage links for brand waltra. <157 / 167>
+|MAIN_LOG| 2024-09-30 14:19:12,301 - INFO - Generating scrollpage links for brand warszawa. <158 / 167>
+|MAIN_LOG| 2024-09-30 14:19:17,687 - INFO - Generating scrollpage links for brand wartburg. <159 / 167>
+|MAIN_LOG| 2024-09-30 14:19:21,830 - INFO - Generating scrollpage links for brand wolga. <160 / 167>
+|MAIN_LOG| 2024-09-30 14:19:26,076 - INFO - Generating scrollpage links for brand xiaomi. <161 / 167>
+|MAIN_LOG| 2024-09-30 14:19:30,122 - INFO - Generating scrollpage links for brand xpeng. <162 / 167>
+|MAIN_LOG| 2024-09-30 14:19:34,311 - INFO - Generating scrollpage links for brand zaporozec. <163 / 167>
+|MAIN_LOG| 2024-09-30 14:19:38,446 - INFO - Generating scrollpage links for brand zastawa. <164 / 167>
+|MAIN_LOG| 2024-09-30 14:19:42,618 - INFO - Generating scrollpage links for brand zeekr. <165 / 167>
+|MAIN_LOG| 2024-09-30 14:19:47,360 - INFO - Generating scrollpage links for brand zhidou. <166 / 167>
+|MAIN_LOG| 2024-09-30 14:19:51,743 - INFO - Generating scrollpage links for brand zuk. <167 / 167>
+|MAIN_LOG| 2024-09-30 14:19:56,495 - INFO - passing links to queue
+|MAIN_LOG| 2024-09-30 14:19:56,899 - INFO - Added 14833 offer scrollpage links to scrape queue
+|MAIN_LOG| 2024-09-30 14:21:32,943 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:21:32,956 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:21:34,640 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:21:34,703 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:21:36,712 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:21:36,713 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:21:38,886 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:21:38,897 - INFO - Adding 323 links to Database
+|MAIN_LOG| 2024-09-30 14:21:39,236 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:21:39,304 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:21:42,319 - INFO - Commiting 323 / 323 links to the Database.
+|MAIN_LOG| 2024-09-30 14:21:42,376 - INFO - Added 323 / 323 links to the Database.
+|MAIN_LOG| 2024-09-30 14:23:46,650 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:23:46,661 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:23:50,764 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:23:50,847 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:24:00,788 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:24:00,792 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:24:07,234 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:24:07,354 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:24:14,285 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:24:14,290 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:24:19,685 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:24:19,779 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:25:53,072 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:25:53,089 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:25:57,424 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:25:57,558 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:26:06,959 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:26:06,961 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:26:11,955 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:26:12,129 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:26:22,349 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:26:22,355 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:26:27,436 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:26:27,487 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:27:47,356 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:27:47,360 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:27:52,655 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:27:52,711 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:28:01,908 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:28:01,933 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:28:07,564 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:28:07,662 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:28:26,397 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:28:26,398 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:28:32,428 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:28:32,485 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:29:53,431 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:29:53,480 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:29:58,841 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:29:58,843 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:29:59,435 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:29:59,503 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:30:04,654 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:30:04,716 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:30:29,782 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:30:29,786 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:30:36,717 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:30:36,806 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:31:50,936 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:31:50,960 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:31:57,726 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:31:57,768 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:32:13,673 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:32:13,677 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:32:20,400 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:32:20,466 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:32:36,330 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:32:36,331 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:32:43,807 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:32:43,852 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:34:26,386 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:34:26,414 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:34:34,107 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:34:34,637 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:35:17,917 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:35:17,956 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:35:21,522 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:35:25,566 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:35:25,617 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:35:45,046 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:37:42,046 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:38:25,624 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:38:54,047 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:38:54,057 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:38:59,385 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:39:02,958 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:39:03,019 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:41:07,550 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:41:12,146 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:41:12,150 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:41:20,806 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:41:20,943 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:41:47,696 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:41:47,701 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:41:56,382 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:41:56,442 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:43:48,136 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:43:48,152 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:43:57,014 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:43:57,066 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:44:02,028 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:44:02,030 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:44:10,294 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:44:11,099 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:44:11,139 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:44:58,651 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:45:19,175 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:45:19,179 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:45:28,717 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:45:28,771 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:45:32,616 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:45:32,620 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:45:42,351 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:45:42,476 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:47:21,957 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:47:21,975 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:47:32,166 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:47:32,604 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:47:44,097 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:47:44,113 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:47:54,747 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:47:54,803 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:48:09,396 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:48:09,410 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:48:20,255 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:48:20,294 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:49:26,685 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:49:26,691 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:49:38,381 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:49:38,442 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:49:44,204 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:49:44,208 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:49:55,969 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:49:56,013 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:50:09,449 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:50:09,452 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:50:21,324 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:50:21,361 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:51:41,525 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:51:41,537 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:51:52,087 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:51:52,095 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:51:54,314 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:51:54,357 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:52:05,268 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:52:05,324 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:52:10,834 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:52:10,836 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:52:23,691 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:52:23,739 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:53:39,377 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:53:39,386 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:53:52,529 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:53:52,584 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:53:56,063 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:53:56,069 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:54:09,557 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:54:09,639 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:54:16,189 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:54:16,191 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:54:29,917 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:54:29,968 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:55:40,554 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:55:40,566 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:55:54,597 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:55:54,642 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:55:58,850 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:55:58,852 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:56:13,486 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:56:13,554 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:56:15,215 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:56:15,216 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:56:29,856 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:56:29,902 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:57:31,824 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:57:31,830 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:57:46,912 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:57:47,020 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:58:04,884 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:58:04,889 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:58:20,287 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:58:20,342 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:58:25,240 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:58:25,249 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 14:58:40,710 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:58:40,755 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 14:59:57,088 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 14:59:57,099 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:00:07,179 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:00:07,182 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:00:15,723 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:00:15,766 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:00:23,810 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:00:23,818 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:00:25,868 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:00:25,903 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:00:40,251 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:00:40,290 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:01:41,414 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:01:41,415 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:01:58,419 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:01:58,471 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:01:59,072 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:01:59,075 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:02:16,183 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:02:16,185 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:02:16,208 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:02:16,248 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:02:33,581 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:02:33,634 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:03:30,115 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:03:30,122 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:03:48,142 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:03:48,203 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:03:58,912 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:04:12,554 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:04:12,558 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:04:30,759 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:04:30,874 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:04:35,690 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:04:35,699 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:04:54,300 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:04:54,341 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:05:01,827 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:05:42,466 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:05:42,478 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:06:01,399 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:06:01,480 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:06:12,281 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:06:12,285 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:06:31,241 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:06:31,285 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:06:33,743 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:06:33,744 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:06:53,251 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:06:53,294 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:07:23,561 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:07:23,563 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:07:43,324 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:07:43,383 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:08:01,590 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:08:01,593 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:08:21,907 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:08:21,947 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:08:35,686 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:08:35,689 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:08:56,338 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:08:56,381 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:09:09,354 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:09:09,356 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:09:30,441 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:09:30,512 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:09:39,602 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:09:51,702 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:09:51,706 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:10:13,007 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:10:13,056 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:10:28,504 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:10:28,510 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:10:50,023 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:10:50,070 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:11:10,898 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:11:10,900 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:11:32,719 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:11:32,800 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:12:03,606 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:12:03,653 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:12:26,057 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:12:26,124 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:12:38,189 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-30 15:12:38,788 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-30 15:12:56,146 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:12:56,154 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:13:18,560 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:13:18,645 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:14:01,838 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:14:01,845 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:14:24,665 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:14:24,722 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:14:31,084 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:14:31,086 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:14:54,344 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:14:54,437 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:14:59,763 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:14:59,766 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:15:23,320 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:15:23,385 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:16:07,131 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:16:07,134 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:16:30,989 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:16:31,032 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:16:32,756 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:16:32,759 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:16:40,123 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:16:56,627 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:16:56,682 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:17:08,761 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:17:08,765 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:17:34,304 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:17:34,386 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:18:06,150 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:18:06,160 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:18:30,759 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:18:30,806 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:18:37,842 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:18:37,846 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:19:02,677 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:19:02,744 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:19:10,178 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:19:10,180 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:19:35,314 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:19:35,359 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:19:59,700 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:19:59,703 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:20:25,390 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:20:25,451 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:20:40,949 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:20:40,953 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:21:06,869 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:21:06,913 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:21:10,240 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:21:10,242 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:21:36,210 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:21:36,250 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:21:55,110 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:21:55,115 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:22:22,158 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:22:22,195 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:22:44,590 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:22:44,592 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:23:04,102 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:23:04,104 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:23:15,684 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:23:15,726 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:23:34,820 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:23:34,861 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:23:35,092 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:23:35,092 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:24:02,419 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:24:02,463 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:24:29,484 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:24:29,488 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:24:57,542 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:24:58,264 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:25:10,776 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:25:10,782 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:25:33,680 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:25:33,683 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:25:40,332 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:25:40,371 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:25:46,553 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:26:03,473 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:26:03,511 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:26:15,128 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:26:15,131 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:26:44,050 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:26:44,111 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:27:22,367 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:27:22,375 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:27:45,123 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:27:45,171 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:27:53,851 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:27:53,894 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:28:13,881 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:28:13,885 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:28:17,616 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:28:17,670 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:28:44,053 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:28:44,092 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:29:23,236 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:29:23,240 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:29:53,402 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:29:53,461 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:30:00,005 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:30:00,007 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:30:16,521 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:30:16,525 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:30:33,778 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:30:33,824 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:30:49,991 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:30:50,026 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:31:15,475 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:31:15,476 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:31:46,343 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:31:46,402 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:32:03,255 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:32:03,258 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:32:18,710 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:32:18,714 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:32:40,258 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:32:40,316 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:32:55,584 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:32:55,639 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:33:09,440 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:33:09,445 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:33:41,337 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:33:41,400 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:34:09,201 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:34:09,205 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:34:24,777 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:34:24,784 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:34:48,445 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:34:48,486 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:35:03,819 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:35:03,885 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:35:04,889 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:35:04,900 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:35:37,738 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:35:37,855 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:36:13,360 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:36:13,367 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:36:34,877 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:36:34,879 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:36:52,023 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:36:52,088 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:37:13,349 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:37:13,554 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:37:20,638 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:37:20,645 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:37:54,780 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:37:54,852 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:38:35,297 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:38:35,320 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:39:02,324 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:39:02,327 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:39:11,784 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:39:11,835 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:39:38,767 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:39:38,829 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:39:38,833 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:39:38,835 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:40:14,518 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:40:14,626 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:40:46,222 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:40:46,231 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:41:11,916 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:41:11,919 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:41:22,833 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:41:22,879 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:41:37,984 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:41:37,990 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:41:52,483 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:41:52,550 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:42:18,011 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:42:18,066 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:42:42,734 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:42:42,745 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:43:19,168 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:43:19,215 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:43:32,934 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:43:32,941 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:43:55,073 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:43:55,081 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:44:17,790 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:44:17,849 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:44:39,500 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:44:39,587 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:44:42,605 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:44:42,611 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:45:21,009 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:45:21,093 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:46:02,883 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:46:02,886 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:46:28,502 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:46:28,511 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:46:45,650 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:46:45,699 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:47:11,933 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:47:11,942 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:47:12,101 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:47:12,172 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:47:49,839 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:47:49,907 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:48:20,539 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:48:20,549 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:49:01,250 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:49:01,298 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:49:01,648 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:49:01,650 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:49:19,616 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:49:23,481 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:49:23,482 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:49:45,030 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:49:45,072 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:50:06,703 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:50:06,750 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:50:44,539 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:50:44,542 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:51:21,129 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:51:21,139 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:51:25,783 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:51:25,847 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:51:43,648 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:51:43,665 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:52:06,397 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:52:06,439 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:52:13,719 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:52:28,221 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:52:28,261 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:52:39,971 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:52:39,976 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:53:22,007 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:53:22,072 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:53:40,825 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:53:40,842 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:54:20,771 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:54:20,773 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:54:23,474 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:54:23,540 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:55:01,233 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:55:01,234 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:55:03,507 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:55:03,546 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:55:42,982 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:55:42,993 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:55:44,714 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:55:44,757 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:56:15,241 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:56:15,243 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:56:27,492 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:56:27,527 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:56:52,735 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:56:52,739 - INFO - Adding 323 links to Database
+|MAIN_LOG| 2024-09-30 15:57:02,172 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:57:02,213 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:57:33,117 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:57:33,119 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:57:42,762 - INFO - Commiting 323 / 323 links to the Database.
+|MAIN_LOG| 2024-09-30 15:57:42,804 - INFO - Added 323 / 323 links to the Database.
+|MAIN_LOG| 2024-09-30 15:58:12,327 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:58:12,328 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:58:22,954 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:58:23,005 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:58:52,335 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:58:52,338 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:59:00,671 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:59:00,720 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:59:36,090 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 15:59:36,095 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 15:59:40,171 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 15:59:40,214 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:00:21,858 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:00:21,859 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:00:24,481 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:00:24,528 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:00:47,464 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:00:47,466 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:01:15,857 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:01:15,966 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:01:34,370 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:01:34,374 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:01:42,853 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:01:42,896 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:02:20,362 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:02:20,365 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:02:24,076 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:02:24,136 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:03:05,536 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:03:05,545 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:03:10,179 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:03:10,224 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:03:43,275 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:03:43,282 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:03:58,954 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:03:58,995 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:04:18,853 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:04:18,854 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:04:40,992 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:04:41,032 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:04:57,904 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:04:57,906 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:05:18,372 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:05:18,431 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:05:40,522 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:05:40,524 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:05:58,009 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:05:58,056 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:06:21,382 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:06:21,384 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:06:38,048 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:06:38,203 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:07:02,795 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:07:02,796 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:07:16,298 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:07:16,338 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:07:46,233 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:07:46,234 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:07:57,229 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:07:57,270 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:08:27,969 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:08:27,978 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:08:42,849 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:08:42,923 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:09:10,190 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:09:10,192 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:09:25,414 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:09:25,461 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:09:48,736 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:09:48,738 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:10:09,738 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:10:09,787 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:10:27,855 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:10:27,858 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:10:49,426 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:10:49,468 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:11:14,245 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:11:14,246 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:11:25,430 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:11:25,476 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:12:03,144 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:12:03,147 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:12:12,064 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:12:12,115 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:12:40,138 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:12:40,141 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:13:04,765 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:13:04,810 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:13:26,401 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:13:26,403 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:13:43,336 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:13:43,385 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:14:24,678 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:14:24,708 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:14:27,323 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:14:27,427 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:14:46,194 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-30 16:14:46,410 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-30 16:15:06,421 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-09-30 16:15:06,615 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-09-30 16:15:19,572 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:15:19,703 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:15:28,144 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:15:28,147 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:16:09,410 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-09-30 16:16:09,422 - INFO - Adding 320 links to Database
+|MAIN_LOG| 2024-09-30 16:16:26,303 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:16:26,356 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:17:07,764 - INFO - Commiting 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:17:07,820 - INFO - Added 320 / 320 links to the Database.
+|MAIN_LOG| 2024-09-30 16:21:10,778 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-09-30 16:21:10,785 - INFO - Logger initialised.
+|MAIN_LOG| 2024-09-30 16:21:10,785 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-09-30 16:21:10,789 - INFO - Initialising Database
+|MAIN_LOG| 2024-09-30 16:21:10,855 - INFO - Initialising redis.
+|MAIN_LOG| 2024-09-30 16:21:10,855 - INFO - Defining queues

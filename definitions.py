@@ -3,3 +3,7 @@ class ScrapingStatus:
     status_failed = "failed"
 
     failed_reason_unknown = "failReasonUnknown"
+
+class WorkerExceptions(Exception):
+    class ScrapingFailed(Exception):
+        pass

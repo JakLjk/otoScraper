@@ -14,3 +14,11 @@ class APPCONFIG:
 
 class LOGGERCONFIG:
     pass
+
+class WEBDRIVERCONFIG:
+    browser="firefox",
+    headless=True
+
+class WORKERCONFIG:
+    number_of_link_batches_to_fetch = 5
+    size_of_scraping_worker_batch = 10
