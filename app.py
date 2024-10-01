@@ -162,6 +162,7 @@ def num_of_links_in_scraping_queue():
     pass
 
 
+@app.route('/add-links-to-scraping-queue', methods=['GET'])
 def add_links_to_scraping_queue():
     main_log.info(f"Adding links to scraping queue.")
     num_of_chunks_to_fetch = WORKERCONFIG.number_of_link_batches_to_fetch

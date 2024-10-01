@@ -2,10 +2,10 @@ import requests
 
 from definitions import ScrapingStatus
 from driver import initialise_selenium
-from otomoto.scripts import get_all_offer_links_from_scrollpage
+from otomoto.scripts import get_all_offer_links_from_scrollpage, get_offer_details
 from config import WEBDRIVERCONFIG
 
-def scrape_links(links_scrollpage:list):
+def scrape_scrollpage_links(links_scrollpage:list):
     print("starting scraping job")
     try:
         wd = initialise_selenium(
@@ -36,5 +36,22 @@ def scrape_links(links_scrollpage:list):
     print("Finishing scraping job")
 
 
-def scrape_links():
-    pass
+def scrape_links(links:list):
+    print("Starting links scraping job")
+    try:
+        wd = initialise_selenium(
+            browser_type="firefox",
+            headless=WEBDRIVERCONFIG.headless)
+        offers = []
+        for link in links:
+            offer_details = get_offer_details(wd, link)
+            offers.append(offer_details)
+        
+
+    except:
+        pass
+    finally:
+        pass
+
+
+    print(links)

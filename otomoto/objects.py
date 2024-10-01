@@ -41,3 +41,7 @@ class OFFER:
     def check_data_integrity(self):
         # check like if offer id is int with 10 chars
         pass
+
+    @property
+    def offer_info_dict(self) -> dict:
+        pass

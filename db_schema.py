@@ -16,5 +16,5 @@ class LINKS(db.Model):
 
 
     def __repr__(self):
-        return f"<link: {self.url}"
+        return f"<link: {self.link}"
 

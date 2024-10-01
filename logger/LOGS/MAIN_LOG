@@ -2377,3 +2377,57 @@ bail@chrome://remote/content/marionette/sync.sys.mjs:211:19
 |MAIN_LOG| 2024-09-30 16:21:10,789 - INFO - Initialising Database
 |MAIN_LOG| 2024-09-30 16:21:10,855 - INFO - Initialising redis.
 |MAIN_LOG| 2024-09-30 16:21:10,855 - INFO - Defining queues
+|MAIN_LOG| 2024-10-01 21:36:06,072 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-01 21:36:06,854 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-01 21:36:06,854 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-01 21:36:06,859 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-01 21:36:06,973 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-01 21:36:06,974 - INFO - Defining queues
+|MAIN_LOG| 2024-10-01 21:36:07,397 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-01 21:36:07,397 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-01 21:36:07,397 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-01 21:36:07,398 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-01 21:36:07,413 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-01 21:36:07,413 - INFO - Defining queues
+|MAIN_LOG| 2024-10-01 21:36:12,933 - INFO - Emptying queue link_scraping_queue
+|MAIN_LOG| 2024-10-01 21:36:13,002 - INFO - Queue link_scraping_queue was emptied
+|MAIN_LOG| 2024-10-01 21:36:52,312 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-10-01 21:36:52,903 - INFO - Returning information about count of links in DB
+|MAIN_LOG| 2024-10-01 21:41:48,698 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-01 21:41:48,698 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-01 21:41:48,698 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-01 21:41:48,699 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-01 21:41:48,814 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-01 21:41:48,814 - INFO - Defining queues
+|MAIN_LOG| 2024-10-01 21:41:51,936 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-10-01 21:41:51,938 - INFO - Fetching 10 links from database to scrape.
+|MAIN_LOG| 2024-10-01 21:41:52,002 - INFO - Marking 50 as being scraped
+|MAIN_LOG| 2024-10-01 21:41:52,009 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-10-01 21:41:52,009 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-10-01 21:41:52,011 - ERROR - An error has ocurred while fetching links to be scraped.
+'LINKS' object has no attribute 'url'
+|MAIN_LOG| 2024-10-01 21:41:52,011 - INFO - Rolling back...
+|MAIN_LOG| 2024-10-01 21:43:55,564 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-01 21:43:55,565 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-01 21:43:55,565 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-01 21:43:55,566 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-01 21:43:55,595 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-01 21:43:55,595 - INFO - Defining queues
+|MAIN_LOG| 2024-10-01 21:43:58,554 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-10-01 21:43:58,554 - INFO - Fetching 10 links from database to scrape.
+|MAIN_LOG| 2024-10-01 21:43:58,619 - INFO - Marking 50 as being scraped
+|MAIN_LOG| 2024-10-01 21:43:58,625 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-10-01 21:43:58,626 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-10-01 21:43:58,843 - INFO - 50 in 5 batches have been added to scraping queue
+|MAIN_LOG| 2024-10-01 21:44:13,651 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-10-01 21:44:13,652 - INFO - Fetching 10 links from database to scrape.
+|MAIN_LOG| 2024-10-01 21:44:13,665 - INFO - Marking 50 as being scraped
+|MAIN_LOG| 2024-10-01 21:44:13,670 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-10-01 21:44:13,670 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-10-01 21:44:14,119 - INFO - 50 in 5 batches have been added to scraping queue
+|MAIN_LOG| 2024-10-01 21:44:44,210 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-10-01 21:44:44,211 - INFO - Fetching 10 links from database to scrape.
+|MAIN_LOG| 2024-10-01 21:44:44,221 - INFO - Marking 50 as being scraped
+|MAIN_LOG| 2024-10-01 21:44:44,227 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-10-01 21:44:44,227 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-10-01 21:44:44,446 - INFO - 50 in 5 batches have been added to scraping queue
