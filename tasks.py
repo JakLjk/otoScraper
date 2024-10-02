@@ -46,12 +46,12 @@ def scrape_links(links:list):
         for link in links:
             offer_details = get_offer_details(wd, link)
             offers.append(offer_details)
+        return offers
         
 
-    except:
-        pass
+    # except:
+    #     pass
     finally:
+        # wd.close()
         pass
 
-
-    print(links)

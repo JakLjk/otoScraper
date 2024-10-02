@@ -17,7 +17,7 @@ class LOGGERCONFIG:
 
 class WEBDRIVERCONFIG:
     browser="firefox",
-    headless=True
+    headless=False
 
 class WORKERCONFIG:
     number_of_link_batches_to_fetch = 5

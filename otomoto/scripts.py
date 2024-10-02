@@ -91,7 +91,7 @@ def get_all_offer_links_from_scrollpage(driver:WebDriver,
 def get_offer_details(driver:WebDriver,
                     link:str) -> OFFER:
     wd = driver 
-    offer = OFFER()
+    offer = OFFER(link=link)
 
     wait = WebDriverWait(wd, load_time)
     wd.get(link)
@@ -102,9 +102,12 @@ def get_offer_details(driver:WebDriver,
     scroll_by_amount_of_pixels(wd, 4200, 2100, 0.1)
     offer.tytul = wd.find_element(By.CLASS_NAME, "offer-title.big-text.etrkop92.ooa-13tge55.er34gjf0").text
 
-    _box = wd.find_elements(By.CLASS_NAME, "edazosu4.ooa-1afacld.er34gjf0")
-    offer.data_dodania = _box[0].text
-    offer.id = _box[1].text
+    # _box = wd.find_elements(By.CLASS_NAME, "ooa-n6qygs.ew0z61v0")
+    # print(_box)
+    # offer.data_dodania = _box[0].text
+    # offer.id_oferty = _box[1].text
+    offer.data_dodania = wd.find_element(By.CLASS_NAME, "ew0z61v1.ooa-1oajvmg.er34gjf0").text
+    offer.id_oferty = wd.find_element(By.CLASS_NAME,"e1n40z81.ooa-a4miog.er34gjf0").text
 
     offer.cena = wd.find_element(By.CLASS_NAME, "offer-price__number").text
 
@@ -114,11 +117,12 @@ def get_offer_details(driver:WebDriver,
     offer.skrzynia_biegow = _box[2].text
     offer.typ_nadwozia = _box[3].text
     offer.pojemnosc_silnika = _box[4].text
-    offer.pojemnosc_silnika = _box[5].text
+    offer.moc_silnika = _box[5].text
+    
+    #TODO add logic for the alternative look of details page
+    offer.opis = wd.find_element(By.CLASS_NAME, "ooa-unlmzs.ez35cjy4").text
 
-    offer.opis = wd.find_element(By.CLASS_NAME, "ooa-unlmzs.e18op59x2").text
-
-    szczegoly = wd.find_elements(By.CLASS_NAME, "ooa-162vy3d.eyfqfx03")
+    szczegoly = wd.find_elements(By.CLASS_NAME, "ooa-10m47vf.eizxi835")
     offer.szczegoly = {k: v for k,v in [s.text.split("\n") for s in szczegoly]}
 
     wyposazenie = wd.find_elements(By.CLASS_NAME, "evespt84.ooa-1i4y99d.er34gjf0")
@@ -128,7 +132,7 @@ def get_offer_details(driver:WebDriver,
     _box = wd.find_elements(By.CLASS_NAME, "ooa-1v45bqa.er34gjf0")
     offer.sprzedawca_rodzaj = _box[0].text
     offer.sprzedawca_data_od_kiedy_na_otomoto = _box[1].text
-    nr_tel_button = wd.find_element(By.CLASS_NAME, "e9396dr1.ep2wx1j0.ooa-1cqwd9z").click()
+    nr_tel_button = wd.find_element(By.CLASS_NAME, "e1jpmtd51.ep2wx1j0.ooa-1cqwd9z").click()
     _box = wd.find_elements(By.CLASS_NAME, "button-text-wrapper.ooa-5umjpb")
     offer.sprzedawca_nr_tel = "BRAK"
     for e in _box:
