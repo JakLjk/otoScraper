@@ -200,6 +200,14 @@ def add_links_to_scraping_queue():
         db.session.rollback()
         return message, 500
 
+@app.route('/pass_offers_to_db', methods=['POST'])
+def pass_offer_scrollpage_links_to_db():
+    main_log("Received message with offers from worker.")
+    data = request.json
+    status = data['status']
+    if status == ScrapingStatus.status_ok:
+        offers = data['all_offers']
+
 
 if __name__ == "__main__":
     app.run(debug=True)

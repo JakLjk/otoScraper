@@ -100,13 +100,16 @@ def get_offer_details(driver:WebDriver,
     # sleep(6)
     # scroll_by_amount_of_pixels(wd, 250)
     scroll_by_amount_of_pixels(wd, 4200, 2100, 0.1)
-    offer.tytul = wd.find_element(By.CLASS_NAME, "offer-title.big-text.etrkop92.ooa-13tge55.er34gjf0").text
+    
+    offer.tytul = wd.find_element(By.CLASS_NAME, "offer-title.big-text.e12csvfg2.ooa-1dueukt.er34gjf0").text
 
     # _box = wd.find_elements(By.CLASS_NAME, "ooa-n6qygs.ew0z61v0")
     # print(_box)
     # offer.data_dodania = _box[0].text
     # offer.id_oferty = _box[1].text
-    offer.data_dodania = wd.find_element(By.CLASS_NAME, "ew0z61v1.ooa-1oajvmg.er34gjf0").text
+
+    # offer.data_dodania = wd.find_element(By.CLASS_NAME, "ew0z61v1.ooa-1oajvmg.er34gjf0").text
+    offer.data_dodania = wd.find_element(By.CLASS_NAME, "ei6c8gd1.ooa-1oajvmg.er34gjf0").text
     offer.id_oferty = wd.find_element(By.CLASS_NAME,"e1n40z81.ooa-a4miog.er34gjf0").text
 
     offer.cena = wd.find_element(By.CLASS_NAME, "offer-price__number").text
@@ -118,11 +121,14 @@ def get_offer_details(driver:WebDriver,
     offer.typ_nadwozia = _box[3].text
     offer.pojemnosc_silnika = _box[4].text
     offer.moc_silnika = _box[5].text
-    
+
     #TODO add logic for the alternative look of details page
     offer.opis = wd.find_element(By.CLASS_NAME, "ooa-unlmzs.ez35cjy4").text
 
+    # szczegoly = wd.find_elements(By.CLASS_NAME, "ooa-162vy3d.eyfqfx03")
     szczegoly = wd.find_elements(By.CLASS_NAME, "ooa-10m47vf.eizxi835")
+
+    print(szczegoly[0].text)
     offer.szczegoly = {k: v for k,v in [s.text.split("\n") for s in szczegoly]}
 
     wyposazenie = wd.find_elements(By.CLASS_NAME, "evespt84.ooa-1i4y99d.er34gjf0")

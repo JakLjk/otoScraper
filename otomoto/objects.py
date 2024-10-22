@@ -1,4 +1,5 @@
-from dataclasses import dataclass, fields
+from dataclasses import dataclass, fields, asdict
+import json
 
 @dataclass
 class OFFER:
@@ -59,6 +60,5 @@ class OFFER:
     def check_data_integrity(self):
         pass
 
-    @property
     def offer_info_dict(self) -> dict:
-        pass
+        return json.dumps(asdict(self), indent=4)

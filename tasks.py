@@ -1,4 +1,5 @@
 import requests
+import json
 
 from definitions import ScrapingStatus
 from driver import initialise_selenium
@@ -45,13 +46,21 @@ def scrape_links(links:list):
         offers = []
         for link in links:
             offer_details = get_offer_details(wd, link)
-            offers.append(offer_details)
-        return offers
+            offers.append(offer_details.offer_info_dict())
+
+        response = requests.post(
+        
+        json={"status":ScrapingStatus.status_ok,
+                "error_message": "",
+                "all_offers":offers})
+        return 
         
 
     # except:
     #     pass
     finally:
-        # wd.close()
+        wd.close()
         pass
 
+scrape_links(links=["https://www.otomoto.pl/osobowe/oferta/audi-a4-audi-a4b6-avant-1-6-benzyna-lpg-2003-r-ID6GN8b4.html",
+                    "https://www.otomoto.pl/osobowe/oferta/audi-a4-audi-a4-ID6GPrRT.html"])
