@@ -2431,3 +2431,250 @@ bail@chrome://remote/content/marionette/sync.sys.mjs:211:19
 |MAIN_LOG| 2024-10-01 21:44:44,227 - INFO - Creating batches containing several links
 |MAIN_LOG| 2024-10-01 21:44:44,227 - INFO - Generated 5 batches.
 |MAIN_LOG| 2024-10-01 21:44:44,446 - INFO - 50 in 5 batches have been added to scraping queue
+|MAIN_LOG| 2024-10-22 21:04:19,496 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:04:20,305 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:04:20,305 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:04:20,308 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:04:20,512 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:04:20,512 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:05:00,094 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:05:00,095 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:05:00,095 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:05:00,095 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:05:00,126 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:05:00,126 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:05:00,373 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:05:00,373 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:05:00,373 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:05:00,373 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:05:00,383 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:05:00,383 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:05:34,821 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:05:34,821 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:05:34,821 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:05:34,822 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:05:34,836 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:05:34,836 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:05:49,096 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-10-22 21:06:22,722 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:06:22,724 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:06:22,724 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:06:22,725 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:06:22,751 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:06:22,752 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:06:27,372 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:06:27,372 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:06:27,372 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:06:27,373 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:06:27,383 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:06:27,383 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:06:27,588 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:06:27,588 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:06:27,588 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:06:27,589 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:06:27,599 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:06:27,599 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:06:42,772 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-10-22 21:07:54,849 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:07:54,849 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:07:54,849 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:07:54,851 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:07:54,881 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:07:54,881 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:07:55,100 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:07:55,100 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:07:55,100 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:07:55,101 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:07:55,111 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:07:55,111 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:08:14,304 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-10-22 21:09:13,099 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:09:13,100 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:09:13,100 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:09:13,101 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:09:13,129 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:09:13,129 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:09:17,748 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:09:17,748 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:09:17,748 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:09:17,748 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:09:17,759 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:09:17,759 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:09:20,752 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:09:20,752 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:09:20,752 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:09:20,752 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:09:20,763 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:09:20,763 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:09:20,967 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:09:20,967 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:09:20,967 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:09:20,968 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:09:20,978 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:09:20,978 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:10:00,263 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:10:00,264 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:10:00,264 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:10:00,265 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:10:00,289 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:10:00,289 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:10:04,384 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:10:04,385 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:10:04,385 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:10:04,385 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:10:04,395 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:10:04,396 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:10:04,601 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:10:04,601 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:10:04,601 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:10:04,601 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:10:04,611 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:10:04,611 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:10:22,171 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-10-22 21:11:29,366 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:11:29,366 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:11:29,367 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:11:29,369 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:11:29,411 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:11:29,411 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:11:44,371 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-10-22 21:13:54,401 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:13:54,402 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:13:54,402 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:13:54,403 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:13:54,431 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:13:54,431 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:19:02,921 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:19:02,922 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:19:02,922 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:19:02,923 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:19:02,951 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:19:02,951 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:25:20,315 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:25:20,317 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:25:20,317 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:25:20,317 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:25:20,354 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:25:20,354 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:25:20,602 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:25:20,602 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:25:20,602 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:25:20,603 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:25:20,612 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:25:20,613 - INFO - Defining queues
+|MAIN_LOG| 2024-10-22 21:26:33,541 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-10-22 21:28:39,638 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-22 21:28:39,640 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-22 21:28:39,641 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-22 21:28:39,642 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-22 21:28:39,677 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-22 21:28:39,677 - INFO - Defining queues
+|MAIN_LOG| 2024-10-23 15:57:25,258 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-23 15:57:25,258 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-23 15:57:25,258 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-23 15:57:25,266 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-23 15:57:25,624 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-23 15:57:25,625 - INFO - Defining queues
+|MAIN_LOG| 2024-10-23 15:58:22,879 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-23 15:58:22,881 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-23 15:58:22,881 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-23 15:58:22,882 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-23 15:58:22,902 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-23 15:58:22,902 - INFO - Defining queues
+|MAIN_LOG| 2024-10-23 15:58:27,478 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-23 15:58:27,478 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-23 15:58:27,479 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-23 15:58:27,479 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-23 15:58:27,489 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-23 15:58:27,489 - INFO - Defining queues
+|MAIN_LOG| 2024-10-23 19:07:25,928 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-23 19:07:25,929 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-23 19:07:25,929 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-23 19:07:25,931 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-23 19:07:25,966 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-23 19:07:25,966 - INFO - Defining queues
+|MAIN_LOG| 2024-10-23 19:07:26,179 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-23 19:07:26,179 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-23 19:07:26,179 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-23 19:07:26,180 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-23 19:07:26,189 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-23 19:07:26,190 - INFO - Defining queues
+|MAIN_LOG| 2024-10-23 19:08:51,088 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-23 19:08:51,089 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-23 19:08:51,089 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-23 19:08:51,089 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-23 19:08:51,117 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-23 19:08:51,117 - INFO - Defining queues
+|MAIN_LOG| 2024-10-23 19:08:56,533 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-23 19:08:56,533 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-23 19:08:56,533 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-23 19:08:56,534 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-23 19:08:56,547 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-23 19:08:56,547 - INFO - Defining queues
+|MAIN_LOG| 2024-10-23 19:08:56,784 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-23 19:08:56,784 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-23 19:08:56,784 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-23 19:08:56,785 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-23 19:08:56,796 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-23 19:08:56,797 - INFO - Defining queues
+|MAIN_LOG| 2024-10-23 19:10:29,598 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-23 19:10:29,600 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-23 19:10:29,600 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-23 19:10:29,601 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-23 19:10:29,639 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-23 19:10:29,640 - INFO - Defining queues
+|MAIN_LOG| 2024-10-23 19:10:29,856 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-23 19:10:29,856 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-23 19:10:29,856 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-23 19:10:29,857 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-23 19:10:29,867 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-23 19:10:29,867 - INFO - Defining queues
+|MAIN_LOG| 2024-10-23 19:10:46,493 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-10-23 19:13:10,186 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-23 19:13:10,188 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-23 19:13:10,188 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-23 19:13:10,189 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-23 19:13:10,218 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-23 19:13:10,219 - INFO - Defining queues
+|MAIN_LOG| 2024-10-23 19:13:18,029 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-23 19:13:18,029 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-23 19:13:18,029 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-23 19:13:18,030 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-23 19:13:18,046 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-23 19:13:18,046 - INFO - Defining queues
+|MAIN_LOG| 2024-10-23 19:13:20,567 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-23 19:13:20,567 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-23 19:13:20,567 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-23 19:13:20,568 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-23 19:13:20,579 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-23 19:13:20,579 - INFO - Defining queues
+|MAIN_LOG| 2024-10-23 19:13:25,202 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-23 19:13:25,203 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-23 19:13:25,203 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-23 19:13:25,203 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-23 19:13:25,214 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-23 19:13:25,214 - INFO - Defining queues
+|MAIN_LOG| 2024-10-23 19:13:28,729 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-23 19:13:28,729 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-23 19:13:28,729 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-23 19:13:28,730 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-23 19:13:28,741 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-23 19:13:28,741 - INFO - Defining queues
+|MAIN_LOG| 2024-10-23 19:13:31,194 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-23 19:13:31,194 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-23 19:13:31,194 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-23 19:13:31,195 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-23 19:13:31,206 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-23 19:13:31,206 - INFO - Defining queues
+|MAIN_LOG| 2024-10-23 19:13:36,901 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-23 19:13:36,902 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-23 19:13:36,902 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-23 19:13:36,903 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-23 19:13:36,913 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-23 19:13:36,913 - INFO - Defining queues
+|MAIN_LOG| 2024-10-23 19:13:50,049 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-23 19:13:50,051 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-23 19:13:50,051 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-23 19:13:50,051 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-23 19:13:50,066 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-23 19:13:50,066 - INFO - Defining queues

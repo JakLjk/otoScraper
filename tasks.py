@@ -46,21 +46,17 @@ def scrape_links(links:list):
         offers = []
         for link in links:
             offer_details = get_offer_details(wd, link)
+            print(offer_details.offer_info_dict())
             offers.append(offer_details.offer_info_dict())
 
         response = requests.post(
-        
+        "http://127.0.0.1:5000//pass-offers-to-db",
         json={"status":ScrapingStatus.status_ok,
                 "error_message": "",
                 "all_offers":offers})
-        return 
-        
-
     # except:
     #     pass
     finally:
         wd.close()
         pass
 
-scrape_links(links=["https://www.otomoto.pl/osobowe/oferta/audi-a4-audi-a4b6-avant-1-6-benzyna-lpg-2003-r-ID6GN8b4.html",
-                    "https://www.otomoto.pl/osobowe/oferta/audi-a4-audi-a4-ID6GPrRT.html"])

@@ -89,74 +89,78 @@ def get_all_offer_links_from_scrollpage(driver:WebDriver,
     return offer_links
 
 def get_offer_details(driver:WebDriver,
-                    link:str) -> OFFER:
+                    link:str,
+                    gui_ver:str="v1") -> OFFER:
     wd = driver 
     offer = OFFER(link=link)
 
     wait = WebDriverWait(wd, load_time)
     wd.get(link)
     try_close_onetrust_button(wd)
-    # scroll_to_bottom_of_webpage(wd)
-    # sleep(6)
-    # scroll_by_amount_of_pixels(wd, 250)
     scroll_by_amount_of_pixels(wd, 4200, 2100, 0.1)
-    
-    offer.tytul = wd.find_element(By.CLASS_NAME, "offer-title.big-text.e12csvfg2.ooa-1dueukt.er34gjf0").text
 
-    # _box = wd.find_elements(By.CLASS_NAME, "ooa-n6qygs.ew0z61v0")
-    # print(_box)
-    # offer.data_dodania = _box[0].text
-    # offer.id_oferty = _box[1].text
+    #V1======================================================================
+    if gui_ver == "v1":
+        offer.tytul = wd.find_element(By.CLASS_NAME, "offer-title.big-text.e12csvfg2.ooa-1dueukt.er34gjf0").text
 
-    # offer.data_dodania = wd.find_element(By.CLASS_NAME, "ew0z61v1.ooa-1oajvmg.er34gjf0").text
-    offer.data_dodania = wd.find_element(By.CLASS_NAME, "ei6c8gd1.ooa-1oajvmg.er34gjf0").text
-    offer.id_oferty = wd.find_element(By.CLASS_NAME,"e1n40z81.ooa-a4miog.er34gjf0").text
+        offer.data_dodania = wd.find_element(By.CLASS_NAME, "ei6c8gd1.ooa-1oajvmg.er34gjf0").text
+        offer.id_oferty = wd.find_element(By.CLASS_NAME,"e1n40z81.ooa-a4miog.er34gjf0").text
 
-    offer.cena = wd.find_element(By.CLASS_NAME, "offer-price__number").text
+        offer.cena = wd.find_element(By.CLASS_NAME, "offer-price__number").text
 
-    _box = wd.find_elements(By.CLASS_NAME, "e1ho6mkz2.ooa-1rcllto.er34gjf0")
-    offer.przebieg = _box[0].text
-    offer.rodzaj_paliwa   = _box[1].text
-    offer.skrzynia_biegow = _box[2].text
-    offer.typ_nadwozia = _box[3].text
-    offer.pojemnosc_silnika = _box[4].text
-    offer.moc_silnika = _box[5].text
+        _box = wd.find_elements(By.CLASS_NAME, "e1ho6mkz2.ooa-1rcllto.er34gjf0")
+        offer.przebieg = _box[0].text
+        offer.rodzaj_paliwa   = _box[1].text
+        offer.skrzynia_biegow = _box[2].text
+        offer.typ_nadwozia = _box[3].text
+        offer.pojemnosc_silnika = _box[4].text
+        offer.moc_silnika = _box[5].text
 
-    #TODO add logic for the alternative look of details page
-    offer.opis = wd.find_element(By.CLASS_NAME, "ooa-unlmzs.ez35cjy4").text
+        offer.opis = wd.find_element(By.CLASS_NAME, "ooa-unlmzs.ez35cjy4").text
 
-    # szczegoly = wd.find_elements(By.CLASS_NAME, "ooa-162vy3d.eyfqfx03")
-    szczegoly = wd.find_elements(By.CLASS_NAME, "ooa-10m47vf.eizxi835")
+        specyfikacja_scroll = driver.find_element(By.XPATH,
+                                                "//p[contains(@class, 'eizxi839') and contains(@class, 'ooa-mbq01s') and text()='Specyfikacja']")
+        
 
-    print(szczegoly[0].text)
-    offer.szczegoly = {k: v for k,v in [s.text.split("\n") for s in szczegoly]}
+        specyfikacja_scroll.click()
+        szczegoly = wd.find_elements(By.CLASS_NAME, "ooa-10m47vf.eizxi835")
 
-    wyposazenie = wd.find_elements(By.CLASS_NAME, "evespt84.ooa-1i4y99d.er34gjf0")
-    offer.wyposazenie = [w.text for w in wyposazenie]
+        offer.szczegoly = {k: v for k,v in [s.text.split("\n") for s in szczegoly]}
 
-    offer.sprzedawca_imie = wd.find_element(By.CLASS_NAME, "ern8z622.ooa-hlpbot.er34gjf0").text
-    _box = wd.find_elements(By.CLASS_NAME, "ooa-1v45bqa.er34gjf0")
-    offer.sprzedawca_rodzaj = _box[0].text
-    offer.sprzedawca_data_od_kiedy_na_otomoto = _box[1].text
-    nr_tel_button = wd.find_element(By.CLASS_NAME, "e1jpmtd51.ep2wx1j0.ooa-1cqwd9z").click()
-    _box = wd.find_elements(By.CLASS_NAME, "button-text-wrapper.ooa-5umjpb")
-    offer.sprzedawca_nr_tel = "BRAK"
-    for e in _box:
-        if string_is_made_from_digits(e.text):
-            offer.sprzedawca_nr_tel = e.text
+        wyposazenie_dropdowns = wd.find_element(By.CLASS_NAME, "e1ldcu9s0.ooa-wja48h")
+        wyposazenie_dropdowns = wyposazenie_dropdowns.find_elements(By.CLASS_NAME, "accordion-item__toggle-contents.ooa-f6ybhp")
+        wyposazenie_box = wd.find_elements(By.CLASS_NAME, "evespt84.ooa-1i4y99d.er34gjf0")
+        offer.wyposazenie = []
+        offer.wyposazenie.extend([w.text for w in wyposazenie_box])
+        for elem in wyposazenie_dropdowns:
+            elem.click()
+            wyposazenie_box = wd.find_elements(By.CLASS_NAME, "evespt84.ooa-1i4y99d.er34gjf0")
+            offer.wyposazenie.extend([w.text for w in wyposazenie_box])
 
-    map_url = wd.find_elements(By.CLASS_NAME, "e1m6rqv1.ooa-lygf4m")[0]
-    map_url = map_url.get_attribute('href')
+        offer.sprzedawca_imie = wd.find_element(By.CLASS_NAME, "ern8z622.ooa-hlpbot.er34gjf0").text
+        _box = wd.find_elements(By.CLASS_NAME, "ooa-1v45bqa.er34gjf0")
+        offer.sprzedawca_rodzaj = _box[0].text
+        offer.sprzedawca_data_od_kiedy_na_otomoto = _box[1].text
+        nr_tel_button = wd.find_element(By.CLASS_NAME, "e1jpmtd51.ep2wx1j0.ooa-1cqwd9z").click()
+        _box = wd.find_elements(By.CLASS_NAME, "button-text-wrapper.ooa-5umjpb")
+        offer.sprzedawca_nr_tel = "BRAK"
+        for e in _box:
+            if string_is_made_from_digits(e.text):
+                offer.sprzedawca_nr_tel = e.text
 
-    pattern = r'center=([0-9.-]+)%2C([0-9.-]+)'
-    match = re.search(pattern, map_url)
+        map_url = wd.find_elements(By.CLASS_NAME, "e1m6rqv1.ooa-lygf4m")[0]
+        map_url = map_url.get_attribute('href')
 
-    if match:
-        offer.latitude = match.group(1)
-        offer.longitude = match.group(2)
-    else:
-        raise Exception("Lat/Long could not be scrapped")
-    
+        pattern = r'center=([0-9.-]+)%2C([0-9.-]+)'
+        match = re.search(pattern, map_url)
+
+        if match:
+            offer.latitude = match.group(1)
+            offer.longitude = match.group(2)
+        else:
+            raise Exception("Lat/Long could not be scrapped")
+        #========================================================================
+        
     return offer
 
 
