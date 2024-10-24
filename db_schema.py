@@ -16,5 +16,6 @@ class LINKS(db.Model):
 
 
     def __repr__(self):
-        return f"<link: {self.link}"
+        return (f"<link: {self.link}>\n"
+                f"Offer ID: {self.offer_id}")
 

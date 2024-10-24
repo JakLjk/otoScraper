@@ -38,15 +38,6 @@ QUEUE_MAP = {
     "offer_scraping_queue": offer_scraping_queue,
 }
 
-@app.route('/queue-length/<queue_name>', methods=['GET'])
-def check_how_many_offer_scrollpage_links_in_queue(queue_name):
-    if queue_name in QUEUE_MAP:
-        queue = QUEUE_MAP[queue_name]
-        queue_length = len(queue)
-        return jsonify({"queue_name": queue_name, "queue_length": queue_length}), 200
-    else:
-        return jsonify({"error": "Queue not found."}), 404
-    
 @app.route('/empty-queue/<queue_name>', methods=['GET'])
 def clean_queue(queue_name):
     main_log.info(f"Emptying queue {queue_name}")
@@ -58,6 +49,15 @@ def clean_queue(queue_name):
     else:
         return f"Queue {queue_name} not found", 404
 
+@app.route('/queue-length/<queue_name>', methods=['GET'])
+def check_how_many_offer_scrollpage_links_in_queue(queue_name):
+    if queue_name in QUEUE_MAP:
+        queue = QUEUE_MAP[queue_name]
+        queue_length = len(queue)
+        return jsonify({"queue_name": queue_name, "queue_length": queue_length}), 200
+    else:
+        return jsonify({"error": "Queue not found."}), 404
+    
 
 @app.route('/get-count-links-in-db', methods=['GET'])
 def links_in_db_info():
@@ -156,7 +156,7 @@ def pass_offer_scrollpage_links_to_db():
         db.session.rollback()
         return f"Error has ocurred when passing offer to Database.\n {e} ",500
 
-
+#Offer Scraping Logic ==============================================
 @app.route('/links-in-scraping-queue', methods=['POST'])
 def num_of_links_in_scraping_queue():
     pass
@@ -172,6 +172,7 @@ def add_links_to_scraping_queue():
         main_log.info(f"Fetching {chunk_size} links from database to scrape.")
         links_to_scrape = LINKS.query.filter_by(is_being_scraped=False,
                                                  was_scraped=False).limit(num_of_links_to_fetch).all()
+        print(links_to_scrape)
         
         if not links_to_scrape:
             message = "No links available for scraping."
@@ -184,12 +185,17 @@ def add_links_to_scraping_queue():
         db.session.commit()
 
         main_log.info(f"Creating batches containing several links")
-        fragmented_lists = [links_to_scrape[i:i + chunk_size] for i in range(0, len(links_to_scrape), chunk_size)]
-        main_log.info(f"Generated {len(fragmented_lists)} batches.")
-        for link_batch in fragmented_lists:
+        links_to_scrape = {link.offer_id:link.link for link in links_to_scrape}
+
+        fragmented_dicts = [
+            dict(list(links_to_scrape.items())[i:i + chunk_size]) 
+            for i in range(0, len(links_to_scrape), chunk_size)
+        ]
+        main_log.info(f"Generated {len(fragmented_dicts)} batches.")
+        for link_batch in fragmented_dicts:
             offer_scraping_queue.enqueue(scrape_links, link_batch) 
 
-        message = f"{len(links_to_scrape)} in {len(fragmented_lists)} batches have been added to scraping queue"
+        message = f"{len(links_to_scrape)} in {len(fragmented_dicts)} batches have been added to scraping queue"
         main_log.info(message)
         return message, 200
 
@@ -205,9 +211,20 @@ def pass_offers_to_db():
     main_log.info("Received message with offers from worker.")
     data = request.json
     status = data['status']
+    offer_objects = []
     if status == ScrapingStatus.status_ok:
         offers = data['all_offers']
-        print(f"OFFERS {offers}")
+
+        for offer in offers:
+            offer_id = offer.key()
+            offer_data = offer.value()
+            print(offer_id, offer_data)
+            # offer_obj = objects.OFFER.dict_into_offer(offer)
+            # offer_objects.append(offer_obj)
+            # print('xxxxx')
+            # print(offer_obj)
+
+
 
 @app.route('/test', methods=['GET'])
 def test():

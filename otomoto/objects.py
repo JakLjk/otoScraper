@@ -1,11 +1,21 @@
 from dataclasses import dataclass, fields, asdict
 import json
+from enum import Enum
+
+
+class offerStatus(str):
+    statusScrapeSuccess = "Scraped successfully"
+    status404 = "Error 404 during scraping"
+
 
 @dataclass
 class OFFER:
     def __repr__(self) -> str:
+
+    
         repr_str =  (f"<class: OFFER>\n"
                 f"Link: {self.link}\n"
+                f"Status: {self.offer_status}\n" 
                 f"Tytuł: {self.tytul}\n"
                 f"Data Dodania: {self.data_dodania}\n"
                 f"Sprzedajacy Imie: {self.sprzedawca_imie}\n"
@@ -20,11 +30,15 @@ class OFFER:
             repr_str += "Brakujące pola: Brak"
 
         return repr_str
+    
+    
     link:str 
+    offer_status:offerStatus = None
     id_w_linku:str = None
     data_dodania:str = None
     id_oferty:int = None
     tytul:str = None
+
 
     cena:float = None
     przebieg:int = None
@@ -56,9 +70,12 @@ class OFFER:
     def no_data_for_fields(self) -> list:
         return [field.name for field in fields(self) if getattr(self, field.name) is None]
 
-
     def check_data_integrity(self):
         pass
 
     def offer_info_dict(self) -> dict:
-        return json.dumps(asdict(self), indent=4)
+        return asdict(self)
+    
+    @classmethod
+    def dict_into_offer(cls, data:dict):
+        return cls(**data)

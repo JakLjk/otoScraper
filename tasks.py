@@ -5,6 +5,7 @@ from definitions import ScrapingStatus
 from driver import initialise_selenium
 from otomoto.scripts import get_all_offer_links_from_scrollpage, get_offer_details
 from config import WEBDRIVERCONFIG
+from otomoto.objects import offerStatus
 
 def scrape_scrollpage_links(links_scrollpage:list):
     print("starting scraping job")
@@ -43,19 +44,18 @@ def scrape_links(links:list):
         wd = initialise_selenium(
             browser_type="firefox",
             headless=WEBDRIVERCONFIG.headless)
-        offers = []
-        for link in links:
+        offers = {}
+        for link_dict in links:
+            link_id = link_dict.key()
+            link = link_dict.value()
             offer_details = get_offer_details(wd, link)
-            print(offer_details.offer_info_dict())
-            offers.append(offer_details.offer_info_dict())
-
+            offer_details.offer_status = offerStatus.statusScrapeSuccess
+            offers[link_id] = offer_details.offer_info_dict()
         response = requests.post(
         "http://127.0.0.1:5000//pass-offers-to-db",
         json={"status":ScrapingStatus.status_ok,
                 "error_message": "",
                 "all_offers":offers})
-    # except:
-    #     pass
     finally:
         wd.close()
         pass

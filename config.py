@@ -20,5 +20,5 @@ class WEBDRIVERCONFIG:
     headless=False
 
 class WORKERCONFIG:
-    number_of_link_batches_to_fetch = 5
-    size_of_scraping_worker_batch = 10
+    number_of_link_batches_to_fetch = 1
+    size_of_scraping_worker_batch = 2

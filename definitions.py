@@ -7,3 +7,8 @@ class ScrapingStatus:
 class WorkerExceptions(Exception):
     class ScrapingFailed(Exception):
         pass
+
+class offerStatus:
+    statusScrapeSuccess = "success"
+    status404 = "404"
+    

@@ -120,22 +120,20 @@ def get_offer_details(driver:WebDriver,
 
         specyfikacja_scroll = driver.find_element(By.XPATH,
                                                 "//p[contains(@class, 'eizxi839') and contains(@class, 'ooa-mbq01s') and text()='Specyfikacja']")
-        
 
         specyfikacja_scroll.click()
         szczegoly = wd.find_elements(By.CLASS_NAME, "ooa-10m47vf.eizxi835")
-
         offer.szczegoly = {k: v for k,v in [s.text.split("\n") for s in szczegoly]}
 
         wyposazenie_dropdowns = wd.find_element(By.CLASS_NAME, "e1ldcu9s0.ooa-wja48h")
         wyposazenie_dropdowns = wyposazenie_dropdowns.find_elements(By.CLASS_NAME, "accordion-item__toggle-contents.ooa-f6ybhp")
         wyposazenie_box = wd.find_elements(By.CLASS_NAME, "evespt84.ooa-1i4y99d.er34gjf0")
         offer.wyposazenie = []
-        offer.wyposazenie.extend([w.text for w in wyposazenie_box])
+        offer.wyposazenie.extend([w.text for w in wyposazenie_box if w.text != ""])
         for elem in wyposazenie_dropdowns:
             elem.click()
             wyposazenie_box = wd.find_elements(By.CLASS_NAME, "evespt84.ooa-1i4y99d.er34gjf0")
-            offer.wyposazenie.extend([w.text for w in wyposazenie_box])
+            offer.wyposazenie.extend([w.text for w in wyposazenie_box if w.text != ""])
 
         offer.sprzedawca_imie = wd.find_element(By.CLASS_NAME, "ern8z622.ooa-hlpbot.er34gjf0").text
         _box = wd.find_elements(By.CLASS_NAME, "ooa-1v45bqa.er34gjf0")
