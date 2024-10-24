@@ -11,7 +11,7 @@ from time import sleep
 from urllib.parse import urlparse, parse_qs
 
 from config import URL, TIMERS
-from otomoto.objects import OFFER
+from otomoto.objects import OFFER, offerStatus
 
 load_time = TIMERS.standard_load_element_wait
 
@@ -101,62 +101,73 @@ def get_offer_details(driver:WebDriver,
 
     #V1======================================================================
     if gui_ver == "v1":
-        offer.tytul = wd.find_element(By.CLASS_NAME, "offer-title.big-text.e12csvfg2.ooa-1dueukt.er34gjf0").text
-
-        offer.data_dodania = wd.find_element(By.CLASS_NAME, "ei6c8gd1.ooa-1oajvmg.er34gjf0").text
-        offer.id_oferty = wd.find_element(By.CLASS_NAME,"e1n40z81.ooa-a4miog.er34gjf0").text
-
-        offer.cena = wd.find_element(By.CLASS_NAME, "offer-price__number").text
-
-        _box = wd.find_elements(By.CLASS_NAME, "e1ho6mkz2.ooa-1rcllto.er34gjf0")
-        offer.przebieg = _box[0].text
-        offer.rodzaj_paliwa   = _box[1].text
-        offer.skrzynia_biegow = _box[2].text
-        offer.typ_nadwozia = _box[3].text
-        offer.pojemnosc_silnika = _box[4].text
-        offer.moc_silnika = _box[5].text
-
-        offer.opis = wd.find_element(By.CLASS_NAME, "ooa-unlmzs.ez35cjy4").text
-
-        specyfikacja_scroll = driver.find_element(By.XPATH,
-                                                "//p[contains(@class, 'eizxi839') and contains(@class, 'ooa-mbq01s') and text()='Specyfikacja']")
-
-        specyfikacja_scroll.click()
-        szczegoly = wd.find_elements(By.CLASS_NAME, "ooa-10m47vf.eizxi835")
-        offer.szczegoly = {k: v for k,v in [s.text.split("\n") for s in szczegoly]}
-
-        wyposazenie_dropdowns = wd.find_element(By.CLASS_NAME, "e1ldcu9s0.ooa-wja48h")
-        wyposazenie_dropdowns = wyposazenie_dropdowns.find_elements(By.CLASS_NAME, "accordion-item__toggle-contents.ooa-f6ybhp")
-        wyposazenie_box = wd.find_elements(By.CLASS_NAME, "evespt84.ooa-1i4y99d.er34gjf0")
-        offer.wyposazenie = []
-        offer.wyposazenie.extend([w.text for w in wyposazenie_box if w.text != ""])
-        for elem in wyposazenie_dropdowns:
-            elem.click()
-            wyposazenie_box = wd.find_elements(By.CLASS_NAME, "evespt84.ooa-1i4y99d.er34gjf0")
-            offer.wyposazenie.extend([w.text for w in wyposazenie_box if w.text != ""])
-
-        offer.sprzedawca_imie = wd.find_element(By.CLASS_NAME, "ern8z622.ooa-hlpbot.er34gjf0").text
-        _box = wd.find_elements(By.CLASS_NAME, "ooa-1v45bqa.er34gjf0")
-        offer.sprzedawca_rodzaj = _box[0].text
-        offer.sprzedawca_data_od_kiedy_na_otomoto = _box[1].text
-        nr_tel_button = wd.find_element(By.CLASS_NAME, "e1jpmtd51.ep2wx1j0.ooa-1cqwd9z").click()
-        _box = wd.find_elements(By.CLASS_NAME, "button-text-wrapper.ooa-5umjpb")
-        offer.sprzedawca_nr_tel = "BRAK"
-        for e in _box:
-            if string_is_made_from_digits(e.text):
-                offer.sprzedawca_nr_tel = e.text
-
-        map_url = wd.find_elements(By.CLASS_NAME, "e1m6rqv1.ooa-lygf4m")[0]
-        map_url = map_url.get_attribute('href')
-
-        pattern = r'center=([0-9.-]+)%2C([0-9.-]+)'
-        match = re.search(pattern, map_url)
-
-        if match:
-            offer.latitude = match.group(1)
-            offer.longitude = match.group(2)
+        try:
+            is_offer_404 =  wd.find_element(By.CLASS_NAME, "ooa-wgyq1y.er34gjf0").text
+            if is_offer_404 == "Jesteś w lesie.": is_offer_404 = True
+        except:
+            is_offer_404 = False
+            
+        if is_offer_404:
+            offer.offer_status = offerStatus.status404
         else:
-            raise Exception("Lat/Long could not be scrapped")
+            offer.tytul = wd.find_element(By.CLASS_NAME, "offer-title.big-text.e12csvfg2.ooa-1dueukt.er34gjf0").text
+
+            offer.data_dodania = wd.find_element(By.CLASS_NAME, "ei6c8gd1.ooa-1oajvmg.er34gjf0").text
+            offer.id_oferty = wd.find_element(By.CLASS_NAME,"e1n40z81.ooa-a4miog.er34gjf0").text
+
+            offer.cena = wd.find_element(By.CLASS_NAME, "offer-price__number").text
+
+            _box = wd.find_elements(By.CLASS_NAME, "e1ho6mkz2.ooa-1rcllto.er34gjf0")
+            offer.przebieg = _box[0].text
+            offer.rodzaj_paliwa   = _box[1].text
+            offer.skrzynia_biegow = _box[2].text
+            offer.typ_nadwozia = _box[3].text
+            offer.pojemnosc_silnika = _box[4].text
+            offer.moc_silnika = _box[5].text
+
+            offer.opis = wd.find_element(By.CLASS_NAME, "ooa-unlmzs.e1gh6aho4").text
+
+            specyfikacja_scroll = driver.find_element(By.XPATH,
+                                                    "//p[contains(@class, 'eizxi839') and contains(@class, 'ooa-mbq01s') and text()='Specyfikacja']")
+
+            specyfikacja_scroll.click()
+            szczegoly = wd.find_elements(By.CLASS_NAME, "ooa-10m47vf.eizxi835")
+            offer.szczegoly = {k: v for k,v in [s.text.split("\n") for s in szczegoly]}
+
+            wyposazenie_dropdowns = wd.find_element(By.CLASS_NAME, "e1ldcu9s0.ooa-wja48h")
+            wyposazenie_dropdowns = wyposazenie_dropdowns.find_elements(By.CLASS_NAME, "accordion-item__toggle-contents.ooa-f6ybhp")
+            wyposazenie_box = wd.find_elements(By.CLASS_NAME, "evespt84.ooa-1i4y99d.er34gjf0")
+            offer.wyposazenie = []
+            offer.wyposazenie.extend([w.text for w in wyposazenie_box if w.text != ""])
+            for elem in wyposazenie_dropdowns:
+                elem.click()
+                wyposazenie_box = wd.find_elements(By.CLASS_NAME, "evespt84.ooa-1i4y99d.er34gjf0")
+                offer.wyposazenie.extend([w.text for w in wyposazenie_box if w.text != ""])
+
+            offer.sprzedawca_imie = wd.find_element(By.CLASS_NAME, "ern8z622.ooa-hlpbot.er34gjf0").text
+            _box = wd.find_elements(By.CLASS_NAME, "ooa-1v45bqa.er34gjf0")
+            offer.sprzedawca_rodzaj = _box[0].text
+            offer.sprzedawca_data_od_kiedy_na_otomoto = _box[1].text
+            nr_tel_button = wd.find_element(By.CLASS_NAME, "e1jpmtd51.ep2wx1j0.ooa-1cqwd9z").click()
+            _box = wd.find_elements(By.CLASS_NAME, "button-text-wrapper.ooa-5umjpb")
+            offer.sprzedawca_nr_tel = "BRAK"
+            for e in _box:
+                if string_is_made_from_digits(e.text):
+                    offer.sprzedawca_nr_tel = e.text
+
+            map_url = wd.find_elements(By.CLASS_NAME, "e1m6rqv1.ooa-lygf4m")[0]
+            map_url = map_url.get_attribute('href')
+
+            pattern = r'center=([0-9.-]+)%2C([0-9.-]+)'
+            match = re.search(pattern, map_url)
+
+            if match:
+                offer.latitude = match.group(1)
+                offer.longitude = match.group(2)
+            else:
+                raise Exception("Lat/Long could not be scrapped")
+            
+            offer.offer_status = offerStatus.statusScrapeSuccess
         #========================================================================
         
     return offer

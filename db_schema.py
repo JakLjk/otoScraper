@@ -13,9 +13,11 @@ class LINKS(db.Model):
     link = db.Column(db.Text)
     is_being_scraped = db.Column(db.SmallInteger)
     was_scraped = db.Column(db.SmallInteger)
+    scraping_outcome = db.Column(db.Text)
 
 
     def __repr__(self):
-        return (f"<link: {self.link}>\n"
-                f"Offer ID: {self.offer_id}")
+        return (f"\n<link: {self.link}>\n"
+                f"Offer ID: {self.offer_id}\n"
+                f"Being scraped: {self.is_being_scraped}\n")
 

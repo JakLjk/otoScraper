@@ -110,7 +110,6 @@ def add_link_pages_scraping_task():
     finally:
         wd.close()
 
-
 @app.route('/pass_links_to_db', methods=['POST'])
 def pass_offer_scrollpage_links_to_db():
     main_log.info("Received message with offer links from worker.")
@@ -161,7 +160,6 @@ def pass_offer_scrollpage_links_to_db():
 def num_of_links_in_scraping_queue():
     pass
 
-
 @app.route('/add-links-to-scraping-queue', methods=['GET'])
 def add_links_to_scraping_queue():
     main_log.info(f"Adding links to scraping queue.")
@@ -180,8 +178,9 @@ def add_links_to_scraping_queue():
             return message , 200
 
         for link in links_to_scrape:
-            link.being_scraped = True
+            link.is_being_scraped = True
         main_log.info(f"Marking {len(links_to_scrape)} as being scraped")
+        print(links_to_scrape)
         db.session.commit()
 
         main_log.info(f"Creating batches containing several links")

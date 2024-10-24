@@ -37,7 +37,6 @@ def scrape_scrollpage_links(links_scrollpage:list):
         wd.close()
     print("Finishing scraping job")
 
-
 def scrape_links(links:list):
     print("Starting links scraping job")
     try:
@@ -45,18 +44,18 @@ def scrape_links(links:list):
             browser_type="firefox",
             headless=WEBDRIVERCONFIG.headless)
         offers = {}
-        for link_dict in links:
-            link_id = link_dict.key()
-            link = link_dict.value()
+        print(links)
+        print(type(links))
+        for link_id, link in links.items():
             offer_details = get_offer_details(wd, link)
-            offer_details.offer_status = offerStatus.statusScrapeSuccess
             offers[link_id] = offer_details.offer_info_dict()
         response = requests.post(
         "http://127.0.0.1:5000//pass-offers-to-db",
         json={"status":ScrapingStatus.status_ok,
                 "error_message": "",
                 "all_offers":offers})
+        print("Scraping job completed")
     finally:
         wd.close()
-        pass
+        
 
