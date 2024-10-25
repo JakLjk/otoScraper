@@ -3405,3 +3405,96 @@ WHERE `offerLinks`.is_being_scraped = false AND `offerLinks`.was_scraped = false
 |MAIN_LOG| 2024-10-24 22:14:54,801 - INFO - Generated 1 batches.
 |MAIN_LOG| 2024-10-24 22:14:54,807 - INFO - 2 in 1 batches have been added to scraping queue
 |MAIN_LOG| 2024-10-24 22:15:13,157 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-10-25 07:31:27,732 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-25 07:31:27,733 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-25 07:31:27,733 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-25 07:31:27,734 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-25 07:31:27,783 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-25 07:31:27,784 - INFO - Defining queues
+|MAIN_LOG| 2024-10-25 07:31:36,835 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-25 07:31:36,840 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-25 07:31:36,840 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-25 07:31:36,840 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-25 07:31:36,854 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-25 07:31:36,854 - INFO - Defining queues
+|MAIN_LOG| 2024-10-25 07:31:48,737 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-10-25 07:31:48,738 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-10-25 07:31:48,814 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-10-25 07:31:48,831 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-10-25 07:31:48,838 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-10-25 07:31:48,900 - INFO - 2 in 1 batches have been added to scraping queue
+|MAIN_LOG| 2024-10-25 07:33:13,428 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-25 07:33:13,431 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-25 07:33:13,431 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-25 07:33:13,432 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-25 07:33:13,469 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-25 07:33:13,470 - INFO - Defining queues
+|MAIN_LOG| 2024-10-25 07:33:15,194 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-10-25 07:33:15,195 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-10-25 07:33:15,263 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-10-25 07:33:15,327 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-10-25 07:33:15,340 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-10-25 07:33:15,353 - INFO - 2 in 1 batches have been added to scraping queue
+|MAIN_LOG| 2024-10-25 07:33:23,999 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-10-25 07:33:43,478 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-25 07:33:43,480 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-25 07:33:43,480 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-25 07:33:43,482 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-25 07:33:43,508 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-25 07:33:43,508 - INFO - Defining queues
+|MAIN_LOG| 2024-10-25 07:33:47,028 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-25 07:33:47,030 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-25 07:33:47,030 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-25 07:33:47,031 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-25 07:33:47,042 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-25 07:33:47,042 - INFO - Defining queues
+|MAIN_LOG| 2024-10-25 07:33:50,785 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-10-25 07:33:50,786 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-10-25 07:33:50,903 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-10-25 07:33:50,933 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-10-25 07:33:50,949 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-10-25 07:33:50,960 - INFO - 2 in 1 batches have been added to scraping queue
+|MAIN_LOG| 2024-10-25 07:33:59,043 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-10-25 07:48:31,535 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-10-25 07:48:31,536 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-10-25 07:48:31,555 - ERROR - An error has ocurred while fetching links to be scraped.
+(MySQLdb.OperationalError) (2006, 'Server has gone away')
+[SQL: SELECT `offerLinks`.id AS `offerLinks_id`, `offerLinks`.offer_id AS `offerLinks_offer_id`, `offerLinks`.date_added AS `offerLinks_date_added`, `offerLinks`.date_modified AS `offerLinks_date_modified`, `offerLinks`.link AS `offerLinks_link`, `offerLinks`.is_being_scraped AS `offerLinks_is_being_scraped`, `offerLinks`.was_scraped AS `offerLinks_was_scraped`, `offerLinks`.scraping_outcome AS `offerLinks_scraping_outcome` 
+FROM `offerLinks` 
+WHERE `offerLinks`.is_being_scraped = false AND `offerLinks`.was_scraped = false 
+ LIMIT %s]
+[parameters: (2,)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+|MAIN_LOG| 2024-10-25 07:48:31,556 - INFO - Rolling back...
+|MAIN_LOG| 2024-10-25 07:48:39,517 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-10-25 07:48:39,519 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-10-25 07:48:39,557 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-10-25 07:48:39,582 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-10-25 07:48:39,612 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-10-25 07:48:39,619 - INFO - 2 in 1 batches have been added to scraping queue
+|MAIN_LOG| 2024-10-25 07:48:52,167 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-10-25 07:49:09,652 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-25 07:49:09,655 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-25 07:49:09,655 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-25 07:49:09,655 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-25 07:49:09,678 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-25 07:49:09,678 - INFO - Defining queues
+|MAIN_LOG| 2024-10-25 07:49:16,807 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-10-25 07:49:16,811 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-10-25 07:49:17,029 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-10-25 07:49:17,047 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-10-25 07:49:17,058 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-10-25 07:49:17,068 - INFO - 2 in 1 batches have been added to scraping queue
+|MAIN_LOG| 2024-10-25 07:49:25,444 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-10-25 07:49:52,470 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-25 07:49:52,474 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-25 07:49:52,474 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-25 07:49:52,475 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-25 07:49:52,500 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-25 07:49:52,501 - INFO - Defining queues
+|MAIN_LOG| 2024-10-25 07:49:55,225 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-10-25 07:49:55,226 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-10-25 07:49:55,306 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-10-25 07:49:55,324 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-10-25 07:49:55,443 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-10-25 07:49:55,454 - INFO - 2 in 1 batches have been added to scraping queue

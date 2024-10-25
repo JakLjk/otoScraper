@@ -214,14 +214,13 @@ def pass_offers_to_db():
     if status == ScrapingStatus.status_ok:
         offers = data['all_offers']
 
-        for offer in offers:
-            offer_id = offer.key()
-            offer_data = offer.value()
-            print(offer_id, offer_data)
+        for offer_id, offer in offers.items():
+            print(offer_id, offer)
             # offer_obj = objects.OFFER.dict_into_offer(offer)
             # offer_objects.append(offer_obj)
             # print('xxxxx')
             # print(offer_obj)
+        return "Success", 200
 
 
 

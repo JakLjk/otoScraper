@@ -47,6 +47,7 @@ def scrape_links(links:list):
         print(links)
         print(type(links))
         for link_id, link in links.items():
+            print(f"Scraping ID:{link_id} LINK: {link}")
             offer_details = get_offer_details(wd, link)
             offers[link_id] = offer_details.offer_info_dict()
         response = requests.post(
