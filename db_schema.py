@@ -19,5 +19,6 @@ class LINKS(db.Model):
     def __repr__(self):
         return (f"\n<link: {self.link}>\n"
                 f"Offer ID: {self.offer_id}\n"
-                f"Being scraped: {self.is_being_scraped}\n")
+                f"Being scraped: {self.is_being_scraped}\n"
+                f"Was scraped: {self.was_scraped}")
 

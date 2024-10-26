@@ -12,29 +12,36 @@ class offerStatus(str):
 class OFFER:
     def __repr__(self) -> str:
 
-    
-        repr_str =  (f"<class: OFFER>\n"
-                f"Link: {self.link}\n"
-                f"Status: {self.offer_status}\n" 
-                f"Tytuł: {self.tytul}\n"
-                f"Data Dodania: {self.data_dodania}\n"
-                f"Sprzedajacy Imie: {self.sprzedawca_imie}\n"
-                f"Ilosc Szczegółów: {len(self.szczegoly)}\n"
-                f"Ilosc Wyposazenia: {len(self.wyposazenie)}\n"
-                f"Koordynaty: LAT: {self.latitude} LONG: {self.longitude}\n"
-                )
+        if self.offer_status == offerStatus.statusScrapeSuccess:
+            repr_str =  (f"<class: OFFER>\n"
+                    f"Link: {self.link}\n"
+                    f"Status: {self.offer_status}\n" 
+                    f"Tytuł: {self.tytul}\n"
+                    f"Data Dodania: {self.data_dodania}\n"
+                    f"Sprzedajacy Imie: {self.sprzedawca_imie}\n"
+                    f"Ilosc Szczegółów: {len(self.szczegoly)}\n"
+                    f"Ilosc Wyposazenia: {len(self.wyposazenie)}\n"
+                    f"Koordynaty: LAT: {self.latitude} LONG: {self.longitude}\n"
+                    )
+        elif self.offer_status == offerStatus.status404:
+            repr_str =  (f"<class: OFFER>\n"
+                    f"Link: {self.link}\n"
+                    f"Status: {self.offer_status}\n" 
+                    )
         missing_fields = self.no_data_for_fields()
         if missing_fields:
-            repr_str += f"Brakujące pola: {', '.join(missing_fields)}"
+            if len(missing_fields)>5:
+                repr_str += f"Brakujące pola: {len(missing_fields)}"
+            else:
+                repr_str += f"Brakujące pola: {', '.join(missing_fields)}"
         else:
             repr_str += "Brakujące pola: Brak"
 
         return repr_str
     
     
-    link:str 
+    link:str = None 
     offer_status:offerStatus = None
-    id_w_linku:str = None
     data_dodania:str = None
     id_oferty:int = None
     tytul:str = None
@@ -79,3 +86,7 @@ class OFFER:
     @classmethod
     def dict_into_offer(cls, data:dict):
         return cls(**data)
+
+    @property
+    def id_w_linku(self):
+        return None

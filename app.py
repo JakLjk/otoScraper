@@ -11,6 +11,7 @@ import logging
 from db_schema import db, LINKS
 from config import APPCONFIG, WEBDRIVERCONFIG, WORKERCONFIG
 from definitions import ScrapingStatus, WorkerExceptions
+from otomoto.objects import offerStatus, OFFER
 
 from otomoto import scripts, objects
 from driver import initialise_selenium
@@ -58,7 +59,6 @@ def check_how_many_offer_scrollpage_links_in_queue(queue_name):
     else:
         return jsonify({"error": "Queue not found."}), 404
     
-
 @app.route('/get-count-links-in-db', methods=['GET'])
 def links_in_db_info():
     try:
@@ -170,7 +170,6 @@ def add_links_to_scraping_queue():
         main_log.info(f"Fetching {chunk_size} links from database to scrape.")
         links_to_scrape = LINKS.query.filter_by(is_being_scraped=False,
                                                  was_scraped=False).limit(num_of_links_to_fetch).all()
-        print(links_to_scrape)
         
         if not links_to_scrape:
             message = "No links available for scraping."
@@ -180,7 +179,6 @@ def add_links_to_scraping_queue():
         for link in links_to_scrape:
             link.is_being_scraped = True
         main_log.info(f"Marking {len(links_to_scrape)} as being scraped")
-        print(links_to_scrape)
         db.session.commit()
 
         main_log.info(f"Creating batches containing several links")
@@ -210,17 +208,35 @@ def pass_offers_to_db():
     main_log.info("Received message with offers from worker.")
     data = request.json
     status = data['status']
+    main_log.info(f"Scraping status: {status}")
     offer_objects = []
     if status == ScrapingStatus.status_ok:
         offers = data['all_offers']
-
+        main_log.info(f"Inserting data for {len(offers)} offers into db.")
         for offer_id, offer in offers.items():
-            print(offer_id, offer)
-            # offer_obj = objects.OFFER.dict_into_offer(offer)
-            # offer_objects.append(offer_obj)
-            # print('xxxxx')
-            # print(offer_obj)
+            # Conver offer dict to offer object
+            offer = OFFER().dict_into_offer(offer)
+            print(offer)
+            # Mark link as scraped in links table
+            link = LINKS.query.filter_by(offer_id = offer_id).first()
+            print(f"LINKK: {link}")
+            link.was_scraped = True
+            link.is_being_scraped = False 
+            link.scraping_outcome = offer.offer_status
+            print(f"LINKK2: {link}")
+            if offer.offer_status == offerStatus.statusScrapeSuccess:
+                pass
+
+            # Put pffer data into database
+        main_log.info(f"Commiting changes to DB for {len(offers)} offers.")
+        db.session.commit()
+        main_log.info("Changes commited.")
+
         return "Success", 200
+    else:
+        return (f"\nWorker script returned error\n"
+                f"Status: {status}"
+                f"Error message: {data['error_message']}")
 
 
 
