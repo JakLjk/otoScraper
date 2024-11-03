@@ -3894,3 +3894,1498 @@ WHERE `offerLinks`.is_being_scraped = false AND `offerLinks`.was_scraped = false
 |MAIN_LOG| 2024-10-26 18:45:38,218 - INFO - Inserting data for 2 offers into db.
 |MAIN_LOG| 2024-10-26 18:45:38,264 - INFO - Commiting changes to DB for 2 offers.
 |MAIN_LOG| 2024-10-26 18:45:38,283 - INFO - Changes commited.
+|MAIN_LOG| 2024-10-26 18:46:51,987 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-10-26 18:46:51,993 - INFO - Logger initialised.
+|MAIN_LOG| 2024-10-26 18:46:51,993 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-10-26 18:46:51,994 - INFO - Initialising Database
+|MAIN_LOG| 2024-10-26 18:46:52,021 - INFO - Initialising redis.
+|MAIN_LOG| 2024-10-26 18:46:52,021 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 14:10:35,658 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 14:10:35,659 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 14:10:35,660 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 14:10:35,664 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 14:10:35,739 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 14:10:35,741 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 14:10:36,024 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 14:10:36,024 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 14:10:36,025 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 14:10:36,025 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 14:10:36,036 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 14:10:36,037 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 14:11:26,944 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 14:11:26,945 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 14:11:26,945 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 14:11:26,945 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 14:11:26,964 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 14:11:26,965 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 14:25:15,265 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 14:25:15,267 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 14:25:15,267 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 14:25:15,272 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 14:25:15,317 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 14:25:15,317 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 14:25:15,542 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 14:25:15,543 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 14:25:15,543 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 14:25:15,543 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 14:25:15,554 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 14:25:15,554 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 14:25:35,507 - INFO - Emptying queue offer_scraping_queue
+|MAIN_LOG| 2024-11-03 14:25:35,530 - INFO - Queue offer_scraping_queue was emptied
+|MAIN_LOG| 2024-11-03 14:27:07,406 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 14:27:07,407 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 14:27:07,408 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 14:27:07,411 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 14:27:07,456 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 14:27:07,456 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 14:28:57,160 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 14:28:57,161 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 14:28:57,460 - ERROR - An error has ocurred while fetching links to be scraped.
+(MySQLdb.OperationalError) (1054, "Unknown column 'offerLinks.scraping_outcome_status' in 'field list'")
+[SQL: SELECT `offerLinks`.id AS `offerLinks_id`, `offerLinks`.offer_id AS `offerLinks_offer_id`, `offerLinks`.offer_id_in_link AS `offerLinks_offer_id_in_link`, `offerLinks`.date_added AS `offerLinks_date_added`, `offerLinks`.date_modified AS `offerLinks_date_modified`, `offerLinks`.link AS `offerLinks_link`, `offerLinks`.is_being_scraped AS `offerLinks_is_being_scraped`, `offerLinks`.was_scraped AS `offerLinks_was_scraped`, `offerLinks`.scraping_outcome_status AS `offerLinks_scraping_outcome_status`, `offerLinks`.error_message AS `offerLinks_error_message` 
+FROM `offerLinks` 
+WHERE `offerLinks`.is_being_scraped = false AND `offerLinks`.was_scraped = false 
+ LIMIT %s]
+[parameters: (2,)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+|MAIN_LOG| 2024-11-03 14:28:57,460 - INFO - Rolling back...
+|MAIN_LOG| 2024-11-03 14:29:34,077 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 14:29:34,080 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 14:29:34,080 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 14:29:34,081 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 14:29:34,110 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 14:29:34,111 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 14:29:38,559 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 14:29:38,560 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 14:29:38,643 - ERROR - An error has ocurred while fetching links to be scraped.
+(MySQLdb.OperationalError) (1054, "Unknown column 'offerLinks.error_message' in 'field list'")
+[SQL: SELECT `offerLinks`.id AS `offerLinks_id`, `offerLinks`.offer_id AS `offerLinks_offer_id`, `offerLinks`.offer_id_in_link AS `offerLinks_offer_id_in_link`, `offerLinks`.date_added AS `offerLinks_date_added`, `offerLinks`.date_modified AS `offerLinks_date_modified`, `offerLinks`.link AS `offerLinks_link`, `offerLinks`.is_being_scraped AS `offerLinks_is_being_scraped`, `offerLinks`.was_scraped AS `offerLinks_was_scraped`, `offerLinks`.scraping_outcome AS `offerLinks_scraping_outcome`, `offerLinks`.error_message AS `offerLinks_error_message` 
+FROM `offerLinks` 
+WHERE `offerLinks`.is_being_scraped = false AND `offerLinks`.was_scraped = false 
+ LIMIT %s]
+[parameters: (2,)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+|MAIN_LOG| 2024-11-03 14:29:38,644 - INFO - Rolling back...
+|MAIN_LOG| 2024-11-03 14:30:11,069 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 14:30:11,071 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 14:30:11,086 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 14:30:11,144 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 14:30:11,175 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 14:30:11,186 - INFO - 2 in 1 batches have been added to scraping queue
+|MAIN_LOG| 2024-11-03 14:32:30,456 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 14:32:30,457 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 14:32:30,491 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 14:32:30,517 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 14:32:30,529 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 14:32:30,536 - INFO - 2 in 1 batches have been added to scraping queue
+|MAIN_LOG| 2024-11-03 14:32:32,317 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 14:32:32,318 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 14:32:32,330 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 14:32:32,356 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 14:32:32,389 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 14:32:32,389 - INFO - 2 in 1 batches have been added to scraping queue
+|MAIN_LOG| 2024-11-03 14:34:33,435 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 14:34:33,436 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 14:34:33,436 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 14:34:33,438 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 14:34:33,480 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 14:34:33,480 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 14:35:39,036 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 14:35:39,036 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 14:35:39,036 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 14:35:39,038 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 14:35:39,069 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 14:35:39,069 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 15:02:29,172 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 15:02:29,175 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 15:02:29,293 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 15:02:29,332 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 15:02:29,354 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 15:02:29,364 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 15:03:15,908 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 15:03:15,909 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 15:03:15,947 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 15:03:15,993 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 15:03:16,015 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 15:03:16,017 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 16:09:56,431 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 16:09:56,433 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 16:09:56,452 - ERROR - An error has ocurred while fetching links to be scraped.
+(MySQLdb.OperationalError) (2006, 'Server has gone away')
+[SQL: SELECT `offerLinks`.id AS `offerLinks_id`, `offerLinks`.offer_id AS `offerLinks_offer_id`, `offerLinks`.offer_id_in_link AS `offerLinks_offer_id_in_link`, `offerLinks`.date_added AS `offerLinks_date_added`, `offerLinks`.date_modified AS `offerLinks_date_modified`, `offerLinks`.link AS `offerLinks_link`, `offerLinks`.is_being_scraped AS `offerLinks_is_being_scraped`, `offerLinks`.was_scraped AS `offerLinks_was_scraped`, `offerLinks`.scraping_outcome AS `offerLinks_scraping_outcome`, `offerLinks`.error_message AS `offerLinks_error_message` 
+FROM `offerLinks` 
+WHERE `offerLinks`.is_being_scraped = false AND `offerLinks`.was_scraped = false 
+ LIMIT %s]
+[parameters: (2,)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+|MAIN_LOG| 2024-11-03 16:09:56,452 - INFO - Rolling back...
+|MAIN_LOG| 2024-11-03 16:10:19,306 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 16:10:19,307 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 16:10:19,437 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 16:10:19,499 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 16:10:19,529 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 16:10:19,536 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 16:17:45,230 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 16:17:45,231 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 16:17:45,231 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 16:17:45,235 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 16:17:45,333 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 16:17:45,334 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 16:18:32,645 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-11-03 16:18:50,130 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-03 16:18:54,796 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-03 16:18:54,797 - INFO - Generating scrollpage links for brand bmw. <1 / 167>
+|MAIN_LOG| 2024-11-03 16:18:59,772 - INFO - Generating scrollpage links for brand audi. <2 / 167>
+|MAIN_LOG| 2024-11-03 16:19:04,863 - INFO - Generating scrollpage links for brand volkswagen. <3 / 167>
+|MAIN_LOG| 2024-11-03 16:19:09,332 - INFO - Generating scrollpage links for brand ford. <4 / 167>
+|MAIN_LOG| 2024-11-03 16:19:13,680 - INFO - Generating scrollpage links for brand mercedes-benz. <5 / 167>
+|MAIN_LOG| 2024-11-03 16:19:18,261 - INFO - Generating scrollpage links for brand opel. <6 / 167>
+|MAIN_LOG| 2024-11-03 16:19:22,732 - INFO - Generating scrollpage links for brand toyota. <7 / 167>
+|MAIN_LOG| 2024-11-03 16:19:27,872 - INFO - Generating scrollpage links for brand renault. <8 / 167>
+|MAIN_LOG| 2024-11-03 16:19:32,904 - INFO - Generating scrollpage links for brand skoda. <9 / 167>
+|MAIN_LOG| 2024-11-03 16:19:37,694 - INFO - Generating scrollpage links for brand peugeot. <10 / 167>
+|MAIN_LOG| 2024-11-03 16:19:42,502 - INFO - Generating scrollpage links for brand abarth. <11 / 167>
+|MAIN_LOG| 2024-11-03 16:19:47,499 - INFO - Generating scrollpage links for brand acura. <12 / 167>
+|MAIN_LOG| 2024-11-03 16:19:52,320 - INFO - Generating scrollpage links for brand aiways. <13 / 167>
+|MAIN_LOG| 2024-11-03 16:19:56,364 - INFO - Generating scrollpage links for brand aixam. <14 / 167>
+|MAIN_LOG| 2024-11-03 16:20:01,186 - INFO - Generating scrollpage links for brand alfa-romeo. <15 / 167>
+|MAIN_LOG| 2024-11-03 16:20:06,072 - INFO - Generating scrollpage links for brand alpine. <16 / 167>
+|MAIN_LOG| 2024-11-03 16:20:10,286 - INFO - Generating scrollpage links for brand arcfox. <17 / 167>
+|MAIN_LOG| 2024-11-03 16:20:14,460 - INFO - Generating scrollpage links for brand asia. <18 / 167>
+|MAIN_LOG| 2024-11-03 16:20:18,411 - INFO - Generating scrollpage links for brand aston-martin. <19 / 167>
+|MAIN_LOG| 2024-11-03 16:20:23,018 - INFO - Generating scrollpage links for brand audi. <20 / 167>
+|MAIN_LOG| 2024-11-03 16:20:28,885 - INFO - Generating scrollpage links for brand austin. <21 / 167>
+|MAIN_LOG| 2024-11-03 16:20:32,956 - INFO - Generating scrollpage links for brand autobianchi. <22 / 167>
+|MAIN_LOG| 2024-11-03 16:20:37,041 - INFO - Generating scrollpage links for brand avatr. <23 / 167>
+|MAIN_LOG| 2024-11-03 16:20:41,454 - INFO - Generating scrollpage links for brand baic. <24 / 167>
+|MAIN_LOG| 2024-11-03 16:20:46,713 - INFO - Generating scrollpage links for brand bentley. <25 / 167>
+|MAIN_LOG| 2024-11-03 16:20:51,774 - INFO - Generating scrollpage links for brand bmw. <26 / 167>
+|MAIN_LOG| 2024-11-03 16:20:56,161 - INFO - Generating scrollpage links for brand alpina. <27 / 167>
+|MAIN_LOG| 2024-11-03 16:21:01,711 - INFO - Generating scrollpage links for brand brilliance. <28 / 167>
+|MAIN_LOG| 2024-11-03 16:21:06,256 - INFO - Generating scrollpage links for brand bugatti. <29 / 167>
+|MAIN_LOG| 2024-11-03 16:21:10,272 - INFO - Generating scrollpage links for brand buick. <30 / 167>
+|MAIN_LOG| 2024-11-03 16:21:14,653 - INFO - Generating scrollpage links for brand byd. <31 / 167>
+|MAIN_LOG| 2024-11-03 16:21:19,890 - INFO - Generating scrollpage links for brand cadillac. <32 / 167>
+|MAIN_LOG| 2024-11-03 16:21:25,843 - INFO - Generating scrollpage links for brand casalini. <33 / 167>
+|MAIN_LOG| 2024-11-03 16:21:29,985 - INFO - Generating scrollpage links for brand caterham. <34 / 167>
+|MAIN_LOG| 2024-11-03 16:21:34,097 - INFO - Generating scrollpage links for brand cenntro. <35 / 167>
+|MAIN_LOG| 2024-11-03 16:21:38,210 - INFO - Generating scrollpage links for brand changan. <36 / 167>
+|MAIN_LOG| 2024-11-03 16:21:42,145 - INFO - Generating scrollpage links for brand chatenet. <37 / 167>
+|MAIN_LOG| 2024-11-03 16:21:46,417 - INFO - Generating scrollpage links for brand chevrolet. <38 / 167>
+|MAIN_LOG| 2024-11-03 16:21:51,847 - INFO - Generating scrollpage links for brand chrysler. <39 / 167>
+|MAIN_LOG| 2024-11-03 16:21:56,530 - INFO - Generating scrollpage links for brand citroen. <40 / 167>
+|MAIN_LOG| 2024-11-03 16:22:00,821 - INFO - Generating scrollpage links for brand cupra. <41 / 167>
+|MAIN_LOG| 2024-11-03 16:22:05,778 - INFO - Generating scrollpage links for brand dacia. <42 / 167>
+|MAIN_LOG| 2024-11-03 16:22:10,904 - INFO - Generating scrollpage links for brand daewoo. <43 / 167>
+|MAIN_LOG| 2024-11-03 16:22:15,322 - INFO - Generating scrollpage links for brand daihatsu. <44 / 167>
+|MAIN_LOG| 2024-11-03 16:22:20,112 - INFO - Generating scrollpage links for brand delorean. <45 / 167>
+|MAIN_LOG| 2024-11-03 16:22:24,234 - INFO - Generating scrollpage links for brand dfm. <46 / 167>
+|MAIN_LOG| 2024-11-03 16:22:28,308 - INFO - Generating scrollpage links for brand dfsk. <47 / 167>
+|MAIN_LOG| 2024-11-03 16:22:32,884 - INFO - Generating scrollpage links for brand dkw. <48 / 167>
+|MAIN_LOG| 2024-11-03 16:22:37,082 - INFO - Generating scrollpage links for brand dodge. <49 / 167>
+|MAIN_LOG| 2024-11-03 16:22:41,531 - INFO - Generating scrollpage links for brand doosan. <50 / 167>
+|MAIN_LOG| 2024-11-03 16:22:46,053 - INFO - Generating scrollpage links for brand dr-motor. <51 / 167>
+|MAIN_LOG| 2024-11-03 16:22:50,386 - INFO - Generating scrollpage links for brand ds-automobiles. <52 / 167>
+|MAIN_LOG| 2024-11-03 16:22:54,780 - INFO - Generating scrollpage links for brand e-go. <53 / 167>
+|MAIN_LOG| 2024-11-03 16:22:58,872 - INFO - Generating scrollpage links for brand elaris. <54 / 167>
+|MAIN_LOG| 2024-11-03 16:23:03,561 - INFO - Generating scrollpage links for brand faw. <55 / 167>
+|MAIN_LOG| 2024-11-03 16:23:07,777 - INFO - Generating scrollpage links for brand fendt. <56 / 167>
+|MAIN_LOG| 2024-11-03 16:23:11,864 - INFO - Generating scrollpage links for brand ferrari. <57 / 167>
+|MAIN_LOG| 2024-11-03 16:23:17,101 - INFO - Generating scrollpage links for brand fiat. <58 / 167>
+|MAIN_LOG| 2024-11-03 16:23:21,931 - INFO - Generating scrollpage links for brand fisker. <59 / 167>
+|MAIN_LOG| 2024-11-03 16:23:26,334 - INFO - Generating scrollpage links for brand ford. <60 / 167>
+|MAIN_LOG| 2024-11-03 16:23:30,905 - INFO - Generating scrollpage links for brand forthing. <61 / 167>
+|MAIN_LOG| 2024-11-03 16:23:36,797 - INFO - Generating scrollpage links for brand gaz. <62 / 167>
+|MAIN_LOG| 2024-11-03 16:23:41,605 - INFO - Generating scrollpage links for brand geely. <63 / 167>
+|MAIN_LOG| 2024-11-03 16:23:45,930 - INFO - Generating scrollpage links for brand genesis. <64 / 167>
+|MAIN_LOG| 2024-11-03 16:23:50,405 - INFO - Generating scrollpage links for brand gmc. <65 / 167>
+|MAIN_LOG| 2024-11-03 16:23:55,379 - INFO - Generating scrollpage links for brand gwm. <66 / 167>
+|MAIN_LOG| 2024-11-03 16:23:59,399 - INFO - Generating scrollpage links for brand hiphi. <67 / 167>
+|MAIN_LOG| 2024-11-03 16:24:03,690 - INFO - Generating scrollpage links for brand honda. <68 / 167>
+|MAIN_LOG| 2024-11-03 16:24:08,207 - INFO - Generating scrollpage links for brand hongqi. <69 / 167>
+|MAIN_LOG| 2024-11-03 16:24:13,234 - INFO - Generating scrollpage links for brand hummer. <70 / 167>
+|MAIN_LOG| 2024-11-03 16:24:17,900 - INFO - Generating scrollpage links for brand hyundai. <71 / 167>
+|MAIN_LOG| 2024-11-03 16:24:22,700 - INFO - Generating scrollpage links for brand iamelectric. <72 / 167>
+|MAIN_LOG| 2024-11-03 16:24:26,708 - INFO - Generating scrollpage links for brand ineos. <73 / 167>
+|MAIN_LOG| 2024-11-03 16:24:31,073 - INFO - Generating scrollpage links for brand infiniti. <74 / 167>
+|MAIN_LOG| 2024-11-03 16:24:35,561 - INFO - Generating scrollpage links for brand other. <75 / 167>
+|MAIN_LOG| 2024-11-03 16:24:40,207 - INFO - Generating scrollpage links for brand isuzu. <76 / 167>
+|MAIN_LOG| 2024-11-03 16:24:45,016 - INFO - Generating scrollpage links for brand iveco. <77 / 167>
+|MAIN_LOG| 2024-11-03 16:24:50,092 - INFO - Generating scrollpage links for brand jac. <78 / 167>
+|MAIN_LOG| 2024-11-03 16:24:54,187 - INFO - Generating scrollpage links for brand jaecoo. <79 / 167>
+|MAIN_LOG| 2024-11-03 16:24:59,208 - INFO - Generating scrollpage links for brand jaguar. <80 / 167>
+|MAIN_LOG| 2024-11-03 16:25:04,181 - INFO - Generating scrollpage links for brand jeep. <81 / 167>
+|MAIN_LOG| 2024-11-03 16:25:08,925 - INFO - Generating scrollpage links for brand jetour. <82 / 167>
+|MAIN_LOG| 2024-11-03 16:25:13,123 - INFO - Generating scrollpage links for brand jinpeng. <83 / 167>
+|MAIN_LOG| 2024-11-03 16:25:17,244 - INFO - Generating scrollpage links for brand kia. <84 / 167>
+|MAIN_LOG| 2024-11-03 16:25:22,352 - INFO - Generating scrollpage links for brand ktm. <85 / 167>
+|MAIN_LOG| 2024-11-03 16:25:26,681 - INFO - Generating scrollpage links for brand lada. <86 / 167>
+|MAIN_LOG| 2024-11-03 16:25:31,741 - INFO - Generating scrollpage links for brand lamborghini. <87 / 167>
+|MAIN_LOG| 2024-11-03 16:25:36,449 - INFO - Generating scrollpage links for brand lancia. <88 / 167>
+|MAIN_LOG| 2024-11-03 16:25:42,036 - INFO - Generating scrollpage links for brand land-rover. <89 / 167>
+|MAIN_LOG| 2024-11-03 16:25:47,317 - INFO - Generating scrollpage links for brand leapmotor. <90 / 167>
+|MAIN_LOG| 2024-11-03 16:25:51,712 - INFO - Generating scrollpage links for brand levc. <91 / 167>
+|MAIN_LOG| 2024-11-03 16:25:55,893 - INFO - Generating scrollpage links for brand lexus. <92 / 167>
+|MAIN_LOG| 2024-11-03 16:26:00,506 - INFO - Generating scrollpage links for brand ligier. <93 / 167>
+|MAIN_LOG| 2024-11-03 16:26:05,502 - INFO - Generating scrollpage links for brand lincoln. <94 / 167>
+|MAIN_LOG| 2024-11-03 16:26:09,969 - INFO - Generating scrollpage links for brand lixiang. <95 / 167>
+|MAIN_LOG| 2024-11-03 16:26:14,184 - INFO - Generating scrollpage links for brand lotus. <96 / 167>
+|MAIN_LOG| 2024-11-03 16:26:18,716 - INFO - Generating scrollpage links for brand lti. <97 / 167>
+|MAIN_LOG| 2024-11-03 16:26:23,480 - INFO - Generating scrollpage links for brand lucid. <98 / 167>
+|MAIN_LOG| 2024-11-03 16:26:28,073 - INFO - Generating scrollpage links for brand lynk-and-co. <99 / 167>
+|MAIN_LOG| 2024-11-03 16:26:32,592 - INFO - Generating scrollpage links for brand man. <100 / 167>
+|MAIN_LOG| 2024-11-03 16:26:36,839 - INFO - Generating scrollpage links for brand maserati. <101 / 167>
+|MAIN_LOG| 2024-11-03 16:26:41,324 - INFO - Generating scrollpage links for brand maximus. <102 / 167>
+|MAIN_LOG| 2024-11-03 16:26:45,578 - INFO - Generating scrollpage links for brand maxus. <103 / 167>
+|MAIN_LOG| 2024-11-03 16:26:50,986 - INFO - Generating scrollpage links for brand maybach. <104 / 167>
+|MAIN_LOG| 2024-11-03 16:26:55,777 - INFO - Generating scrollpage links for brand mazda. <105 / 167>
+|MAIN_LOG| 2024-11-03 16:27:00,700 - INFO - Generating scrollpage links for brand mclaren. <106 / 167>
+|MAIN_LOG| 2024-11-03 16:27:05,404 - INFO - Generating scrollpage links for brand mercedes-benz. <107 / 167>
+|MAIN_LOG| 2024-11-03 16:27:10,649 - INFO - Generating scrollpage links for brand mercury. <108 / 167>
+|MAIN_LOG| 2024-11-03 16:27:14,702 - INFO - Generating scrollpage links for brand mg. <109 / 167>
+|MAIN_LOG| 2024-11-03 16:27:19,798 - INFO - Generating scrollpage links for brand microcar. <110 / 167>
+|MAIN_LOG| 2024-11-03 16:27:24,532 - INFO - Generating scrollpage links for brand mini. <111 / 167>
+|MAIN_LOG| 2024-11-03 16:27:29,069 - INFO - Generating scrollpage links for brand mitsubishi. <112 / 167>
+|MAIN_LOG| 2024-11-03 16:27:33,525 - INFO - Generating scrollpage links for brand morgan. <113 / 167>
+|MAIN_LOG| 2024-11-03 16:27:37,886 - INFO - Generating scrollpage links for brand nio. <114 / 167>
+|MAIN_LOG| 2024-11-03 16:27:41,969 - INFO - Generating scrollpage links for brand nissan. <115 / 167>
+|MAIN_LOG| 2024-11-03 16:27:46,695 - INFO - Generating scrollpage links for brand nysa. <116 / 167>
+|MAIN_LOG| 2024-11-03 16:27:50,769 - INFO - Generating scrollpage links for brand oldsmobile. <117 / 167>
+|MAIN_LOG| 2024-11-03 16:27:55,058 - INFO - Generating scrollpage links for brand omoda. <118 / 167>
+|MAIN_LOG| 2024-11-03 16:27:59,950 - INFO - Generating scrollpage links for brand opel. <119 / 167>
+|MAIN_LOG| 2024-11-03 16:28:04,120 - INFO - Generating scrollpage links for brand peugeot. <120 / 167>
+|MAIN_LOG| 2024-11-03 16:28:08,847 - INFO - Generating scrollpage links for brand piaggio. <121 / 167>
+|MAIN_LOG| 2024-11-03 16:28:13,088 - INFO - Generating scrollpage links for brand plymouth. <122 / 167>
+|MAIN_LOG| 2024-11-03 16:28:17,183 - INFO - Generating scrollpage links for brand polestar. <123 / 167>
+|MAIN_LOG| 2024-11-03 16:28:21,271 - INFO - Generating scrollpage links for brand polonez. <124 / 167>
+|MAIN_LOG| 2024-11-03 16:28:26,270 - INFO - Generating scrollpage links for brand pontiac. <125 / 167>
+|MAIN_LOG| 2024-11-03 16:28:30,663 - INFO - Generating scrollpage links for brand porsche. <126 / 167>
+|MAIN_LOG| 2024-11-03 16:28:35,970 - INFO - Generating scrollpage links for brand ram. <127 / 167>
+|MAIN_LOG| 2024-11-03 16:28:40,703 - INFO - Generating scrollpage links for brand renault. <128 / 167>
+|MAIN_LOG| 2024-11-03 16:28:45,225 - INFO - Generating scrollpage links for brand rolls-royce. <129 / 167>
+|MAIN_LOG| 2024-11-03 16:28:50,455 - INFO - Generating scrollpage links for brand rover. <130 / 167>
+|MAIN_LOG| 2024-11-03 16:28:54,876 - INFO - Generating scrollpage links for brand saab. <131 / 167>
+|MAIN_LOG| 2024-11-03 16:28:59,296 - INFO - Generating scrollpage links for brand sarini. <132 / 167>
+|MAIN_LOG| 2024-11-03 16:29:03,680 - INFO - Generating scrollpage links for brand saturn. <133 / 167>
+|MAIN_LOG| 2024-11-03 16:29:07,983 - INFO - Generating scrollpage links for brand seat. <134 / 167>
+|MAIN_LOG| 2024-11-03 16:29:12,566 - INFO - Generating scrollpage links for brand seres. <135 / 167>
+|MAIN_LOG| 2024-11-03 16:29:16,544 - INFO - Generating scrollpage links for brand shuanghuan. <136 / 167>
+|MAIN_LOG| 2024-11-03 16:29:20,717 - INFO - Generating scrollpage links for brand skoda. <137 / 167>
+|MAIN_LOG| 2024-11-03 16:29:21,505 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 16:29:21,505 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 16:29:21,707 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 16:29:21,756 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 16:29:21,780 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 16:29:21,785 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 16:29:25,593 - INFO - Generating scrollpage links for brand skywell. <138 / 167>
+|MAIN_LOG| 2024-11-03 16:29:29,622 - INFO - Generating scrollpage links for brand skyworth. <139 / 167>
+|MAIN_LOG| 2024-11-03 16:29:33,671 - INFO - Generating scrollpage links for brand smart. <140 / 167>
+|MAIN_LOG| 2024-11-03 16:29:38,403 - INFO - Generating scrollpage links for brand ssangyong. <141 / 167>
+|MAIN_LOG| 2024-11-03 16:29:44,112 - INFO - Generating scrollpage links for brand subaru. <142 / 167>
+|MAIN_LOG| 2024-11-03 16:29:50,623 - INFO - Generating scrollpage links for brand suzuki. <143 / 167>
+|MAIN_LOG| 2024-11-03 16:29:55,636 - INFO - Generating scrollpage links for brand syrena. <144 / 167>
+|MAIN_LOG| 2024-11-03 16:30:00,327 - INFO - Generating scrollpage links for brand tarpan. <145 / 167>
+|MAIN_LOG| 2024-11-03 16:30:04,615 - INFO - Generating scrollpage links for brand tata. <146 / 167>
+|MAIN_LOG| 2024-11-03 16:30:08,844 - INFO - Generating scrollpage links for brand tesla. <147 / 167>
+|MAIN_LOG| 2024-11-03 16:30:13,552 - INFO - Generating scrollpage links for brand toyota. <148 / 167>
+|MAIN_LOG| 2024-11-03 16:30:18,334 - INFO - Generating scrollpage links for brand trabant. <149 / 167>
+|MAIN_LOG| 2024-11-03 16:30:22,684 - INFO - Generating scrollpage links for brand triumph. <150 / 167>
+|MAIN_LOG| 2024-11-03 16:30:26,742 - INFO - Generating scrollpage links for brand uaz. <151 / 167>
+|MAIN_LOG| 2024-11-03 16:30:31,016 - INFO - Generating scrollpage links for brand vauxhall. <152 / 167>
+|MAIN_LOG| 2024-11-03 16:30:35,354 - INFO - Generating scrollpage links for brand velex. <153 / 167>
+|MAIN_LOG| 2024-11-03 16:30:39,408 - INFO - Generating scrollpage links for brand volkswagen. <154 / 167>
+|MAIN_LOG| 2024-11-03 16:30:43,660 - INFO - Generating scrollpage links for brand volvo. <155 / 167>
+|MAIN_LOG| 2024-11-03 16:30:48,274 - INFO - Generating scrollpage links for brand voyah. <156 / 167>
+|MAIN_LOG| 2024-11-03 16:30:53,641 - INFO - Generating scrollpage links for brand waltra. <157 / 167>
+|MAIN_LOG| 2024-11-03 16:30:57,673 - INFO - Generating scrollpage links for brand warszawa. <158 / 167>
+|MAIN_LOG| 2024-11-03 16:31:02,766 - INFO - Generating scrollpage links for brand wartburg. <159 / 167>
+|MAIN_LOG| 2024-11-03 16:31:06,869 - INFO - Generating scrollpage links for brand wolga. <160 / 167>
+|MAIN_LOG| 2024-11-03 16:31:11,024 - INFO - Generating scrollpage links for brand xiaomi. <161 / 167>
+|MAIN_LOG| 2024-11-03 16:31:15,157 - INFO - Generating scrollpage links for brand xpeng. <162 / 167>
+|MAIN_LOG| 2024-11-03 16:31:19,259 - INFO - Generating scrollpage links for brand zaporozec. <163 / 167>
+|MAIN_LOG| 2024-11-03 16:31:23,428 - INFO - Generating scrollpage links for brand zastawa. <164 / 167>
+|MAIN_LOG| 2024-11-03 16:31:27,517 - INFO - Generating scrollpage links for brand zeekr. <165 / 167>
+|MAIN_LOG| 2024-11-03 16:31:31,478 - INFO - Generating scrollpage links for brand zhidou. <166 / 167>
+|MAIN_LOG| 2024-11-03 16:31:36,274 - INFO - Generating scrollpage links for brand zuk. <167 / 167>
+|MAIN_LOG| 2024-11-03 16:31:40,636 - INFO - passing links to queue
+|MAIN_LOG| 2024-11-03 16:31:41,620 - INFO - Added 15072 offer scrollpage links to scrape queue
+|MAIN_LOG| 2024-11-03 16:33:36,135 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 16:33:36,138 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 16:33:36,138 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 16:33:36,141 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 16:33:36,199 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 16:33:36,200 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 16:34:46,383 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 16:34:46,385 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 16:34:46,386 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 16:34:46,390 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 16:34:46,428 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 16:34:46,430 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 16:35:29,798 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 16:35:29,798 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 16:35:29,905 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 16:35:29,935 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 16:35:29,950 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 16:35:29,956 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 16:35:30,669 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 16:35:30,669 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 16:35:30,682 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 16:35:30,720 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 16:35:30,742 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 16:35:30,745 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 16:35:31,455 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 16:35:31,455 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 16:35:31,466 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 16:35:31,515 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 16:35:31,559 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 16:35:31,562 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 16:35:32,103 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 16:35:32,104 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 16:35:32,124 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 16:35:32,190 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 16:35:32,212 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 16:35:32,214 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 16:44:16,179 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 16:44:16,181 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 16:44:16,705 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 16:44:17,714 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 16:44:17,755 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 16:44:17,759 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 16:47:19,510 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 16:47:19,511 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 16:47:19,531 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 16:47:19,590 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 16:47:19,615 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 16:47:19,617 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 16:47:21,690 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-11-03 16:47:48,875 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-03 16:48:31,110 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 16:48:31,113 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 16:48:31,113 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 16:48:31,117 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 16:48:31,168 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 16:48:31,168 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 16:48:31,464 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 16:48:31,465 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 16:48:31,465 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 16:48:31,465 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 16:48:31,475 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 16:48:31,475 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 16:48:45,096 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 16:48:45,097 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 16:48:45,502 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 16:48:45,617 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 16:48:45,709 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 16:48:45,719 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 16:48:54,889 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 16:48:54,890 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 16:48:54,909 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 16:48:54,953 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 16:48:54,988 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 16:48:54,991 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 16:49:43,498 - INFO - Emptying queue offer_scraping_queue
+|MAIN_LOG| 2024-11-03 16:49:43,503 - INFO - Queue offer_scraping_queue was emptied
+|MAIN_LOG| 2024-11-03 16:49:44,273 - INFO - Emptying queue link_scraping_queue
+|MAIN_LOG| 2024-11-03 16:49:44,320 - INFO - Queue link_scraping_queue was emptied
+|MAIN_LOG| 2024-11-03 16:49:53,192 - INFO - Emptying queue offer_scraping_queue
+|MAIN_LOG| 2024-11-03 16:49:53,197 - INFO - Queue offer_scraping_queue was emptied
+|MAIN_LOG| 2024-11-03 16:50:04,959 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 16:50:04,960 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 16:50:04,960 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 16:50:04,961 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 16:50:04,980 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 16:50:04,980 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 16:50:05,192 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 16:50:05,192 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 16:50:05,192 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 16:50:05,193 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 16:50:05,202 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 16:50:05,203 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 16:50:12,316 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 16:50:12,316 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 16:50:12,316 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 16:50:12,317 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 16:50:12,327 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 16:50:12,327 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 16:50:12,535 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 16:50:12,535 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 16:50:12,535 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 16:50:12,535 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 16:50:12,545 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 16:50:12,545 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 16:50:21,031 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 16:50:21,032 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 16:50:21,453 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 16:50:21,546 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 16:50:21,573 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 16:50:21,602 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 16:54:24,121 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 16:54:24,122 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 16:54:24,122 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 16:54:24,147 - DEBUG - \Marking link as scraped and passing offer data to DB:
+
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-m4-bmw-m4-stage-1-525km-ID6GMsB7.html>
+Offer ID: ID6GMsB7
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 16:54:24,163 - DEBUG - \Marking link as scraped and passing offer data to DB:
+
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-x3-czarny-lift-3-0d-218psfabryczny-m-pakietbi-xenonnaviz-niemiec-ID6GLuV5.html>
+Offer ID: ID6GLuV5
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 16:59:11,361 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 16:59:11,363 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 16:59:11,364 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 16:59:11,367 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 16:59:11,409 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 16:59:11,409 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 16:59:44,963 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 16:59:44,964 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 16:59:44,964 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 16:59:44,965 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 16:59:44,980 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 16:59:44,980 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 16:59:59,101 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 16:59:59,102 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 16:59:59,102 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 16:59:59,102 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 16:59:59,114 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 16:59:59,115 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:00:13,430 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:00:13,430 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:00:13,430 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:00:13,431 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:00:13,445 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:00:13,445 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:00:25,564 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:00:25,565 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:00:25,565 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:00:25,566 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:00:25,584 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:00:25,584 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:00:40,929 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:00:40,929 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:00:40,929 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:00:40,930 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:00:40,942 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:00:40,943 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:00:42,296 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:00:42,296 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:00:42,297 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:00:42,297 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:00:42,308 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:00:42,308 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:00:55,479 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:00:55,479 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:00:55,479 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:00:55,480 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:00:55,494 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:00:55,494 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:01:16,095 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:01:16,096 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:01:16,096 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:01:16,097 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:01:16,111 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:01:16,111 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:01:17,527 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:01:17,527 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:01:17,527 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:01:17,528 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:01:17,538 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:01:17,539 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:01:21,065 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:01:21,065 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:01:21,065 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:01:21,066 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:01:21,076 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:01:21,076 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:01:40,103 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 17:01:40,104 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 17:01:40,370 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 17:01:40,436 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 17:01:40,495 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 17:01:40,511 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 17:01:41,561 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 17:01:41,562 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 17:01:41,593 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 17:01:41,746 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 17:01:41,809 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 17:01:41,811 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 17:06:30,771 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:06:30,775 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:06:30,775 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:06:30,778 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:06:30,835 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:06:30,836 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:06:41,908 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:06:41,909 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:06:41,909 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:06:41,910 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:06:41,922 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:06:41,922 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:07:00,178 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 17:07:00,181 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 17:07:00,415 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 17:07:00,458 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 17:07:00,516 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 17:07:00,527 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 17:07:27,637 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:07:27,638 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 17:07:27,638 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 17:07:27,648 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-seria-1-bmw-120d-automat-2008r-ID6GLuUr.html>
+Offer ID: ID6GLuUr
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:07:27,651 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-seria-5-bmw-525-d-luxory-line-ID6GLu5U.html>
+Offer ID: ID6GLu5U
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:28:42,792 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 17:28:42,794 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 17:28:42,805 - ERROR - An error has ocurred while fetching links to be scraped.
+(MySQLdb.OperationalError) (2006, 'Server has gone away')
+[SQL: SELECT `offerLinks`.id AS `offerLinks_id`, `offerLinks`.offer_id AS `offerLinks_offer_id`, `offerLinks`.offer_id_in_link AS `offerLinks_offer_id_in_link`, `offerLinks`.date_added AS `offerLinks_date_added`, `offerLinks`.date_modified AS `offerLinks_date_modified`, `offerLinks`.link AS `offerLinks_link`, `offerLinks`.is_being_scraped AS `offerLinks_is_being_scraped`, `offerLinks`.was_scraped AS `offerLinks_was_scraped`, `offerLinks`.scraping_outcome AS `offerLinks_scraping_outcome`, `offerLinks`.error_message AS `offerLinks_error_message` 
+FROM `offerLinks` 
+WHERE `offerLinks`.is_being_scraped = false AND `offerLinks`.was_scraped = false 
+ LIMIT %s]
+[parameters: (2,)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+|MAIN_LOG| 2024-11-03 17:28:42,805 - INFO - Rolling back...
+|MAIN_LOG| 2024-11-03 17:28:44,055 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 17:28:44,056 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 17:28:44,102 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 17:28:44,144 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 17:28:44,178 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 17:28:44,191 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 17:28:45,106 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 17:28:45,106 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 17:28:45,142 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 17:28:45,172 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 17:28:45,203 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 17:28:45,206 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 17:28:46,126 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 17:28:46,127 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 17:28:46,135 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 17:28:46,165 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 17:28:46,190 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 17:28:46,192 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 17:28:46,890 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 17:28:46,890 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 17:28:46,900 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 17:28:47,044 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 17:28:47,916 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 17:28:47,917 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 17:28:48,832 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 17:28:48,834 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 17:28:49,040 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 17:28:51,065 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 17:28:51,468 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 17:28:51,471 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 17:28:52,390 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 17:28:52,391 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 17:28:52,400 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 17:28:52,462 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 17:28:52,479 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 17:28:52,482 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 17:28:53,455 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 17:28:53,455 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 17:28:53,478 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 17:28:53,672 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 17:28:53,696 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 17:28:53,699 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 17:28:55,054 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 17:28:55,055 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 17:28:55,068 - INFO - Marking 2 as being scraped
+|MAIN_LOG| 2024-11-03 17:28:55,122 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 17:28:55,138 - INFO - Generated 1 batches.
+|MAIN_LOG| 2024-11-03 17:28:55,140 - INFO - 2 in 1 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 17:29:22,610 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:29:22,613 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 17:29:22,613 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 17:29:22,630 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-seria-1-bmw-1-114d-2014r-151-tys-km-super-stan-ID6Gu1ye.html>
+Offer ID: ID6Gu1ye
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:29:22,643 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-x3-bmw-x3-ID6GBJlL.html>
+Offer ID: ID6GBJlL
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:29:26,005 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:29:26,005 - INFO - Scraping status: failed
+|MAIN_LOG| 2024-11-03 17:29:31,419 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:29:31,419 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 17:29:31,419 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 17:29:31,438 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-seria-5-m-pakietx-drivelaseryelklapakamera360headupmegafull-ID6GCDQI.html>
+Offer ID: ID6GCDQI
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:29:31,492 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-x3-bmw-x3-2022-salon-polska-bezwypadkowy-vat23-ID6GLuNB.html>
+Offer ID: ID6GLuNB
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:29:35,307 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:29:35,308 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 17:29:35,308 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 17:29:35,546 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-seria-5-lift-automat-niski-potwierdzony-przebieg-zadbany-ID6GMsyN.html>
+Offer ID: ID6GMsyN
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:29:35,702 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-seria-5-bmw-seria-5-525d-xdrive-touring-luxury-line-ID6G0ek9.html>
+Offer ID: ID6G0ek9
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:29:40,676 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:29:40,676 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 17:29:40,676 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 17:29:40,779 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-x3-bmw-x3-2-0d-salon-polska-bezwypadkowe-ID6GjAEj.html>
+Offer ID: ID6GjAEj
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:29:40,943 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-seria-3-g21-2-0d-stan-idealny-apple-car-bezkluczykowy-asystent-pasa-ID6GC8wk.html>
+Offer ID: ID6GC8wk
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:29:49,796 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:29:49,797 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 17:29:49,797 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 17:29:50,402 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-seria-4-ID6GMsxh.html>
+Offer ID: ID6GMsxh
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:29:50,648 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-seria-5-super-stan-salon-pl-serwis-aso-pakiet-serwis-bezwypadkowy-prywatny-ID6GMsxm.html>
+Offer ID: ID6GMsxm
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:29:58,917 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:29:58,918 - INFO - Scraping status: failed
+|MAIN_LOG| 2024-11-03 17:30:03,311 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:30:03,312 - INFO - Scraping status: failed
+|MAIN_LOG| 2024-11-03 17:30:13,237 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:30:13,238 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:30:13,239 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:30:13,240 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:30:13,281 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:30:13,282 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:30:49,631 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:30:49,633 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:30:49,633 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:30:49,633 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:30:49,649 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:30:49,649 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:31:01,148 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 17:31:01,150 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 17:31:01,297 - INFO - Marking 10 as being scraped
+|MAIN_LOG| 2024-11-03 17:31:01,390 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 17:31:01,477 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-11-03 17:31:01,485 - INFO - 10 in 5 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 17:31:09,282 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:31:09,283 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 17:31:09,284 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 17:31:09,292 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-x3-bmw-x3-f25-28i-245hp-ID6FRC56.html>
+Offer ID: ID6FRC56
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:31:09,297 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-x5-bmw-x5-2011-xdrive-35i-uszkodzony-silnik-do-wymiany-ID6GzFtX.html>
+Offer ID: ID6GzFtX
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:31:10,548 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:31:10,548 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 17:31:10,548 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 17:31:10,556 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-seria-1-pierwszy-wlasciciel-stan-jak-nowy-m-pakiet-ID6GHTbh.html>
+Offer ID: ID6GHTbh
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:31:10,588 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-seria-5-bmw-e61-535d-wersja-shadow-line-m-pakiet-ID6GLuuH.html>
+Offer ID: ID6GLuuH
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:31:18,669 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:31:18,673 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 17:31:18,677 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 17:31:18,721 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-seria-5-e60-3-0-231km-m54-benzyna-automat-xenon-skory-dakota-orange-ID6GLqxz.html>
+Offer ID: ID6GLqxz
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:31:18,803 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-x1-bmw-x1-ID6GHXwk.html>
+Offer ID: ID6GHXwk
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:31:19,458 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:31:19,458 - INFO - Scraping status: failed
+|MAIN_LOG| 2024-11-03 17:31:28,416 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:31:28,420 - INFO - Scraping status: failed
+|MAIN_LOG| 2024-11-03 17:36:12,555 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:36:12,559 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:36:12,559 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:36:12,562 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:36:12,612 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:36:12,612 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:39:39,834 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:39:39,838 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:39:39,838 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:39:39,841 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:39:39,906 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:39:39,907 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:39:42,455 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:39:42,455 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:39:42,455 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:39:42,456 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:39:42,467 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:39:42,467 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:40:02,296 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 17:40:02,301 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 17:40:02,439 - INFO - Marking 10 as being scraped
+|MAIN_LOG| 2024-11-03 17:40:02,647 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 17:40:02,762 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-11-03 17:40:02,775 - INFO - 10 in 5 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 17:40:12,652 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:40:12,654 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 17:40:12,654 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 17:40:13,856 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-x4-xdrive20d-m-sport-2-0-190km-aktywny-regulator-predkosci-stop-go-ID6GIaTo.html>
+Offer ID: ID6GIaTo
+Being scraped: False
+Was scraped: True
+
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:40:14,129 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:40:14,129 - INFO - Scraping status: failed
+|MAIN_LOG| 2024-11-03 17:40:14,590 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-seria-5-g31-12-17-m-pakiet-x-drive-bezwypadkowy-super-stan-ID6GuStm.html>
+Offer ID: ID6GuStm
+Being scraped: False
+Was scraped: True
+
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:40:22,434 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:40:22,438 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 17:40:22,439 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 17:40:22,455 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-x1-bmw-x1-m-sportpaket-stan-bardzo-dobry-ID6GMseZ.html>
+Offer ID: ID6GMseZ
+Being scraped: False
+Was scraped: True
+
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:40:22,464 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-x5-bmw-x5-xdrive50e-ID6GLusE.html>
+Offer ID: ID6GLusE
+Being scraped: False
+Was scraped: True
+
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:40:22,680 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:40:22,680 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 17:40:22,680 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 17:40:22,689 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-seria-3-bmw-e90-sedan-os-prywatna-2-0d-m47-ID6GG54A.html>
+Offer ID: ID6GG54A
+Being scraped: False
+Was scraped: True
+
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:40:22,696 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-x3-x3-m40i-360-koni-ID6GridG.html>
+Offer ID: ID6GridG
+Being scraped: False
+Was scraped: True
+
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:40:30,279 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:40:30,280 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 17:40:30,280 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 17:40:30,298 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-seria-5-bmw-540i-548i-manual-szpera-wydech-m5-ID6Gxl4d.html>
+Offer ID: ID6Gxl4d
+Being scraped: False
+Was scraped: True
+
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:40:30,316 - DEBUG - Marking link as scraped
+Link: 
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-seria-7-bmw-e38-740i-polift-ID6GujEQ.html>
+Offer ID: ID6GujEQ
+Being scraped: False
+Was scraped: True
+
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:42:24,503 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:42:24,507 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:42:24,507 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:42:24,508 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:42:24,535 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:42:24,535 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:42:35,408 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 17:42:35,410 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 17:42:35,546 - INFO - Marking 10 as being scraped
+|MAIN_LOG| 2024-11-03 17:42:35,613 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 17:42:35,714 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-11-03 17:42:35,730 - INFO - 10 in 5 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 17:42:46,582 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:42:46,583 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:42:46,584 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 17:42:46,585 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 17:42:46,585 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 17:42:46,585 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 17:42:46,605 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-seria-5-bmw-seria-5-528i-xdrive-ID6GGT6i.html>
+Offer ID: ID6GGT6i
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:42:46,612 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-x1-bmw-x1-e84-xdrive-swiezo-po-wymianie-rozrzadu-skora-ID6GJbTG.html>
+Offer ID: ID6GJbTG
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:42:46,640 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-seria-3-zadbane-garazowane-serwisowane-bmw-e46-touring-z-2005-roku-ID6GMsqv.html>
+Offer ID: ID6GMsqv
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:42:46,644 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/bmw-seria-3-ID6GJWoP.html>
+Offer ID: ID6GJWoP
+Being scraped: False
+Was scraped: True
+Offer Status: 404 during scraping
+|MAIN_LOG| 2024-11-03 17:42:55,714 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:42:55,716 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 17:42:55,716 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 17:42:58,422 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:42:58,424 - INFO - Scraping status: failed
+|MAIN_LOG| 2024-11-03 17:43:01,616 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-11-03 17:43:03,091 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-03 17:43:04,583 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 17:43:04,584 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 17:43:04,584 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 17:43:06,973 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-03 17:43:06,974 - INFO - Generating scrollpage links for brand audi. <1/4>
+|MAIN_LOG| 2024-11-03 17:43:11,765 - INFO - Generating scrollpage links for brand volkswagen. <2/4>
+|MAIN_LOG| 2024-11-03 17:43:17,469 - INFO - Generating scrollpage links for brand ford. <3/4>
+|MAIN_LOG| 2024-11-03 17:43:22,666 - INFO - Generating scrollpage links for brand mercedes-benz. <4/4>
+|MAIN_LOG| 2024-11-03 17:43:27,872 - INFO - passing links to queue
+|MAIN_LOG| 2024-11-03 17:43:28,047 - INFO - Added 2550 offer scrollpage links to scrape queue
+|MAIN_LOG| 2024-11-03 17:44:26,196 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 17:44:26,197 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 17:44:26,211 - INFO - No links available for scraping.
+|MAIN_LOG| 2024-11-03 17:44:28,377 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 17:44:28,377 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 17:44:28,393 - INFO - No links available for scraping.
+|MAIN_LOG| 2024-11-03 17:45:21,260 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:45:27,579 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:45:27,714 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:45:33,332 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:45:34,200 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:45:39,311 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:45:39,731 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:45:45,848 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:45:46,269 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:45:51,253 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:45:52,155 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:45:56,751 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:45:58,427 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:46:03,484 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:46:05,950 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:46:10,949 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:46:11,550 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:46:17,754 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:46:18,207 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:46:29,313 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:46:29,394 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:46:35,831 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:46:36,860 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:46:41,380 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:46:42,589 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:46:46,629 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:46:48,700 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:46:51,714 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:46:54,135 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:46:57,184 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:00,389 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:02,994 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:06,037 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:08,390 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:11,489 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:14,337 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:16,832 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:20,053 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:22,435 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:25,906 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:32,120 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:32,807 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:37,100 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:38,259 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:42,512 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:45,317 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:47,815 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:50,745 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:54,770 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:47:57,368 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:48:00,770 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:48:03,461 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:48:06,625 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:48:08,789 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:48:12,725 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:48:15,152 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:48:18,437 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:48:21,936 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:48:24,417 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:48:27,908 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:48:34,049 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:48:36,654 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:48:40,696 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:48:41,973 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:48:46,147 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:48:48,147 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:48:53,241 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:48:53,710 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:49:02,267 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:49:02,281 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:49:02,281 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:49:02,286 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:49:02,524 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:49:02,525 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:49:02,871 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:49:02,871 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:49:15,709 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:49:15,712 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:49:15,712 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:49:15,718 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:49:15,736 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:49:15,737 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:49:16,118 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:49:16,118 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:49:16,118 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:49:16,119 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:49:16,131 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:49:16,131 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:49:26,617 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:49:26,618 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:49:26,618 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:49:26,620 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:49:27,250 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:49:27,251 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:49:27,251 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:49:27,251 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:49:29,480 - INFO - Emptying queue offer_scraping_queue
+|MAIN_LOG| 2024-11-03 17:49:29,493 - INFO - Queue offer_scraping_queue was emptied
+|MAIN_LOG| 2024-11-03 17:49:32,393 - INFO - Emptying queue link_scraping_queue
+|MAIN_LOG| 2024-11-03 17:49:32,412 - INFO - Queue link_scraping_queue was emptied
+|MAIN_LOG| 2024-11-03 17:49:33,572 - INFO - Emptying queue link_scraping_queue
+|MAIN_LOG| 2024-11-03 17:49:33,573 - INFO - Queue link_scraping_queue was emptied
+|MAIN_LOG| 2024-11-03 17:49:51,234 - INFO - Emptying queue link_scraping_queue
+|MAIN_LOG| 2024-11-03 17:49:51,236 - INFO - Queue link_scraping_queue was emptied
+|MAIN_LOG| 2024-11-03 17:50:06,020 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-11-03 17:50:08,004 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-03 17:50:11,013 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-03 17:50:11,014 - INFO - Generating scrollpage links for brand audi. <1/4>
+|MAIN_LOG| 2024-11-03 17:50:15,140 - INFO - Generating scrollpage links for brand volkswagen. <2/4>
+|MAIN_LOG| 2024-11-03 17:50:20,379 - INFO - Generating scrollpage links for brand ford. <3/4>
+|MAIN_LOG| 2024-11-03 17:50:26,069 - INFO - Generating scrollpage links for brand mercedes-benz. <4/4>
+|MAIN_LOG| 2024-11-03 17:50:31,676 - INFO - passing links to queue
+|MAIN_LOG| 2024-11-03 17:50:31,821 - INFO - Added 1856 offer scrollpage links to scrape queue
+|MAIN_LOG| 2024-11-03 17:50:53,556 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:50:53,557 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:50:53,557 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:50:53,558 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:51:04,256 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:51:04,260 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:51:04,260 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:51:04,261 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:51:14,403 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:51:14,405 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:51:14,405 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:51:14,405 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:51:25,054 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:51:25,060 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:51:25,061 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:51:25,086 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:51:36,461 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:51:36,462 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:51:36,462 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:51:36,463 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:51:46,886 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:51:46,888 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:51:46,888 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:51:46,893 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:51:57,858 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:51:57,865 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:51:57,865 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:51:57,877 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:52:09,597 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:52:09,598 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:52:09,598 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:52:09,599 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:52:19,647 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:52:19,648 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:52:19,648 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:52:19,649 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:52:30,372 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:52:30,373 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:52:30,373 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:52:30,374 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:52:40,402 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:52:40,405 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:52:40,405 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:52:40,405 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:52:50,369 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:52:50,370 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:52:50,370 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:52:50,371 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:53:01,012 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:53:01,013 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:53:01,013 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:53:01,014 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:53:11,978 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:53:11,981 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:53:11,981 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:53:11,982 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:53:21,771 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:53:32,024 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:53:32,026 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:53:32,026 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:53:32,026 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:53:42,273 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:53:42,275 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:53:42,275 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:53:42,275 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:53:52,195 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:53:52,197 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:53:52,197 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:53:52,197 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:54:02,862 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:54:02,864 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:54:02,864 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:54:02,865 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:54:12,714 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:54:12,717 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:54:12,717 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:54:12,718 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:54:23,511 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:54:23,512 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:54:23,512 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:54:23,513 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:54:34,748 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:54:34,749 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:54:34,749 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:54:34,750 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:54:49,038 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:54:49,039 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:54:49,039 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:54:49,040 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:55:00,886 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:55:00,887 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:55:00,887 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:55:00,889 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:55:18,385 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:55:18,386 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:55:18,386 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:55:18,386 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:55:29,594 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:55:29,595 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:55:29,595 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:55:29,596 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:55:40,700 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:55:40,700 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:55:40,700 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:55:40,701 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:56:05,898 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:56:05,899 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:56:05,899 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:56:05,900 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:56:18,328 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:56:18,331 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:56:18,331 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:56:18,333 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:56:29,884 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:56:29,885 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:56:29,885 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:56:29,885 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:56:40,217 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:56:40,218 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:56:40,218 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:56:40,220 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:56:53,344 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:56:53,345 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:56:53,345 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:56:53,346 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:57:05,798 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:57:05,800 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:57:05,800 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:57:05,802 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:57:17,680 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:57:17,680 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:57:17,680 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:57:17,681 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:57:27,685 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:57:27,687 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:57:27,687 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:57:27,691 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:57:37,933 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:57:37,935 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:57:37,935 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:57:37,936 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:57:49,079 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:57:49,080 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:57:49,080 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:57:49,081 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:57:57,984 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:57:57,988 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:57:57,988 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:57:57,990 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:57:58,019 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:57:58,019 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 17:57:59,044 - INFO - Emptying queue offer_scraping_queue
+|MAIN_LOG| 2024-11-03 17:57:59,049 - INFO - Queue offer_scraping_queue was emptied
+|MAIN_LOG| 2024-11-03 17:58:00,360 - INFO - Emptying queue link_scraping_queue
+|MAIN_LOG| 2024-11-03 17:58:00,364 - INFO - Queue link_scraping_queue was emptied
+|MAIN_LOG| 2024-11-03 17:58:04,192 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:58:04,193 - INFO - Adding 0 links to Database
+|MAIN_LOG| 2024-11-03 17:58:04,193 - INFO - Commiting 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:58:04,194 - INFO - Added 0 / 0 links to the Database.
+|MAIN_LOG| 2024-11-03 17:58:17,710 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-11-03 17:58:19,571 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-03 17:58:22,917 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-03 17:58:22,917 - INFO - Generating scrollpage links for brand audi. <1/4>
+|MAIN_LOG| 2024-11-03 17:58:27,811 - INFO - Generating scrollpage links for brand volkswagen. <2/4>
+|MAIN_LOG| 2024-11-03 17:58:32,402 - INFO - Generating scrollpage links for brand ford. <3/4>
+|MAIN_LOG| 2024-11-03 17:58:37,511 - INFO - Generating scrollpage links for brand mercedes-benz. <4/4>
+|MAIN_LOG| 2024-11-03 17:58:42,130 - INFO - passing links to queue
+|MAIN_LOG| 2024-11-03 17:58:42,300 - INFO - Added 2548 offer scrollpage links to scrape queue
+|MAIN_LOG| 2024-11-03 17:58:57,724 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:58:57,725 - INFO - Adding 66 links to Database
+|MAIN_LOG| 2024-11-03 17:58:59,193 - INFO - Commiting 66 / 66 links to the Database.
+|MAIN_LOG| 2024-11-03 17:59:09,929 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:59:09,930 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 17:59:10,391 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 17:59:21,415 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:59:21,416 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 17:59:21,947 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 17:59:34,327 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:59:34,330 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 17:59:35,139 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 17:59:47,581 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 17:59:47,582 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 17:59:48,336 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 17:59:49,372 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 17:59:49,375 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 17:59:49,375 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 17:59:49,376 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 17:59:49,397 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 17:59:49,397 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:00:02,673 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:00:02,677 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:00:03,278 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:00:12,937 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:00:12,938 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:00:12,938 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:00:12,938 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:00:12,960 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:00:12,960 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:00:14,533 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:00:14,533 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:00:14,534 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:00:14,535 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:00:14,547 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:00:14,547 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:00:16,808 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:00:16,809 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:00:18,306 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:00:28,725 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:00:28,728 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:00:28,728 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:00:28,728 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:00:28,744 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:00:28,744 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:00:29,786 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:00:29,789 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:00:30,690 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:00:44,119 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:00:44,120 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:00:44,756 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:00:55,680 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:00:55,682 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:00:58,381 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:01:26,304 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:01:26,307 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:01:26,307 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:01:26,312 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:01:26,378 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:01:26,378 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:01:26,456 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:01:26,456 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:01:27,204 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:01:39,458 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:01:39,462 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:01:40,162 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:01:52,328 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:01:52,330 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:01:52,986 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:02:01,894 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:02:25,795 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:02:25,802 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:02:26,326 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:02:38,675 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:02:38,677 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:02:39,672 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:02:52,715 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:02:52,716 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:02:53,415 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:03:06,653 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:03:06,656 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:03:06,657 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:03:06,658 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:03:06,690 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:03:06,690 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:03:07,212 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:03:07,212 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:03:07,212 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:03:07,213 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:03:07,230 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:03:07,230 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:03:12,130 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:03:12,131 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:03:12,663 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:03:19,231 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:03:19,233 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:03:19,233 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:03:19,233 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:03:19,247 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:03:19,247 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:03:23,949 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:03:23,962 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:03:24,860 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:04:28,050 - INFO - Emptying queue link_scraping_queue
+|MAIN_LOG| 2024-11-03 18:04:28,063 - INFO - Queue link_scraping_queue was emptied
+|MAIN_LOG| 2024-11-03 18:04:38,386 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:04:38,388 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:04:38,388 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:04:38,389 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:04:38,411 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:04:38,411 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:04:38,622 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:04:38,622 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:04:38,622 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:04:38,623 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:04:38,633 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:04:38,633 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:04:46,476 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-11-03 18:04:49,626 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-03 18:04:53,030 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-03 18:04:53,030 - INFO - Generating scrollpage links for brand audi. <1/4>
+|MAIN_LOG| 2024-11-03 18:04:57,767 - INFO - Generating scrollpage links for brand volkswagen. <2/4>
+|MAIN_LOG| 2024-11-03 18:05:02,627 - INFO - Generating scrollpage links for brand ford. <3/4>
+|MAIN_LOG| 2024-11-03 18:05:10,284 - INFO - Generating scrollpage links for brand mercedes-benz. <4/4>
+|MAIN_LOG| 2024-11-03 18:05:15,161 - INFO - passing links to queue
+|MAIN_LOG| 2024-11-03 18:05:15,365 - INFO - Added 2548 offer scrollpage links to scrape queue
+|MAIN_LOG| 2024-11-03 18:05:24,693 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:05:24,693 - INFO - Adding 66 links to Database
+|MAIN_LOG| 2024-11-03 18:05:25,214 - INFO - Commiting 66 / 66 links to the Database.
+|MAIN_LOG| 2024-11-03 18:05:36,206 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:05:36,207 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:05:36,716 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:05:48,434 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:05:48,434 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:05:48,977 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:06:01,197 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:06:01,198 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:06:01,823 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:06:16,210 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:06:16,211 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:06:16,855 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:06:27,905 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:06:27,907 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:06:27,907 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:06:27,908 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:06:27,943 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:06:27,944 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:06:34,027 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:06:34,028 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:06:34,028 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:06:34,029 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:06:34,042 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:06:34,042 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:06:34,313 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:06:34,313 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:06:34,313 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:06:34,313 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:06:34,334 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:06:34,334 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:06:51,375 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:06:51,375 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:06:52,015 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:07:02,832 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:07:19,053 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:07:19,054 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:07:19,499 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:07:19,538 - INFO - Added 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:07:33,599 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:07:33,600 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:07:33,600 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:07:33,602 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:07:33,633 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:07:33,633 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:07:33,880 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:07:33,880 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:07:33,880 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:07:33,881 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:07:33,891 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:07:33,891 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:07:40,585 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:07:40,589 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:07:41,335 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:07:41,382 - INFO - Added 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:08:00,955 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:08:00,956 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:08:01,838 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:08:01,889 - INFO - Added 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:08:28,105 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:08:28,106 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:08:32,776 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:08:32,778 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:08:32,778 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:08:32,780 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:08:32,819 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:08:32,819 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:08:32,866 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:09:04,940 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:09:04,941 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:09:04,941 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:09:04,943 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:09:04,969 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:09:04,971 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:09:05,187 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:09:05,187 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:09:05,187 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:09:05,188 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:09:05,198 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:09:05,198 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:09:22,550 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:09:22,554 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:09:27,185 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:09:27,702 - INFO - Added 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:09:38,821 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:09:38,822 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:09:43,759 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:09:44,012 - INFO - Added 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:09:54,060 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:09:54,061 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:09:57,971 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:09:58,184 - INFO - Added 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:10:08,776 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:10:08,776 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:10:12,605 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:10:12,705 - INFO - Added 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:10:24,344 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:10:24,344 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:10:28,215 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:10:28,509 - INFO - Added 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:10:39,133 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:10:39,133 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:10:42,736 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:10:42,834 - INFO - Added 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:10:45,756 - INFO - Emptying queue link_scraping_queue
+|MAIN_LOG| 2024-11-03 18:10:45,769 - INFO - Queue link_scraping_queue was emptied
+|MAIN_LOG| 2024-11-03 18:10:54,548 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-03 18:10:54,549 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-03 18:11:00,354 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:11:00,755 - INFO - Added 64 / 64 links to the Database.

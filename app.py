@@ -6,16 +6,17 @@ from rq_scheduler import Scheduler
 from sqlalchemy.exc import IntegrityError
 import re
 import logging
+import requests
 
 # User defined objects
-from db_schema import db, LINKS
+from db_schema import db, LINKS, OFFERS
 from config import APPCONFIG, WEBDRIVERCONFIG, WORKERCONFIG
-from definitions import ScrapingStatus, WorkerExceptions
+from definitions import ScrapingStatus, WorkerExceptions, ScrapingException
 from otomoto.objects import offerStatus, OFFER
 
 from otomoto import scripts, objects
 from driver import initialise_selenium
-from tasks import scrape_links, scrape_scrollpage_links
+from tasks import scrape_offers, scrape_scrollpage_links
 from logger import setup_logger
 
 setup_logger("MAIN_LOG", "MAIN_LOG")
@@ -55,7 +56,7 @@ def check_how_many_offer_scrollpage_links_in_queue(queue_name):
     if queue_name in QUEUE_MAP:
         queue = QUEUE_MAP[queue_name]
         queue_length = len(queue)
-        return jsonify({"queue_name": queue_name, "queue_length": queue_length}), 200
+        return jsonify({"queue_name": queue_name, "queue_num_of_batches": queue_length}), 200
     else:
         return jsonify({"error": "Queue not found."}), 404
     
@@ -89,10 +90,13 @@ def add_link_pages_scraping_task():
     try:
         main_log.info("Getting car brands")
         car_brands = scripts.get_all_car_brands(wd)
+
+        car_brands = car_brands[1:5]
+
         num_of_car_brands = len(car_brands)
         main_log.info("Scraping number of scrollpages for each car brand")
         for i, car_brand in enumerate(car_brands):
-            main_log.info(f"Generating scrollpage links for brand {car_brand}. <{i+1} / {num_of_car_brands}>")
+            main_log.info(f"Generating scrollpage links for brand {car_brand}. <{i+1}/{num_of_car_brands}>")
             num_pages = scripts.get_number_of_pages(wd, f"https://www.otomoto.pl/osobowe/{car_brand}")
             links_to_scrape.extend(scripts.generate_list_of_links_to_scrape(car_brand, num_pages))
 
@@ -125,6 +129,10 @@ def pass_offer_scrollpage_links_to_db():
         raise WorkerExceptions.ScrapingFailed
     try:
         num_of_links = len(links)
+        if num_of_links == 0:
+            m = "Worker returned 0 links - probably class names have changed."
+            main_log.error(m)
+            raise ScrapingException(m)
         i = 0
         main_log.info(f"Adding {num_of_links} links to Database")
         for link in links:
@@ -134,7 +142,8 @@ def pass_offer_scrollpage_links_to_db():
 
             if not existing_link:
                 i += 1
-                new_link = LINKS(offer_id=id_part,
+                new_link = LINKS(
+                                offer_id_in_link = id_part,
                                 link=link,
                                 is_being_scraped=False,
                                 was_scraped=False)
@@ -156,9 +165,6 @@ def pass_offer_scrollpage_links_to_db():
         return f"Error has ocurred when passing offer to Database.\n {e} ",500
 
 #Offer Scraping Logic ==============================================
-@app.route('/links-in-scraping-queue', methods=['POST'])
-def num_of_links_in_scraping_queue():
-    pass
 
 @app.route('/add-links-to-scraping-queue', methods=['GET'])
 def add_links_to_scraping_queue():
@@ -182,7 +188,7 @@ def add_links_to_scraping_queue():
         db.session.commit()
 
         main_log.info(f"Creating batches containing several links")
-        links_to_scrape = {link.offer_id:link.link for link in links_to_scrape}
+        links_to_scrape = {link.id:link.link for link in links_to_scrape}
 
         fragmented_dicts = [
             dict(list(links_to_scrape.items())[i:i + chunk_size]) 
@@ -190,9 +196,9 @@ def add_links_to_scraping_queue():
         ]
         main_log.info(f"Generated {len(fragmented_dicts)} batches.")
         for link_batch in fragmented_dicts:
-            offer_scraping_queue.enqueue(scrape_links, link_batch) 
+            offer_scraping_queue.enqueue(scrape_offers, link_batch) 
 
-        message = f"{len(links_to_scrape)} in {len(fragmented_dicts)} batches have been added to scraping queue"
+        message = (f"{len(links_to_scrape)} in {len(fragmented_dicts)} batches have been added to scraping queue\n")
         main_log.info(message)
         return message, 200
 
@@ -202,6 +208,7 @@ def add_links_to_scraping_queue():
         main_log.info("Rolling back...")
         db.session.rollback()
         return message, 500
+
 
 @app.route('/pass-offers-to-db', methods=['POST'])
 def pass_offers_to_db():
@@ -213,36 +220,35 @@ def pass_offers_to_db():
     if status == ScrapingStatus.status_ok:
         offers = data['all_offers']
         main_log.info(f"Inserting data for {len(offers)} offers into db.")
-        for offer_id, offer in offers.items():
+        for id, offer in offers.items():
             # Conver offer dict to offer object
-            offer = OFFER().dict_into_offer(offer)
-            print(offer)
+            offer = OFFER.dict_into_offer(offer)
             # Mark link as scraped in links table
-            link = LINKS.query.filter_by(offer_id = offer_id).first()
-            print(f"LINKK: {link}")
+            link = LINKS.query.filter_by(id = id).first()
             link.was_scraped = True
             link.is_being_scraped = False 
             link.scraping_outcome = offer.offer_status
-            print(f"LINKK2: {link}")
+            main_log.debug(f"Marking link as scraped\n"
+                           f"{link}"
+                           f"Offer Status: {offer.offer_status}")
             if offer.offer_status == offerStatus.statusScrapeSuccess:
-                pass
-
-            # Put pffer data into database
-        main_log.info(f"Commiting changes to DB for {len(offers)} offers.")
+                new_offer = OFFERS(id=offer.id,
+                                    id_oferty = offer.id_z_oferty,
+                                    id_oferty_w_linku = offer.id_oferty_w_linku)
+                db.session.add(new_offer)
+                main_log.debug(f"Adding offer {id} to query to be commited into offers table")
         db.session.commit()
-        main_log.info("Changes commited.")
-
-        return "Success", 200
+        return f"Successfully added {len(offers)} to DB", 200
     else:
         return (f"\nWorker script returned error\n"
-                f"Status: {status}"
-                f"Error message: {data['error_message']}")
+                f"Status: {status}\n"
+                f"Error message: {data['error_message']}\n"), 500
 
 
 
 @app.route('/test', methods=['GET'])
 def test():
-    scrape_links(links=["https://www.otomoto.pl/osobowe/oferta/audi-a4-audi-a4b6-avant-1-6-benzyna-lpg-2003-r-ID6GN8b4.html",
+    scrape_offers(links=["https://www.otomoto.pl/osobowe/oferta/audi-a4-audi-a4b6-avant-1-6-benzyna-lpg-2003-r-ID6GN8b4.html",
                     "https://www.otomoto.pl/osobowe/oferta/audi-a7-audi-a7-3-0-tdi-quattro-s-line-webasto-pneumatyka-matrix-acc-ID6GOVVc.html"])
     
     return 200

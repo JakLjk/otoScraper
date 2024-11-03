@@ -1,12 +1,14 @@
 from dataclasses import dataclass, fields, asdict
 import json
+import re
 from enum import Enum
 
 
 class offerStatus(str):
+    statusNotYetScraped = "Link not yet scraped"
     statusScrapeSuccess = "Scraped successfully"
-    status404 = "Error 404 during scraping"
-
+    status404 = "404 during scraping"
+    scrapingError = "Error has ocurred while scraping link"
 
 @dataclass
 class OFFER:
@@ -15,6 +17,7 @@ class OFFER:
         if self.offer_status == offerStatus.statusScrapeSuccess:
             repr_str =  (f"<class: OFFER>\n"
                     f"Link: {self.link}\n"
+                    f"ID w linku: {self.id_oferty_w_linku}\n"
                     f"Status: {self.offer_status}\n" 
                     f"Tytuł: {self.tytul}\n"
                     f"Data Dodania: {self.data_dodania}\n"
@@ -26,6 +29,7 @@ class OFFER:
         elif self.offer_status == offerStatus.status404:
             repr_str =  (f"<class: OFFER>\n"
                     f"Link: {self.link}\n"
+                    f"ID w linku: {self.id_oferty_w_linku}\n"
                     f"Status: {self.offer_status}\n" 
                     )
         missing_fields = self.no_data_for_fields()
@@ -40,12 +44,13 @@ class OFFER:
         return repr_str
     
     
-    link:str = None 
-    offer_status:offerStatus = None
-    data_dodania:str = None
-    id_oferty:int = None
-    tytul:str = None
+    link:str
+    offer_status:offerStatus = offerStatus.statusNotYetScraped
+    id:int = None
+    id_z_oferty:str = None
 
+    data_dodania:str = None
+    tytul:str = None
 
     cena:float = None
     przebieg:int = None
@@ -88,5 +93,10 @@ class OFFER:
         return cls(**data)
 
     @property
-    def id_w_linku(self):
-        return None
+    def id_oferty_w_linku(self):
+        pattern = r"-ID([A-Za-z0-9]+)\.html"
+        match = re.search(pattern, self.link)
+        if match:
+            return match.group(1)
+        else:
+            return None

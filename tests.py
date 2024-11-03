@@ -1,11 +1,22 @@
-from tasks import scrape_links
+import mysql.connector  # Use mysql-connector-python
 
+# Connection settings
+config = {
+    'user': 'root',          # Your database username
+    'password': 'casaos',      # Your database password
+    'host': 'db.lejk.net',            # Host address
+    'database': 'OTOMOTO', # Database name
+    'port': 3306                      # Port number, 3306 by default for MariaDB
+}
 
-links = ["https://www.otomoto.pl/osobowe/oferta/bmw-seria-1-bmw-serii-1-ID6GHWKK.html",
-         "https://www.otomoto.pl/osobowe/oferta/bmw-seria-4-bmw-4er-reihe-g26-gran-coup-m440i-ID6GLvK9.html",
-         "https://www.otomoto.pl/osobowe/oferta/bmw-seria-5-bmw-530d-mozliwa-zamiana-ID6GLvBu.html"]
+# Establishing the connection
+try:
+    connection = mysql.connector.connect(**config)
+    print("Connection successful!")
+    
+    # Your database interaction code here
 
-offers= scrape_links(links)
-for offer in offers:
-    print('XXXXX')
-    print(offer)
+finally:
+    if connection.is_connected():
+        connection.close()
+        print("Connection closed.")

@@ -83,8 +83,8 @@ def get_all_offer_links_from_scrollpage(driver:WebDriver,
     wd.get(scrollpage_link)
     try_close_onetrust_button(wd)
     sleep(0.25)
-    offer_box = wd.find_element(By.CLASS_NAME, "ooa-r53y0q.eupw8r111")
-    offer_links = offer_box.find_elements(By.CLASS_NAME, "efpuxbr9.ooa-1ed90th.er34gjf0")
+    offer_box = wd.find_element(By.CLASS_NAME, "ooa-r53y0q.e1hsss911")
+    offer_links = offer_box.find_elements(By.CLASS_NAME, "epwfahw9.ooa-1ed90th.er34gjf0")
     offer_links  = [l.find_element(By.TAG_NAME, 'a').get_attribute('href') for l in offer_links]
     return offer_links
 
