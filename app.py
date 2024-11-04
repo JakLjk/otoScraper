@@ -228,15 +228,43 @@ def pass_offers_to_db():
             link.was_scraped = True
             link.is_being_scraped = False 
             link.scraping_outcome = offer.offer_status
-            main_log.debug(f"Marking link as scraped\n"
-                           f"{link}"
-                           f"Offer Status: {offer.offer_status}")
             if offer.offer_status == offerStatus.statusScrapeSuccess:
-                new_offer = OFFERS(id=offer.id,
+                main_log.debug(f"Marking link as scraped\n"
+                           f"{link}")
+                
+                main_log.debug(f"\nPassing offer to DB: \n"
+                               f"{offer}")
+                print(offer.szczegoly)
+                new_offer = OFFERS(id=id,
+                                   link = offer.link,
                                     id_oferty = offer.id_z_oferty,
-                                    id_oferty_w_linku = offer.id_oferty_w_linku)
+                                    id_oferty_w_linku = offer.id_oferty_w_linku,
+                                    tytul = offer.tytul,
+                                    data_dodania=offer.data_dodania,
+                                    cena = offer.cena,
+                                    przebieg = offer.przebieg,
+                                    rodzaj_paliwa = offer.rodzaj_paliwa,
+                                    skrzynia_biegow = offer.skrzynia_biegow,
+                                    pojemnosc_silnika=offer.pojemnosc_silnika,
+                                    moc_silnika = offer.moc_silnika,
+                                    opis = offer.opis,
+                                    szczegoly = offer.szczegoly_json,
+                                    wyposazenie = offer.wyposazenie_json,
+                                    sprzedawca_nr_tel = offer.sprzedawca_nr_tel,
+                                    sprzedawca_imie = offer.sprzedawca_imie,
+                                    sprzedawca_rodzaj = offer.sprzedawca_rodzaj,
+                                    sprzedawca_data_od_kiedy_na_otomoto = offer.sprzedawca_data_od_kiedy_na_otomoto,
+                                    latitude = offer.latitude,
+                                    longitude = offer.longitude,
+                                    coords_exact = True
+                )
                 db.session.add(new_offer)
                 main_log.debug(f"Adding offer {id} to query to be commited into offers table")
+            else:
+                error_message = data['error_message']
+                link.error_message = error_message
+
+                
         db.session.commit()
         return f"Successfully added {len(offers)} to DB", 200
     else:

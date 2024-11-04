@@ -1,5 +1,6 @@
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.sql import func
+from sqlalchemy import UnicodeText
 
 db = SQLAlchemy(session_options={"autoflush": False})
 
@@ -35,20 +36,20 @@ class OFFERS(db.Model):
     data_modyfikacji_rekordu = db.Column(db.TIMESTAMP, nullable=False,  onupdate=db.func.current_timestamp())
     link = db.Column(db.Text)
     tytul = db.Column(db.String)
-    data_dodania = db.Column(db.DateTime)
-    cena = db.Column(db.Float)
-    przebieg = db.Column(db.Integer)
+    data_dodania = db.Column(db.String)
+    cena = db.Column(db.String)
+    przebieg = db.Column(db.String)
     rodzaj_paliwa = db.Column(db.String)
     skrzynia_biegow = db.Column(db.String)
     pojemnosc_silnika = db.Column(db.String)
     moc_silnika = db.Column(db.String)
     opis = db.Column(db.Text)
-    szczegoly = db.Column(db.Text)
+    szczegoly = db.Column(UnicodeText(collation='utf8mb4_unicode_ci')) 
     wyposazenie =  db.Column(db.Text)
-    sprzedawca_nr_tel = db.Column(db.Integer)
+    sprzedawca_nr_tel = db.Column(db.String)
     sprzedawca_imie = db.Column(db.String)
     sprzedawca_rodzaj = db.Column(db.String)
-    sprzedawca_data_od_kiedy_na_otomoto = db.Column(db.Date)
+    sprzedawca_data_od_kiedy_na_otomoto = db.Column(db.String)
     latitude = db.Column(db.Double)
     longitude = db.Column(db.Double)
     coords_exact = db.Column(db.SmallInteger)

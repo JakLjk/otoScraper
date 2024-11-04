@@ -112,8 +112,8 @@ def get_offer_details(driver:WebDriver,
         else:
             offer.tytul = wd.find_element(By.CLASS_NAME, "offer-title.big-text.e12csvfg2.ooa-1dueukt.er34gjf0").text
 
-            offer.data_dodania = wd.find_element(By.CLASS_NAME, "ei6c8gd1.ooa-1oajvmg.er34gjf0").text
-            offer.id_oferty = wd.find_element(By.CLASS_NAME,"e1n40z81.ooa-a4miog.er34gjf0").text
+            offer.data_dodania = wd.find_element(By.CLASS_NAME, "e1jwj3576.ooa-193mje5").text
+            offer.id_z_oferty = wd.find_element(By.CLASS_NAME,"e1n40z81.ooa-a4miog.er34gjf0").text
 
             offer.cena = wd.find_element(By.CLASS_NAME, "offer-price__number").text
 
@@ -125,7 +125,7 @@ def get_offer_details(driver:WebDriver,
             offer.pojemnosc_silnika = _box[4].text
             offer.moc_silnika = _box[5].text
 
-            offer.opis = wd.find_element(By.CLASS_NAME, "ooa-unlmzs.e1gh6aho4").text
+            offer.opis = wd.find_element(By.CLASS_NAME, "ooa-unlmzs.e1jwj3574").text
 
             specyfikacja_scroll = driver.find_element(By.XPATH,
                                                     "//p[contains(@class, 'eizxi839') and contains(@class, 'ooa-mbq01s') and text()='Specyfikacja']")
@@ -148,7 +148,7 @@ def get_offer_details(driver:WebDriver,
             _box = wd.find_elements(By.CLASS_NAME, "ooa-1v45bqa.er34gjf0")
             offer.sprzedawca_rodzaj = _box[0].text
             offer.sprzedawca_data_od_kiedy_na_otomoto = _box[1].text
-            nr_tel_button = wd.find_element(By.CLASS_NAME, "e1jpmtd51.ep2wx1j0.ooa-1cqwd9z").click()
+            nr_tel_button = wd.find_element(By.CLASS_NAME, "evok7j41.ep2wx1j0.ooa-1ixjak3").click()
             _box = wd.find_elements(By.CLASS_NAME, "button-text-wrapper.ooa-5umjpb")
             offer.sprzedawca_nr_tel = "BRAK"
             for e in _box:

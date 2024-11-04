@@ -5389,3 +5389,2287 @@ Offer Status: 404 during scraping
 |MAIN_LOG| 2024-11-03 18:10:54,549 - INFO - Adding 64 links to Database
 |MAIN_LOG| 2024-11-03 18:11:00,354 - INFO - Commiting 64 / 64 links to the Database.
 |MAIN_LOG| 2024-11-03 18:11:00,755 - INFO - Added 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-03 18:13:15,770 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 18:13:15,772 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 18:13:16,007 - INFO - Marking 10 as being scraped
+|MAIN_LOG| 2024-11-03 18:13:21,687 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 18:13:25,013 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-11-03 18:13:25,033 - INFO - 10 in 5 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 18:13:51,537 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:13:51,539 - INFO - Scraping status: failed
+|MAIN_LOG| 2024-11-03 18:14:02,685 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:14:02,686 - INFO - Scraping status: failed
+|MAIN_LOG| 2024-11-03 18:17:20,949 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:17:20,957 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:17:20,958 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:17:20,962 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:17:21,015 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:17:21,016 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:17:23,606 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:17:23,607 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:17:23,607 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:17:23,607 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:17:23,617 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:17:23,617 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:17:46,802 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:17:46,804 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:17:46,804 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:17:47,463 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a3-audi-a3-2010-2011-lift-max-wyposz-bi-xenon-navi-kam-cof-zarejestr-ID6GRV66.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+Offer Status: Error has ocurred while scraping link
+|MAIN_LOG| 2024-11-03 18:17:47,507 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q7-60-tfsi-e-phev-340-km-quattro-s-line-od-reki-ID6GOK5o.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+Offer Status: Error has ocurred while scraping link
+|MAIN_LOG| 2024-11-03 18:17:56,953 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:17:56,954 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:17:56,954 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:17:57,061 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a4-audi-a4-b8-1-8-tfsi-160km-ID6GRV5o.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+Offer Status: Error has ocurred while scraping link
+|MAIN_LOG| 2024-11-03 18:17:57,144 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6c6-2010-ID6GRV2s.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+Offer Status: Error has ocurred while scraping link
+|MAIN_LOG| 2024-11-03 18:18:09,258 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:18:09,267 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:18:09,267 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:18:09,340 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a4-limousine-advanced-40-tfsi-quattro-204-km-s-tronic-rabat-20-ID6GPBmN.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+Offer Status: Error has ocurred while scraping link
+|MAIN_LOG| 2024-11-03 18:18:09,372 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q3-sportback-audi-q3-sportback-35-tfsi-110-kw-150-km-s-tronic-ID6GPBll.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+Offer Status: Error has ocurred while scraping link
+|MAIN_LOG| 2024-11-03 18:18:57,851 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:18:57,856 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:18:57,856 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:18:57,858 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:18:57,881 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:18:57,882 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:20:32,563 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:20:32,566 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:20:32,566 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:20:32,573 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:20:32,654 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:20:32,654 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:27:00,894 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:27:00,899 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:27:00,899 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:27:00,904 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:27:00,953 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:27:00,954 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:27:04,405 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 18:27:04,406 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 18:27:04,548 - INFO - Marking 10 as being scraped
+|MAIN_LOG| 2024-11-03 18:27:04,688 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 18:27:04,801 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-11-03 18:27:04,818 - INFO - 10 in 5 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 18:27:17,140 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:27:17,141 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:27:17,141 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:27:28,612 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:27:28,613 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:27:28,613 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:27:39,195 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:27:39,197 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:27:39,197 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:27:50,620 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:27:50,622 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:27:50,622 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:28:03,614 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:28:03,615 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:28:03,615 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:28:24,288 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:28:24,289 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:28:24,289 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:28:24,290 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:28:24,318 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:28:24,318 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:28:34,424 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 18:28:34,430 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 18:28:34,608 - INFO - Marking 10 as being scraped
+|MAIN_LOG| 2024-11-03 18:28:34,750 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 18:28:34,880 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-11-03 18:28:34,895 - INFO - 10 in 5 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 18:28:48,584 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:28:48,585 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:28:48,585 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:29:06,016 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:29:06,017 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:29:06,017 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:29:20,989 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:29:20,990 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:29:20,990 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:29:39,071 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:29:39,071 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:29:39,071 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:29:58,702 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:29:58,703 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:29:58,703 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:35:43,802 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:35:43,808 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:35:43,808 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:35:43,813 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:35:43,854 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:35:43,855 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:35:43,942 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 18:35:43,942 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 18:35:44,098 - INFO - Marking 10 as being scraped
+|MAIN_LOG| 2024-11-03 18:35:44,259 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 18:35:44,482 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-11-03 18:35:44,499 - INFO - 10 in 5 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 18:36:00,003 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:36:00,004 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:36:00,004 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:36:00,015 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-rs7-2016-matrix-night-vision-drc-radary-polift-rs7-c7-lift-ID6Gz7wQ.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:36:00,015 - DEBUG - Adding offer 71588 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:36:18,061 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:36:18,062 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:36:18,062 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:36:18,449 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a8-sprzedam-audi-a8-v8-d3-4-2-fsi-quattro-long-349-km-tiptronic-z-2009-ID6GRHKw.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:36:18,449 - DEBUG - Adding offer 71591 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:36:31,029 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:36:31,030 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:36:31,030 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:36:31,046 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a4-a4-2-0-tdi-ID6GvH35.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:36:31,046 - DEBUG - Adding offer 71593 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:36:45,609 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:36:45,610 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:36:45,610 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:36:45,636 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-allroad-avus-bose-panorama-272km-perfekt-ID6GRWW5.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:36:45,636 - DEBUG - Adding offer 71594 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:37:04,174 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:37:04,175 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:37:04,175 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:37:04,246 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-3-0-tdi-ID6GCVLu.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:37:04,246 - DEBUG - Adding offer 71596 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:37:04,355 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a8-audi-a8-d4-2010-3-0tdi-quattro-ID6GKb9G.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:37:04,355 - DEBUG - Adding offer 71597 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:39:52,880 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:39:52,888 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:39:52,889 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:39:52,895 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:39:52,943 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:39:52,944 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:42:26,311 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:42:26,319 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:42:26,319 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:42:26,321 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:42:26,348 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:42:26,348 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:42:40,128 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 18:42:40,129 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 18:42:40,286 - INFO - Marking 10 as being scraped
+|MAIN_LOG| 2024-11-03 18:42:40,382 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 18:42:40,503 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-11-03 18:42:40,526 - INFO - 10 in 5 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 18:42:55,745 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:42:55,745 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:42:55,746 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:42:55,774 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-c8-3-0-ID6GJMTL.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:42:55,774 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-c8-3-0-ID6GJMTL.html
+ID w linku: 6GJMTL
+Status: Scraped successfully
+Tytuł: Audi A6 45 TDI Quattro Sport Tiptronic
+Data Dodania: 27 października 2024 17:10
+Sprzedajacy Imie: Hubert
+Ilosc Szczegółów: 14
+Ilosc Wyposazenia: 44
+Koordynaty: LAT: 49.6294 LONG: 20.69075
+Brakujące pola: id, id_z_oferty, coords_exact
+|MAIN_LOG| 2024-11-03 18:42:55,774 - DEBUG - Adding offer 71598 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:42:55,799 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a8-audi-a8l-3-0-ID6GDS97.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:42:55,799 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a8-audi-a8l-3-0-ID6GDS97.html
+ID w linku: 6GDS97
+Status: Scraped successfully
+Tytuł: Audi A8 3.0 TDI L Quattro
+Data Dodania: 27 października 2024 17:10
+Sprzedajacy Imie: Hubert
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 74
+Koordynaty: LAT: 49.6294 LONG: 20.69075
+Brakujące pola: id, id_z_oferty, coords_exact
+|MAIN_LOG| 2024-11-03 18:42:55,799 - DEBUG - Adding offer 71599 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:43:03,755 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:43:03,760 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:43:03,760 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:43:03,770 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:43:03,985 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:43:03,985 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:43:04,269 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:43:04,270 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:43:04,270 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:43:04,270 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:43:04,285 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:43:04,285 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:43:09,013 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:43:09,015 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:43:09,015 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:43:21,418 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:43:21,420 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:43:21,420 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:43:21,429 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-c6-2-4-s-line-sedan-ID6GHhZn.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:43:21,430 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-c6-2-4-s-line-sedan-ID6GHhZn.html
+ID w linku: 6GHhZn
+Status: Scraped successfully
+Tytuł: Audi A6 2.4 Multitronic
+Data Dodania: 30 października 2024 15:51
+Sprzedajacy Imie: Krzysztof
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 30
+Koordynaty: LAT: 50.28158 LONG: 19.11219
+Brakujące pola: id, id_z_oferty, coords_exact
+|MAIN_LOG| 2024-11-03 18:43:21,431 - DEBUG - Adding offer 71602 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:43:51,031 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:43:51,033 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:43:51,033 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:43:51,059 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q7-2-0-tfsi-252km-ID6GRWP6.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:43:51,059 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-q7-2-0-tfsi-252km-ID6GRWP6.html
+ID w linku: 6GRWP6
+Status: Scraped successfully
+Tytuł: Audi Q7 3.0 TFSI Quattro Tiptronic
+Data Dodania: 3 listopada 2024 13:02
+Sprzedajacy Imie: Jacek
+Ilosc Szczegółów: 15
+Ilosc Wyposazenia: 101
+Koordynaty: LAT: 53.46469 LONG: 18.77287
+Brakujące pola: id, id_z_oferty, coords_exact
+|MAIN_LOG| 2024-11-03 18:43:51,059 - DEBUG - Adding offer 71604 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:43:51,071 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a3-audi-a3-8p-2-0-sportback-149km-benzyna-ID6GFEEZ.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:43:51,076 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a3-audi-a3-8p-2-0-sportback-149km-benzyna-ID6GFEEZ.html
+ID w linku: 6GFEEZ
+Status: Scraped successfully
+Tytuł: Audi A3 2.0 FSI Sportback Ambiente
+Data Dodania: 19 września 2024 18:28
+Sprzedajacy Imie: Tomasz
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 23
+Koordynaty: LAT: 50.17563 LONG: 19.91105
+Brakujące pola: id, id_z_oferty, coords_exact
+|MAIN_LOG| 2024-11-03 18:43:51,084 - DEBUG - Adding offer 71605 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:44:03,998 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:44:04,000 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:44:04,000 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:44:04,021 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q5-stan-idealny-pierwszy-wlasciciel-ID6GOhoI.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:44:04,022 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-q5-stan-idealny-pierwszy-wlasciciel-ID6GOhoI.html
+ID w linku: 6GOhoI
+Status: Scraped successfully
+Tytuł: Audi Q5
+Data Dodania: 27 października 2024 16:52
+Sprzedajacy Imie: Iza
+Ilosc Szczegółów: 14
+Ilosc Wyposazenia: 30
+Koordynaty: LAT: 50.07159 LONG: 19.91757
+Brakujące pola: id, id_z_oferty, coords_exact
+|MAIN_LOG| 2024-11-03 18:44:04,022 - DEBUG - Adding offer 71606 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:44:44,389 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:44:44,400 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:44:44,400 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:44:44,404 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:44:44,445 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:44:44,445 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:44:44,747 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:44:44,747 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:44:44,747 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:44:44,748 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:44:44,758 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:44:44,758 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:45:01,587 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 18:45:01,589 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 18:45:01,712 - INFO - Marking 10 as being scraped
+|MAIN_LOG| 2024-11-03 18:45:01,825 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 18:45:01,966 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-11-03 18:45:01,981 - INFO - 10 in 5 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 18:45:16,009 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:45:16,010 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:45:16,010 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:45:29,379 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:45:29,381 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:45:29,381 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:45:30,169 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-s5-audi-s5-ID6GAnTE.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:45:30,170 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-s5-audi-s5-ID6GAnTE.html
+ID w linku: 6GAnTE
+Status: Scraped successfully
+Tytuł: Audi S5 3.0 TFSI Quattro S tronic
+Data Dodania: 2 listopada 2024 12:48
+Sprzedajacy Imie: Kamil
+Ilosc Szczegółów: 16
+Ilosc Wyposazenia: 30
+Koordynaty: LAT: 50.37091 LONG: 19.62943
+Brakujące pola: id, id_z_oferty, coords_exact
+|MAIN_LOG| 2024-11-03 18:45:30,170 - DEBUG - Adding offer 71610 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:45:30,280 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-c7-3xsline-panoramiczny-dach-ID6GRWP2.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:45:30,280 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-c7-3xsline-panoramiczny-dach-ID6GRWP2.html
+ID w linku: 6GRWP2
+Status: Scraped successfully
+Tytuł: Audi A6 3.0 TDI S tronic
+Data Dodania: 2 listopada 2024 13:47
+Sprzedajacy Imie: rafał
+Ilosc Szczegółów: 16
+Ilosc Wyposazenia: 32
+Koordynaty: LAT: 52.98537 LONG: 22.24458
+Brakujące pola: id, id_z_oferty, coords_exact
+|MAIN_LOG| 2024-11-03 18:45:30,280 - DEBUG - Adding offer 71611 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:45:44,782 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:45:44,785 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:45:44,785 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:45:44,813 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q5-audi-q5-ID6GJL6p.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:45:44,813 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-q5-audi-q5-ID6GJL6p.html
+ID w linku: 6GJL6p
+Status: Scraped successfully
+Tytuł: Audi Q5 2.0 TDI Quattro S tronic
+Data Dodania: 2 listopada 2024 12:42
+Sprzedajacy Imie: Mateusz
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 37
+Koordynaty: LAT: 53.40709 LONG: 18.44439
+Brakujące pola: id, id_z_oferty, coords_exact
+|MAIN_LOG| 2024-11-03 18:45:44,813 - DEBUG - Adding offer 71613 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:45:58,043 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:45:58,043 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:45:58,044 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:45:58,050 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-s5-audi-s5-8t-3-0-tfsi-nowy-rozrzad-skrzynia-na-gwarancji-ID6GLcBh.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:45:58,050 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-s5-audi-s5-8t-3-0-tfsi-nowy-rozrzad-skrzynia-na-gwarancji-ID6GLcBh.html
+ID w linku: 6GLcBh
+Status: Scraped successfully
+Tytuł: Audi S5 3.0 TFSI Quattro S tronic
+Data Dodania: 22 października 2024 22:02
+Sprzedajacy Imie: Patryk
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 64
+Koordynaty: LAT: 50.57929 LONG: 16.5047
+Brakujące pola: id, id_z_oferty, coords_exact
+|MAIN_LOG| 2024-11-03 18:45:58,050 - DEBUG - Adding offer 71614 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:45:58,055 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a3-audi-a3-8v-2014r-150km-po-wymianie-rozrzadu-ID6GRTYA.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:45:58,055 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a3-audi-a3-8v-2014r-150km-po-wymianie-rozrzadu-ID6GRTYA.html
+ID w linku: 6GRTYA
+Status: Scraped successfully
+Tytuł: Audi A3 2.0 TDI Sportback (clean diesel) Ambition
+Data Dodania: 2 listopada 2024 13:41
+Sprzedajacy Imie: Patryk
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 50
+Koordynaty: LAT: 50.1493 LONG: 18.66899
+Brakujące pola: id, id_z_oferty, coords_exact
+|MAIN_LOG| 2024-11-03 18:45:58,055 - DEBUG - Adding offer 71615 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:46:11,035 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:46:11,036 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:46:11,036 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:46:11,045 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-sq5-ID6GRWLN.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:46:11,045 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-sq5-ID6GRWLN.html
+ID w linku: 6GRWLN
+Status: Scraped successfully
+Tytuł: Audi SQ5 3.0 TDI Quattro Tiptronic EU6
+Data Dodania: 2 listopada 2024 13:41
+Sprzedajacy Imie: Radek
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 77
+Koordynaty: LAT: 51.71685 LONG: 17.22657
+Brakujące pola: id, id_z_oferty, coords_exact
+|MAIN_LOG| 2024-11-03 18:46:11,045 - DEBUG - Adding offer 71616 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:46:11,064 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a3-audi-a3-8p-bardzo-dobrze-utrzymane-ID6GRWJF.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:46:11,065 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a3-audi-a3-8p-bardzo-dobrze-utrzymane-ID6GRWJF.html
+ID w linku: 6GRWJF
+Status: Scraped successfully
+Tytuł: Audi A3 2.0 TDI Attraction DSG
+Data Dodania: 2 listopada 2024 13:34
+Sprzedajacy Imie: Karol
+Ilosc Szczegółów: 16
+Ilosc Wyposazenia: 12
+Koordynaty: LAT: 50.04152 LONG: 22.00953
+Brakujące pola: id, id_z_oferty, coords_exact
+|MAIN_LOG| 2024-11-03 18:46:11,066 - DEBUG - Adding offer 71617 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:46:58,195 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:46:58,199 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:46:58,199 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:46:58,201 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:46:58,233 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:46:58,233 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:47:03,509 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:47:03,512 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:47:03,512 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:47:03,513 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:47:03,526 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:47:03,526 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:47:03,791 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:47:03,791 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:47:03,791 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:47:03,792 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:47:03,802 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:47:03,802 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:47:08,641 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-03 18:47:08,643 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-03 18:47:08,791 - INFO - Marking 10 as being scraped
+|MAIN_LOG| 2024-11-03 18:47:08,917 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-03 18:47:09,060 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-11-03 18:47:09,074 - INFO - 10 in 5 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-03 18:47:21,963 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:47:21,964 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:47:21,964 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:47:21,979 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a3-audi-a3-8p-2006-r-ID6GRWMA.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:47:21,979 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a3-audi-a3-8p-2006-r-ID6GRWMA.html
+ID w linku: 6GRWMA
+Status: Scraped successfully
+Tytuł: Audi A3 2.0 TDI DPF Ambiente
+Data Dodania: 2 listopada 2024 13:32
+Sprzedajacy Imie: osoba prywatna
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 19
+Koordynaty: LAT: 49.82198 LONG: 19.05043
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-03 18:47:21,979 - DEBUG - Adding offer 71618 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:47:21,998 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-s5-audi-s5-prestige-ID6GRWMs.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:47:21,998 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-s5-audi-s5-prestige-ID6GRWMs.html
+ID w linku: 6GRWMs
+Status: Scraped successfully
+Tytuł: Audi S5 Coupe 3.0 TFSI quattro tiptronic
+Data Dodania: 2 listopada 2024 13:32
+Sprzedajacy Imie: Szymon
+Ilosc Szczegółów: 16
+Ilosc Wyposazenia: 95
+Koordynaty: LAT: 49.98608 LONG: 20.06512
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-03 18:47:21,998 - DEBUG - Adding offer 71619 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:47:36,407 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:47:36,408 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:47:36,408 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:47:36,460 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a4-fv23-bdb-ID6GRWMQ.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:47:36,460 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a4-fv23-bdb-ID6GRWMQ.html
+ID w linku: 6GRWMQ
+Status: Scraped successfully
+Tytuł: Audi A4 30 TDI mHEV S tronic
+Data Dodania: 2 listopada 2024 13:32
+Sprzedajacy Imie: 
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 81
+Koordynaty: LAT: 53.00717 LONG: 18.61052
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-03 18:47:36,460 - DEBUG - Adding offer 71620 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:48:23,289 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:48:23,290 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:48:23,291 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:48:23,296 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:48:23,362 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:48:23,363 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:48:23,932 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-03 18:48:23,933 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-03 18:48:23,933 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-03 18:48:23,935 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-03 18:48:23,962 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-03 18:48:23,962 - INFO - Defining queues
+|MAIN_LOG| 2024-11-03 18:48:38,044 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:48:38,046 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:48:38,046 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:48:38,123 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-c6-2006-ID6GMoiu.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:48:38,123 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-c6-2006-ID6GMoiu.html
+ID w linku: 6GMoiu
+Status: Scraped successfully
+Tytuł: Audi A6
+Data Dodania: 28 października 2024 18:04
+Sprzedajacy Imie: Patrycja
+Ilosc Szczegółów: 14
+Ilosc Wyposazenia: 58
+Koordynaty: LAT: 50.42822 LONG: 18.52346
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-03 18:48:38,123 - DEBUG - Adding offer 71622 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:48:38,144 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-2015-2-0tdi-190km-s-tronic-fl-bezwypadek-ledy-p-t-bogata-wersja-ID6GQVVF.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:48:38,145 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-2015-2-0tdi-190km-s-tronic-fl-bezwypadek-ledy-p-t-bogata-wersja-ID6GQVVF.html
+ID w linku: 6GQVVF
+Status: Scraped successfully
+Tytuł: Audi A6 Avant 2.0 TDI Ultra S tronic
+Data Dodania: 2 listopada 2024 13:31
+Sprzedajacy Imie: 
+Ilosc Szczegółów: 16
+Ilosc Wyposazenia: 67
+Koordynaty: LAT: 51.84266 LONG: 16.57781
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-03 18:48:38,145 - DEBUG - Adding offer 71623 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:48:51,293 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:48:51,295 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:48:51,295 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:48:51,304 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a4-b6malysz2-0130-psautomatxenonimportjedynatakazapraszam-ID6GmjLs.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:48:51,305 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a4-b6malysz2-0130-psautomatxenonimportjedynatakazapraszam-ID6GmjLs.html
+ID w linku: 6GmjLs
+Status: Scraped successfully
+Tytuł: Audi A4 Avant 2.0 Multitronic
+Data Dodania: 2 listopada 2024 12:27
+Sprzedajacy Imie: Ryszard
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 27
+Koordynaty: LAT: 52.42707 LONG: 19.46384
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-03 18:48:51,305 - DEBUG - Adding offer 71624 to query to be commited into offers table
+|MAIN_LOG| 2024-11-03 18:49:17,616 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-03 18:49:17,618 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-03 18:49:17,618 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-03 18:49:17,698 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a8-ladny-i-zadbany-masaze-faktura-vat-23-ID6GRWKW.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-03 18:49:17,698 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a8-ladny-i-zadbany-masaze-faktura-vat-23-ID6GRWKW.html
+ID w linku: 6GRWKW
+Status: Scraped successfully
+Tytuł: Audi A8 3.0 TDI Quattro
+Data Dodania: 2 listopada 2024 13:23
+Sprzedajacy Imie: Przemysław
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 41
+Koordynaty: LAT: 51.532 LONG: 17.27525
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-03 18:49:17,698 - DEBUG - Adding offer 71627 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:24:52,842 - INFO - Emptying queue link_scraping_queue
+|MAIN_LOG| 2024-11-04 20:24:52,871 - INFO - Queue link_scraping_queue was emptied
+|MAIN_LOG| 2024-11-04 20:24:53,277 - INFO - Emptying queue offer_scraping_queue
+|MAIN_LOG| 2024-11-04 20:24:53,282 - INFO - Queue offer_scraping_queue was emptied
+|MAIN_LOG| 2024-11-04 20:25:49,888 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 20:25:49,897 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 20:25:49,897 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 20:25:49,902 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 20:25:49,967 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 20:25:49,967 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 20:25:50,231 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 20:25:50,231 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 20:25:50,231 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 20:25:50,232 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 20:25:50,242 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 20:25:50,242 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 20:25:56,468 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-04 20:25:56,475 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-04 20:25:56,563 - INFO - Marking 10 as being scraped
+|MAIN_LOG| 2024-11-04 20:25:56,650 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-04 20:25:56,736 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-11-04 20:25:56,743 - INFO - 10 in 5 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-04 20:26:01,357 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-04 20:26:01,359 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-04 20:26:01,383 - INFO - Marking 10 as being scraped
+|MAIN_LOG| 2024-11-04 20:26:01,622 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-04 20:26:01,909 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-11-04 20:26:01,919 - INFO - 10 in 5 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-04 20:26:17,839 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:26:17,841 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:26:17,841 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:26:17,872 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q8-audi-q8-50-tdi-mhev-quattro-tiptronic-cesja-bez-odstepnego-ID6FWX25.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:26:17,872 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-q8-audi-q8-50-tdi-mhev-quattro-tiptronic-cesja-bez-odstepnego-ID6FWX25.html
+ID w linku: 6FWX25
+Status: Scraped successfully
+Tytuł: Audi Q8
+Data Dodania: 2 listopada 2024 12:17
+Sprzedajacy Imie: Maciej
+Ilosc Szczegółów: 15
+Ilosc Wyposazenia: 106
+Koordynaty: LAT: 52.19282 LONG: 21.03232
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:26:17,872 - DEBUG - Adding offer 71628 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:26:17,918 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-s7-s7-sport-attitude-350km-34-000km-ID6GRWIv.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:26:17,918 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-s7-s7-sport-attitude-350km-34-000km-ID6GRWIv.html
+ID w linku: 6GRWIv
+Status: Scraped successfully
+Tytuł: Audi S7 TDI mHEV Quattro Tiptronic
+Data Dodania: 2 listopada 2024 13:15
+Sprzedajacy Imie: S7
+Ilosc Szczegółów: 14
+Ilosc Wyposazenia: 83
+Koordynaty: LAT: 52.21374 LONG: 20.97928
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:26:17,918 - DEBUG - Adding offer 71629 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:26:32,990 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:26:32,991 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:26:32,991 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:26:33,062 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q3-audi-q3-2-0-tdi-177km-s-line-quatro-ID6GEzEN.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:26:33,062 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-q3-audi-q3-2-0-tdi-177km-s-line-quatro-ID6GEzEN.html
+ID w linku: 6GEzEN
+Status: Scraped successfully
+Tytuł: Audi Q3 2.0 TDI Quattro S tronic
+Data Dodania: 2 listopada 2024 12:09
+Sprzedajacy Imie: Pawel
+Ilosc Szczegółów: 16
+Ilosc Wyposazenia: 23
+Koordynaty: LAT: 50.04567 LONG: 20.99642
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:26:33,062 - DEBUG - Adding offer 71631 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:26:47,764 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:26:47,766 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:26:47,766 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:26:47,803 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-pierwszy-wlasciciel-bezwypadkowy-maly-przebieg-serwis-ID6GRWFd.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:26:47,803 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-pierwszy-wlasciciel-bezwypadkowy-maly-przebieg-serwis-ID6GRWFd.html
+ID w linku: 6GRWFd
+Status: Scraped successfully
+Tytuł: Audi A6 Avant 40 TDI S tronic design
+Data Dodania: 4 listopada 2024 20:22
+Sprzedajacy Imie: Anonymous
+Ilosc Szczegółów: 13
+Ilosc Wyposazenia: 41
+Koordynaty: LAT: 52.58761 LONG: 14.65188
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:26:47,803 - DEBUG - Adding offer 71632 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:26:47,834 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-avant-2-0-tdi-ultra-2016-automatyczna-skrzynia-ID6GRWFc.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:26:47,834 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-avant-2-0-tdi-ultra-2016-automatyczna-skrzynia-ID6GRWFc.html
+ID w linku: 6GRWFc
+Status: Scraped successfully
+Tytuł: Audi A6 Avant 2.0 TDI Ultra S tronic
+Data Dodania: 2 listopada 2024 13:00
+Sprzedajacy Imie: Oskar
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 35
+Koordynaty: LAT: 52.05004 LONG: 15.09726
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:26:47,834 - DEBUG - Adding offer 71633 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:37:07,232 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 20:37:07,240 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 20:37:07,240 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 20:37:07,242 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 20:37:07,271 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 20:37:07,271 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 20:37:07,573 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 20:37:07,573 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 20:37:07,573 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 20:37:07,573 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 20:37:07,595 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 20:37:07,595 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 20:37:21,003 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:37:21,004 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:37:21,004 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:37:21,388 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-ID6GMnpc.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:37:21,389 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-ID6GMnpc.html
+ID w linku: 6GMnpc
+Status: Scraped successfully
+Tytuł: Audi A6 2.0 TFSI S tronic
+Data Dodania: 24 października 2024 08:41
+Sprzedajacy Imie: Artur
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 61
+Koordynaty: LAT: 50.25559 LONG: 19.01867
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:37:21,389 - DEBUG - Adding offer 71635 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:37:40,893 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:37:40,893 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:37:40,893 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:37:41,048 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-piekne-a6-c7-lift-doinwestowane-org-przebieg-zamiana-f-vat-23-ID6GHuFT.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:37:41,055 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-piekne-a6-c7-lift-doinwestowane-org-przebieg-zamiana-f-vat-23-ID6GHuFT.html
+ID w linku: 6GHuFT
+Status: Scraped successfully
+Tytuł: Audi A6 3.0 TDI Quattro S tronic
+Data Dodania: 19 października 2024 11:44
+Sprzedajacy Imie: Audi
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 32
+Koordynaty: LAT: 51.20296 LONG: 19.49722
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:37:41,056 - DEBUG - Adding offer 71636 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:37:41,120 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a4-audi-a4-quattro-sline-ID6GKbGF.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:37:41,120 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a4-audi-a4-quattro-sline-ID6GKbGF.html
+ID w linku: 6GKbGF
+Status: Scraped successfully
+Tytuł: Audi A4 Avant 2.0 TDI quattro
+Data Dodania: 2 listopada 2024 11:55
+Sprzedajacy Imie: Przemysław
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 53
+Koordynaty: LAT: 51.12232 LONG: 16.93842
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:37:41,121 - DEBUG - Adding offer 71637 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:39:52,864 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 20:39:52,870 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 20:39:52,870 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 20:39:52,870 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 20:39:52,897 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 20:39:52,898 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 20:40:12,138 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:40:12,139 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:40:12,139 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:40:26,626 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:40:26,672 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:40:26,672 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:41:07,699 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 20:41:09,368 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 20:41:09,368 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 20:41:09,374 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 20:41:09,425 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 20:41:09,425 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 20:41:12,233 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 20:41:12,233 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 20:41:12,233 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 20:41:12,234 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 20:41:12,247 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 20:41:12,247 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 20:41:23,656 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:41:23,659 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:41:23,660 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:41:39,236 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:41:39,237 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:41:39,237 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:41:43,446 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a4-170km-2-komplety-kol-ksenony-podgrzewane-fotele-ID6GRWBd.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:41:43,447 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a4-170km-2-komplety-kol-ksenony-podgrzewane-fotele-ID6GRWBd.html
+ID w linku: 6GRWBd
+Status: Scraped successfully
+Tytuł: Audi A4 2.0 TDI
+Data Dodania: 2 listopada 2024 12:44
+Sprzedajacy Imie: Witek
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 52
+Koordynaty: LAT: 50.66987 LONG: 17.91934
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:41:43,451 - DEBUG - Adding offer 71647 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:46:00,631 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 20:46:00,632 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 20:46:00,632 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 20:46:00,634 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 20:46:00,661 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 20:46:00,661 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 20:46:11,597 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-04 20:46:11,599 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-04 20:46:11,854 - INFO - Marking 10 as being scraped
+|MAIN_LOG| 2024-11-04 20:46:12,826 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-04 20:46:13,203 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-11-04 20:46:13,223 - INFO - 10 in 5 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-04 20:46:30,760 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:46:30,761 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:46:30,761 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:46:30,796 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a3-stan-bardzo-dobry-ID6GRWzJ.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:46:30,796 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a3-stan-bardzo-dobry-ID6GRWzJ.html
+ID w linku: 6GRWzJ
+Status: Scraped successfully
+Tytuł: Audi A3 35 TDI S tronic
+Data Dodania: 2 listopada 2024 12:39
+Sprzedajacy Imie: Krystian
+Ilosc Szczegółów: 16
+Ilosc Wyposazenia: 23
+Koordynaty: LAT: 51.70781 LONG: 16.7497
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:46:30,796 - DEBUG - Adding offer 71648 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:46:30,803 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a3-audi-a3-sportback-1-6-tdi-6-biegow-ID6GuiHG.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:46:30,803 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a3-audi-a3-sportback-1-6-tdi-6-biegow-ID6GuiHG.html
+ID w linku: 6GuiHG
+Status: Scraped successfully
+Tytuł: Audi A3 1.6 TDI Sportback DPF Ambiente
+Data Dodania: 2 listopada 2024 11:38
+Sprzedajacy Imie: Jacek
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 22
+Koordynaty: LAT: 52.38593 LONG: 16.97698
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:46:30,803 - DEBUG - Adding offer 71649 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:46:47,712 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:46:47,713 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:46:47,713 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:46:57,381 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-11-04 20:46:59,448 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-04 20:47:04,399 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-04 20:47:04,400 - INFO - Generating scrollpage links for brand audi. <1/4>
+|MAIN_LOG| 2024-11-04 20:47:11,786 - INFO - Generating scrollpage links for brand volkswagen. <2/4>
+|MAIN_LOG| 2024-11-04 20:47:13,837 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:47:13,838 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:47:13,839 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:47:16,805 - INFO - Generating scrollpage links for brand ford. <3/4>
+|MAIN_LOG| 2024-11-04 20:47:22,530 - INFO - Generating scrollpage links for brand mercedes-benz. <4/4>
+|MAIN_LOG| 2024-11-04 20:47:35,935 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 20:47:35,937 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 20:47:35,937 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 20:47:35,943 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 20:47:36,180 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 20:47:36,180 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 20:47:36,451 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-11-04 20:47:37,647 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:47:37,647 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:47:37,647 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:47:39,772 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-04 20:47:44,020 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-04 20:47:44,020 - INFO - Generating scrollpage links for brand audi. <1/4>
+|MAIN_LOG| 2024-11-04 20:47:59,400 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 20:48:01,033 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 20:48:01,033 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 20:48:01,040 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 20:48:01,073 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 20:48:01,073 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 20:48:01,414 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 20:48:01,434 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 20:48:01,434 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 20:48:01,435 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 20:48:01,447 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 20:48:01,447 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 20:48:11,336 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:48:11,337 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:48:11,337 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:49:11,343 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-04 20:49:11,343 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-04 20:49:11,373 - INFO - Marking 10 as being scraped
+|MAIN_LOG| 2024-11-04 20:49:11,539 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-04 20:49:11,657 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-11-04 20:49:11,673 - INFO - 10 in 5 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-04 20:49:26,355 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:49:26,356 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:49:26,356 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:49:26,398 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a4-audi-a4-1-8t-2006-ID6GrOb7.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:49:26,399 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a4-audi-a4-1-8t-2006-ID6GrOb7.html
+ID w linku: 6GrOb7
+Status: Scraped successfully
+Tytuł: Audi A4 Avant 1.8T Multitronic
+Data Dodania: 2 listopada 2024 11:36
+Sprzedajacy Imie: Kamil
+Ilosc Szczegółów: 14
+Ilosc Wyposazenia: 23
+Koordynaty: LAT: 50.87536 LONG: 18.4172
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:49:26,399 - DEBUG - Adding offer 71658 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:49:26,407 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-2-0-tdi-190ps-s-line-black-series-tylko-130-ooo-km-salon-polska-ID6GLboq.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:49:26,407 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-2-0-tdi-190ps-s-line-black-series-tylko-130-ooo-km-salon-polska-ID6GLboq.html
+ID w linku: 6GLboq
+Status: Scraped successfully
+Tytuł: Audi A6 2.0 TDI ultra S tronic
+Data Dodania: 2 listopada 2024 11:33
+Sprzedajacy Imie: Jarek
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 35
+Koordynaty: LAT: 52.57538 LONG: 19.63708
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:49:26,407 - DEBUG - Adding offer 71659 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:49:41,091 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:49:41,092 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:49:41,092 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:49:41,114 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q5-quattro-automat-kremowa-skora-drewno-2-komplety-opon-ID6GRWq7.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:49:41,114 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-q5-quattro-automat-kremowa-skora-drewno-2-komplety-opon-ID6GRWq7.html
+ID w linku: 6GRWq7
+Status: Scraped successfully
+Tytuł: Audi Q5 2.0 TDI Quattro S tronic
+Data Dodania: 4 listopada 2024 09:46
+Sprzedajacy Imie: Andrzej
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 49
+Koordynaty: LAT: 53.96424 LONG: 18.53013
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:49:41,114 - DEBUG - Adding offer 71660 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:49:41,118 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a4-2-0t-benzyna-180km-z-niemiec-ID6GR5yA.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:49:41,118 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a4-2-0t-benzyna-180km-z-niemiec-ID6GR5yA.html
+ID w linku: 6GR5yA
+Status: Scraped successfully
+Tytuł: Audi A4
+Data Dodania: 2 listopada 2024 12:21
+Sprzedajacy Imie: AUTO-PIS
+Ilosc Szczegółów: 13
+Ilosc Wyposazenia: 37
+Koordynaty: LAT: 51.6499 LONG: 20.95349
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:49:41,118 - DEBUG - Adding offer 71661 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:50:03,168 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 20:50:03,169 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 20:50:03,169 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 20:50:03,170 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 20:50:03,196 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 20:50:03,196 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 20:50:23,594 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:50:23,595 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:50:23,595 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:50:23,746 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-competition-full-ppf-polska-bang-olufsen-ID6GRWwJ.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:50:23,746 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-competition-full-ppf-polska-bang-olufsen-ID6GRWwJ.html
+ID w linku: 6GRWwJ
+Status: Scraped successfully
+Tytuł: Audi A6 3.0 TDI Quattro Competition Tiptr
+Data Dodania: 2 listopada 2024 12:20
+Sprzedajacy Imie: Maciej
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 126
+Koordynaty: LAT: 51.28176 LONG: 17.99116
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:50:23,746 - DEBUG - Adding offer 71663 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:50:37,047 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:50:37,048 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:50:37,048 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:50:37,073 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a4-audi-a4-b8-ID6GMsrj.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:50:37,073 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a4-audi-a4-b8-ID6GMsrj.html
+ID w linku: 6GMsrj
+Status: Scraped successfully
+Tytuł: Audi A4 2.0 TDI
+Data Dodania: 2 listopada 2024 12:23
+Sprzedajacy Imie: Katarzyna
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 19
+Koordynaty: LAT: 51.23955 LONG: 22.55257
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:50:37,073 - DEBUG - Adding offer 71664 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:50:37,105 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-c6-quattro-ID6GzIHK.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:50:37,105 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-c6-quattro-ID6GzIHK.html
+ID w linku: 6GzIHK
+Status: Scraped successfully
+Tytuł: Audi A6
+Data Dodania: 2 listopada 2024 11:10
+Sprzedajacy Imie: Dawid
+Ilosc Szczegółów: 14
+Ilosc Wyposazenia: 34
+Koordynaty: LAT: 53.46469 LONG: 18.77287
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:50:37,105 - DEBUG - Adding offer 71665 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:50:51,671 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:50:51,675 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:50:51,675 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:50:51,687 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q7-audi-q7-ID6GRWsd.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:50:51,687 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-q7-audi-q7-ID6GRWsd.html
+ID w linku: 6GRWsd
+Status: Scraped successfully
+Tytuł: Audi Q7
+Data Dodania: 2 listopada 2024 12:09
+Sprzedajacy Imie: Daniel
+Ilosc Szczegółów: 12
+Ilosc Wyposazenia: 56
+Koordynaty: LAT: 52.15842 LONG: 22.34585
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:50:51,687 - DEBUG - Adding offer 71666 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:50:51,700 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a5-okazja-audi-a5-s-line-2-0-tfsi-quattro-252-km-ID6GJSKQ.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:50:51,700 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a5-okazja-audi-a5-s-line-2-0-tfsi-quattro-252-km-ID6GJSKQ.html
+ID w linku: 6GJSKQ
+Status: Scraped successfully
+Tytuł: Audi A5 Sportback 2.0 TFSI quattro S tronic sport
+Data Dodania: 2 listopada 2024 11:09
+Sprzedajacy Imie: Bartosz
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 88
+Koordynaty: LAT: 50.1473 LONG: 18.74571
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:50:51,700 - DEBUG - Adding offer 71667 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:53:53,147 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 20:53:53,150 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 20:53:53,150 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 20:53:53,155 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 20:53:53,217 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 20:53:53,218 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 20:54:43,429 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-11-04 20:54:46,123 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-04 20:54:49,878 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-04 20:54:49,878 - INFO - Generating scrollpage links for brand audi. <1/4>
+|MAIN_LOG| 2024-11-04 20:54:54,836 - INFO - Generating scrollpage links for brand volkswagen. <2/4>
+|MAIN_LOG| 2024-11-04 20:54:58,846 - INFO - Generating scrollpage links for brand ford. <3/4>
+|MAIN_LOG| 2024-11-04 20:55:03,744 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 20:55:03,746 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 20:55:03,746 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 20:55:03,747 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 20:55:03,791 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 20:55:03,791 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 20:55:03,831 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-11-04 20:55:06,437 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-04 20:55:14,235 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 20:55:14,237 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 20:55:14,237 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 20:55:14,242 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 20:55:14,357 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 20:55:14,357 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 20:55:14,423 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-11-04 20:55:17,412 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-04 20:55:21,230 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-04 20:55:21,231 - INFO - Generating scrollpage links for brand audi. <1/4>
+|MAIN_LOG| 2024-11-04 20:55:25,601 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-04 20:55:25,604 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-04 20:55:25,942 - INFO - Marking 10 as being scraped
+|MAIN_LOG| 2024-11-04 20:55:26,106 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-04 20:55:26,134 - INFO - Generating scrollpage links for brand volkswagen. <2/4>
+|MAIN_LOG| 2024-11-04 20:55:26,221 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-11-04 20:55:26,231 - INFO - 10 in 5 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-04 20:55:30,881 - INFO - Generating scrollpage links for brand ford. <3/4>
+|MAIN_LOG| 2024-11-04 20:55:35,631 - INFO - Generating scrollpage links for brand mercedes-benz. <4/4>
+|MAIN_LOG| 2024-11-04 20:55:40,587 - INFO - passing links to queue
+|MAIN_LOG| 2024-11-04 20:55:40,896 - INFO - Added 2564 offer scrollpage links to scrape queue
+|MAIN_LOG| 2024-11-04 20:55:42,359 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:55:42,361 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:55:42,361 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:55:42,441 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q5-audi-q5-2-0-tdi-quattro-ID6GRWpG.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:55:42,443 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-q5-audi-q5-2-0-tdi-quattro-ID6GRWpG.html
+ID w linku: 6GRWpG
+Status: Scraped successfully
+Tytuł: Audi Q5 2.0 TDI Quattro
+Data Dodania: 3 listopada 2024 10:36
+Sprzedajacy Imie: tadeusz
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 32
+Koordynaty: LAT: 50.09576 LONG: 21.91364
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:55:42,443 - DEBUG - Adding offer 71668 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:55:42,480 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a7-audi-a7-s-line-500hp-ID6GBwE2.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:55:42,480 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a7-audi-a7-s-line-500hp-ID6GBwE2.html
+ID w linku: 6GBwE2
+Status: Scraped successfully
+Tytuł: Audi A7
+Data Dodania: 25 października 2024 19:52
+Sprzedajacy Imie: Mateusz
+Ilosc Szczegółów: 16
+Ilosc Wyposazenia: 36
+Koordynaty: LAT: 51.22468 LONG: 19.30511
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:55:42,481 - DEBUG - Adding offer 71669 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:56:05,295 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:56:05,306 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:56:05,306 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:56:05,912 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a4-audi-a4-ID6GpVuL.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:56:05,913 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a4-audi-a4-ID6GpVuL.html
+ID w linku: 6GpVuL
+Status: Scraped successfully
+Tytuł: Audi A4 2.0 TDI
+Data Dodania: 9 października 2024 10:43
+Sprzedajacy Imie: Artur Zdeb
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 33
+Koordynaty: LAT: 51.94796 LONG: 14.73707
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:56:05,913 - DEBUG - Adding offer 71671 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:56:25,180 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 20:56:25,182 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 20:56:25,182 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 20:56:25,183 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 20:56:25,281 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 20:56:25,285 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 20:56:25,338 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:56:25,339 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:56:25,339 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:56:38,421 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:56:38,424 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:56:38,425 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:56:52,968 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:56:52,970 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:56:52,970 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:56:52,984 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q8-webasto-hak-b-o-felgi-22-s-line-matrix-salon-pl-1-wl-f-vat-ID6GRWfU.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:56:52,985 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-q8-webasto-hak-b-o-felgi-22-s-line-matrix-salon-pl-1-wl-f-vat-ID6GRWfU.html
+ID w linku: 6GRWfU
+Status: Scraped successfully
+Tytuł: Audi Q8
+Data Dodania: 3 listopada 2024 22:33
+Sprzedajacy Imie: Paweł
+Ilosc Szczegółów: 13
+Ilosc Wyposazenia: 126
+Koordynaty: LAT: 52.54635 LONG: 19.70654
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:56:52,985 - DEBUG - Adding offer 71676 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:56:52,991 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a3-1-8-tfsi-sedan-bogate-wyposazenie-automat-panorama-ID6GL8vT.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:56:52,991 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a3-1-8-tfsi-sedan-bogate-wyposazenie-automat-panorama-ID6GL8vT.html
+ID w linku: 6GL8vT
+Status: Scraped successfully
+Tytuł: Audi A3 1.8 TFSI Limousine S tronic Ambition
+Data Dodania: 2 listopada 2024 11:34
+Sprzedajacy Imie: A3
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 61
+Koordynaty: LAT: 50.47625 LONG: 17.33254
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:56:52,992 - DEBUG - Adding offer 71677 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:57:15,336 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-04 20:57:15,336 - INFO - Adding 66 links to Database
+|MAIN_LOG| 2024-11-04 20:57:17,645 - INFO - Commiting 66 / 66 links to the Database.
+|MAIN_LOG| 2024-11-04 20:57:17,691 - INFO - Added 66 / 66 links to the Database.
+|MAIN_LOG| 2024-11-04 20:57:42,633 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 20:57:42,635 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 20:57:42,635 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 20:57:42,637 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 20:57:42,674 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 20:57:42,674 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 20:57:42,889 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 20:57:42,889 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 20:57:42,889 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 20:57:42,890 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 20:57:42,901 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 20:57:42,901 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 20:57:50,168 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-04 20:57:50,169 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-04 20:57:51,124 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-04 20:57:51,149 - INFO - Added 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-04 20:57:55,288 - INFO - Emptying queue link_scraping_queue
+|MAIN_LOG| 2024-11-04 20:57:55,302 - INFO - Queue link_scraping_queue was emptied
+|MAIN_LOG| 2024-11-04 20:58:02,400 - INFO - Emptying queue offer_scraping_queue
+|MAIN_LOG| 2024-11-04 20:58:02,401 - INFO - Queue offer_scraping_queue was emptied
+|MAIN_LOG| 2024-11-04 20:58:27,632 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-04 20:58:27,632 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-04 20:58:27,657 - INFO - Marking 10 as being scraped
+|MAIN_LOG| 2024-11-04 20:58:27,867 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-04 20:58:27,991 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-11-04 20:58:28,005 - INFO - 10 in 5 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-04 20:58:41,072 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:58:41,072 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:58:41,072 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:58:52,918 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:58:52,919 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:58:52,919 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:58:52,929 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a1-17-felgiskorapodgrzewane-foteletempomatdoswietlanie-zakretowled-ID6GRWgI.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:58:52,929 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a1-17-felgiskorapodgrzewane-foteletempomatdoswietlanie-zakretowled-ID6GRWgI.html
+ID w linku: 6GRWgI
+Status: Scraped successfully
+Tytuł: Audi A1 1.6 TDI Ambition
+Data Dodania: 2 listopada 2024 11:18
+Sprzedajacy Imie: Adam
+Ilosc Szczegółów: 16
+Ilosc Wyposazenia: 50
+Koordynaty: LAT: 51.76454 LONG: 19.41237
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:58:52,929 - DEBUG - Adding offer 71681 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:59:06,131 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:59:06,132 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:59:06,132 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:59:06,145 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-3-0tdi-240km-sline-pneumatyka-quattro-keyless-soft-close-ID6GRWhB.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:59:06,145 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-3-0tdi-240km-sline-pneumatyka-quattro-keyless-soft-close-ID6GRWhB.html
+ID w linku: 6GRWhB
+Status: Scraped successfully
+Tytuł: Audi A6 3.0 TDI DPF quattro tiptronic
+Data Dodania: 2 listopada 2024 11:17
+Sprzedajacy Imie: m
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 67
+Koordynaty: LAT: 51.3988 LONG: 21.1581
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:59:06,145 - DEBUG - Adding offer 71682 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:59:06,160 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q5-audi-q5-2021r-ID6GRWf7.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:59:06,160 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-q5-audi-q5-2021r-ID6GRWf7.html
+ID w linku: 6GRWf7
+Status: Scraped successfully
+Tytuł: Audi Q5
+Data Dodania: 2 listopada 2024 11:16
+Sprzedajacy Imie: Audi
+Ilosc Szczegółów: 14
+Ilosc Wyposazenia: 70
+Koordynaty: LAT: 52.80201 LONG: 21.89205
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:59:06,160 - DEBUG - Adding offer 71683 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:59:26,033 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:59:26,034 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:59:26,034 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:59:26,049 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q5-2-o-diesel-163-km-automat-quattro-xennon-przebieg-153-tys-z-niemiec-ID6GKvu7.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:59:26,049 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-q5-2-o-diesel-163-km-automat-quattro-xennon-przebieg-153-tys-z-niemiec-ID6GKvu7.html
+ID w linku: 6GKvu7
+Status: Scraped successfully
+Tytuł: Audi Q5 2.0 TDI clean diesel Quattro S tronic
+Data Dodania: 2 listopada 2024 10:23
+Sprzedajacy Imie: Grzesiek
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 27
+Koordynaty: LAT: 54.35586 LONG: 18.60636
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:59:26,050 - DEBUG - Adding offer 71684 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:59:26,060 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a5-quattro-manual-keyless-bang-bogata-wersja-skora-braz-stan-bardzo-dobry-ID6GMwOz.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:59:26,060 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a5-quattro-manual-keyless-bang-bogata-wersja-skora-braz-stan-bardzo-dobry-ID6GMwOz.html
+ID w linku: 6GMwOz
+Status: Scraped successfully
+Tytuł: Audi A5 3.0 TDI Quattro
+Data Dodania: 2 listopada 2024 10:06
+Sprzedajacy Imie: Paweł
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 25
+Koordynaty: LAT: 52.67221 LONG: 17.15844
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:59:26,060 - DEBUG - Adding offer 71685 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 20:59:40,719 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 20:59:40,720 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 20:59:40,720 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 20:59:40,734 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q5-audi-q5-s-line-45-tfsi-premium-plus-4x4-ID6GREeD.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 20:59:40,734 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-q5-audi-q5-s-line-45-tfsi-premium-plus-4x4-ID6GREeD.html
+ID w linku: 6GREeD
+Status: Scraped successfully
+Tytuł: Audi Q5 45 TFSI quattro S tronic S line
+Data Dodania: 2 listopada 2024 11:04
+Sprzedajacy Imie: Piotr
+Ilosc Szczegółów: 13
+Ilosc Wyposazenia: 91
+Koordynaty: LAT: 52.09542 LONG: 21.61605
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 20:59:40,734 - DEBUG - Adding offer 71686 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:02:09,303 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 21:02:09,304 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 21:02:09,304 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 21:02:09,304 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 21:02:09,331 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 21:02:09,331 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 21:02:12,857 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-04 21:02:12,858 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-04 21:02:12,951 - INFO - Marking 10 as being scraped
+|MAIN_LOG| 2024-11-04 21:02:13,016 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-04 21:02:13,122 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-11-04 21:02:13,134 - INFO - 10 in 5 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-04 21:02:33,589 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 21:02:33,590 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 21:02:33,591 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 21:02:33,613 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-bi-turbo-320-km-salon-pl-radary-pneumatyka-matrixy-ID6GHV78.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:02:33,613 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-bi-turbo-320-km-salon-pl-radary-pneumatyka-matrixy-ID6GHV78.html
+ID w linku: 6GHV78
+Status: Scraped successfully
+Tytuł: Audi A6 3.0 TDI Quattro Tiptronic
+Data Dodania: 19 października 2024 18:57
+Sprzedajacy Imie: Marcin
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 86
+Koordynaty: LAT: 52.09094 LONG: 21.11776
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:02:33,614 - DEBUG - Adding offer 71688 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:02:33,629 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q3-ID6GRWes.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:02:33,630 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-q3-ID6GRWes.html
+ID w linku: 6GRWes
+Status: Scraped successfully
+Tytuł: Audi Q3 45 TFSI Quattro S tronic
+Data Dodania: 2 listopada 2024 11:02
+Sprzedajacy Imie: 
+Ilosc Szczegółów: 15
+Ilosc Wyposazenia: 26
+Koordynaty: LAT: 52.09116 LONG: 17.01848
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:02:33,630 - DEBUG - Adding offer 71689 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:02:58,041 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 21:02:58,043 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 21:02:58,044 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 21:02:58,055 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-a6c7-3-0-quattro-avant-full-3xs-line-head-up-webasto-bose-ksenon-pneum-ID6GHZ7J.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:02:58,055 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-a6c7-3-0-quattro-avant-full-3xs-line-head-up-webasto-bose-ksenon-pneum-ID6GHZ7J.html
+ID w linku: 6GHZ7J
+Status: Scraped successfully
+Tytuł: Audi A6 3.0 TDI Quattro S tronic
+Data Dodania: 31 października 2024 16:13
+Sprzedajacy Imie: Dawid
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 99
+Koordynaty: LAT: 51.20701 LONG: 16.15532
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:02:58,056 - DEBUG - Adding offer 71690 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:02:58,060 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a3-ID6GRWdD.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:02:58,060 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a3-ID6GRWdD.html
+ID w linku: 6GRWdD
+Status: Scraped successfully
+Tytuł: Audi A3 2.0 TFSI Quattro Ambition S tronic
+Data Dodania: 2 listopada 2024 10:58
+Sprzedajacy Imie: Andrzej
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 44
+Koordynaty: LAT: 50.80164 LONG: 20.81017
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:02:58,060 - DEBUG - Adding offer 71691 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:03:16,162 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 21:03:16,164 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 21:03:16,164 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 21:03:16,199 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a4-salon-polska-zadbany-bogate-wyposazenie-serwisowany-tylko-w-aso-ID6GHTuz.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:03:16,199 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a4-salon-polska-zadbany-bogate-wyposazenie-serwisowany-tylko-w-aso-ID6GHTuz.html
+ID w linku: 6GHTuz
+Status: Scraped successfully
+Tytuł: Audi A4 2.0 TFSI Quattro S tronic
+Data Dodania: 2 listopada 2024 09:53
+Sprzedajacy Imie: Karol
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 98
+Koordynaty: LAT: 52.19474 LONG: 20.88159
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:03:16,199 - DEBUG - Adding offer 71693 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:03:34,433 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 21:03:34,435 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 21:03:34,435 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 21:03:34,462 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q5-audi-q5-quattro-s-tronic-ID6GzLyk.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:03:34,463 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-q5-audi-q5-quattro-s-tronic-ID6GzLyk.html
+ID w linku: 6GzLyk
+Status: Scraped successfully
+Tytuł: Audi Q5 2.0 TDI Quattro S tronic
+Data Dodania: 2 listopada 2024 09:51
+Sprzedajacy Imie: Tomasz
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 72
+Koordynaty: LAT: 49.80485 LONG: 18.89326
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:03:34,463 - DEBUG - Adding offer 71694 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:03:34,473 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6c7-3-0-tdi-245km-ID6GRWaB.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:03:34,473 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6c7-3-0-tdi-245km-ID6GRWaB.html
+ID w linku: 6GRWaB
+Status: Scraped successfully
+Tytuł: Audi A6 3.0 TDI Quattro S tronic
+Data Dodania: 3 listopada 2024 15:02
+Sprzedajacy Imie: Maciej
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 35
+Koordynaty: LAT: 51.40026 LONG: 16.20152
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:03:34,473 - DEBUG - Adding offer 71695 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:03:49,143 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 21:03:49,144 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 21:03:49,144 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 21:03:49,322 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-rs3-audi-rs3-8v-ID6Go5mc.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:03:49,322 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-rs3-audi-rs3-8v-ID6Go5mc.html
+ID w linku: 6Go5mc
+Status: Scraped successfully
+Tytuł: Audi RS3 2.5 TFSI GPF Quattro S tronic
+Data Dodania: 30 października 2024 09:33
+Sprzedajacy Imie: Kacper
+Ilosc Szczegółów: 14
+Ilosc Wyposazenia: 31
+Koordynaty: LAT: 50.84051 LONG: 16.4886
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:03:49,322 - DEBUG - Adding offer 71696 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:03:49,367 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a5-audi-a5-sportback-2021-s-line-maxton-s5-matrix-ID6GKf3W.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:03:49,367 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a5-audi-a5-sportback-2021-s-line-maxton-s5-matrix-ID6GKf3W.html
+ID w linku: 6GKf3W
+Status: Scraped successfully
+Tytuł: Audi A5 Sportback 45 TFSI quattro S tronic S line
+Data Dodania: 3 listopada 2024 22:11
+Sprzedajacy Imie: Szymon
+Ilosc Szczegółów: 15
+Ilosc Wyposazenia: 87
+Koordynaty: LAT: 50.02063 LONG: 19.93143
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:03:49,367 - DEBUG - Adding offer 71697 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:04:27,168 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 21:04:27,170 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 21:04:27,170 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 21:04:27,171 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 21:04:27,202 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 21:04:27,202 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 21:04:31,792 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-04 21:04:31,794 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-04 21:04:32,063 - INFO - Marking 10 as being scraped
+|MAIN_LOG| 2024-11-04 21:04:32,209 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-04 21:04:32,298 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-11-04 21:04:32,308 - INFO - 10 in 5 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-04 21:04:45,746 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 21:04:45,747 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 21:04:45,747 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 21:04:45,773 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a4-a4-b9-avant-2-0tdi-150km-2016-ID6GMNz1.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:04:45,773 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a4-a4-b9-avant-2-0tdi-150km-2016-ID6GMNz1.html
+ID w linku: 6GMNz1
+Status: Scraped successfully
+Tytuł: Audi A4 Avant 2.0 TDI design
+Data Dodania: 2 listopada 2024 10:16
+Sprzedajacy Imie: Michał
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 45
+Koordynaty: LAT: 52.31573 LONG: 17.80436
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:04:45,774 - DEBUG - Adding offer 71698 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:05:02,289 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 21:05:02,289 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 21:05:02,289 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 21:05:15,549 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 21:05:15,549 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 21:05:15,550 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 21:05:15,610 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-c6-serwis-polecam-ID6G5eqB.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:05:15,610 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-c6-serwis-polecam-ID6G5eqB.html
+ID w linku: 6G5eqB
+Status: Scraped successfully
+Tytuł: Audi A6
+Data Dodania: 2 listopada 2024 09:46
+Sprzedajacy Imie: lukasz
+Ilosc Szczegółów: 14
+Ilosc Wyposazenia: 31
+Koordynaty: LAT: 51.59311 LONG: 19.38576
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:05:15,610 - DEBUG - Adding offer 71703 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:05:29,729 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 21:05:29,730 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 21:05:29,730 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 21:05:33,300 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-s7-audi-s7-349-km-nowa-cena-ID6GD1wd.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:05:33,300 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-s7-audi-s7-349-km-nowa-cena-ID6GD1wd.html
+ID w linku: 6GD1wd
+Status: Scraped successfully
+Tytuł: Audi S7 TDI Tiptronic
+Data Dodania: 2 listopada 2024 09:42
+Sprzedajacy Imie: Wojciech
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 84
+Koordynaty: LAT: 53.77602 LONG: 20.47703
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:05:33,301 - DEBUG - Adding offer 71704 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:05:33,444 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-s5-audi-s5-3-0-tfsi-354-km-premium-plus-quattro-2018r-ID6GRWaA.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:05:33,445 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-s5-audi-s5-3-0-tfsi-354-km-premium-plus-quattro-2018r-ID6GRWaA.html
+ID w linku: 6GRWaA
+Status: Scraped successfully
+Tytuł: Audi S5 Sportback 3.0 TFSI quattro tiptronic
+Data Dodania: 2 listopada 2024 10:40
+Sprzedajacy Imie: Bogdan
+Ilosc Szczegółów: 16
+Ilosc Wyposazenia: 52
+Koordynaty: LAT: 50.04152 LONG: 22.00953
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:05:33,445 - DEBUG - Adding offer 71705 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:05:47,736 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 21:05:47,737 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 21:05:47,737 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 21:05:47,759 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-s5-audi-s5-3-0-tfsi-430-km-premium-plus-quattro-2019-ID6GRW8g.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:05:47,759 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-s5-audi-s5-3-0-tfsi-430-km-premium-plus-quattro-2019-ID6GRW8g.html
+ID w linku: 6GRW8g
+Status: Scraped successfully
+Tytuł: Audi S5 3.0 TFSI Quattro Tiptronic
+Data Dodania: 2 listopada 2024 10:32
+Sprzedajacy Imie: Bogdan
+Ilosc Szczegółów: 16
+Ilosc Wyposazenia: 39
+Koordynaty: LAT: 50.04152 LONG: 22.00953
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:05:47,760 - DEBUG - Adding offer 71706 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:05:47,771 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a4-sport-sliczna-zadbana-bezwypadkowa-2-0-skory-panorama-dach-navigacja-ID6GRW9J.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:05:47,771 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a4-sport-sliczna-zadbana-bezwypadkowa-2-0-skory-panorama-dach-navigacja-ID6GRW9J.html
+ID w linku: 6GRW9J
+Status: Scraped successfully
+Tytuł: Audi A4
+Data Dodania: 2 listopada 2024 10:32
+Sprzedajacy Imie: Angel-Cars Paweł Szymański Jasin-Swarzędz
+Ilosc Szczegółów: 15
+Ilosc Wyposazenia: 54
+Koordynaty: LAT: 52.4076 LONG: 17.07351
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:05:47,771 - DEBUG - Adding offer 71707 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:10:43,537 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 21:10:43,541 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 21:10:43,541 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 21:10:43,541 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 21:10:43,567 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 21:10:43,568 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 21:10:50,307 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 21:10:50,308 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 21:10:50,308 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 21:10:50,308 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 21:10:50,320 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 21:10:50,320 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 21:10:51,696 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 21:10:51,696 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 21:10:51,696 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 21:10:51,697 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 21:10:51,708 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 21:10:51,709 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 21:10:56,402 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 21:10:56,403 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 21:10:56,403 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 21:10:56,403 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 21:10:56,415 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 21:10:56,415 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 21:11:03,793 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-04 21:11:03,796 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-04 21:11:03,885 - INFO - Marking 10 as being scraped
+|MAIN_LOG| 2024-11-04 21:11:03,940 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-04 21:11:04,046 - INFO - Generated 5 batches.
+|MAIN_LOG| 2024-11-04 21:11:04,055 - INFO - 10 in 5 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-04 21:11:19,231 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 21:11:19,233 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 21:11:19,233 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 21:11:19,241 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a5-ID6GMZtH.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:11:19,241 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a5-ID6GMZtH.html
+ID w linku: 6GMZtH
+Status: Scraped successfully
+Tytuł: Audi A5 2.0 TFSI Quattro S tronic
+Data Dodania: 2 listopada 2024 09:33
+Sprzedajacy Imie: Mateusz
+Ilosc Szczegółów: 16
+Ilosc Wyposazenia: 65
+Koordynaty: LAT: 50.04152 LONG: 22.00953
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:11:19,241 - DEBUG - Adding offer 71708 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:11:19,250 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-c7-2-0-tfsi-lift-sline-kamera-ID6Gr9sv.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:11:19,250 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-c7-2-0-tfsi-lift-sline-kamera-ID6Gr9sv.html
+ID w linku: 6Gr9sv
+Status: Scraped successfully
+Tytuł: Audi A6 2.0 TFSI S tronic
+Data Dodania: 8 października 2024 13:30
+Sprzedajacy Imie: Sebastian
+Ilosc Szczegółów: 14
+Ilosc Wyposazenia: 45
+Koordynaty: LAT: 51.86509 LONG: 20.86831
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:11:19,251 - DEBUG - Adding offer 71709 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:11:33,533 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 21:11:33,538 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 21:11:33,538 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 21:11:33,567 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q3-s-line-quattro-premium-plus-panorama-ID6GRW9p.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:11:33,567 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-q3-s-line-quattro-premium-plus-panorama-ID6GRW9p.html
+ID w linku: 6GRW9p
+Status: Scraped successfully
+Tytuł: Audi Q3 2.0 TFSI Quattro Sport S tronic
+Data Dodania: 2 listopada 2024 10:31
+Sprzedajacy Imie: Paweł
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 69
+Koordynaty: LAT: 50.04567 LONG: 20.99642
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:11:33,568 - DEBUG - Adding offer 71711 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:12:23,386 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 21:12:23,391 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 21:12:23,395 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 21:12:23,397 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 21:12:23,431 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 21:12:23,431 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 21:12:40,381 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 21:12:40,383 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 21:12:40,383 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 21:12:42,471 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a4-nardo-grey-masaze-matrix-bang-olufsen-full-ID6GRW8G.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:12:42,471 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a4-nardo-grey-masaze-matrix-bang-olufsen-full-ID6GRW8G.html
+ID w linku: 6GRW8G
+Status: Scraped successfully
+Tytuł: Audi A4 Avant 40 TDI S tronic S line
+Data Dodania: 3 listopada 2024 13:14
+Sprzedajacy Imie: Car4U
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 45
+Koordynaty: LAT: 51.1153 LONG: 15.58795
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:12:42,472 - DEBUG - Adding offer 71712 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:12:57,506 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 21:12:57,507 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 21:12:57,507 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 21:12:57,508 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 21:12:57,581 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 21:12:57,582 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 21:12:58,555 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 21:12:58,555 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 21:12:58,556 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 21:12:58,770 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a3-6-biegow-klima-sprawna-1-6-benzyna-super-stan-wizualni-i-mechaniczn-ID6GDOMq.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:12:58,770 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a3-6-biegow-klima-sprawna-1-6-benzyna-super-stan-wizualni-i-mechaniczn-ID6GDOMq.html
+ID w linku: 6GDOMq
+Status: Scraped successfully
+Tytuł: Audi A3 1.6 FSI S Line Sportpaket plus
+Data Dodania: 1 listopada 2024 16:46
+Sprzedajacy Imie: Angelika
+Ilosc Szczegółów: 16
+Ilosc Wyposazenia: 34
+Koordynaty: LAT: 52.43464 LONG: 16.86808
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:12:58,770 - DEBUG - Adding offer 71715 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:13:01,290 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-04 21:13:01,292 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-04 21:13:01,292 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-04 21:13:01,292 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-04 21:13:01,308 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-04 21:13:01,308 - INFO - Defining queues
+|MAIN_LOG| 2024-11-04 21:13:13,065 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-04 21:13:13,066 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-04 21:13:13,066 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-04 21:13:13,146 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q3-audi-q3-tfsi-quattro-s-line-ID6GMP3S.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:13:13,147 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-q3-audi-q3-tfsi-quattro-s-line-ID6GMP3S.html
+ID w linku: 6GMP3S
+Status: Scraped successfully
+Tytuł: Audi Q3 45 TFSI Quattro S Line S tronic
+Data Dodania: 2 listopada 2024 09:18
+Sprzedajacy Imie: Michał
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 102
+Koordynaty: LAT: 52.38593 LONG: 16.97698
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:13:13,147 - DEBUG - Adding offer 71716 to query to be commited into offers table
+|MAIN_LOG| 2024-11-04 21:13:13,166 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-tfsi-245km-quattro-ID6GHIGE.html>
+Offer ID: None
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-04 21:13:13,166 - DEBUG - 
+Passing offer to DB: 
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-tfsi-245km-quattro-ID6GHIGE.html
+ID w linku: 6GHIGE
+Status: Scraped successfully
+Tytuł: Audi A6 45 TFSI Quattro S tronic
+Data Dodania: 2 listopada 2024 21:24
+Sprzedajacy Imie: Damian
+Ilosc Szczegółów: 16
+Ilosc Wyposazenia: 33
+Koordynaty: LAT: 51.71908 LONG: 17.72703
+Brakujące pola: id, coords_exact
+|MAIN_LOG| 2024-11-04 21:13:13,166 - DEBUG - Adding offer 71717 to query to be commited into offers table
