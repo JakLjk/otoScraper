@@ -56,6 +56,7 @@ def scrape_offers(links:list):
                 offer = OFFER(link)
                 offer.id = link_id
                 offer.offer_status = offerStatus.scrapingError
+                offer.offer_scraping_error = e
                 offers[link_id] = offer.offer_info_dict()
         response = requests.post(
         "http://127.0.0.1:5000//pass-offers-to-db",

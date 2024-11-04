@@ -46,6 +46,7 @@ class OFFER:
     
     link:str
     offer_status:offerStatus = offerStatus.statusNotYetScraped
+    offer_scraping_error:str = ""
     id:int = None
     id_z_oferty:str = None
 
@@ -100,3 +101,11 @@ class OFFER:
             return match.group(1)
         else:
             return None
+        
+    @property
+    def szczegoly_json(self):
+        return json.dumps(self.szczegoly, ensure_ascii=False)
+    
+    @property
+    def wyposazenie_json(self):
+        return json.dumps(self.wyposazenie, ensure_ascii=False)

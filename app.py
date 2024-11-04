@@ -234,8 +234,7 @@ def pass_offers_to_db():
                 
                 main_log.debug(f"\nPassing offer to DB: \n"
                                f"{offer}")
-                print(offer.szczegoly)
-                new_offer = OFFERS(id=id,
+                new_offer = OFFERS(id=int(id),
                                    link = offer.link,
                                     id_oferty = offer.id_z_oferty,
                                     id_oferty_w_linku = offer.id_oferty_w_linku,
