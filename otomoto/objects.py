@@ -15,7 +15,7 @@ class OFFER:
     def __repr__(self) -> str:
 
         if self.offer_status == offerStatus.statusScrapeSuccess:
-            repr_str =  (f"<class: OFFER>\n"
+            repr_str =  (f"\n<class: OFFER>\n"
                     f"Link: {self.link}\n"
                     f"ID w linku: {self.id_oferty_w_linku}\n"
                     f"Status: {self.offer_status}\n" 
@@ -27,7 +27,7 @@ class OFFER:
                     f"Koordynaty: LAT: {self.latitude} LONG: {self.longitude}\n"
                     )
         elif self.offer_status == offerStatus.status404:
-            repr_str =  (f"<class: OFFER>\n"
+            repr_str =  (f"\n<class: OFFER>\n"
                     f"Link: {self.link}\n"
                     f"ID w linku: {self.id_oferty_w_linku}\n"
                     f"Status: {self.offer_status}\n" 
@@ -35,11 +35,11 @@ class OFFER:
         missing_fields = self.no_data_for_fields()
         if missing_fields:
             if len(missing_fields)>5:
-                repr_str += f"Brakujące pola: {len(missing_fields)}"
+                repr_str += f"Brakujące pola: {len(missing_fields)}\n"
             else:
-                repr_str += f"Brakujące pola: {', '.join(missing_fields)}"
+                repr_str += f"Brakujące pola: {', '.join(missing_fields)}\n"
         else:
-            repr_str += "Brakujące pola: Brak"
+            repr_str += "Brakujące pola: Brak\n"
 
         return repr_str
     

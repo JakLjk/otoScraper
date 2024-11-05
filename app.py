@@ -91,7 +91,7 @@ def add_link_pages_scraping_task():
         main_log.info("Getting car brands")
         car_brands = scripts.get_all_car_brands(wd)
 
-        car_brands = car_brands[1:5]
+        # car_brands = car_brands[1:5]
 
         num_of_car_brands = len(car_brands)
         main_log.info("Scraping number of scrollpages for each car brand")
@@ -260,7 +260,7 @@ def pass_offers_to_db():
                 db.session.add(new_offer)
                 main_log.debug(f"Adding offer {id} to query to be commited into offers table")
             else:
-                error_message = data['error_message']
+                error_message = offer.offer_scraping_error
                 link.error_message = error_message
 
                 

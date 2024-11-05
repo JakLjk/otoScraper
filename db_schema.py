@@ -8,7 +8,6 @@ class LINKS(db.Model):
     __tablename__ = 'offerLinks'
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    offer_id = db.Column(db.String)
     offer_id_in_link = db.Column(db.String)
     date_added = db.Column(db.TIMESTAMP, nullable=False, default=func.now())
     date_modified = db.Column(db.TIMESTAMP, nullable=False, onupdate=db.func.current_timestamp())
