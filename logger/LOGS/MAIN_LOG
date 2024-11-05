@@ -8981,3 +8981,242 @@ Brakujące pola: id, coords_exact
 |MAIN_LOG| 2024-11-05 20:09:45,338 - INFO - Generating scrollpage links for brand opel. <6/167>
 |MAIN_LOG| 2024-11-05 20:09:49,835 - INFO - Generating scrollpage links for brand toyota. <7/167>
 |MAIN_LOG| 2024-11-05 20:09:54,677 - INFO - Generating scrollpage links for brand renault. <8/167>
+|MAIN_LOG| 2024-11-05 20:10:08,226 - INFO - Generating scrollpage links for brand skoda. <9/167>
+|MAIN_LOG| 2024-11-05 20:10:13,007 - INFO - Generating scrollpage links for brand peugeot. <10/167>
+|MAIN_LOG| 2024-11-05 20:10:17,183 - INFO - Generating scrollpage links for brand abarth. <11/167>
+|MAIN_LOG| 2024-11-05 20:10:21,911 - INFO - Generating scrollpage links for brand acura. <12/167>
+|MAIN_LOG| 2024-11-05 20:10:26,305 - INFO - Generating scrollpage links for brand aiways. <13/167>
+|MAIN_LOG| 2024-11-05 20:10:30,377 - INFO - Generating scrollpage links for brand aixam. <14/167>
+|MAIN_LOG| 2024-11-05 20:10:34,924 - INFO - Generating scrollpage links for brand alfa-romeo. <15/167>
+|MAIN_LOG| 2024-11-05 20:10:39,685 - INFO - Generating scrollpage links for brand alpine. <16/167>
+|MAIN_LOG| 2024-11-05 20:10:44,104 - INFO - Generating scrollpage links for brand arcfox. <17/167>
+|MAIN_LOG| 2024-11-05 20:10:48,270 - INFO - Generating scrollpage links for brand asia. <18/167>
+|MAIN_LOG| 2024-11-05 20:10:52,286 - INFO - Generating scrollpage links for brand aston-martin. <19/167>
+|MAIN_LOG| 2024-11-05 20:10:57,120 - INFO - Generating scrollpage links for brand audi. <20/167>
+|MAIN_LOG| 2024-11-05 20:11:01,547 - INFO - Generating scrollpage links for brand austin. <21/167>
+|MAIN_LOG| 2024-11-05 20:11:05,657 - INFO - Generating scrollpage links for brand autobianchi. <22/167>
+|MAIN_LOG| 2024-11-05 20:11:09,732 - INFO - Generating scrollpage links for brand avatr. <23/167>
+|MAIN_LOG| 2024-11-05 20:11:13,840 - INFO - Generating scrollpage links for brand baic. <24/167>
+|MAIN_LOG| 2024-11-05 20:11:19,602 - INFO - Generating scrollpage links for brand bentley. <25/167>
+|MAIN_LOG| 2024-11-05 20:11:39,277 - INFO - Generating scrollpage links for brand bmw. <26/167>
+|MAIN_LOG| 2024-11-05 20:11:54,960 - INFO - Generating scrollpage links for brand alpina. <27/167>
+|MAIN_LOG| 2024-11-05 20:12:00,277 - INFO - Generating scrollpage links for brand brilliance. <28/167>
+|MAIN_LOG| 2024-11-05 20:12:04,321 - INFO - Generating scrollpage links for brand bugatti. <29/167>
+|MAIN_LOG| 2024-11-05 20:12:08,190 - INFO - Generating scrollpage links for brand buick. <30/167>
+|MAIN_LOG| 2024-11-05 20:12:12,580 - INFO - Generating scrollpage links for brand byd. <31/167>
+|MAIN_LOG| 2024-11-05 20:12:16,771 - INFO - Generating scrollpage links for brand cadillac. <32/167>
+|MAIN_LOG| 2024-11-05 20:12:21,211 - INFO - Generating scrollpage links for brand casalini. <33/167>
+|MAIN_LOG| 2024-11-05 20:12:25,401 - INFO - Generating scrollpage links for brand caterham. <34/167>
+|MAIN_LOG| 2024-11-05 20:12:29,391 - INFO - Generating scrollpage links for brand cenntro. <35/167>
+|MAIN_LOG| 2024-11-05 20:12:33,457 - INFO - Generating scrollpage links for brand changan. <36/167>
+|MAIN_LOG| 2024-11-05 20:12:37,951 - INFO - Generating scrollpage links for brand chatenet. <37/167>
+|MAIN_LOG| 2024-11-05 20:12:43,601 - INFO - Generating scrollpage links for brand chevrolet. <38/167>
+|MAIN_LOG| 2024-11-05 20:12:49,027 - INFO - Generating scrollpage links for brand chrysler. <39/167>
+|MAIN_LOG| 2024-11-05 20:12:53,390 - INFO - Generating scrollpage links for brand citroen. <40/167>
+|MAIN_LOG| 2024-11-05 20:12:57,579 - INFO - Generating scrollpage links for brand cupra. <41/167>
+|MAIN_LOG| 2024-11-05 20:13:02,889 - INFO - Generating scrollpage links for brand dacia. <42/167>
+|MAIN_LOG| 2024-11-05 20:13:07,444 - INFO - Generating scrollpage links for brand daewoo. <43/167>
+|MAIN_LOG| 2024-11-05 20:13:12,154 - INFO - Generating scrollpage links for brand daihatsu. <44/167>
+|MAIN_LOG| 2024-11-05 20:13:17,047 - INFO - Generating scrollpage links for brand delorean. <45/167>
+|MAIN_LOG| 2024-11-05 20:13:21,289 - INFO - Generating scrollpage links for brand dfm. <46/167>
+|MAIN_LOG| 2024-11-05 20:13:25,615 - INFO - Generating scrollpage links for brand dfsk. <47/167>
+|MAIN_LOG| 2024-11-05 20:13:29,685 - INFO - Generating scrollpage links for brand dkw. <48/167>
+|MAIN_LOG| 2024-11-05 20:13:33,753 - INFO - Generating scrollpage links for brand dodge. <49/167>
+|MAIN_LOG| 2024-11-05 20:13:38,261 - INFO - Generating scrollpage links for brand doosan. <50/167>
+|MAIN_LOG| 2024-11-05 20:13:42,646 - INFO - Generating scrollpage links for brand dr-motor. <51/167>
+|MAIN_LOG| 2024-11-05 20:13:46,836 - INFO - Generating scrollpage links for brand ds-automobiles. <52/167>
+|MAIN_LOG| 2024-11-05 20:13:52,794 - INFO - Generating scrollpage links for brand e-go. <53/167>
+|MAIN_LOG| 2024-11-05 20:13:57,135 - INFO - Generating scrollpage links for brand elaris. <54/167>
+|MAIN_LOG| 2024-11-05 20:14:01,721 - INFO - Generating scrollpage links for brand faw. <55/167>
+|MAIN_LOG| 2024-11-05 20:14:06,057 - INFO - Generating scrollpage links for brand fendt. <56/167>
+|MAIN_LOG| 2024-11-05 20:14:10,625 - INFO - Generating scrollpage links for brand ferrari. <57/167>
+|MAIN_LOG| 2024-11-05 20:14:16,490 - INFO - Generating scrollpage links for brand fiat. <58/167>
+|MAIN_LOG| 2024-11-05 20:14:21,820 - INFO - Generating scrollpage links for brand fisker. <59/167>
+|MAIN_LOG| 2024-11-05 20:14:26,720 - INFO - Generating scrollpage links for brand ford. <60/167>
+|MAIN_LOG| 2024-11-05 20:14:31,502 - INFO - Generating scrollpage links for brand forthing. <61/167>
+|MAIN_LOG| 2024-11-05 20:14:35,601 - INFO - Generating scrollpage links for brand gaz. <62/167>
+|MAIN_LOG| 2024-11-05 20:14:39,743 - INFO - Generating scrollpage links for brand geely. <63/167>
+|MAIN_LOG| 2024-11-05 20:14:43,996 - INFO - Generating scrollpage links for brand genesis. <64/167>
+|MAIN_LOG| 2024-11-05 20:14:48,753 - INFO - Generating scrollpage links for brand gmc. <65/167>
+|MAIN_LOG| 2024-11-05 20:14:54,021 - INFO - Generating scrollpage links for brand gwm. <66/167>
+|MAIN_LOG| 2024-11-05 20:14:58,326 - INFO - Generating scrollpage links for brand hiphi. <67/167>
+|MAIN_LOG| 2024-11-05 20:15:02,448 - INFO - Generating scrollpage links for brand honda. <68/167>
+|MAIN_LOG| 2024-11-05 20:15:07,046 - INFO - Generating scrollpage links for brand hongqi. <69/167>
+|MAIN_LOG| 2024-11-05 20:15:11,251 - INFO - Generating scrollpage links for brand hummer. <70/167>
+|MAIN_LOG| 2024-11-05 20:15:16,018 - INFO - Generating scrollpage links for brand hyundai. <71/167>
+|MAIN_LOG| 2024-11-05 20:15:20,336 - INFO - Generating scrollpage links for brand iamelectric. <72/167>
+|MAIN_LOG| 2024-11-05 20:15:25,065 - INFO - Generating scrollpage links for brand ineos. <73/167>
+|MAIN_LOG| 2024-11-05 20:15:29,250 - INFO - Generating scrollpage links for brand infiniti. <74/167>
+|MAIN_LOG| 2024-11-05 20:15:33,692 - INFO - Generating scrollpage links for brand other. <75/167>
+|MAIN_LOG| 2024-11-05 20:15:38,167 - INFO - Generating scrollpage links for brand isuzu. <76/167>
+|MAIN_LOG| 2024-11-05 20:15:43,029 - INFO - Generating scrollpage links for brand iveco. <77/167>
+|MAIN_LOG| 2024-11-05 20:15:48,020 - INFO - Generating scrollpage links for brand jac. <78/167>
+|MAIN_LOG| 2024-11-05 20:15:52,206 - INFO - Generating scrollpage links for brand jaecoo. <79/167>
+|MAIN_LOG| 2024-11-05 20:15:57,168 - INFO - Generating scrollpage links for brand jaguar. <80/167>
+|MAIN_LOG| 2024-11-05 20:16:02,065 - INFO - Generating scrollpage links for brand jeep. <81/167>
+|MAIN_LOG| 2024-11-05 20:16:06,531 - INFO - Generating scrollpage links for brand jetour. <82/167>
+|MAIN_LOG| 2024-11-05 20:16:11,007 - INFO - Generating scrollpage links for brand jinpeng. <83/167>
+|MAIN_LOG| 2024-11-05 20:16:15,092 - INFO - Generating scrollpage links for brand kia. <84/167>
+|MAIN_LOG| 2024-11-05 20:16:19,466 - INFO - Generating scrollpage links for brand ktm. <85/167>
+|MAIN_LOG| 2024-11-05 20:16:23,418 - INFO - Generating scrollpage links for brand lada. <86/167>
+|MAIN_LOG| 2024-11-05 20:16:27,679 - INFO - Generating scrollpage links for brand lamborghini. <87/167>
+|MAIN_LOG| 2024-11-05 20:16:32,429 - INFO - Generating scrollpage links for brand lancia. <88/167>
+|MAIN_LOG| 2024-11-05 20:16:37,496 - INFO - Generating scrollpage links for brand land-rover. <89/167>
+|MAIN_LOG| 2024-11-05 20:16:42,789 - INFO - Generating scrollpage links for brand leapmotor. <90/167>
+|MAIN_LOG| 2024-11-05 20:16:46,859 - INFO - Generating scrollpage links for brand levc. <91/167>
+|MAIN_LOG| 2024-11-05 20:16:50,860 - INFO - Generating scrollpage links for brand lexus. <92/167>
+|MAIN_LOG| 2024-11-05 20:16:55,617 - INFO - Generating scrollpage links for brand ligier. <93/167>
+|MAIN_LOG| 2024-11-05 20:17:00,456 - INFO - Generating scrollpage links for brand lincoln. <94/167>
+|MAIN_LOG| 2024-11-05 20:17:04,742 - INFO - Generating scrollpage links for brand lixiang. <95/167>
+|MAIN_LOG| 2024-11-05 20:17:09,131 - INFO - Generating scrollpage links for brand lotus. <96/167>
+|MAIN_LOG| 2024-11-05 20:17:13,126 - INFO - Generating scrollpage links for brand lti. <97/167>
+|MAIN_LOG| 2024-11-05 20:17:17,055 - INFO - Generating scrollpage links for brand lucid. <98/167>
+|MAIN_LOG| 2024-11-05 20:17:21,153 - INFO - Generating scrollpage links for brand lynk-and-co. <99/167>
+|MAIN_LOG| 2024-11-05 20:17:25,514 - INFO - Generating scrollpage links for brand man. <100/167>
+|MAIN_LOG| 2024-11-05 20:17:30,006 - INFO - Generating scrollpage links for brand maserati. <101/167>
+|MAIN_LOG| 2024-11-05 20:17:34,389 - INFO - Generating scrollpage links for brand maximus. <102/167>
+|MAIN_LOG| 2024-11-05 20:17:38,338 - INFO - Generating scrollpage links for brand maxus. <103/167>
+|MAIN_LOG| 2024-11-05 20:17:43,465 - INFO - Generating scrollpage links for brand maybach. <104/167>
+|MAIN_LOG| 2024-11-05 20:17:48,114 - INFO - Generating scrollpage links for brand mazda. <105/167>
+|MAIN_LOG| 2024-11-05 20:17:53,475 - INFO - Generating scrollpage links for brand mclaren. <106/167>
+|MAIN_LOG| 2024-11-05 20:17:58,522 - INFO - Generating scrollpage links for brand mercedes-benz. <107/167>
+|MAIN_LOG| 2024-11-05 20:18:03,607 - INFO - Generating scrollpage links for brand mercury. <108/167>
+|MAIN_LOG| 2024-11-05 20:18:07,849 - INFO - Generating scrollpage links for brand mg. <109/167>
+|MAIN_LOG| 2024-11-05 20:18:12,674 - INFO - Generating scrollpage links for brand microcar. <110/167>
+|MAIN_LOG| 2024-11-05 20:18:17,150 - INFO - Generating scrollpage links for brand mini. <111/167>
+|MAIN_LOG| 2024-11-05 20:18:21,249 - INFO - Generating scrollpage links for brand mitsubishi. <112/167>
+|MAIN_LOG| 2024-11-05 20:18:26,043 - INFO - Generating scrollpage links for brand morgan. <113/167>
+|MAIN_LOG| 2024-11-05 20:18:30,050 - INFO - Generating scrollpage links for brand nio. <114/167>
+|MAIN_LOG| 2024-11-05 20:18:34,652 - INFO - Generating scrollpage links for brand nissan. <115/167>
+|MAIN_LOG| 2024-11-05 20:18:39,317 - INFO - Generating scrollpage links for brand nysa. <116/167>
+|MAIN_LOG| 2024-11-05 20:18:43,343 - INFO - Generating scrollpage links for brand oldsmobile. <117/167>
+|MAIN_LOG| 2024-11-05 20:18:47,657 - INFO - Generating scrollpage links for brand omoda. <118/167>
+|MAIN_LOG| 2024-11-05 20:18:52,270 - INFO - Generating scrollpage links for brand opel. <119/167>
+|MAIN_LOG| 2024-11-05 20:18:56,604 - INFO - Generating scrollpage links for brand peugeot. <120/167>
+|MAIN_LOG| 2024-11-05 20:19:01,171 - INFO - Generating scrollpage links for brand piaggio. <121/167>
+|MAIN_LOG| 2024-11-05 20:19:05,235 - INFO - Generating scrollpage links for brand plymouth. <122/167>
+|MAIN_LOG| 2024-11-05 20:19:09,398 - INFO - Generating scrollpage links for brand polestar. <123/167>
+|MAIN_LOG| 2024-11-05 20:19:13,643 - INFO - Generating scrollpage links for brand polonez. <124/167>
+|MAIN_LOG| 2024-11-05 20:19:18,003 - INFO - Generating scrollpage links for brand pontiac. <125/167>
+|MAIN_LOG| 2024-11-05 20:19:22,098 - INFO - Generating scrollpage links for brand porsche. <126/167>
+|MAIN_LOG| 2024-11-05 20:19:27,264 - INFO - Generating scrollpage links for brand ram. <127/167>
+|MAIN_LOG| 2024-11-05 20:19:31,521 - INFO - Generating scrollpage links for brand renault. <128/167>
+|MAIN_LOG| 2024-11-05 20:19:36,700 - INFO - Generating scrollpage links for brand rolls-royce. <129/167>
+|MAIN_LOG| 2024-11-05 20:19:41,277 - INFO - Generating scrollpage links for brand rover. <130/167>
+|MAIN_LOG| 2024-11-05 20:19:45,414 - INFO - Generating scrollpage links for brand saab. <131/167>
+|MAIN_LOG| 2024-11-05 20:19:49,828 - INFO - Generating scrollpage links for brand sarini. <132/167>
+|MAIN_LOG| 2024-11-05 20:19:53,857 - INFO - Generating scrollpage links for brand saturn. <133/167>
+|MAIN_LOG| 2024-11-05 20:19:58,101 - INFO - Generating scrollpage links for brand seat. <134/167>
+|MAIN_LOG| 2024-11-05 20:20:02,160 - INFO - Generating scrollpage links for brand seres. <135/167>
+|MAIN_LOG| 2024-11-05 20:20:06,458 - INFO - Generating scrollpage links for brand shuanghuan. <136/167>
+|MAIN_LOG| 2024-11-05 20:20:10,433 - INFO - Generating scrollpage links for brand skoda. <137/167>
+|MAIN_LOG| 2024-11-05 20:20:14,921 - INFO - Generating scrollpage links for brand skywell. <138/167>
+|MAIN_LOG| 2024-11-05 20:20:19,338 - INFO - Generating scrollpage links for brand skyworth. <139/167>
+|MAIN_LOG| 2024-11-05 20:20:23,313 - INFO - Generating scrollpage links for brand smart. <140/167>
+|MAIN_LOG| 2024-11-05 20:20:27,601 - INFO - Generating scrollpage links for brand ssangyong. <141/167>
+|MAIN_LOG| 2024-11-05 20:20:32,292 - INFO - Generating scrollpage links for brand subaru. <142/167>
+|MAIN_LOG| 2024-11-05 20:20:36,886 - INFO - Generating scrollpage links for brand suzuki. <143/167>
+|MAIN_LOG| 2024-11-05 20:20:42,750 - INFO - Generating scrollpage links for brand syrena. <144/167>
+|MAIN_LOG| 2024-11-05 20:20:47,695 - INFO - Generating scrollpage links for brand tarpan. <145/167>
+|MAIN_LOG| 2024-11-05 20:20:51,902 - INFO - Generating scrollpage links for brand tata. <146/167>
+|MAIN_LOG| 2024-11-05 20:20:55,994 - INFO - Generating scrollpage links for brand tesla. <147/167>
+|MAIN_LOG| 2024-11-05 20:21:00,677 - INFO - Generating scrollpage links for brand toyota. <148/167>
+|MAIN_LOG| 2024-11-05 20:21:05,086 - INFO - Generating scrollpage links for brand trabant. <149/167>
+|MAIN_LOG| 2024-11-05 20:21:09,699 - INFO - Generating scrollpage links for brand triumph. <150/167>
+|MAIN_LOG| 2024-11-05 20:21:13,773 - INFO - Generating scrollpage links for brand uaz. <151/167>
+|MAIN_LOG| 2024-11-05 20:21:17,922 - INFO - Generating scrollpage links for brand vauxhall. <152/167>
+|MAIN_LOG| 2024-11-05 20:21:22,313 - INFO - Generating scrollpage links for brand velex. <153/167>
+|MAIN_LOG| 2024-11-05 20:21:27,095 - INFO - Generating scrollpage links for brand volkswagen. <154/167>
+|MAIN_LOG| 2024-11-05 20:21:31,296 - INFO - Generating scrollpage links for brand volvo. <155/167>
+|MAIN_LOG| 2024-11-05 20:21:35,767 - INFO - Generating scrollpage links for brand voyah. <156/167>
+|MAIN_LOG| 2024-11-05 20:21:39,717 - INFO - Generating scrollpage links for brand waltra. <157/167>
+|MAIN_LOG| 2024-11-05 20:21:43,838 - INFO - Generating scrollpage links for brand warszawa. <158/167>
+|MAIN_LOG| 2024-11-05 20:21:48,736 - INFO - Generating scrollpage links for brand wartburg. <159/167>
+|MAIN_LOG| 2024-11-05 20:21:52,792 - INFO - Generating scrollpage links for brand wolga. <160/167>
+|MAIN_LOG| 2024-11-05 20:21:56,775 - INFO - Generating scrollpage links for brand xiaomi. <161/167>
+|MAIN_LOG| 2024-11-05 20:22:01,072 - INFO - Generating scrollpage links for brand xpeng. <162/167>
+|MAIN_LOG| 2024-11-05 20:22:05,205 - INFO - Generating scrollpage links for brand zaporozec. <163/167>
+|MAIN_LOG| 2024-11-05 20:22:09,186 - INFO - Generating scrollpage links for brand zastawa. <164/167>
+|MAIN_LOG| 2024-11-05 20:22:13,095 - INFO - Generating scrollpage links for brand zeekr. <165/167>
+|MAIN_LOG| 2024-11-05 20:22:17,148 - INFO - Generating scrollpage links for brand zhidou. <166/167>
+|MAIN_LOG| 2024-11-05 20:22:21,351 - INFO - Generating scrollpage links for brand zuk. <167/167>
+|MAIN_LOG| 2024-11-05 20:22:25,408 - INFO - passing links to queue
+|MAIN_LOG| 2024-11-05 20:22:26,392 - INFO - Added 15265 offer scrollpage links to scrape queue
+|MAIN_LOG| 2024-11-05 20:22:42,843 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:22:42,844 - INFO - Adding 70 links to Database
+|MAIN_LOG| 2024-11-05 20:22:42,876 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:22:43,375 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:22:54,354 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:22:54,355 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:22:54,909 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:22:54,909 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:23:06,192 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:23:06,192 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:23:06,634 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:23:06,634 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:23:17,005 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:23:17,006 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:23:18,009 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:23:18,009 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:23:27,209 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:23:27,210 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:23:29,484 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:23:29,485 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:23:38,462 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:23:38,463 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:23:38,963 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:23:38,964 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:23:49,288 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:23:49,289 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:23:49,802 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:23:49,802 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:24:01,258 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:24:01,258 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:24:01,306 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:24:01,306 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:24:20,628 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:24:20,629 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:24:20,670 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:24:21,713 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:24:34,684 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:24:34,685 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:24:34,730 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:24:35,578 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:24:56,214 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:24:56,215 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:24:56,299 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:24:56,299 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:25:01,564 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-05 20:25:01,567 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-05 20:25:01,567 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-05 20:25:01,568 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-05 20:25:01,603 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-05 20:25:01,603 - INFO - Defining queues
+|MAIN_LOG| 2024-11-05 20:25:07,478 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:25:07,480 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:25:07,834 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:25:07,834 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:25:08,157 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-05 20:25:08,192 - INFO - Added 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-05 20:25:08,449 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-05 20:25:08,485 - INFO - Added 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-05 20:25:20,440 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:25:20,442 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:25:20,574 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:25:20,576 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:25:21,370 - INFO - Commiting 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-05 20:25:21,404 - INFO - Added 64 / 64 links to the Database.
+|MAIN_LOG| 2024-11-05 20:25:21,405 - INFO - Commiting 62 / 64 links to the Database.
+|MAIN_LOG| 2024-11-05 20:25:21,451 - INFO - Added 62 / 64 links to the Database.
+|MAIN_LOG| 2024-11-05 20:25:22,802 - INFO - Emptying queue link_scraping_queue
+|MAIN_LOG| 2024-11-05 20:25:22,839 - INFO - Queue link_scraping_queue was emptied
+|MAIN_LOG| 2024-11-05 20:25:33,078 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:25:33,079 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:25:33,824 - INFO - Commiting 58 / 64 links to the Database.
+|MAIN_LOG| 2024-11-05 20:25:33,852 - INFO - Added 58 / 64 links to the Database.
+|MAIN_LOG| 2024-11-05 20:25:34,100 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-05 20:25:34,100 - INFO - Adding 64 links to Database
+|MAIN_LOG| 2024-11-05 20:25:34,916 - INFO - Commiting 56 / 64 links to the Database.
+|MAIN_LOG| 2024-11-05 20:25:34,976 - INFO - Added 56 / 64 links to the Database.
+|MAIN_LOG| 2024-11-05 20:25:42,152 - INFO - Fetching count of links from DB
+|MAIN_LOG| 2024-11-05 20:25:42,215 - INFO - Returning information about count of links in DB

@@ -2,6 +2,9 @@
 .zshrc
 .rdb
 .log
+.dump.rdb
+.tests.py
+MAIN_LOG
 
 
 # Byte-compiled / optimized / DLL files

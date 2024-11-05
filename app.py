@@ -136,14 +136,14 @@ def pass_offer_scrollpage_links_to_db():
         i = 0
         main_log.info(f"Adding {num_of_links} links to Database")
         for link in links:
-            offer_id = re.search(r'ID\w+', link)
-            id_part = offer_id.group()
-            existing_link = LINKS.query.filter_by(offer_id=offer_id).first()
+            offer_id_in_link = re.search(r'ID\w+', link)
+            offer_id_in_link = offer_id_in_link.group()
+            existing_link = LINKS.query.filter_by(offer_id_in_link=offer_id_in_link).first()
 
             if not existing_link:
                 i += 1
                 new_link = LINKS(
-                                offer_id_in_link = id_part,
+                                offer_id_in_link = offer_id_in_link,
                                 link=link,
                                 is_being_scraped=False,
                                 was_scraped=False)
