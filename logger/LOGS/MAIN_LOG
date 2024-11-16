@@ -11746,3 +11746,166 @@ WHERE `scrapePages`.car_brand = %s AND (`scrapePages`.`scrapedTaskComplete` = fa
 |MAIN_LOG| 2024-11-16 10:06:52,390 - INFO - Initialising Database
 |MAIN_LOG| 2024-11-16 10:06:52,530 - INFO - Initialising redis.
 |MAIN_LOG| 2024-11-16 10:06:52,532 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 10:07:08,796 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 10:07:08,797 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 10:07:08,798 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 10:07:08,803 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 10:07:08,881 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-16 10:07:08,918 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 10:07:08,920 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 10:07:39,726 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 10:07:39,727 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 10:07:39,727 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 10:07:39,733 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 10:07:39,809 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-16 10:07:39,843 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 10:07:39,845 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 10:07:42,848 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 10:07:42,849 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 10:07:42,849 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 10:07:42,855 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 10:07:42,941 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-16 10:07:42,980 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 10:07:42,982 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 10:07:43,087 - INFO - Request - scrape scrollpages
+|MAIN_LOG| 2024-11-16 10:07:53,513 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 10:07:53,515 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 10:07:53,516 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 10:07:53,523 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 10:07:53,615 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-16 10:07:53,663 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 10:07:53,666 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 10:07:53,794 - INFO - Request - scrape scrollpages
+|MAIN_LOG| 2024-11-16 10:08:06,086 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-16 10:08:19,036 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 10:08:19,037 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 10:08:19,038 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 10:08:19,045 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 10:08:19,208 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-16 10:08:19,307 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 10:08:19,309 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 10:08:19,441 - INFO - Request - scrape scrollpages
+|MAIN_LOG| 2024-11-16 10:08:35,680 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-16 10:09:02,562 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 10:09:02,564 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 10:09:02,565 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 10:09:02,573 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 10:09:02,772 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-16 10:09:02,854 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 10:09:02,856 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 10:09:06,676 - INFO - Request - scrape scrollpages
+|MAIN_LOG| 2024-11-16 10:09:27,473 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-16 10:10:10,990 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-16 10:10:10,999 - INFO - Generating scrollpage links for brand audi. <1/4>
+|MAIN_LOG| 2024-11-16 10:10:10,999 - INFO - Getting number of pages for audi
+|MAIN_LOG| 2024-11-16 10:10:33,218 - INFO - Number of pages for audi : 699
+|MAIN_LOG| 2024-11-16 10:10:33,221 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 10:10:33,229 - INFO - Adding 699 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 10:10:33,290 - INFO - 699 out of 699 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 10:10:33,512 - INFO - Commiting links for audi to db
+|MAIN_LOG| 2024-11-16 10:10:33,797 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 10:10:33,798 - INFO - Generating scrollpage links for brand volkswagen. <2/4>
+|MAIN_LOG| 2024-11-16 10:10:33,798 - INFO - Getting number of pages for volkswagen
+|MAIN_LOG| 2024-11-16 10:10:56,860 - INFO - Number of pages for volkswagen : 681
+|MAIN_LOG| 2024-11-16 10:10:56,862 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 10:10:56,864 - INFO - Adding 681 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 10:10:56,876 - INFO - 681 out of 681 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 10:10:57,095 - INFO - Commiting links for volkswagen to db
+|MAIN_LOG| 2024-11-16 10:10:57,429 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 10:10:57,431 - INFO - Generating scrollpage links for brand ford. <3/4>
+|MAIN_LOG| 2024-11-16 10:10:57,432 - INFO - Getting number of pages for ford
+|MAIN_LOG| 2024-11-16 10:11:19,055 - INFO - Number of pages for ford : 611
+|MAIN_LOG| 2024-11-16 10:11:19,057 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 10:11:19,059 - INFO - Adding 611 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 10:11:19,075 - INFO - 611 out of 611 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 10:11:19,323 - INFO - Commiting links for ford to db
+|MAIN_LOG| 2024-11-16 10:11:19,593 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 10:11:19,595 - INFO - Generating scrollpage links for brand opel. <4/4>
+|MAIN_LOG| 2024-11-16 10:11:19,599 - INFO - Getting number of pages for opel
+|MAIN_LOG| 2024-11-16 10:11:36,537 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 10:11:36,538 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 10:11:36,539 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 10:11:36,544 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 10:11:36,653 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-16 10:11:36,706 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 10:11:36,708 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 10:11:36,830 - INFO - Request - scrape scrollpages
+|MAIN_LOG| 2024-11-16 10:11:38,551 - INFO - Request - scrape scrollpages
+|MAIN_LOG| 2024-11-16 10:12:05,907 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-16 10:12:06,403 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-16 10:12:52,188 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 10:12:52,191 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 10:12:52,192 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 10:12:52,200 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 10:12:52,606 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-16 10:12:52,711 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 10:12:52,717 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 10:12:53,578 - INFO - Request - scrape scrollpages
+|MAIN_LOG| 2024-11-16 10:13:24,506 - INFO - Request - scrape scrollpages
+|MAIN_LOG| 2024-11-16 10:13:58,019 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-16 10:14:33,198 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-16 10:15:18,570 - ERROR - Exception was raised when scraping scrollpage links 
+Message: Element <div class="ooa-1jvnkjg eygbkhv0"> is not clickable at point (241,184) because another element <div class="onetrust-pc-dark-filter ot-fade-in"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:337:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:177:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:136:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:205:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:85:31
+
+|MAIN_LOG| 2024-11-16 10:16:01,954 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-16 10:16:01,955 - INFO - Generating scrollpage links for brand audi. <1/4>
+|MAIN_LOG| 2024-11-16 10:16:01,957 - INFO - Getting number of pages for audi
+|MAIN_LOG| 2024-11-16 10:16:33,438 - INFO - Number of pages for audi : 699
+|MAIN_LOG| 2024-11-16 10:16:33,440 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 10:16:33,443 - INFO - Adding 699 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 10:16:33,774 - INFO - 699 out of 699 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 10:16:34,015 - INFO - Commiting links for audi to db
+|MAIN_LOG| 2024-11-16 10:16:34,684 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 10:16:34,685 - INFO - Generating scrollpage links for brand volkswagen. <2/4>
+|MAIN_LOG| 2024-11-16 10:16:34,687 - INFO - Getting number of pages for volkswagen
+|MAIN_LOG| 2024-11-16 10:17:11,551 - INFO - Number of pages for volkswagen : 681
+|MAIN_LOG| 2024-11-16 10:17:11,553 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 10:17:11,555 - INFO - Adding 681 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 10:17:11,650 - INFO - 681 out of 681 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 10:17:12,002 - INFO - Commiting links for volkswagen to db
+|MAIN_LOG| 2024-11-16 10:17:12,857 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 10:17:12,858 - INFO - Generating scrollpage links for brand ford. <3/4>
+|MAIN_LOG| 2024-11-16 10:17:12,858 - INFO - Getting number of pages for ford
+|MAIN_LOG| 2024-11-16 10:18:05,222 - INFO - Number of pages for ford : 610
+|MAIN_LOG| 2024-11-16 10:18:05,225 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 10:18:05,241 - INFO - Adding 610 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 10:18:06,284 - INFO - 610 out of 610 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 10:18:06,663 - INFO - Commiting links for ford to db
+|MAIN_LOG| 2024-11-16 10:18:07,503 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 10:18:07,507 - INFO - Generating scrollpage links for brand opel. <4/4>
+|MAIN_LOG| 2024-11-16 10:18:07,509 - INFO - Getting number of pages for opel
+|MAIN_LOG| 2024-11-16 10:18:53,096 - INFO - Number of pages for opel : 571
+|MAIN_LOG| 2024-11-16 10:18:53,099 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 10:18:53,112 - INFO - Adding 571 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 10:18:53,153 - INFO - 571 out of 571 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 10:18:53,282 - INFO - Commiting links for opel to db
+|MAIN_LOG| 2024-11-16 10:18:53,631 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 10:20:03,711 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 10:20:03,711 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 10:20:03,712 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 10:20:03,715 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 10:20:03,783 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-16 10:20:03,830 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 10:20:03,831 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 10:21:07,312 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 10:21:07,312 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 10:21:07,312 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 10:21:07,315 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 10:21:07,361 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-16 10:21:07,384 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 10:21:07,385 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 10:21:42,212 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 10:21:42,231 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 10:21:42,232 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 10:21:42,254 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 10:21:42,603 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-16 10:21:42,727 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 10:21:42,729 - INFO - Defining queues

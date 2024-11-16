@@ -46,8 +46,6 @@ QUEUE_MAP = {
     "offer_scraping_queue": offer_scraping_queue,
 }
 
-
-
 @app.route('/empty-queue/<queue_name>', methods=['GET'])
 def clean_queue(queue_name):
     main_log.info(f"Emptying queue {queue_name}")
@@ -125,7 +123,8 @@ def scrape_scrollpages():
             for value in values_to_insert:
                 scrapepage = SCRAPEPAGES(scrapepage_link=value,
                                          car_brand=car_brand,
-                                         scrapedTaskComplete=False)
+                                         scrapedTaskComplete=False,
+                                         beingCurrentlyScraped=False)
                 db.session.add(scrapepage)
             main_log.info(f"Commiting links for {car_brand} to db")
             db.session.commit()
@@ -137,9 +136,60 @@ def scrape_scrollpages():
     finally:
         wd.close()
 
+#TODO
+@app.route('/add-scrollpage-links-to-queue/<num_of_links>', methods=['GET'])
+def add_scrollpage_links_to_scraping_queue(num_of_links):
+    main_log.info(f"Request - add scrollpage links to scraping queue")
 
-@app.route('/scrape-scrollpage-linksxxx', methods=['GET'])
-def add_scrollpage_links_to_scraping_queue():
+    scrollpage_links_to_scrape = SCRAPEPAGES.query.filter_by(beingCurrentlyScraped=False,
+                                                            scrapedTaskComplete=False).limit(num_of_links).all()
+
+#=================
+
+
+
+    num_of_chunks_to_fetch = WORKERCONFIG.number_of_link_batches_to_fetch
+    chunk_size = WORKERCONFIG.size_of_scraping_worker_batch
+    num_of_links_to_fetch = num_of_chunks_to_fetch * chunk_size
+    try:
+        main_log.info(f"Fetching {chunk_size} links from database to scrape.")
+        links_to_scrape = LINKS.query.filter_by(is_being_scraped=False,
+                                                 was_scraped=False).limit(num_of_links_to_fetch).all()
+        
+        if not links_to_scrape:
+            message = "No links available for scraping."
+            main_log.info(message)
+            return message , 200
+
+        for link in links_to_scrape:
+            link.is_being_scraped = True
+        main_log.info(f"Marking {len(links_to_scrape)} as being scraped")
+        db.session.commit()
+
+        main_log.info(f"Creating batches containing several links")
+        links_to_scrape = {link.id:link.link for link in links_to_scrape}
+
+        fragmented_dicts = [
+            dict(list(links_to_scrape.items())[i:i + chunk_size]) 
+            for i in range(0, len(links_to_scrape), chunk_size)
+        ]
+        main_log.info(f"Generated {len(fragmented_dicts)} batches.")
+        for link_batch in fragmented_dicts:
+            offer_scraping_queue.enqueue(scrape_offers, link_batch) 
+
+        message = (f"{len(links_to_scrape)} in {len(fragmented_dicts)} batches have been added to scraping queue\n")
+        main_log.info(message)
+        return message, 200
+
+    except Exception as e:
+        message = f"An error has ocurred while fetching links to be scraped.\n{e}"
+        main_log.error(message)
+        main_log.info("Rolling back...")
+        db.session.rollback()
+        return message, 500
+
+
+
 
     links_to_scrape = []
     wd = initialise_selenium(
@@ -377,7 +427,6 @@ def pass_offers_to_db():
         return (f"\nWorker script returned error\n"
                 f"Status: {status}\n"
                 f"Error message: {data['error_message']}\n"), 500
-
 
 
 @app.route('/test', methods=['GET'])
