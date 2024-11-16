@@ -3,9 +3,10 @@ import json
 
 from definitions import ScrapingStatus
 from driver import initialise_selenium
-from otomoto.scripts import get_all_offer_links_from_scrollpage, get_offer_details
+from otomoto.scripts import get_all_offer_links_from_scrollpage, get_offer_details, get_number_of_pages
 from config import WEBDRIVERCONFIG
 from otomoto.objects import offerStatus, OFFER
+
 
 
 def scrape_scrollpage_links(links_scrollpage:list):

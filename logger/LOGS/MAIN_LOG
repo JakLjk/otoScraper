@@ -11686,3 +11686,63 @@ onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
 onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
 _onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
 
+|MAIN_LOG| 2024-11-16 08:57:40,493 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 08:57:40,493 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 08:57:40,494 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 08:57:40,496 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 08:57:40,549 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 08:57:40,550 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 08:57:41,961 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 08:57:41,962 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 08:57:41,962 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 08:57:41,964 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 08:57:42,001 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 08:57:42,002 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 08:58:07,505 - INFO - Request - scraping offer scrollpages
+|MAIN_LOG| 2024-11-16 08:58:13,860 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-16 08:58:30,588 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-16 08:58:30,591 - INFO - Generating scrollpage links for brand audi. <1/4>
+|MAIN_LOG| 2024-11-16 08:58:44,984 - INFO - Generating scrollpage links for brand volkswagen. <2/4>
+|MAIN_LOG| 2024-11-16 08:58:58,426 - INFO - Generating scrollpage links for brand ford. <3/4>
+|MAIN_LOG| 2024-11-16 08:59:10,344 - INFO - Generating scrollpage links for brand opel. <4/4>
+|MAIN_LOG| 2024-11-16 08:59:22,759 - INFO - passing links to queue
+|MAIN_LOG| 2024-11-16 08:59:26,976 - INFO - Added 2561 offer scrollpage links to scrape queue
+|MAIN_LOG| 2024-11-16 10:02:24,596 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 10:02:24,596 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 10:02:24,597 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 10:02:24,599 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 10:02:24,636 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 10:02:24,637 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 10:02:26,029 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 10:02:26,029 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 10:02:26,030 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 10:02:26,033 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 10:02:26,071 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 10:02:26,072 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 10:02:29,959 - INFO - Request - scrape scrollpages
+|MAIN_LOG| 2024-11-16 10:02:36,113 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-16 10:02:55,075 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-16 10:02:55,075 - INFO - Generating scrollpage links for brand audi. <1/4>
+|MAIN_LOG| 2024-11-16 10:02:55,075 - INFO - Getting number of pages for audi
+|MAIN_LOG| 2024-11-16 10:03:07,933 - INFO - Number of pages for audi : 699
+|MAIN_LOG| 2024-11-16 10:03:07,935 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 10:03:07,936 - INFO - Adding 699 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 10:03:08,009 - ERROR - Exception was raised when scraping scrollpage links 
+(MySQLdb.ProgrammingError) (1146, "Table 'OTOMOTO.scrapePages' doesn't exist")
+[SQL: SELECT `scrapePages`.id AS `scrapePages_id`, `scrapePages`.scrapepage_link AS `scrapePages_scrapepage_link`, `scrapePages`.car_brand AS `scrapePages_car_brand`, `scrapePages`.`scrapedTaskComplete` AS `scrapePages_scrapedTaskComplete`, `scrapePages`.`beingCurrentlyScraped` AS `scrapePages_beingCurrentlyScraped`, `scrapePages`.scraped_offers AS `scrapePages_scraped_offers`, `scrapePages`.inserted_offers AS `scrapePages_inserted_offers`, `scrapePages`.scraping_status AS `scrapePages_scraping_status` 
+FROM `scrapePages` 
+WHERE `scrapePages`.car_brand = %s AND (`scrapePages`.`scrapedTaskComplete` = false OR `scrapePages`.`beingCurrentlyScraped` = true)]
+[parameters: ('audi',)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+|MAIN_LOG| 2024-11-16 10:03:43,874 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 10:03:43,874 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 10:03:43,874 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 10:03:43,877 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 10:03:43,913 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 10:03:43,914 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 10:06:52,387 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 10:06:52,387 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 10:06:52,387 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 10:06:52,390 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 10:06:52,530 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 10:06:52,532 - INFO - Defining queues

@@ -7,9 +7,10 @@ from sqlalchemy.exc import IntegrityError
 import re
 import logging
 import requests
+from sqlalchemy import or_, and_
 
 # User defined objects
-from db_schema import db, LINKS, OFFERS
+from db_schema import db, LINKS, OFFERS, SCRAPEPAGES
 from config import APPCONFIG, WEBDRIVERCONFIG, WORKERCONFIG
 from definitions import ScrapingStatus, WorkerExceptions, ScrapingException
 from otomoto.objects import offerStatus, OFFER
@@ -28,6 +29,11 @@ app = Flask(__name__)
 app.config.from_object(APPCONFIG)
 main_log.info("Initialising Database")
 db.init_app(app)
+main_log.info("Creating DB tables if they dont exist yet")
+with app.app_context():
+    db.create_all()
+
+
 
 main_log.info("Initialising redis.")
 redis_conn = Redis.from_url(app.config['REDIS_URL'])
@@ -39,6 +45,8 @@ QUEUE_MAP = {
     "link_scraping_queue": link_scraping_queue,
     "offer_scraping_queue": offer_scraping_queue,
 }
+
+
 
 @app.route('/empty-queue/<queue_name>', methods=['GET'])
 def clean_queue(queue_name):
@@ -80,39 +88,138 @@ def links_in_db_info():
         main_log.error(message)
         return message, 500
 
-@app.route('/add-link-scraping-task', methods=['GET'])
-def add_link_pages_scraping_task():
-    main_log.info("Request - scraping offer scrollpages")
-    links_to_scrape = []
-    wd = initialise_selenium(
+@app.route('/scrape-scrollpage-links', methods=['GET'])
+def scrape_scrollpages():
+    main_log.info("Request - scrape scrollpages")
+    try:
+        wd = initialise_selenium(
         browser_type="firefox",
         headless=WEBDRIVERCONFIG.headless)
-    try:
+        
         main_log.info("Getting car brands")
         car_brands = scripts.get_all_car_brands(wd)
 
-        # car_brands = car_brands[1:5]
+        car_brands = car_brands[1:5]
 
         num_of_car_brands = len(car_brands)
         main_log.info("Scraping number of scrollpages for each car brand")
         for i, car_brand in enumerate(car_brands):
             main_log.info(f"Generating scrollpage links for brand {car_brand}. <{i+1}/{num_of_car_brands}>")
+            main_log.info(f"Getting number of pages for {car_brand}")
             num_pages = scripts.get_number_of_pages(wd, f"https://www.otomoto.pl/osobowe/{car_brand}")
-            links_to_scrape.extend(scripts.generate_list_of_links_to_scrape(car_brand, num_pages))
-
-        main_log.info("passing links to queue")
-        chunk_size = WORKERCONFIG.size_of_scraping_worker_batch
-        for i in range(0, len(links_to_scrape), chunk_size):
-            link_scraping_queue.enqueue(scrape_scrollpage_links, links_to_scrape[i:i + chunk_size])
-        message = f"Added {len(links_to_scrape)} scroll page links in {int(len(links_to_scrape)/chunk_size)} batches to scrape" 
-        main_log.info(f"Added {len(links_to_scrape)} offer scrollpage links to scrape queue")
-        return message, 200
+            main_log.info(f"Number of pages for {car_brand} : {num_pages}")
+            main_log.info(f"Generating list of scrollpage links to scrape")
+            generated_scrollpage_links_to_scrape = scripts.generate_list_of_links_to_scrape(car_brand, num_pages)
+            len_generated_scrollpage_links_to_scrape = len(generated_scrollpage_links_to_scrape)
+            main_log.info(f"Adding {len_generated_scrollpage_links_to_scrape} scrollpage links to <SCRAPEPAGES> DB table")
+            existing_values = db.session.query(SCRAPEPAGES).filter(and_(SCRAPEPAGES.car_brand==car_brand,
+                                                                            or_(SCRAPEPAGES.scrapedTaskComplete==False, 
+                                                                                SCRAPEPAGES.beingCurrentlyScraped==True
+                                                                                )
+                                                                        )
+                                                                    ).all()
+            existing_values = [row.scrapepage_link for row in existing_values]                               
+            existing_values = {value[0] for value in existing_values} 
+            values_to_insert = [value for value in generated_scrollpage_links_to_scrape if value not in existing_values]
+            main_log.info(f"{len(values_to_insert)} out of {len_generated_scrollpage_links_to_scrape} links are eligible to be added (There are no such links with unscraped status)")
+            for value in values_to_insert:
+                scrapepage = SCRAPEPAGES(scrapepage_link=value,
+                                         car_brand=car_brand,
+                                         scrapedTaskComplete=False)
+                db.session.add(scrapepage)
+            main_log.info(f"Commiting links for {car_brand} to db")
+            db.session.commit()
+            main_log.info("Links commited")
 
     except Exception as e:
-        main_log.error(f"Failed to add offer scrollpage links to scraping queue \n {e}")
-        return f"Failed to add offer scrollpage links to scraping queue \n {e}" , 500
+        main_log.error(f"Exception was raised when scraping scrollpage links \n{e}")
+        raise e
     finally:
         wd.close()
+
+
+@app.route('/scrape-scrollpage-linksxxx', methods=['GET'])
+def add_scrollpage_links_to_scraping_queue():
+
+    links_to_scrape = []
+    wd = initialise_selenium(
+        browser_type="firefox",
+        headless=WEBDRIVERCONFIG.headless)
+            
+    main_log.info("Received message with offers from worker.")
+    data = request.json
+    status = data['status']
+    main_log.info(f"Scraping status: {status}")
+    offer_objects = []
+    if status == ScrapingStatus.status_ok:
+        offers = data['all_offers']
+        main_log.info(f"Inserting data for {len(offers)} offers into db.")
+        for id, offer in offers.items():
+            # Conver offer dict to offer object
+            offer = OFFER.dict_into_offer(offer)
+            # Mark link as scraped in links table
+            link = LINKS.query.filter_by(id = id).first()
+            link.was_scraped = True
+            link.is_being_scraped = False 
+            link.scraping_outcome = offer.offer_status
+            if offer.offer_status == offerStatus.statusScrapeSuccess:
+                main_log.debug(f"Marking link as scraped\n"
+                           f"{link}")
+                
+                main_log.debug(f"\nPassing offer to DB: \n"
+                               f"{offer}")
+                new_offer = OFFERS(id=int(id),
+                                   link = offer.link,
+                                    id_oferty = offer.id_z_oferty,
+                                    id_oferty_w_linku = offer.id_oferty_w_linku,
+                                    tytul = offer.tytul,
+                                    data_dodania=offer.data_dodania,
+                                    cena = offer.cena,
+                                    przebieg = offer.przebieg,
+                                    rodzaj_paliwa = offer.rodzaj_paliwa,
+                                    skrzynia_biegow = offer.skrzynia_biegow,
+                                    pojemnosc_silnika=offer.pojemnosc_silnika,
+                                    moc_silnika = offer.moc_silnika,
+                                    opis = offer.opis,
+                                    szczegoly = offer.szczegoly_json,
+                                    wyposazenie = offer.wyposazenie_json,
+                                    sprzedawca_nr_tel = offer.sprzedawca_nr_tel,
+                                    sprzedawca_imie = offer.sprzedawca_imie,
+                                    sprzedawca_rodzaj = offer.sprzedawca_rodzaj,
+                                    sprzedawca_data_od_kiedy_na_otomoto = offer.sprzedawca_data_od_kiedy_na_otomoto,
+                                    latitude = offer.latitude,
+                                    longitude = offer.longitude,
+                                    coords_exact = True
+                )
+                db.session.add(new_offer)
+                main_log.debug(f"Adding offer {id} to query to be commited into offers table")
+            else:
+                error_message = offer.offer_scraping_error
+                link.error_message = error_message
+
+                
+        db.session.commit()
+        return f"Successfully added {len(offers)} to DB", 200
+
+
+
+
+    #     main_log.info("passing links to queue")
+    #     chunk_size = WORKERCONFIG.size_of_scraping_worker_batch
+    #     for i in range(0, len(links_to_scrape), chunk_size):
+    #         link_scraping_queue.enqueue(scrape_scrollpage_links, links_to_scrape[i:i + chunk_size])
+    #     message = f"Added {len(links_to_scrape)} scroll page links in {int(len(links_to_scrape)/chunk_size)} batches to scrape" 
+    #     main_log.info(f"Added {len(links_to_scrape)} offer scrollpage links to scrape queue")
+    #     return message, 200
+
+    # except Exception as e:
+    #     main_log.error(f"Failed to add offer scrollpage links to scraping queue \n {e}")
+    #     return f"Failed to add offer scrollpage links to scraping queue \n {e}" , 500
+    # finally:
+    #     wd.close()
+    
+def add_scrollpage_links_to_queue():
+    pass
 
 @app.route('/pass_links_to_db', methods=['POST'])
 def pass_offer_scrollpage_links_to_db():
