@@ -4,8 +4,8 @@
 .log
 .dump.rdb
 .tests.py
-MAIN_LOG
 
+.venv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
