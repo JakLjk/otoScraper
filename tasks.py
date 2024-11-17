@@ -16,11 +16,11 @@ def scrape_scrollpage_links(links_scrollpage:list):
             browser_type="firefox",
             headless=WEBDRIVERCONFIG.headless)
         
-        all_offer_links = []
-        for scrollpage_link in links_scrollpage:
+        all_offer_links = ()
+        for scrollpage_id, scrollpage_link in links_scrollpage.items():
             print(f"Scraping scrollpage {scrollpage_link}")
             links = get_all_offer_links_from_scrollpage(wd, scrollpage_link)
-            all_offer_links.extend(links)
+            all_offer_links[scrollpage_id] = links
 
         response = requests.post(
                 "http://127.0.0.1:5000/pass_links_to_db",
@@ -29,10 +29,12 @@ def scrape_scrollpage_links(links_scrollpage:list):
                       "all_links":all_offer_links}
             )
     except Exception as e:
+        scrollpage_ids = links_scrollpage.keys()
         response = requests.post(
                 "http://127.0.0.1:5000/pass_links_to_db",
                 json={"status":ScrapingStatus.status_failed,
-                      "error_message": str(e)}
+                      "error_message": str(e),
+                      "failed_scrollpages": scrollpage_ids}
             )
         raise e
     finally:

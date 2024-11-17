@@ -158,15 +158,14 @@ def add_scrollpage_links_to_scraping_queue(num_of_links,batch_size):
         dict(list(scrollpage_links_to_scrape.items())[i:i + batch_size]) 
         for i in range(0, len(scrollpage_links_to_scrape), batch_size)
     ]
-    main_log.info(f"Passing {len(scrollpage_links_to_scrape)} links  in {len(fragmented_dicts)} batches to Redis queue")
+    main_log.info(f"Passing {len(scrollpage_links_to_scrape)} links in {len(fragmented_dicts)} batches to Redis queue")
     for link_batch in fragmented_dicts:
         offer_scraping_queue.enqueue(scrape_scrollpage_links, link_batch)
-    
     main_log.info(f"Scrollpage links added to Queue - commiting changes to DB")
     db.session.commit()
     message = f"Scrollpage links successfully added to Redis Queue. Links: {len(scrollpage_links_to_scrape)} Batches: {len(fragmented_dicts)}"
     main_log.info(message)
-    return scrollpage_links_to_scrape, 200
+    return message, 200
 
 @app.route('/pass_links_to_db', methods=['POST'])
 def pass_offer_scrollpage_links_to_db():
@@ -174,37 +173,58 @@ def pass_offer_scrollpage_links_to_db():
     data = request.json
     status = data['status']
     if status == ScrapingStatus.status_ok:
-        links = data['all_links']
+        scrapepage_links = data['all_links']
     else:
         error_message = data['error_message']
         main_log.error(f"Received error message from worker.\n",
                        f"Scraping status:{status}\n"
                        f"\n Error message: {error_message}")
+        main_log.info("Marking scrollpage links as part of failed process")
+        scrapepage_ids = scrapepage_links.keys()
+        for scrapepage_id in scrapepage_ids:
+            scrapepage = db.session.query(SCRAPEPAGES).filter(SCRAPEPAGES.id == scrapepage_id).one()
+            scrapepage.beingCurrentlyScraped=False
+            scrapepage.scrapedTaskComplete = True
+            scrapepage.scraping_status = status
+            db.session.commit()
+            main_log.info(f"Marked {len(scrapepage_ids)} scrapepages as failed")
         raise WorkerExceptions.ScrapingFailed
     try:
-        num_of_links = len(links)
-        if num_of_links == 0:
-            m = "Worker returned 0 links - probably class names have changed."
-            main_log.error(m)
-            raise ScrapingException(m)
-        i = 0
-        main_log.info(f"Adding {num_of_links} links to Database")
-        for link in links:
-            offer_id_in_link = re.search(r'ID\w+', link)
-            offer_id_in_link = offer_id_in_link.group()
-            existing_link = LINKS.query.filter_by(offer_id_in_link=offer_id_in_link).first()
-
-            if not existing_link:
-                i += 1
-                new_link = LINKS(
-                                offer_id_in_link = offer_id_in_link,
-                                link=link,
-                                is_being_scraped=False,
-                                was_scraped=False)
-                db.session.add(new_link)
-        main_log.info(f"Commiting {i} / {num_of_links} links to the Database.")
+        # num_of_links = len(scrapepage_links)
+        # if num_of_links == 0:
+        #     m = "Worker returned 0 links - probably class names have changed."
+        #     main_log.error(m)
+        #     raise ScrapingException(m)
+        # main_log.info(f"Adding {num_of_links} links to Database")
+        y = 0
+        num_of_links = 0
+        for scrapepage_id, links in scrapepage_links.items():
+            main_log.debug(f"Adding {len(links)} links for scrapepage ID {scrapepage_id} to DB.")
+            i = 0
+            for link in links:
+                offer_id_in_link = re.search(r'ID\w+', link)
+                offer_id_in_link = offer_id_in_link.group()
+                existing_link = LINKS.query.filter_by(offer_id_in_link=offer_id_in_link).first()
+                num_of_links += len(links)
+                if not existing_link:
+                    i += 1
+                    y += 1
+                    new_link = LINKS(
+                                    offer_id_in_link = offer_id_in_link,
+                                    t_scrapepages_id = scrapepage_id,
+                                    link=link,
+                                    is_being_scraped=False,
+                                    was_scraped=False)
+                    db.session.add(new_link)
+            scrapepage = db.session.query(SCRAPEPAGES).filter(SCRAPEPAGES.id == scrapepage_id).one()
+            scrapepage.beingCurrentlyScraped=False
+            scrapepage.scrapedTaskComplete = True
+            scrapepage.scraped_offers = len(links)
+            scrapepage.inserted_offers = i
+            scrapepage.scraping_status = status
+        main_log.info(f"Commiting {y} / {num_of_links} links to the Database.")
         db.session.commit()
-        main_log.info(f"Added {i} / {num_of_links} links to the Database.")
+        main_log.info(f"Added {y} / {num_of_links} links to the Database.")
         return "Added links to Database" , 200
     
     except IntegrityError as ie:

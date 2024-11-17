@@ -12284,3 +12284,31 @@ WHERE `scrapePages`.car_brand = %s AND (`scrapePages`.`scrapedTaskComplete` = fa
 |MAIN_LOG| 2024-11-17 13:58:04,553 - INFO - Creating DB tables if they dont exist yet
 |MAIN_LOG| 2024-11-17 13:58:04,574 - INFO - Initialising redis.
 |MAIN_LOG| 2024-11-17 13:58:04,575 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 19:39:52,433 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 19:39:52,433 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 19:39:52,433 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 19:39:52,436 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 19:39:52,474 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 19:39:52,495 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 19:39:52,496 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 19:39:53,902 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 19:39:53,903 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 19:39:53,903 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 19:39:53,906 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 19:39:53,947 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 19:39:53,967 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 19:39:53,968 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 19:47:17,673 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 19:47:17,673 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 19:47:17,674 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 19:47:17,677 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 19:47:17,732 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 19:47:17,766 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 19:47:17,768 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 19:47:19,141 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 19:47:19,141 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 19:47:19,142 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 19:47:19,145 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 19:47:19,181 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 19:47:19,201 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 19:47:19,202 - INFO - Defining queues
