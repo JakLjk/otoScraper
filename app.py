@@ -97,7 +97,7 @@ def scrape_scrollpages():
         main_log.info("Getting car brands")
         car_brands = scripts.get_all_car_brands(wd)
 
-        car_brands = car_brands[1:2]
+        # car_brands = car_brands[1:2]
 
         num_of_car_brands = len(car_brands)
         main_log.info("Scraping number of scrollpages for each car brand")
@@ -139,62 +139,132 @@ def scrape_scrollpages():
     finally:
         wd.close()
         return "Task finished successfully", 200
-        
 
-#TODO
-@app.route('/add-scrollpage-links-to-queue/<num_of_links>', methods=['GET'])
-def add_scrollpage_links_to_scraping_queue(num_of_links):
+@app.route('/add-scrollpage-links-to-queue/<num_of_links>/<batch_size>', methods=['GET'])
+def add_scrollpage_links_to_scraping_queue(num_of_links,batch_size):
     main_log.info(f"Request - add scrollpage links to scraping queue")
-
+    main_log.info(f"Fetching {num_of_links} scrollpage links.")
     scrollpage_links_to_scrape = SCRAPEPAGES.query.filter_by(beingCurrentlyScraped=False,
                                                             scrapedTaskComplete=False).limit(num_of_links).all()
+    if not scrollpage_links_to_scrape:
+        message = "No links available for scraping."
+        main_log.info(message)
+        return message , 200
+    main_log.info(f"Marking scollpage links as being scraped")
+    for link in scrollpage_links_to_scrape:
+        link.beingCurrentlyScraped = True
+    scrollpage_links_to_scrape = {value.id:value.scrapepage_link for value in scrollpage_links_to_scrape}
+    fragmented_dicts = [
+        dict(list(scrollpage_links_to_scrape.items())[i:i + batch_size]) 
+        for i in range(0, len(scrollpage_links_to_scrape), batch_size)
+    ]
+    main_log.info(f"Passing {len(scrollpage_links_to_scrape)} links  in {len(fragmented_dicts)} batches to Redis queue")
+    for link_batch in fragmented_dicts:
+        offer_scraping_queue.enqueue(scrape_scrollpage_links, link_batch)
+    
+    main_log.info(f"Scrollpage links added to Queue - commiting changes to DB")
+    db.session.commit()
+    message = f"Scrollpage links successfully added to Redis Queue. Links: {len(scrollpage_links_to_scrape)} Batches: {len(fragmented_dicts)}"
+    main_log.info(message)
+    return scrollpage_links_to_scrape, 200
+
+@app.route('/pass_links_to_db', methods=['POST'])
+def pass_offer_scrollpage_links_to_db():
+    main_log.info("Received message with offer links from worker.")
+    data = request.json
+    status = data['status']
+    if status == ScrapingStatus.status_ok:
+        links = data['all_links']
+    else:
+        error_message = data['error_message']
+        main_log.error(f"Received error message from worker.\n",
+                       f"Scraping status:{status}\n"
+                       f"\n Error message: {error_message}")
+        raise WorkerExceptions.ScrapingFailed
+    try:
+        num_of_links = len(links)
+        if num_of_links == 0:
+            m = "Worker returned 0 links - probably class names have changed."
+            main_log.error(m)
+            raise ScrapingException(m)
+        i = 0
+        main_log.info(f"Adding {num_of_links} links to Database")
+        for link in links:
+            offer_id_in_link = re.search(r'ID\w+', link)
+            offer_id_in_link = offer_id_in_link.group()
+            existing_link = LINKS.query.filter_by(offer_id_in_link=offer_id_in_link).first()
+
+            if not existing_link:
+                i += 1
+                new_link = LINKS(
+                                offer_id_in_link = offer_id_in_link,
+                                link=link,
+                                is_being_scraped=False,
+                                was_scraped=False)
+                db.session.add(new_link)
+        main_log.info(f"Commiting {i} / {num_of_links} links to the Database.")
+        db.session.commit()
+        main_log.info(f"Added {i} / {num_of_links} links to the Database.")
+        return "Added links to Database" , 200
+    
+    except IntegrityError as ie:
+        main_log.error(f"Integrity Error ocurred when commiting to Database. Rolling Back \n",
+                       f"Error message: {ie}")
+        db.session.rollback()
+        return "Integrity Error has ocurred when oassing offer to Database.\n", 500
+    except Exception as e:
+        main_log.error(f"Error ocurred when commiting to Database. Rolling Back \n",
+                f"Error message: {e}")
+        db.session.rollback()
+        return f"Error has ocurred when passing offer to Database.\n {e} ",500
+
 
 #=================
 
 
 
-    num_of_chunks_to_fetch = WORKERCONFIG.number_of_link_batches_to_fetch
-    chunk_size = WORKERCONFIG.size_of_scraping_worker_batch
-    num_of_links_to_fetch = num_of_chunks_to_fetch * chunk_size
-    try:
-        main_log.info(f"Fetching {chunk_size} links from database to scrape.")
-        links_to_scrape = LINKS.query.filter_by(is_being_scraped=False,
-                                                 was_scraped=False).limit(num_of_links_to_fetch).all()
+    # num_of_chunks_to_fetch = WORKERCONFIG.number_of_link_batches_to_fetch
+    # chunk_size = WORKERCONFIG.size_of_scraping_worker_batch
+    # num_of_links_to_fetch = num_of_chunks_to_fetch * chunk_size
+    # try:
+    #     main_log.info(f"Fetching {chunk_size} links from database to scrape.")
+    #     links_to_scrape = LINKS.query.filter_by(is_being_scraped=False,
+    #                                              was_scraped=False).limit(num_of_links_to_fetch).all()
         
-        if not links_to_scrape:
-            message = "No links available for scraping."
-            main_log.info(message)
-            return message , 200
+    #     if not links_to_scrape:
+    #         message = "No links available for scraping."
+    #         main_log.info(message)
+    #         return message , 200
 
-        for link in links_to_scrape:
-            link.is_being_scraped = True
-        main_log.info(f"Marking {len(links_to_scrape)} as being scraped")
-        db.session.commit()
+    #     for link in links_to_scrape:
+    #         link.is_being_scraped = True
+    #     main_log.info(f"Marking {len(links_to_scrape)} as being scraped")
+    #     db.session.commit()
 
-        main_log.info(f"Creating batches containing several links")
-        links_to_scrape = {link.id:link.link for link in links_to_scrape}
+    #     main_log.info(f"Creating batches containing several links")
+    #     links_to_scrape = {link.id:link.link for link in links_to_scrape}
 
-        fragmented_dicts = [
-            dict(list(links_to_scrape.items())[i:i + chunk_size]) 
-            for i in range(0, len(links_to_scrape), chunk_size)
-        ]
-        main_log.info(f"Generated {len(fragmented_dicts)} batches.")
-        for link_batch in fragmented_dicts:
-            offer_scraping_queue.enqueue(scrape_offers, link_batch) 
+    #     fragmented_dicts = [
+    #         dict(list(links_to_scrape.items())[i:i + chunk_size]) 
+    #         for i in range(0, len(links_to_scrape), chunk_size)
+    #     ]
+    #     main_log.info(f"Generated {len(fragmented_dicts)} batches.")
+    #     for link_batch in fragmented_dicts:
+    #         offer_scraping_queue.enqueue(scrape_offers, link_batch) 
 
-        message = (f"{len(links_to_scrape)} in {len(fragmented_dicts)} batches have been added to scraping queue\n")
-        main_log.info(message)
-        return message, 200
+    #     message = (f"{len(links_to_scrape)} in {len(fragmented_dicts)} batches have been added to scraping queue\n")
+    #     main_log.info(message)
+    #     return message, 200
 
-    except Exception as e:
-        message = f"An error has ocurred while fetching links to be scraped.\n{e}"
-        main_log.error(message)
-        main_log.info("Rolling back...")
-        db.session.rollback()
-        return message, 500
+    # except Exception as e:
+    #     message = f"An error has ocurred while fetching links to be scraped.\n{e}"
+    #     main_log.error(message)
+    #     main_log.info("Rolling back...")
+    #     db.session.rollback()
+    #     return message, 500
 
 
-
+def temp():
 
     links_to_scrape = []
     wd = initialise_selenium(
@@ -272,59 +342,6 @@ def add_scrollpage_links_to_scraping_queue(num_of_links):
     #     return f"Failed to add offer scrollpage links to scraping queue \n {e}" , 500
     # finally:
     #     wd.close()
-    
-def add_scrollpage_links_to_queue():
-    pass
-
-@app.route('/pass_links_to_db', methods=['POST'])
-def pass_offer_scrollpage_links_to_db():
-    main_log.info("Received message with offer links from worker.")
-    data = request.json
-    status = data['status']
-    if status == ScrapingStatus.status_ok:
-        links = data['all_links']
-    else:
-        error_message = data['error_message']
-        main_log.error(f"Received error message from worker.\n",
-                       f"Scraping status:{status}\n"
-                       f"\n Error message: {error_message}")
-        raise WorkerExceptions.ScrapingFailed
-    try:
-        num_of_links = len(links)
-        if num_of_links == 0:
-            m = "Worker returned 0 links - probably class names have changed."
-            main_log.error(m)
-            raise ScrapingException(m)
-        i = 0
-        main_log.info(f"Adding {num_of_links} links to Database")
-        for link in links:
-            offer_id_in_link = re.search(r'ID\w+', link)
-            offer_id_in_link = offer_id_in_link.group()
-            existing_link = LINKS.query.filter_by(offer_id_in_link=offer_id_in_link).first()
-
-            if not existing_link:
-                i += 1
-                new_link = LINKS(
-                                offer_id_in_link = offer_id_in_link,
-                                link=link,
-                                is_being_scraped=False,
-                                was_scraped=False)
-                db.session.add(new_link)
-        main_log.info(f"Commiting {i} / {num_of_links} links to the Database.")
-        db.session.commit()
-        main_log.info(f"Added {i} / {num_of_links} links to the Database.")
-        return "Added links to Database" , 200
-    
-    except IntegrityError as ie:
-        main_log.error(f"Integrity Error ocurred when commiting to Database. Rolling Back \n",
-                       f"Error message: {ie}")
-        db.session.rollback()
-        return "Integrity Error has ocurred when oassing offer to Database.\n", 500
-    except Exception as e:
-        main_log.error(f"Error ocurred when commiting to Database. Rolling Back \n",
-                f"Error message: {e}")
-        db.session.rollback()
-        return f"Error has ocurred when passing offer to Database.\n {e} ",500
 
 #Offer Scraping Logic ==============================================
 
