@@ -97,7 +97,7 @@ def scrape_scrollpages():
         main_log.info("Getting car brands")
         car_brands = scripts.get_all_car_brands(wd)
 
-        car_brands = car_brands[1:5]
+        car_brands = car_brands[1:2]
 
         num_of_car_brands = len(car_brands)
         main_log.info("Scraping number of scrollpages for each car brand")
@@ -116,8 +116,10 @@ def scrape_scrollpages():
                                                                                 )
                                                                         )
                                                                     ).all()
+            main_log.debug(f"Filtered {len(existing_values)} exisiting values for {car_brand} in db")
             existing_values = [row.scrapepage_link for row in existing_values]                               
-            existing_values = {value[0] for value in existing_values} 
+            # existing_values = {value[0] for value in existing_values} 
+            print(existing_values)
             values_to_insert = [value for value in generated_scrollpage_links_to_scrape if value not in existing_values]
             main_log.info(f"{len(values_to_insert)} out of {len_generated_scrollpage_links_to_scrape} links are eligible to be added (There are no such links with unscraped status)")
             for value in values_to_insert:
@@ -132,9 +134,12 @@ def scrape_scrollpages():
 
     except Exception as e:
         main_log.error(f"Exception was raised when scraping scrollpage links \n{e}")
+        # return f"Error occurred when processing request: {e}", 500
         raise e
     finally:
         wd.close()
+        return "Task finished successfully", 200
+        
 
 #TODO
 @app.route('/add-scrollpage-links-to-queue/<num_of_links>', methods=['GET'])

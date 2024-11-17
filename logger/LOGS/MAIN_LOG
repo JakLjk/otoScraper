@@ -11909,3 +11909,255 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 |MAIN_LOG| 2024-11-16 10:21:42,603 - INFO - Creating DB tables if they dont exist yet
 |MAIN_LOG| 2024-11-16 10:21:42,727 - INFO - Initialising redis.
 |MAIN_LOG| 2024-11-16 10:21:42,729 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 10:28:06,448 - INFO - Request - scrape scrollpages
+|MAIN_LOG| 2024-11-16 10:28:14,629 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-16 10:28:45,523 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-16 10:28:45,528 - INFO - Generating scrollpage links for brand audi. <1/4>
+|MAIN_LOG| 2024-11-16 10:28:45,529 - INFO - Getting number of pages for audi
+|MAIN_LOG| 2024-11-16 10:29:06,551 - INFO - Number of pages for audi : 699
+|MAIN_LOG| 2024-11-16 10:29:06,555 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 10:29:06,558 - INFO - Adding 699 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 10:29:06,755 - INFO - 699 out of 699 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 10:29:06,838 - INFO - Commiting links for audi to db
+|MAIN_LOG| 2024-11-16 10:29:07,060 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 10:29:07,060 - INFO - Generating scrollpage links for brand volkswagen. <2/4>
+|MAIN_LOG| 2024-11-16 10:29:07,061 - INFO - Getting number of pages for volkswagen
+|MAIN_LOG| 2024-11-16 10:29:29,273 - INFO - Number of pages for volkswagen : 681
+|MAIN_LOG| 2024-11-16 10:29:29,280 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 10:29:29,282 - INFO - Adding 681 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 10:29:29,935 - INFO - 681 out of 681 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 10:29:30,335 - INFO - Commiting links for volkswagen to db
+|MAIN_LOG| 2024-11-16 10:29:30,648 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 10:29:30,649 - INFO - Generating scrollpage links for brand ford. <3/4>
+|MAIN_LOG| 2024-11-16 10:29:30,650 - INFO - Getting number of pages for ford
+|MAIN_LOG| 2024-11-16 10:29:51,612 - INFO - Number of pages for ford : 610
+|MAIN_LOG| 2024-11-16 10:29:51,621 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 10:29:51,622 - INFO - Adding 610 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 10:29:51,805 - INFO - 610 out of 610 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 10:29:52,298 - INFO - Commiting links for ford to db
+|MAIN_LOG| 2024-11-16 10:29:52,546 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 10:29:52,547 - INFO - Generating scrollpage links for brand opel. <4/4>
+|MAIN_LOG| 2024-11-16 10:29:52,549 - INFO - Getting number of pages for opel
+|MAIN_LOG| 2024-11-16 10:30:16,112 - INFO - Number of pages for opel : 571
+|MAIN_LOG| 2024-11-16 10:30:16,115 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 10:30:16,115 - INFO - Adding 571 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 10:30:16,276 - INFO - 571 out of 571 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 10:30:16,425 - INFO - Commiting links for opel to db
+|MAIN_LOG| 2024-11-16 10:30:16,625 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 11:16:49,213 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 11:16:49,214 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 11:16:49,215 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 11:16:49,222 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 11:16:49,369 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-16 11:16:49,457 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 11:16:49,461 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 11:16:58,690 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 11:16:58,692 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 11:16:58,694 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 11:16:58,703 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 11:16:58,834 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-16 11:16:59,111 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 11:16:59,175 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 11:17:19,362 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 11:17:19,363 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 11:17:19,364 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 11:17:19,370 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 11:17:19,458 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-16 11:17:19,499 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 11:17:19,501 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 11:17:24,299 - INFO - Request - scrape scrollpages
+|MAIN_LOG| 2024-11-16 11:17:32,336 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-16 11:18:00,942 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-16 11:18:00,947 - INFO - Generating scrollpage links for brand audi. <1/4>
+|MAIN_LOG| 2024-11-16 11:18:00,947 - INFO - Getting number of pages for audi
+|MAIN_LOG| 2024-11-16 11:18:23,241 - INFO - Number of pages for audi : 699
+|MAIN_LOG| 2024-11-16 11:18:23,244 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 11:18:23,245 - INFO - Adding 699 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 11:18:23,535 - INFO - 699 out of 699 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 11:18:23,626 - INFO - Commiting links for audi to db
+|MAIN_LOG| 2024-11-16 11:18:24,065 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 11:18:24,066 - INFO - Generating scrollpage links for brand volkswagen. <2/4>
+|MAIN_LOG| 2024-11-16 11:18:24,067 - INFO - Getting number of pages for volkswagen
+|MAIN_LOG| 2024-11-16 11:18:44,321 - INFO - Number of pages for volkswagen : 681
+|MAIN_LOG| 2024-11-16 11:18:44,333 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 11:18:44,335 - INFO - Adding 681 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 11:18:44,755 - INFO - 681 out of 681 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 11:18:44,815 - INFO - Commiting links for volkswagen to db
+|MAIN_LOG| 2024-11-16 11:18:44,956 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 11:18:44,957 - INFO - Generating scrollpage links for brand ford. <3/4>
+|MAIN_LOG| 2024-11-16 11:18:44,958 - INFO - Getting number of pages for ford
+|MAIN_LOG| 2024-11-16 11:20:46,569 - ERROR - Exception was raised when scraping scrollpage links 
+HTTPConnectionPool(host='localhost', port=44153): Read timed out. (read timeout=120)
+|MAIN_LOG| 2024-11-16 11:35:01,701 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 11:35:01,702 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 11:35:01,702 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 11:35:01,705 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 11:35:01,758 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-16 11:35:01,798 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 11:35:01,799 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 11:35:03,263 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-16 11:35:03,263 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-16 11:35:03,263 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-16 11:35:03,266 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-16 11:35:03,303 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-16 11:35:03,324 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-16 11:35:03,325 - INFO - Defining queues
+|MAIN_LOG| 2024-11-16 11:35:10,933 - INFO - Request - scrape scrollpages
+|MAIN_LOG| 2024-11-16 11:35:17,508 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-16 11:35:35,388 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-16 11:35:35,390 - INFO - Generating scrollpage links for brand audi. <1/4>
+|MAIN_LOG| 2024-11-16 11:35:35,391 - INFO - Getting number of pages for audi
+|MAIN_LOG| 2024-11-16 11:35:48,680 - INFO - Number of pages for audi : 700
+|MAIN_LOG| 2024-11-16 11:35:48,681 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 11:35:48,682 - INFO - Adding 700 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 11:35:48,724 - INFO - 700 out of 700 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 11:35:48,815 - INFO - Commiting links for audi to db
+|MAIN_LOG| 2024-11-16 11:35:48,990 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 11:35:48,991 - INFO - Generating scrollpage links for brand volkswagen. <2/4>
+|MAIN_LOG| 2024-11-16 11:35:48,991 - INFO - Getting number of pages for volkswagen
+|MAIN_LOG| 2024-11-16 11:36:04,239 - INFO - Number of pages for volkswagen : 681
+|MAIN_LOG| 2024-11-16 11:36:04,240 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 11:36:04,241 - INFO - Adding 681 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 11:36:04,252 - INFO - 681 out of 681 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 11:36:04,309 - INFO - Commiting links for volkswagen to db
+|MAIN_LOG| 2024-11-16 11:36:04,438 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 11:36:04,439 - INFO - Generating scrollpage links for brand ford. <3/4>
+|MAIN_LOG| 2024-11-16 11:36:04,439 - INFO - Getting number of pages for ford
+|MAIN_LOG| 2024-11-16 11:36:16,778 - INFO - Number of pages for ford : 610
+|MAIN_LOG| 2024-11-16 11:36:16,778 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 11:36:16,779 - INFO - Adding 610 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 11:36:16,788 - INFO - 610 out of 610 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 11:36:16,842 - INFO - Commiting links for ford to db
+|MAIN_LOG| 2024-11-16 11:36:16,938 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 11:36:16,938 - INFO - Generating scrollpage links for brand opel. <4/4>
+|MAIN_LOG| 2024-11-16 11:36:16,939 - INFO - Getting number of pages for opel
+|MAIN_LOG| 2024-11-16 11:36:30,695 - INFO - Number of pages for opel : 570
+|MAIN_LOG| 2024-11-16 11:36:30,696 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 11:36:30,696 - INFO - Adding 570 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 11:36:30,707 - INFO - 570 out of 570 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 11:36:30,750 - INFO - Commiting links for opel to db
+|MAIN_LOG| 2024-11-16 11:36:30,961 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 11:40:11,301 - INFO - Request - scrape scrollpages
+|MAIN_LOG| 2024-11-16 11:40:17,165 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-16 11:40:34,435 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-16 11:40:34,435 - INFO - Generating scrollpage links for brand audi. <1/4>
+|MAIN_LOG| 2024-11-16 11:40:34,435 - INFO - Getting number of pages for audi
+|MAIN_LOG| 2024-11-16 11:40:48,330 - INFO - Number of pages for audi : 700
+|MAIN_LOG| 2024-11-16 11:40:48,336 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 11:40:48,341 - INFO - Adding 700 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 11:40:48,389 - INFO - 700 out of 700 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 11:40:48,480 - INFO - Commiting links for audi to db
+|MAIN_LOG| 2024-11-16 11:40:48,649 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 11:40:48,650 - INFO - Generating scrollpage links for brand volkswagen. <2/4>
+|MAIN_LOG| 2024-11-16 11:40:48,650 - INFO - Getting number of pages for volkswagen
+|MAIN_LOG| 2024-11-16 11:41:01,333 - INFO - Number of pages for volkswagen : 681
+|MAIN_LOG| 2024-11-16 11:41:01,334 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 11:41:01,334 - INFO - Adding 681 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 11:41:01,365 - INFO - 681 out of 681 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 11:41:01,419 - INFO - Commiting links for volkswagen to db
+|MAIN_LOG| 2024-11-16 11:41:01,533 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 11:41:01,533 - INFO - Generating scrollpage links for brand ford. <3/4>
+|MAIN_LOG| 2024-11-16 11:41:01,534 - INFO - Getting number of pages for ford
+|MAIN_LOG| 2024-11-16 11:41:13,780 - INFO - Number of pages for ford : 610
+|MAIN_LOG| 2024-11-16 11:41:13,780 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 11:41:13,782 - INFO - Adding 610 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 11:41:13,897 - INFO - 610 out of 610 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 11:41:13,970 - INFO - Commiting links for ford to db
+|MAIN_LOG| 2024-11-16 11:41:14,083 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 11:41:14,083 - INFO - Generating scrollpage links for brand opel. <4/4>
+|MAIN_LOG| 2024-11-16 11:41:14,084 - INFO - Getting number of pages for opel
+|MAIN_LOG| 2024-11-16 11:41:43,981 - INFO - Number of pages for opel : 570
+|MAIN_LOG| 2024-11-16 11:41:43,982 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 11:41:43,984 - INFO - Adding 570 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 11:41:44,075 - INFO - 570 out of 570 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-16 11:41:44,203 - INFO - Commiting links for opel to db
+|MAIN_LOG| 2024-11-16 11:41:44,527 - INFO - Links commited
+|MAIN_LOG| 2024-11-16 11:51:46,055 - INFO - Request - scrape scrollpages
+|MAIN_LOG| 2024-11-16 11:51:51,875 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-16 11:52:09,128 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-16 11:52:09,130 - INFO - Generating scrollpage links for brand audi. <1/4>
+|MAIN_LOG| 2024-11-16 11:52:09,131 - INFO - Getting number of pages for audi
+|MAIN_LOG| 2024-11-16 11:52:23,478 - INFO - Number of pages for audi : 700
+|MAIN_LOG| 2024-11-16 11:52:23,481 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-16 11:52:23,482 - INFO - Adding 700 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-16 11:52:23,486 - ERROR - Exception was raised when scraping scrollpage links 
+(MySQLdb.OperationalError) (2006, 'Server has gone away')
+[SQL: SELECT `scrapePages`.id AS `scrapePages_id`, `scrapePages`.scrapepage_link AS `scrapePages_scrapepage_link`, `scrapePages`.car_brand AS `scrapePages_car_brand`, `scrapePages`.`scrapedTaskComplete` AS `scrapePages_scrapedTaskComplete`, `scrapePages`.`beingCurrentlyScraped` AS `scrapePages_beingCurrentlyScraped`, `scrapePages`.scraped_offers AS `scrapePages_scraped_offers`, `scrapePages`.inserted_offers AS `scrapePages_inserted_offers`, `scrapePages`.scraping_status AS `scrapePages_scraping_status` 
+FROM `scrapePages` 
+WHERE `scrapePages`.car_brand = %s AND (`scrapePages`.`scrapedTaskComplete` = false OR `scrapePages`.`beingCurrentlyScraped` = true)]
+[parameters: ('audi',)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+|MAIN_LOG| 2024-11-17 12:16:25,342 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 12:16:25,343 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 12:16:25,343 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 12:16:25,346 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 12:16:25,382 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 12:16:25,411 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 12:16:25,412 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 12:16:26,808 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 12:16:26,808 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 12:16:26,809 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 12:16:26,811 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 12:16:26,847 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 12:16:26,867 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 12:16:26,868 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 12:16:34,918 - INFO - Request - scrape scrollpages
+|MAIN_LOG| 2024-11-17 12:16:40,967 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-17 12:16:55,356 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-17 12:17:54,650 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 12:17:54,650 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 12:17:54,651 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 12:17:54,653 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 12:17:54,689 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 12:17:54,709 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 12:17:54,710 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 12:17:56,405 - INFO - Request - scrape scrollpages
+|MAIN_LOG| 2024-11-17 12:18:02,481 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-17 12:18:18,745 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-17 12:18:18,746 - INFO - Generating scrollpage links for brand audi. <1/1>
+|MAIN_LOG| 2024-11-17 12:18:18,746 - INFO - Getting number of pages for audi
+|MAIN_LOG| 2024-11-17 12:18:33,511 - INFO - Number of pages for audi : 697
+|MAIN_LOG| 2024-11-17 12:18:33,512 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 12:18:33,513 - INFO - Adding 697 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 12:18:33,612 - DEBUG - Filtered 1400 exisiting values for audi in db
+|MAIN_LOG| 2024-11-17 12:18:33,619 - INFO - 697 out of 697 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 12:18:33,692 - INFO - Commiting links for audi to db
+|MAIN_LOG| 2024-11-17 12:18:33,822 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 12:19:33,665 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 12:19:33,665 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 12:19:33,665 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 12:19:33,668 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 12:19:33,705 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 12:19:33,724 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 12:19:33,725 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 12:19:36,596 - INFO - Request - scrape scrollpages
+|MAIN_LOG| 2024-11-17 12:19:42,578 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-17 12:19:56,602 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-17 12:19:56,603 - INFO - Generating scrollpage links for brand audi. <1/1>
+|MAIN_LOG| 2024-11-17 12:19:56,604 - INFO - Getting number of pages for audi
+|MAIN_LOG| 2024-11-17 12:20:10,342 - INFO - Number of pages for audi : 698
+|MAIN_LOG| 2024-11-17 12:20:10,343 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 12:20:10,344 - INFO - Adding 698 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 12:20:10,474 - DEBUG - Filtered 2097 exisiting values for audi in db
+|MAIN_LOG| 2024-11-17 12:20:10,484 - INFO - 698 out of 698 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 12:20:10,552 - INFO - Commiting links for audi to db
+|MAIN_LOG| 2024-11-17 12:20:10,733 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 12:20:46,883 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 12:20:46,883 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 12:20:46,884 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 12:20:46,887 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 12:20:46,923 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 12:20:46,942 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 12:20:46,943 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 12:20:48,353 - INFO - Request - scrape scrollpages
+|MAIN_LOG| 2024-11-17 12:20:54,327 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-17 12:21:08,157 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-17 12:21:08,158 - INFO - Generating scrollpage links for brand audi. <1/1>
+|MAIN_LOG| 2024-11-17 12:21:08,159 - INFO - Getting number of pages for audi
+|MAIN_LOG| 2024-11-17 12:21:20,893 - INFO - Number of pages for audi : 698
+|MAIN_LOG| 2024-11-17 12:21:20,894 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 12:21:20,896 - INFO - Adding 698 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 12:21:21,067 - DEBUG - Filtered 2795 exisiting values for audi in db
+|MAIN_LOG| 2024-11-17 12:21:21,105 - INFO - 0 out of 698 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 12:21:21,105 - INFO - Commiting links for audi to db
+|MAIN_LOG| 2024-11-17 12:21:21,107 - INFO - Links commited
