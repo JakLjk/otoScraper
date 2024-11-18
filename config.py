@@ -9,8 +9,7 @@ class TIMERS:
 class APPCONFIG:
     SQLALCHEMY_DATABASE_URI = 'mysql://root:casaos@192.168.0.226:3306/OTOMOTO'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379")
-
+    REDIS_URL = os.getenv("REDIS_URL", "redis://192.168.0.226:6379")
 
 class LOGGERCONFIG:
     pass
@@ -19,6 +18,7 @@ class WEBDRIVERCONFIG:
     browser="firefox",
     headless=True
 
-class WORKERCONFIG:
-    number_of_link_batches_to_fetch = 5
-    size_of_scraping_worker_batch = 2
+class SERVERCONFIG:
+    ip_port = "127.0.0.1:5001"
+
+

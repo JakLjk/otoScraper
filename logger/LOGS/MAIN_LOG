@@ -12312,3 +12312,1290 @@ WHERE `scrapePages`.car_brand = %s AND (`scrapePages`.`scrapedTaskComplete` = fa
 |MAIN_LOG| 2024-11-17 19:47:19,181 - INFO - Creating DB tables if they dont exist yet
 |MAIN_LOG| 2024-11-17 19:47:19,201 - INFO - Initialising redis.
 |MAIN_LOG| 2024-11-17 19:47:19,202 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 19:54:24,293 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 19:54:24,294 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 19:54:24,294 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 19:54:24,297 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 19:54:24,335 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 19:54:24,357 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 19:54:24,358 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 19:54:25,770 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 19:54:25,771 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 19:54:25,771 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 19:54:25,774 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 19:54:25,813 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 19:54:25,835 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 19:54:25,835 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 19:56:36,260 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 19:56:36,260 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 19:56:36,261 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 19:56:36,264 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 19:56:36,305 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 19:56:36,331 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 19:56:36,332 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 19:56:48,981 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 19:56:48,982 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 19:56:48,982 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 19:56:48,985 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 19:56:49,024 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 19:56:49,045 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 19:56:49,046 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 19:56:50,573 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 19:56:50,573 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 19:56:50,573 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 19:56:50,577 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 19:56:50,624 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 19:56:50,647 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 19:56:50,648 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 19:57:22,852 - INFO - Request - add scrollpage links to scraping queue
+|MAIN_LOG| 2024-11-17 19:57:22,853 - INFO - Fetching 4 scrollpage links.
+|MAIN_LOG| 2024-11-17 19:57:22,897 - INFO - Marking scollpage links as being scraped
+|MAIN_LOG| 2024-11-17 19:58:57,434 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 19:58:57,435 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 19:58:57,435 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 19:58:57,440 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 19:58:57,494 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 19:58:57,519 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 19:58:57,520 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 19:59:09,788 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 19:59:09,788 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 19:59:09,788 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 19:59:09,791 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 19:59:09,833 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 19:59:09,855 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 19:59:09,856 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 19:59:11,209 - INFO - Request - add scrollpage links to scraping queue
+|MAIN_LOG| 2024-11-17 19:59:11,210 - INFO - Fetching 4 scrollpage links.
+|MAIN_LOG| 2024-11-17 19:59:11,254 - INFO - Marking scollpage links as being scraped
+|MAIN_LOG| 2024-11-17 19:59:11,255 - INFO - Passing 4 links in 2 batches to Redis queue
+|MAIN_LOG| 2024-11-17 19:59:11,269 - INFO - Scrollpage links added to Queue - commiting changes to DB
+|MAIN_LOG| 2024-11-17 19:59:11,282 - INFO - Scrollpage links successfully added to Redis Queue. Links: 4 Batches: 2
+|MAIN_LOG| 2024-11-17 20:00:14,719 - INFO - Emptying queue ink_scraping_queue
+|MAIN_LOG| 2024-11-17 20:00:20,097 - INFO - Emptying queue link_scraping_queue
+|MAIN_LOG| 2024-11-17 20:00:20,211 - INFO - Queue link_scraping_queue was emptied
+|MAIN_LOG| 2024-11-17 20:00:27,235 - INFO - Request - add scrollpage links to scraping queue
+|MAIN_LOG| 2024-11-17 20:00:27,236 - INFO - Fetching 4 scrollpage links.
+|MAIN_LOG| 2024-11-17 20:00:27,243 - INFO - Marking scollpage links as being scraped
+|MAIN_LOG| 2024-11-17 20:00:27,244 - INFO - Passing 4 links in 2 batches to Redis queue
+|MAIN_LOG| 2024-11-17 20:00:27,253 - INFO - Scrollpage links added to Queue - commiting changes to DB
+|MAIN_LOG| 2024-11-17 20:00:27,264 - INFO - Scrollpage links successfully added to Redis Queue. Links: 4 Batches: 2
+|MAIN_LOG| 2024-11-17 20:01:05,757 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:01:05,758 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:01:05,758 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:01:05,761 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:01:05,798 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:01:05,819 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:01:05,820 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:01:09,720 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:01:09,720 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:01:09,720 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:01:09,723 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:01:09,760 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:01:09,782 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:01:09,783 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:01:12,327 - INFO - Request - add scrollpage links to scraping queue
+|MAIN_LOG| 2024-11-17 20:01:12,327 - INFO - Fetching 4 scrollpage links.
+|MAIN_LOG| 2024-11-17 20:01:12,373 - INFO - Marking scollpage links as being scraped
+|MAIN_LOG| 2024-11-17 20:01:12,374 - INFO - Passing 4 links in 2 batches to Redis queue
+|MAIN_LOG| 2024-11-17 20:01:12,386 - INFO - Scrollpage links added to Queue - commiting changes to DB
+|MAIN_LOG| 2024-11-17 20:01:12,399 - INFO - Scrollpage links successfully added to Redis Queue. Links: 4 Batches: 2
+|MAIN_LOG| 2024-11-17 20:02:18,737 - INFO - Emptying queue offer_scraping_queue
+|MAIN_LOG| 2024-11-17 20:02:18,740 - INFO - Queue offer_scraping_queue was emptied
+|MAIN_LOG| 2024-11-17 20:03:33,273 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:03:33,274 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:03:33,274 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:03:33,277 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:03:33,314 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:03:33,334 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:03:33,335 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:03:34,792 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:03:34,792 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:03:34,793 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:03:34,795 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:03:34,834 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:03:34,855 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:03:34,856 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:08:04,077 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:08:04,078 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:08:04,078 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:08:04,081 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:08:04,119 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:08:04,138 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:08:04,139 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:08:05,533 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:08:05,534 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:08:05,534 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:08:05,537 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:08:05,574 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:08:05,595 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:08:05,596 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:08:28,495 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:08:28,495 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:08:28,496 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:08:28,499 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:08:28,543 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:08:28,566 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:08:33,095 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:08:33,096 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:08:33,096 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:08:33,099 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:08:33,136 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:08:33,156 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:09:52,145 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:09:52,145 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:09:52,145 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:09:52,148 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:09:52,186 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:09:52,206 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:09:52,207 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:09:53,627 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:09:53,627 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:09:53,628 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:09:53,630 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:09:53,668 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:09:53,689 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:09:53,690 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:11:40,718 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:11:40,718 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:11:40,719 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:11:40,723 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:11:40,781 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:11:40,813 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:11:50,011 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:11:50,011 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:11:50,012 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:11:50,014 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:11:50,050 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:11:50,071 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:11:50,073 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:11:51,480 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:11:51,481 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:11:51,481 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:11:51,484 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:11:51,522 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:11:51,543 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:11:51,545 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:12:23,014 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:12:23,015 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:12:23,015 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:12:23,019 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:12:23,062 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:12:23,082 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:14:01,493 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:14:01,494 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:14:01,494 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:14:01,498 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:14:01,550 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:14:01,573 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:14:01,576 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:14:03,318 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:14:03,318 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:14:03,319 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:14:03,322 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:14:03,371 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:14:03,394 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:14:03,397 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:14:38,289 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:14:38,289 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:14:38,290 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:14:38,293 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:14:38,333 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:14:38,358 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:14:38,359 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:14:38,361 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:14:38,361 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:16:26,460 - INFO - Request - add scrollpage links to scraping queue
+|MAIN_LOG| 2024-11-17 20:16:26,461 - INFO - Fetching 4 scrollpage links.
+|MAIN_LOG| 2024-11-17 20:16:26,507 - INFO - Marking scollpage links as being scraped
+|MAIN_LOG| 2024-11-17 20:16:26,508 - INFO - Passing 4 links in 2 batches to Redis queue
+|MAIN_LOG| 2024-11-17 20:16:26,516 - INFO - Scrollpage links added to Queue - commiting changes to DB
+|MAIN_LOG| 2024-11-17 20:16:26,528 - INFO - Scrollpage links successfully added to Redis Queue. Links: 4 Batches: 2
+|MAIN_LOG| 2024-11-17 20:19:50,773 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:19:50,773 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:19:50,774 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:19:50,776 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:19:50,814 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:19:50,832 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:19:50,833 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:19:50,835 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:19:50,836 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:20:06,585 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:20:06,586 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:20:06,586 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:20:06,590 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:20:06,638 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:20:06,666 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:20:06,668 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:20:06,671 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:20:06,672 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:21:50,864 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:21:50,865 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:21:50,865 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:21:50,868 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:21:50,906 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:21:50,926 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:21:50,927 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:21:50,929 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:21:50,929 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:22:04,114 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:22:04,115 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:22:04,115 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:22:04,118 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:22:04,155 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:22:04,176 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:22:04,177 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:22:04,179 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:22:04,179 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:22:49,720 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:22:49,721 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:22:49,721 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:22:49,724 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:22:49,763 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:22:49,784 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:22:49,785 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:22:49,787 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:22:49,787 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:23:09,927 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:23:09,928 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:23:09,928 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:23:09,932 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:23:09,991 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:23:10,019 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:23:10,021 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:23:10,023 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:23:10,024 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:23:55,213 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:23:55,214 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:23:55,214 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:23:55,219 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:23:55,278 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:23:55,308 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:23:55,309 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:23:55,316 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:23:55,317 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:24:22,871 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:24:22,872 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:24:22,873 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:24:22,877 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:24:22,942 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:24:22,972 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:24:22,973 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:24:22,977 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:24:22,977 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:25:26,146 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:25:26,147 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:25:26,147 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:25:26,150 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:25:26,186 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:25:26,206 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:25:26,207 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:25:26,209 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:25:26,209 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:25:52,601 - INFO - Request - add scrollpage links to scraping queue
+|MAIN_LOG| 2024-11-17 20:25:52,602 - INFO - Fetching 4 scrollpage links.
+|MAIN_LOG| 2024-11-17 20:25:52,647 - INFO - Marking scollpage links as being scraped
+|MAIN_LOG| 2024-11-17 20:25:52,648 - INFO - Passing 4 links in 2 batches to Redis queue
+|MAIN_LOG| 2024-11-17 20:25:52,657 - INFO - Scrollpage links added to Queue - commiting changes to DB
+|MAIN_LOG| 2024-11-17 20:25:52,672 - INFO - Scrollpage links successfully added to Redis Queue. Links: 4 Batches: 2
+|MAIN_LOG| 2024-11-17 20:30:02,954 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:30:02,954 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:30:02,955 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:30:02,958 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:30:02,996 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:30:03,018 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:30:03,020 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:30:03,022 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:30:03,022 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:30:55,459 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:30:55,459 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:30:55,459 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:30:55,462 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:30:55,501 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:30:55,522 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:30:55,523 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:30:55,525 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:30:55,525 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:31:01,611 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:31:01,612 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:31:01,612 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:31:01,615 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:31:01,656 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:31:01,679 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:31:01,680 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:31:01,682 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:31:01,682 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:31:17,191 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:31:17,191 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:31:17,192 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:31:17,195 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:31:17,231 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:31:17,252 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:31:17,253 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:31:17,255 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:31:17,255 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:31:26,643 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:31:26,644 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:31:26,644 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:31:26,647 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:31:26,685 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:31:26,705 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:31:26,706 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:31:26,708 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:31:26,708 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:31:29,823 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:31:29,823 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:31:29,824 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:31:29,826 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:31:29,863 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:31:29,884 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:31:29,885 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:31:29,887 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:31:29,887 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:31:39,229 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:31:39,230 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:31:39,230 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:31:39,233 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:31:39,269 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:31:39,290 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:31:39,291 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:31:39,292 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:31:39,293 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:31:48,380 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:31:48,381 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:31:48,381 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:31:48,384 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:31:48,420 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:31:48,440 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:31:48,441 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:31:48,443 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:31:48,443 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:31:53,372 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:31:53,372 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:31:53,372 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:31:53,375 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:31:53,415 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:31:53,436 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:31:53,437 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:31:53,439 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:31:53,439 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:32:01,490 - INFO - Request - add scrollpage links to scraping queue
+|MAIN_LOG| 2024-11-17 20:32:01,491 - INFO - Fetching 4 scrollpage links.
+|MAIN_LOG| 2024-11-17 20:32:01,537 - INFO - Marking scollpage links as being scraped
+|MAIN_LOG| 2024-11-17 20:32:01,537 - INFO - Passing 4 links in 2 batches to Redis queue
+|MAIN_LOG| 2024-11-17 20:32:01,546 - INFO - Scrollpage links added to Queue - commiting changes to DB
+|MAIN_LOG| 2024-11-17 20:32:01,560 - INFO - Scrollpage links successfully added to Redis Queue. Links: 4 Batches: 2
+|MAIN_LOG| 2024-11-17 20:35:59,243 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:35:59,243 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:35:59,244 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:35:59,246 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:35:59,286 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:35:59,307 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:35:59,308 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:35:59,309 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:35:59,310 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:36:24,857 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:36:24,858 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:36:24,858 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:36:24,861 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:36:24,897 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:36:24,918 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:36:24,919 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:36:24,920 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:36:24,921 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:36:29,668 - INFO - Request - add scrollpage links to scraping queue
+|MAIN_LOG| 2024-11-17 20:36:29,669 - INFO - Fetching 4 scrollpage links.
+|MAIN_LOG| 2024-11-17 20:36:29,714 - INFO - Marking scollpage links as being scraped
+|MAIN_LOG| 2024-11-17 20:36:29,714 - INFO - Passing 4 links in 2 batches to Redis queue
+|MAIN_LOG| 2024-11-17 20:36:29,724 - INFO - Scrollpage links added to Queue - commiting changes to DB
+|MAIN_LOG| 2024-11-17 20:36:29,736 - INFO - Scrollpage links successfully added to Redis Queue. Links: 4 Batches: 2
+|MAIN_LOG| 2024-11-17 20:37:26,781 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-17 20:37:26,782 - DEBUG - Adding 32 links for scrapepage ID 15035 to DB.
+|MAIN_LOG| 2024-11-17 20:37:26,921 - DEBUG - Adding 32 links for scrapepage ID 15036 to DB.
+|MAIN_LOG| 2024-11-17 20:37:27,038 - INFO - Commiting 64 / 2048 links to the Database.
+|MAIN_LOG| 2024-11-17 20:37:27,083 - INFO - Added 64 / 2048 links to the Database.
+|MAIN_LOG| 2024-11-17 20:38:26,416 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-17 20:38:26,418 - DEBUG - Adding 32 links for scrapepage ID 15037 to DB.
+|MAIN_LOG| 2024-11-17 20:38:26,532 - DEBUG - Adding 32 links for scrapepage ID 15038 to DB.
+|MAIN_LOG| 2024-11-17 20:38:26,650 - INFO - Commiting 64 / 2048 links to the Database.
+|MAIN_LOG| 2024-11-17 20:38:26,734 - INFO - Added 64 / 2048 links to the Database.
+|MAIN_LOG| 2024-11-17 20:38:53,064 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:38:53,065 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:38:53,065 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:38:53,069 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:38:53,129 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:38:53,155 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:38:53,156 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:38:53,158 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:38:53,159 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:39:01,957 - INFO - Request - add scrollpage links to scraping queue
+|MAIN_LOG| 2024-11-17 20:39:01,958 - INFO - Fetching 4 scrollpage links.
+|MAIN_LOG| 2024-11-17 20:39:01,991 - INFO - Marking scollpage links as being scraped
+|MAIN_LOG| 2024-11-17 20:39:01,991 - INFO - Passing 4 links in 2 batches to Redis queue
+|MAIN_LOG| 2024-11-17 20:39:02,000 - INFO - Scrollpage links added to Queue - commiting changes to DB
+|MAIN_LOG| 2024-11-17 20:39:02,014 - INFO - Scrollpage links successfully added to Redis Queue. Links: 4 Batches: 2
+|MAIN_LOG| 2024-11-17 20:39:02,737 - INFO - Request - add scrollpage links to scraping queue
+|MAIN_LOG| 2024-11-17 20:39:02,737 - INFO - Fetching 4 scrollpage links.
+|MAIN_LOG| 2024-11-17 20:39:02,741 - INFO - Marking scollpage links as being scraped
+|MAIN_LOG| 2024-11-17 20:39:02,742 - INFO - Passing 4 links in 2 batches to Redis queue
+|MAIN_LOG| 2024-11-17 20:39:02,747 - INFO - Scrollpage links added to Queue - commiting changes to DB
+|MAIN_LOG| 2024-11-17 20:39:02,752 - INFO - Scrollpage links successfully added to Redis Queue. Links: 4 Batches: 2
+|MAIN_LOG| 2024-11-17 20:39:03,546 - INFO - Request - add scrollpage links to scraping queue
+|MAIN_LOG| 2024-11-17 20:39:03,546 - INFO - Fetching 4 scrollpage links.
+|MAIN_LOG| 2024-11-17 20:39:03,550 - INFO - Marking scollpage links as being scraped
+|MAIN_LOG| 2024-11-17 20:39:03,551 - INFO - Passing 4 links in 2 batches to Redis queue
+|MAIN_LOG| 2024-11-17 20:39:03,556 - INFO - Scrollpage links added to Queue - commiting changes to DB
+|MAIN_LOG| 2024-11-17 20:39:03,563 - INFO - Scrollpage links successfully added to Redis Queue. Links: 4 Batches: 2
+|MAIN_LOG| 2024-11-17 20:39:04,314 - INFO - Request - add scrollpage links to scraping queue
+|MAIN_LOG| 2024-11-17 20:39:04,314 - INFO - Fetching 4 scrollpage links.
+|MAIN_LOG| 2024-11-17 20:39:04,318 - INFO - Marking scollpage links as being scraped
+|MAIN_LOG| 2024-11-17 20:39:04,318 - INFO - Passing 4 links in 2 batches to Redis queue
+|MAIN_LOG| 2024-11-17 20:39:04,322 - INFO - Scrollpage links added to Queue - commiting changes to DB
+|MAIN_LOG| 2024-11-17 20:39:04,329 - INFO - Scrollpage links successfully added to Redis Queue. Links: 4 Batches: 2
+|MAIN_LOG| 2024-11-17 20:39:24,705 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:39:24,707 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:39:24,707 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:39:24,711 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:39:24,763 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:39:24,791 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:39:24,793 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:39:24,796 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:39:24,797 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:39:49,149 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:39:49,150 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:39:49,150 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:39:49,154 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:39:49,210 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:39:49,238 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:39:49,240 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:39:49,245 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:39:49,246 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:40:00,972 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-17 20:40:00,973 - DEBUG - Adding 32 links for scrapepage ID 15039 to DB.
+|MAIN_LOG| 2024-11-17 20:40:01,123 - DEBUG - Adding 32 links for scrapepage ID 15040 to DB.
+|MAIN_LOG| 2024-11-17 20:40:01,266 - INFO - Commiting 52 / 64 links to the Database.
+|MAIN_LOG| 2024-11-17 20:40:01,360 - INFO - Added 52 / 64 links to the Database.
+|MAIN_LOG| 2024-11-17 20:40:17,485 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:40:17,488 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:40:17,489 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:40:17,493 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:40:17,547 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:40:17,593 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:40:17,594 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:40:17,597 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:40:17,598 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:41:05,978 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-17 20:41:05,980 - DEBUG - Adding 32 links for scrapepage ID 15041 to DB.
+|MAIN_LOG| 2024-11-17 20:41:06,115 - DEBUG - Adding 32 links for scrapepage ID 15042 to DB.
+|MAIN_LOG| 2024-11-17 20:41:06,213 - INFO - Commiting 41 / 64 links to the Database.
+|MAIN_LOG| 2024-11-17 20:41:06,296 - INFO - Added 41 / 64 links to the Database.
+|MAIN_LOG| 2024-11-17 20:41:23,798 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:41:23,799 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:41:23,799 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:41:23,803 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:41:23,860 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:41:23,889 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:41:23,890 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:41:23,897 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:41:23,898 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:41:29,604 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:41:29,605 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:41:29,606 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:41:29,610 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:41:29,660 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:41:29,689 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:41:29,690 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:41:29,694 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:41:29,694 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:41:45,289 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-17 20:41:45,289 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-17 20:41:45,323 - INFO - Marking 8 as being scraped
+|MAIN_LOG| 2024-11-17 20:41:45,347 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-17 20:41:45,379 - INFO - Generated 4 batches.
+|MAIN_LOG| 2024-11-17 20:41:45,392 - INFO - 8 in 4 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-17 20:43:10,005 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:43:10,005 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:43:10,006 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:43:10,009 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:43:10,057 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:43:10,078 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:43:10,079 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:43:10,081 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:43:10,082 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:43:11,966 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 20:43:11,967 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 20:43:11,967 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 20:43:11,971 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 20:43:12,025 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 20:43:12,053 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 20:43:12,054 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 20:43:12,057 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 20:43:12,057 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 20:43:50,525 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-17 20:43:50,526 - DEBUG - Adding 32 links for scrapepage ID 15047 to DB.
+|MAIN_LOG| 2024-11-17 20:43:50,755 - DEBUG - Adding 32 links for scrapepage ID 15048 to DB.
+|MAIN_LOG| 2024-11-17 20:43:50,916 - INFO - Commiting 60 / 64 links to the Database.
+|MAIN_LOG| 2024-11-17 20:43:50,961 - INFO - Added 60 / 64 links to the Database.
+|MAIN_LOG| 2024-11-17 20:44:49,779 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-17 20:44:49,780 - DEBUG - Adding 32 links for scrapepage ID 15049 to DB.
+|MAIN_LOG| 2024-11-17 20:44:49,935 - DEBUG - Adding 32 links for scrapepage ID 15050 to DB.
+|MAIN_LOG| 2024-11-17 20:44:50,087 - INFO - Commiting 58 / 64 links to the Database.
+|MAIN_LOG| 2024-11-17 20:44:50,110 - INFO - Added 58 / 64 links to the Database.
+|MAIN_LOG| 2024-11-17 20:45:50,102 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-17 20:45:50,103 - DEBUG - Adding 32 links for scrapepage ID 15051 to DB.
+|MAIN_LOG| 2024-11-17 20:45:50,256 - DEBUG - Adding 32 links for scrapepage ID 15052 to DB.
+|MAIN_LOG| 2024-11-17 20:45:50,445 - INFO - Commiting 53 / 64 links to the Database.
+|MAIN_LOG| 2024-11-17 20:45:50,510 - INFO - Added 53 / 64 links to the Database.
+|MAIN_LOG| 2024-11-17 20:46:20,776 - INFO - Adding links to scraping queue.
+|MAIN_LOG| 2024-11-17 20:46:20,777 - INFO - Fetching 2 links from database to scrape.
+|MAIN_LOG| 2024-11-17 20:46:20,785 - INFO - Marking 8 as being scraped
+|MAIN_LOG| 2024-11-17 20:46:20,801 - INFO - Creating batches containing several links
+|MAIN_LOG| 2024-11-17 20:46:20,835 - INFO - Generated 4 batches.
+|MAIN_LOG| 2024-11-17 20:46:20,851 - INFO - 8 in 4 batches have been added to scraping queue
+
+|MAIN_LOG| 2024-11-17 20:46:52,398 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-17 20:46:52,399 - DEBUG - Adding 32 links for scrapepage ID 15053 to DB.
+|MAIN_LOG| 2024-11-17 20:46:52,542 - DEBUG - Adding 32 links for scrapepage ID 15054 to DB.
+|MAIN_LOG| 2024-11-17 20:46:52,753 - INFO - Commiting 42 / 64 links to the Database.
+|MAIN_LOG| 2024-11-17 20:46:52,778 - INFO - Added 42 / 64 links to the Database.
+|MAIN_LOG| 2024-11-17 20:47:53,233 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-17 20:47:53,233 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-17 20:47:53,234 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-17 20:49:23,987 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-17 20:49:23,988 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-17 20:49:23,988 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-17 20:49:23,993 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a4-audi-a4-s-line-skora-virtual-sport-navi-led-ID6GTZ1a.html>
+Offer ID: ID6GTZ1a
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-17 20:49:23,994 - DEBUG - 
+Passing offer to DB: 
+
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a4-audi-a4-s-line-skora-virtual-sport-navi-led-ID6GTZ1a.html
+ID w linku: 6GTZ1a
+Status: Scraped successfully
+Tytuł: Audi A4 35 TFSI Sport
+Data Dodania: 15 listopada 2024 20:52
+Sprzedajacy Imie: MAREK
+Ilosc Szczegółów: 16
+Ilosc Wyposazenia: 101
+Koordynaty: LAT: 52.54635 LONG: 19.70654
+Brakujące pola: id, coords_exact
+
+|MAIN_LOG| 2024-11-17 20:49:23,995 - DEBUG - Adding offer 3 to query to be commited into offers table
+|MAIN_LOG| 2024-11-17 20:49:23,998 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-3xs-linematrix-panorama-kamerabezwypadkowy-100-ID6GTUX7.html>
+Offer ID: ID6GTUX7
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-17 20:49:23,999 - DEBUG - 
+Passing offer to DB: 
+
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-3xs-linematrix-panorama-kamerabezwypadkowy-100-ID6GTUX7.html
+ID w linku: 6GTUX7
+Status: Scraped successfully
+Tytuł: Audi A6 2.0 TDI ultra S tronic
+Data Dodania: 17 listopada 2024 10:39
+Sprzedajacy Imie: Sprzedawca
+Ilosc Szczegółów: 16
+Ilosc Wyposazenia: 101
+Koordynaty: LAT: 49.82198 LONG: 19.05043
+Brakujące pola: id, coords_exact
+
+|MAIN_LOG| 2024-11-17 20:49:24,000 - DEBUG - Adding offer 4 to query to be commited into offers table
+|MAIN_LOG| 2024-11-17 20:50:31,483 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-17 20:50:31,484 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-17 20:50:31,484 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-17 20:50:31,491 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-s4-20r-lift-3-0-tdi-347ps-ID6GTPCj.html>
+Offer ID: ID6GTPCj
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-17 20:50:31,491 - DEBUG - 
+Passing offer to DB: 
+
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-s4-20r-lift-3-0-tdi-347ps-ID6GTPCj.html
+ID w linku: 6GTPCj
+Status: Scraped successfully
+Tytuł: Audi S4 Avant TDI tiptronic
+Data Dodania: 14 listopada 2024 20:45
+Sprzedajacy Imie: AUDI
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 74
+Koordynaty: LAT: 50.31945 LONG: 17.38355
+Brakujące pola: id, coords_exact
+
+|MAIN_LOG| 2024-11-17 20:50:31,492 - DEBUG - Adding offer 6 to query to be commited into offers table
+|MAIN_LOG| 2024-11-17 20:51:40,271 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-17 20:51:40,272 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-17 20:51:40,273 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-17 20:51:40,276 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a3-super-stan-bezwypadkowy-ID6GTQzc.html>
+Offer ID: ID6GTQzc
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-17 20:51:40,277 - DEBUG - 
+Passing offer to DB: 
+
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a3-super-stan-bezwypadkowy-ID6GTQzc.html
+ID w linku: 6GTQzc
+Status: Scraped successfully
+Tytuł: Audi A3 Cabriolet 1.8 TFSI S tronic Attraction
+Data Dodania: 14 listopada 2024 23:54
+Sprzedajacy Imie: Tomasz
+Ilosc Szczegółów: 16
+Ilosc Wyposazenia: 18
+Koordynaty: LAT: 52.65975 LONG: 19.07799
+Brakujące pola: id, coords_exact
+
+|MAIN_LOG| 2024-11-17 20:51:40,278 - DEBUG - Adding offer 7 to query to be commited into offers table
+|MAIN_LOG| 2024-11-17 20:51:40,281 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-s5-2018-s5-bogata-wersja-oryginalny-przebieg-79000-ID6GTUDi.html>
+Offer ID: ID6GTUDi
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-17 20:51:40,282 - DEBUG - 
+Passing offer to DB: 
+
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-s5-2018-s5-bogata-wersja-oryginalny-przebieg-79000-ID6GTUDi.html
+ID w linku: 6GTUDi
+Status: Scraped successfully
+Tytuł: Audi S5 Sportback 3.0 TFSI quattro tiptronic
+Data Dodania: 15 listopada 2024 13:13
+Sprzedajacy Imie: Piotr
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 52
+Koordynaty: LAT: 51.72091 LONG: 19.46619
+Brakujące pola: id, coords_exact
+
+|MAIN_LOG| 2024-11-17 20:51:40,283 - DEBUG - Adding offer 8 to query to be commited into offers table
+|MAIN_LOG| 2024-11-17 20:52:48,890 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-17 20:52:48,891 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-17 20:52:48,891 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-17 20:52:48,895 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-rs6-audi-rs6-ID6GTT3l.html>
+Offer ID: ID6GTT3l
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-17 20:52:48,895 - DEBUG - 
+Passing offer to DB: 
+
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-rs6-audi-rs6-ID6GTT3l.html
+ID w linku: 6GTT3l
+Status: Scraped successfully
+Tytuł: Audi RS6 4.0 TFSI Quattro Tiptronic
+Data Dodania: 17 listopada 2024 13:41
+Sprzedajacy Imie: Patryk
+Ilosc Szczegółów: 15
+Ilosc Wyposazenia: 51
+Koordynaty: LAT: 50.71969 LONG: 16.34809
+Brakujące pola: id, coords_exact
+
+|MAIN_LOG| 2024-11-17 20:52:48,896 - DEBUG - Adding offer 9 to query to be commited into offers table
+|MAIN_LOG| 2024-11-17 20:52:48,899 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q5-audi-q5-2-0-177km-2x-s-line-daytona-grau-bezwypadkowy-ID6GTPrG.html>
+Offer ID: ID6GTPrG
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-17 20:52:48,900 - DEBUG - 
+Passing offer to DB: 
+
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-q5-audi-q5-2-0-177km-2x-s-line-daytona-grau-bezwypadkowy-ID6GTPrG.html
+ID w linku: 6GTPrG
+Status: Scraped successfully
+Tytuł: Audi Q5 2.0 TDI Quattro
+Data Dodania: 14 listopada 2024 19:12
+Sprzedajacy Imie: Adrian
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 23
+Koordynaty: LAT: 51.64034 LONG: 15.12432
+Brakujące pola: id, coords_exact
+
+|MAIN_LOG| 2024-11-17 20:52:48,900 - DEBUG - Adding offer 10 to query to be commited into offers table
+|MAIN_LOG| 2024-11-17 20:54:04,715 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-17 20:54:04,716 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-17 20:54:04,716 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-17 20:54:04,719 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-q5-2-0-tdi-quattro-ID6GTPUL.html>
+Offer ID: ID6GTPUL
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-17 20:54:04,720 - DEBUG - 
+Passing offer to DB: 
+
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-q5-2-0-tdi-quattro-ID6GTPUL.html
+ID w linku: 6GTPUL
+Status: Scraped successfully
+Tytuł: Audi Q5 2.0 TDI Quattro
+Data Dodania: 14 listopada 2024 20:53
+Sprzedajacy Imie: Adam
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 29
+Koordynaty: LAT: 49.83378 LONG: 19.94242
+Brakujące pola: id, coords_exact
+
+|MAIN_LOG| 2024-11-17 20:54:04,721 - DEBUG - Adding offer 11 to query to be commited into offers table
+|MAIN_LOG| 2024-11-17 20:54:04,724 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a8-niski-oryginalny-przebiegunikatklasyk-piekny-stan-ID6GTSH5.html>
+Offer ID: ID6GTSH5
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-17 20:54:04,724 - DEBUG - 
+Passing offer to DB: 
+
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a8-niski-oryginalny-przebiegunikatklasyk-piekny-stan-ID6GTSH5.html
+ID w linku: 6GTSH5
+Status: Scraped successfully
+Tytuł: Audi A8 4.2 FSI Quattro
+Data Dodania: 15 listopada 2024 18:13
+Sprzedajacy Imie: Tomasz
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 77
+Koordynaty: LAT: 52.80201 LONG: 21.89205
+Brakujące pola: id, coords_exact
+
+|MAIN_LOG| 2024-11-17 20:54:04,725 - DEBUG - Adding offer 12 to query to be commited into offers table
+|MAIN_LOG| 2024-11-17 20:55:13,210 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-17 20:55:13,211 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-17 20:55:13,211 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-17 20:55:13,215 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-c7-salon-polska-matrix-ID6GTZ16.html>
+Offer ID: ID6GTZ16
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-17 20:55:13,215 - DEBUG - 
+Passing offer to DB: 
+
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-c7-salon-polska-matrix-ID6GTZ16.html
+ID w linku: 6GTZ16
+Status: Scraped successfully
+Tytuł: Audi A6 2.0 TDI ultra S tronic
+Data Dodania: 15 listopada 2024 20:52
+Sprzedajacy Imie: Tomasz
+Ilosc Szczegółów: 18
+Ilosc Wyposazenia: 35
+Koordynaty: LAT: 53.15097 LONG: 16.73823
+Brakujące pola: id, coords_exact
+
+|MAIN_LOG| 2024-11-17 20:55:13,216 - DEBUG - Adding offer 13 to query to be commited into offers table
+|MAIN_LOG| 2024-11-17 20:55:13,219 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-c7-2-0-tfsi-quattro-ID6GU0kB.html>
+Offer ID: ID6GU0kB
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-17 20:55:13,220 - DEBUG - 
+Passing offer to DB: 
+
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a6-audi-a6-c7-2-0-tfsi-quattro-ID6GU0kB.html
+ID w linku: 6GU0kB
+Status: Scraped successfully
+Tytuł: Audi A6
+Data Dodania: 16 listopada 2024 15:23
+Sprzedajacy Imie: Krzysiek
+Ilosc Szczegółów: 13
+Ilosc Wyposazenia: 54
+Koordynaty: LAT: 53.14036 LONG: 23.16581
+Brakujące pola: id, coords_exact
+
+|MAIN_LOG| 2024-11-17 20:55:13,221 - DEBUG - Adding offer 14 to query to be commited into offers table
+|MAIN_LOG| 2024-11-17 20:56:21,768 - INFO - Received message with offers from worker.
+|MAIN_LOG| 2024-11-17 20:56:21,769 - INFO - Scraping status: ok
+|MAIN_LOG| 2024-11-17 20:56:21,770 - INFO - Inserting data for 2 offers into db.
+|MAIN_LOG| 2024-11-17 20:56:21,774 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-s3-audi-s3-8p-2011-quatro-ID6GIwJw.html>
+Offer ID: ID6GIwJw
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-17 20:56:21,775 - DEBUG - 
+Passing offer to DB: 
+
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-s3-audi-s3-8p-2011-quatro-ID6GIwJw.html
+ID w linku: 6GIwJw
+Status: Scraped successfully
+Tytuł: Audi S3 2.0 TFSI Quattro
+Data Dodania: 11 listopada 2024 13:49
+Sprzedajacy Imie: Maciej
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 47
+Koordynaty: LAT: 51.23955 LONG: 22.55257
+Brakujące pola: id, coords_exact
+
+|MAIN_LOG| 2024-11-17 20:56:21,776 - DEBUG - Adding offer 15 to query to be commited into offers table
+|MAIN_LOG| 2024-11-17 20:56:21,780 - DEBUG - Marking link as scraped
+
+<link: https://www.otomoto.pl/osobowe/oferta/audi-a8-audi-a8-d2-4-2-quattro-lpg-ID6GU1Ma.html>
+Offer ID: ID6GU1Ma
+Being scraped: False
+Was scraped: True
+
+|MAIN_LOG| 2024-11-17 20:56:21,781 - DEBUG - 
+Passing offer to DB: 
+
+<class: OFFER>
+Link: https://www.otomoto.pl/osobowe/oferta/audi-a8-audi-a8-d2-4-2-quattro-lpg-ID6GU1Ma.html
+ID w linku: 6GU1Ma
+Status: Scraped successfully
+Tytuł: Audi A8 4.2 Quattro
+Data Dodania: 17 listopada 2024 18:38
+Sprzedajacy Imie: Dariusz
+Ilosc Szczegółów: 17
+Ilosc Wyposazenia: 27
+Koordynaty: LAT: 54.10682 LONG: 23.35052
+Brakujące pola: id, coords_exact
+
+|MAIN_LOG| 2024-11-17 20:56:21,782 - DEBUG - Adding offer 16 to query to be commited into offers table
+|MAIN_LOG| 2024-11-17 21:29:23,270 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 21:29:23,271 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 21:29:23,271 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 21:29:23,274 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 21:29:23,310 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 21:29:23,414 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 21:29:23,416 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 21:29:23,419 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 21:29:23,419 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 21:29:24,893 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-17 21:29:24,893 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-17 21:29:24,894 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-17 21:29:24,896 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-17 21:29:24,933 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-17 21:29:24,954 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-17 21:29:24,955 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-17 21:29:24,957 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-17 21:29:24,957 - INFO - Defining queues
+|MAIN_LOG| 2024-11-17 21:30:18,664 - INFO - Request - scrape scrollpages
+|MAIN_LOG| 2024-11-17 21:30:24,668 - INFO - Getting car brands
+|MAIN_LOG| 2024-11-17 21:30:42,427 - INFO - Scraping number of scrollpages for each car brand
+|MAIN_LOG| 2024-11-17 21:30:42,428 - INFO - Generating scrollpage links for brand bmw. <1/167>
+|MAIN_LOG| 2024-11-17 21:30:42,429 - INFO - Getting number of pages for bmw
+|MAIN_LOG| 2024-11-17 21:30:56,698 - INFO - Number of pages for bmw : 713
+|MAIN_LOG| 2024-11-17 21:30:56,699 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:30:56,700 - INFO - Adding 713 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:30:56,773 - DEBUG - Filtered 0 exisiting values for bmw in db
+|MAIN_LOG| 2024-11-17 21:30:56,777 - INFO - 713 out of 713 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:30:56,973 - INFO - Commiting links for bmw to db
+|MAIN_LOG| 2024-11-17 21:30:57,443 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:30:57,443 - INFO - Generating scrollpage links for brand audi. <2/167>
+|MAIN_LOG| 2024-11-17 21:30:57,444 - INFO - Getting number of pages for audi
+|MAIN_LOG| 2024-11-17 21:31:11,683 - INFO - Number of pages for audi : 695
+|MAIN_LOG| 2024-11-17 21:31:11,684 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:31:11,685 - INFO - Adding 695 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:31:11,694 - DEBUG - Filtered 0 exisiting values for audi in db
+|MAIN_LOG| 2024-11-17 21:31:11,695 - INFO - 695 out of 695 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:31:11,752 - INFO - Commiting links for audi to db
+|MAIN_LOG| 2024-11-17 21:31:11,866 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:31:11,866 - INFO - Generating scrollpage links for brand volkswagen. <3/167>
+|MAIN_LOG| 2024-11-17 21:31:11,867 - INFO - Getting number of pages for volkswagen
+|MAIN_LOG| 2024-11-17 21:31:24,720 - INFO - Number of pages for volkswagen : 674
+|MAIN_LOG| 2024-11-17 21:31:24,721 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:31:24,722 - INFO - Adding 674 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:31:24,729 - DEBUG - Filtered 0 exisiting values for volkswagen in db
+|MAIN_LOG| 2024-11-17 21:31:24,730 - INFO - 674 out of 674 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:31:24,788 - INFO - Commiting links for volkswagen to db
+|MAIN_LOG| 2024-11-17 21:31:24,900 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:31:24,901 - INFO - Generating scrollpage links for brand ford. <4/167>
+|MAIN_LOG| 2024-11-17 21:31:24,902 - INFO - Getting number of pages for ford
+|MAIN_LOG| 2024-11-17 21:31:36,767 - INFO - Number of pages for ford : 603
+|MAIN_LOG| 2024-11-17 21:31:36,767 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:31:36,768 - INFO - Adding 603 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:31:36,777 - DEBUG - Filtered 0 exisiting values for ford in db
+|MAIN_LOG| 2024-11-17 21:31:36,779 - INFO - 603 out of 603 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:31:36,933 - INFO - Commiting links for ford to db
+|MAIN_LOG| 2024-11-17 21:31:37,061 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:31:37,062 - INFO - Generating scrollpage links for brand opel. <5/167>
+|MAIN_LOG| 2024-11-17 21:31:37,064 - INFO - Getting number of pages for opel
+|MAIN_LOG| 2024-11-17 21:31:48,656 - INFO - Number of pages for opel : 560
+|MAIN_LOG| 2024-11-17 21:31:48,657 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:31:48,658 - INFO - Adding 560 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:31:48,670 - DEBUG - Filtered 0 exisiting values for opel in db
+|MAIN_LOG| 2024-11-17 21:31:48,671 - INFO - 560 out of 560 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:31:48,726 - INFO - Commiting links for opel to db
+|MAIN_LOG| 2024-11-17 21:31:48,882 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:31:48,883 - INFO - Generating scrollpage links for brand mercedes-benz. <6/167>
+|MAIN_LOG| 2024-11-17 21:31:48,883 - INFO - Getting number of pages for mercedes-benz
+|MAIN_LOG| 2024-11-17 21:32:03,819 - INFO - Number of pages for mercedes-benz : 559
+|MAIN_LOG| 2024-11-17 21:32:03,819 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:32:03,820 - INFO - Adding 559 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:32:03,831 - DEBUG - Filtered 0 exisiting values for mercedes-benz in db
+|MAIN_LOG| 2024-11-17 21:32:03,833 - INFO - 559 out of 559 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:32:03,882 - INFO - Commiting links for mercedes-benz to db
+|MAIN_LOG| 2024-11-17 21:32:03,991 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:32:03,992 - INFO - Generating scrollpage links for brand toyota. <7/167>
+|MAIN_LOG| 2024-11-17 21:32:03,992 - INFO - Getting number of pages for toyota
+|MAIN_LOG| 2024-11-17 21:32:16,301 - INFO - Number of pages for toyota : 423
+|MAIN_LOG| 2024-11-17 21:32:16,302 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:32:16,303 - INFO - Adding 423 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:32:16,314 - DEBUG - Filtered 0 exisiting values for toyota in db
+|MAIN_LOG| 2024-11-17 21:32:16,315 - INFO - 423 out of 423 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:32:16,350 - INFO - Commiting links for toyota to db
+|MAIN_LOG| 2024-11-17 21:32:16,469 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:32:16,469 - INFO - Generating scrollpage links for brand skoda. <8/167>
+|MAIN_LOG| 2024-11-17 21:32:16,469 - INFO - Getting number of pages for skoda
+|MAIN_LOG| 2024-11-17 21:32:28,944 - INFO - Number of pages for skoda : 380
+|MAIN_LOG| 2024-11-17 21:32:28,944 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:32:28,945 - INFO - Adding 380 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:32:28,960 - DEBUG - Filtered 0 exisiting values for skoda in db
+|MAIN_LOG| 2024-11-17 21:32:28,961 - INFO - 380 out of 380 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:32:28,991 - INFO - Commiting links for skoda to db
+|MAIN_LOG| 2024-11-17 21:32:29,096 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:32:29,097 - INFO - Generating scrollpage links for brand renault. <9/167>
+|MAIN_LOG| 2024-11-17 21:32:29,097 - INFO - Getting number of pages for renault
+|MAIN_LOG| 2024-11-17 21:32:40,304 - INFO - Number of pages for renault : 380
+|MAIN_LOG| 2024-11-17 21:32:40,305 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:32:40,305 - INFO - Adding 380 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:32:40,321 - DEBUG - Filtered 0 exisiting values for renault in db
+|MAIN_LOG| 2024-11-17 21:32:40,321 - INFO - 380 out of 380 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:32:40,350 - INFO - Commiting links for renault to db
+|MAIN_LOG| 2024-11-17 21:32:40,416 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:32:40,416 - INFO - Generating scrollpage links for brand peugeot. <10/167>
+|MAIN_LOG| 2024-11-17 21:32:40,416 - INFO - Getting number of pages for peugeot
+|MAIN_LOG| 2024-11-17 21:32:52,546 - INFO - Number of pages for peugeot : 331
+|MAIN_LOG| 2024-11-17 21:32:52,547 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:32:52,549 - INFO - Adding 331 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:32:52,567 - DEBUG - Filtered 0 exisiting values for peugeot in db
+|MAIN_LOG| 2024-11-17 21:32:52,568 - INFO - 331 out of 331 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:32:52,602 - INFO - Commiting links for peugeot to db
+|MAIN_LOG| 2024-11-17 21:32:52,664 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:32:52,664 - INFO - Generating scrollpage links for brand abarth. <11/167>
+|MAIN_LOG| 2024-11-17 21:32:52,664 - INFO - Getting number of pages for abarth
+|MAIN_LOG| 2024-11-17 21:33:04,361 - INFO - Number of pages for abarth : 3
+|MAIN_LOG| 2024-11-17 21:33:04,365 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:33:04,367 - INFO - Adding 3 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:33:04,385 - DEBUG - Filtered 0 exisiting values for abarth in db
+|MAIN_LOG| 2024-11-17 21:33:04,386 - INFO - 3 out of 3 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:33:04,388 - INFO - Commiting links for abarth to db
+|MAIN_LOG| 2024-11-17 21:33:04,393 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:33:04,394 - INFO - Generating scrollpage links for brand acura. <12/167>
+|MAIN_LOG| 2024-11-17 21:33:04,395 - INFO - Getting number of pages for acura
+|MAIN_LOG| 2024-11-17 21:33:15,463 - INFO - Number of pages for acura : 1
+|MAIN_LOG| 2024-11-17 21:33:15,465 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:33:15,465 - INFO - Adding 1 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:33:15,483 - DEBUG - Filtered 0 exisiting values for acura in db
+|MAIN_LOG| 2024-11-17 21:33:15,484 - INFO - 1 out of 1 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:33:15,485 - INFO - Commiting links for acura to db
+|MAIN_LOG| 2024-11-17 21:33:15,491 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:33:15,491 - INFO - Generating scrollpage links for brand aiways. <13/167>
+|MAIN_LOG| 2024-11-17 21:33:15,491 - INFO - Getting number of pages for aiways
+|MAIN_LOG| 2024-11-17 21:33:27,136 - INFO - Number of pages for aiways : 1
+|MAIN_LOG| 2024-11-17 21:33:27,137 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:33:27,138 - INFO - Adding 1 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:33:27,156 - DEBUG - Filtered 0 exisiting values for aiways in db
+|MAIN_LOG| 2024-11-17 21:33:27,157 - INFO - 1 out of 1 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:33:27,158 - INFO - Commiting links for aiways to db
+|MAIN_LOG| 2024-11-17 21:33:27,162 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:33:27,163 - INFO - Generating scrollpage links for brand aixam. <14/167>
+|MAIN_LOG| 2024-11-17 21:33:27,163 - INFO - Getting number of pages for aixam
+|MAIN_LOG| 2024-11-17 21:33:38,129 - INFO - Number of pages for aixam : 4
+|MAIN_LOG| 2024-11-17 21:33:38,130 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:33:38,131 - INFO - Adding 4 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:33:38,148 - DEBUG - Filtered 0 exisiting values for aixam in db
+|MAIN_LOG| 2024-11-17 21:33:38,150 - INFO - 4 out of 4 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:33:38,151 - INFO - Commiting links for aixam to db
+|MAIN_LOG| 2024-11-17 21:33:38,158 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:33:38,159 - INFO - Generating scrollpage links for brand alfa-romeo. <15/167>
+|MAIN_LOG| 2024-11-17 21:33:38,161 - INFO - Getting number of pages for alfa-romeo
+|MAIN_LOG| 2024-11-17 21:33:54,493 - INFO - Number of pages for alfa-romeo : 52
+|MAIN_LOG| 2024-11-17 21:33:54,495 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:33:54,496 - INFO - Adding 52 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:33:54,514 - DEBUG - Filtered 0 exisiting values for alfa-romeo in db
+|MAIN_LOG| 2024-11-17 21:33:54,515 - INFO - 52 out of 52 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:33:54,520 - INFO - Commiting links for alfa-romeo to db
+|MAIN_LOG| 2024-11-17 21:33:54,536 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:33:54,538 - INFO - Generating scrollpage links for brand alpine. <16/167>
+|MAIN_LOG| 2024-11-17 21:33:54,539 - INFO - Getting number of pages for alpine
+|MAIN_LOG| 2024-11-17 21:34:07,070 - INFO - Number of pages for alpine : 1
+|MAIN_LOG| 2024-11-17 21:34:07,070 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:34:07,070 - INFO - Adding 1 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:34:07,087 - DEBUG - Filtered 0 exisiting values for alpine in db
+|MAIN_LOG| 2024-11-17 21:34:07,087 - INFO - 1 out of 1 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:34:07,088 - INFO - Commiting links for alpine to db
+|MAIN_LOG| 2024-11-17 21:34:07,097 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:34:07,098 - INFO - Generating scrollpage links for brand arcfox. <17/167>
+|MAIN_LOG| 2024-11-17 21:34:07,098 - INFO - Getting number of pages for arcfox
+|MAIN_LOG| 2024-11-17 21:34:17,093 - INFO - Number of pages for arcfox : 1
+|MAIN_LOG| 2024-11-17 21:34:17,094 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:34:17,095 - INFO - Adding 1 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:34:17,114 - DEBUG - Filtered 0 exisiting values for arcfox in db
+|MAIN_LOG| 2024-11-17 21:34:17,115 - INFO - 1 out of 1 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:34:17,117 - INFO - Commiting links for arcfox to db
+|MAIN_LOG| 2024-11-17 21:34:17,122 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:34:17,123 - INFO - Generating scrollpage links for brand asia. <18/167>
+|MAIN_LOG| 2024-11-17 21:34:17,123 - INFO - Getting number of pages for asia
+|MAIN_LOG| 2024-11-17 21:34:28,075 - INFO - Number of pages for asia : 1
+|MAIN_LOG| 2024-11-17 21:34:28,076 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:34:28,077 - INFO - Adding 1 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:34:28,096 - DEBUG - Filtered 0 exisiting values for asia in db
+|MAIN_LOG| 2024-11-17 21:34:28,097 - INFO - 1 out of 1 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:34:28,098 - INFO - Commiting links for asia to db
+|MAIN_LOG| 2024-11-17 21:34:28,104 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:34:28,105 - INFO - Generating scrollpage links for brand aston-martin. <19/167>
+|MAIN_LOG| 2024-11-17 21:34:28,106 - INFO - Getting number of pages for aston-martin
+|MAIN_LOG| 2024-11-17 21:34:42,158 - INFO - Number of pages for aston-martin : 2
+|MAIN_LOG| 2024-11-17 21:34:42,159 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:34:42,160 - INFO - Adding 2 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:34:42,189 - DEBUG - Filtered 0 exisiting values for aston-martin in db
+|MAIN_LOG| 2024-11-17 21:34:42,191 - INFO - 2 out of 2 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:34:42,193 - INFO - Commiting links for aston-martin to db
+|MAIN_LOG| 2024-11-17 21:34:42,213 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:34:42,214 - INFO - Generating scrollpage links for brand audi. <20/167>
+|MAIN_LOG| 2024-11-17 21:34:42,214 - INFO - Getting number of pages for audi
+|MAIN_LOG| 2024-11-17 21:34:55,993 - INFO - Number of pages for audi : 695
+|MAIN_LOG| 2024-11-17 21:34:55,995 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:34:55,995 - INFO - Adding 695 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:34:56,036 - DEBUG - Filtered 695 exisiting values for audi in db
+|MAIN_LOG| 2024-11-17 21:34:56,052 - INFO - 0 out of 695 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:34:56,053 - INFO - Commiting links for audi to db
+|MAIN_LOG| 2024-11-17 21:34:56,055 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:34:56,055 - INFO - Generating scrollpage links for brand austin. <21/167>
+|MAIN_LOG| 2024-11-17 21:34:56,056 - INFO - Getting number of pages for austin
+|MAIN_LOG| 2024-11-17 21:35:08,818 - INFO - Number of pages for austin : 1
+|MAIN_LOG| 2024-11-17 21:35:08,820 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:35:08,821 - INFO - Adding 1 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:35:08,842 - DEBUG - Filtered 0 exisiting values for austin in db
+|MAIN_LOG| 2024-11-17 21:35:08,844 - INFO - 1 out of 1 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:35:08,851 - INFO - Commiting links for austin to db
+|MAIN_LOG| 2024-11-17 21:35:08,859 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:35:08,860 - INFO - Generating scrollpage links for brand autobianchi. <22/167>
+|MAIN_LOG| 2024-11-17 21:35:08,861 - INFO - Getting number of pages for autobianchi
+|MAIN_LOG| 2024-11-17 21:35:22,075 - INFO - Number of pages for autobianchi : 1
+|MAIN_LOG| 2024-11-17 21:35:22,077 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:35:22,078 - INFO - Adding 1 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:35:22,096 - DEBUG - Filtered 0 exisiting values for autobianchi in db
+|MAIN_LOG| 2024-11-17 21:35:22,098 - INFO - 1 out of 1 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:35:22,099 - INFO - Commiting links for autobianchi to db
+|MAIN_LOG| 2024-11-17 21:35:22,105 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:35:22,106 - INFO - Generating scrollpage links for brand avatr. <23/167>
+|MAIN_LOG| 2024-11-17 21:35:22,107 - INFO - Getting number of pages for avatr
+|MAIN_LOG| 2024-11-17 21:35:34,875 - INFO - Number of pages for avatr : 1
+|MAIN_LOG| 2024-11-17 21:35:34,876 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:35:34,878 - INFO - Adding 1 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:35:34,897 - DEBUG - Filtered 0 exisiting values for avatr in db
+|MAIN_LOG| 2024-11-17 21:35:34,898 - INFO - 1 out of 1 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:35:34,899 - INFO - Commiting links for avatr to db
+|MAIN_LOG| 2024-11-17 21:35:34,905 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:35:34,906 - INFO - Generating scrollpage links for brand baic. <24/167>
+|MAIN_LOG| 2024-11-17 21:35:34,908 - INFO - Getting number of pages for baic
+|MAIN_LOG| 2024-11-17 21:35:56,226 - INFO - Number of pages for baic : 4
+|MAIN_LOG| 2024-11-17 21:35:56,227 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:35:56,228 - INFO - Adding 4 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:35:56,248 - DEBUG - Filtered 0 exisiting values for baic in db
+|MAIN_LOG| 2024-11-17 21:35:56,249 - INFO - 4 out of 4 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:35:56,250 - INFO - Commiting links for baic to db
+|MAIN_LOG| 2024-11-17 21:35:56,266 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:35:56,267 - INFO - Generating scrollpage links for brand bentley. <25/167>
+|MAIN_LOG| 2024-11-17 21:35:56,267 - INFO - Getting number of pages for bentley
+|MAIN_LOG| 2024-11-17 21:36:14,207 - INFO - Number of pages for bentley : 4
+|MAIN_LOG| 2024-11-17 21:36:14,208 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:36:14,208 - INFO - Adding 4 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:36:14,229 - DEBUG - Filtered 0 exisiting values for bentley in db
+|MAIN_LOG| 2024-11-17 21:36:14,230 - INFO - 4 out of 4 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:36:14,230 - INFO - Commiting links for bentley to db
+|MAIN_LOG| 2024-11-17 21:36:14,236 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:36:14,237 - INFO - Generating scrollpage links for brand bmw. <26/167>
+|MAIN_LOG| 2024-11-17 21:36:14,238 - INFO - Getting number of pages for bmw
+|MAIN_LOG| 2024-11-17 21:36:34,053 - INFO - Number of pages for bmw : 713
+|MAIN_LOG| 2024-11-17 21:36:34,055 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:36:34,056 - INFO - Adding 713 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:36:34,095 - DEBUG - Filtered 713 exisiting values for bmw in db
+|MAIN_LOG| 2024-11-17 21:36:34,112 - INFO - 0 out of 713 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:36:34,113 - INFO - Commiting links for bmw to db
+|MAIN_LOG| 2024-11-17 21:36:34,114 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:36:34,114 - INFO - Generating scrollpage links for brand alpina. <27/167>
+|MAIN_LOG| 2024-11-17 21:36:34,114 - INFO - Getting number of pages for alpina
+|MAIN_LOG| 2024-11-17 21:36:49,630 - INFO - Number of pages for alpina : 2
+|MAIN_LOG| 2024-11-17 21:36:49,631 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:36:49,631 - INFO - Adding 2 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:36:49,650 - DEBUG - Filtered 0 exisiting values for alpina in db
+|MAIN_LOG| 2024-11-17 21:36:49,652 - INFO - 2 out of 2 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:36:49,653 - INFO - Commiting links for alpina to db
+|MAIN_LOG| 2024-11-17 21:36:49,659 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:36:49,660 - INFO - Generating scrollpage links for brand brilliance. <28/167>
+|MAIN_LOG| 2024-11-17 21:36:49,661 - INFO - Getting number of pages for brilliance
+|MAIN_LOG| 2024-11-17 21:37:04,760 - INFO - Number of pages for brilliance : 1
+|MAIN_LOG| 2024-11-17 21:37:04,762 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:37:04,763 - INFO - Adding 1 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:37:04,783 - DEBUG - Filtered 0 exisiting values for brilliance in db
+|MAIN_LOG| 2024-11-17 21:37:04,784 - INFO - 1 out of 1 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:37:04,786 - INFO - Commiting links for brilliance to db
+|MAIN_LOG| 2024-11-17 21:37:04,795 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:37:04,796 - INFO - Generating scrollpage links for brand bugatti. <29/167>
+|MAIN_LOG| 2024-11-17 21:37:04,797 - INFO - Getting number of pages for bugatti
+|MAIN_LOG| 2024-11-17 21:37:14,866 - INFO - Number of pages for bugatti : 1
+|MAIN_LOG| 2024-11-17 21:37:14,867 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:37:14,867 - INFO - Adding 1 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:37:14,884 - DEBUG - Filtered 0 exisiting values for bugatti in db
+|MAIN_LOG| 2024-11-17 21:37:14,885 - INFO - 1 out of 1 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:37:14,886 - INFO - Commiting links for bugatti to db
+|MAIN_LOG| 2024-11-17 21:37:14,891 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:37:14,892 - INFO - Generating scrollpage links for brand buick. <30/167>
+|MAIN_LOG| 2024-11-17 21:37:14,893 - INFO - Getting number of pages for buick
+|MAIN_LOG| 2024-11-17 21:37:26,278 - INFO - Number of pages for buick : 1
+|MAIN_LOG| 2024-11-17 21:37:26,279 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:37:26,280 - INFO - Adding 1 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:37:26,303 - DEBUG - Filtered 0 exisiting values for buick in db
+|MAIN_LOG| 2024-11-17 21:37:26,304 - INFO - 1 out of 1 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:37:26,304 - INFO - Commiting links for buick to db
+|MAIN_LOG| 2024-11-17 21:37:26,309 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:37:26,309 - INFO - Generating scrollpage links for brand byd. <31/167>
+|MAIN_LOG| 2024-11-17 21:37:26,310 - INFO - Getting number of pages for byd
+|MAIN_LOG| 2024-11-17 21:37:39,326 - INFO - Number of pages for byd : 2
+|MAIN_LOG| 2024-11-17 21:37:39,330 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:37:39,331 - INFO - Adding 2 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:37:39,359 - DEBUG - Filtered 0 exisiting values for byd in db
+|MAIN_LOG| 2024-11-17 21:37:39,360 - INFO - 2 out of 2 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:37:39,361 - INFO - Commiting links for byd to db
+|MAIN_LOG| 2024-11-17 21:37:39,368 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:37:39,371 - INFO - Generating scrollpage links for brand cadillac. <32/167>
+|MAIN_LOG| 2024-11-17 21:37:39,372 - INFO - Getting number of pages for cadillac
+|MAIN_LOG| 2024-11-17 21:37:52,937 - INFO - Number of pages for cadillac : 4
+|MAIN_LOG| 2024-11-17 21:37:52,939 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:37:52,940 - INFO - Adding 4 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:37:52,971 - DEBUG - Filtered 0 exisiting values for cadillac in db
+|MAIN_LOG| 2024-11-17 21:37:52,972 - INFO - 4 out of 4 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:37:52,974 - INFO - Commiting links for cadillac to db
+|MAIN_LOG| 2024-11-17 21:37:53,006 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:37:53,007 - INFO - Generating scrollpage links for brand casalini. <33/167>
+|MAIN_LOG| 2024-11-17 21:37:53,009 - INFO - Getting number of pages for casalini
+|MAIN_LOG| 2024-11-17 21:38:07,900 - INFO - Number of pages for casalini : 1
+|MAIN_LOG| 2024-11-17 21:38:07,901 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:38:07,906 - INFO - Adding 1 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:38:07,925 - DEBUG - Filtered 0 exisiting values for casalini in db
+|MAIN_LOG| 2024-11-17 21:38:07,929 - INFO - 1 out of 1 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:38:07,931 - INFO - Commiting links for casalini to db
+|MAIN_LOG| 2024-11-17 21:38:07,939 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:38:07,940 - INFO - Generating scrollpage links for brand caterham. <34/167>
+|MAIN_LOG| 2024-11-17 21:38:07,941 - INFO - Getting number of pages for caterham
+|MAIN_LOG| 2024-11-17 21:38:19,364 - INFO - Number of pages for caterham : 1
+|MAIN_LOG| 2024-11-17 21:38:19,372 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:38:19,373 - INFO - Adding 1 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:38:19,467 - DEBUG - Filtered 0 exisiting values for caterham in db
+|MAIN_LOG| 2024-11-17 21:38:19,468 - INFO - 1 out of 1 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:38:19,469 - INFO - Commiting links for caterham to db
+|MAIN_LOG| 2024-11-17 21:38:19,485 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:38:19,487 - INFO - Generating scrollpage links for brand cenntro. <35/167>
+|MAIN_LOG| 2024-11-17 21:38:19,488 - INFO - Getting number of pages for cenntro
+|MAIN_LOG| 2024-11-17 21:38:30,033 - INFO - Number of pages for cenntro : 1
+|MAIN_LOG| 2024-11-17 21:38:30,035 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:38:30,036 - INFO - Adding 1 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:38:30,055 - DEBUG - Filtered 0 exisiting values for cenntro in db
+|MAIN_LOG| 2024-11-17 21:38:30,055 - INFO - 1 out of 1 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:38:30,056 - INFO - Commiting links for cenntro to db
+|MAIN_LOG| 2024-11-17 21:38:30,061 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:38:30,061 - INFO - Generating scrollpage links for brand changan. <36/167>
+|MAIN_LOG| 2024-11-17 21:38:30,062 - INFO - Getting number of pages for changan
+|MAIN_LOG| 2024-11-17 21:38:41,356 - INFO - Number of pages for changan : 1
+|MAIN_LOG| 2024-11-17 21:38:41,358 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:38:41,358 - INFO - Adding 1 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:38:41,546 - DEBUG - Filtered 0 exisiting values for changan in db
+|MAIN_LOG| 2024-11-17 21:38:41,547 - INFO - 1 out of 1 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:38:41,550 - INFO - Commiting links for changan to db
+|MAIN_LOG| 2024-11-17 21:38:41,585 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:38:41,586 - INFO - Generating scrollpage links for brand chatenet. <37/167>
+|MAIN_LOG| 2024-11-17 21:38:41,587 - INFO - Getting number of pages for chatenet
+|MAIN_LOG| 2024-11-17 21:39:09,305 - INFO - Number of pages for chatenet : 1
+|MAIN_LOG| 2024-11-17 21:39:09,308 - INFO - Generating list of scrollpage links to scrape
+|MAIN_LOG| 2024-11-17 21:39:09,309 - INFO - Adding 1 scrollpage links to <SCRAPEPAGES> DB table
+|MAIN_LOG| 2024-11-17 21:39:09,475 - DEBUG - Filtered 0 exisiting values for chatenet in db
+|MAIN_LOG| 2024-11-17 21:39:09,480 - INFO - 1 out of 1 links are eligible to be added (There are no such links with unscraped status)
+|MAIN_LOG| 2024-11-17 21:39:09,487 - INFO - Commiting links for chatenet to db
+|MAIN_LOG| 2024-11-17 21:39:09,523 - INFO - Links commited
+|MAIN_LOG| 2024-11-17 21:39:09,525 - INFO - Generating scrollpage links for brand chevrolet. <38/167>
+|MAIN_LOG| 2024-11-17 21:39:09,527 - INFO - Getting number of pages for chevrolet
+|MAIN_LOG| 2024-11-17 21:41:12,929 - ERROR - Exception was raised when scraping scrollpage links 
+HTTPConnectionPool(host='localhost', port=49029): Read timed out. (read timeout=120)
+|MAIN_LOG| 2024-11-18 00:58:18,775 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-18 00:58:18,776 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-18 00:58:18,777 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-18 00:58:18,780 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-18 00:58:18,833 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-18 00:58:18,856 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-18 00:58:18,857 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-18 00:58:18,859 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-18 00:58:18,860 - INFO - Defining queues
+|MAIN_LOG| 2024-11-18 00:58:20,265 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-18 00:58:20,265 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-18 00:58:20,265 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-18 00:58:20,268 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-18 00:58:20,306 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-18 00:58:20,327 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-18 00:58:20,328 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-18 00:58:20,330 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-18 00:58:20,330 - INFO - Defining queues
+|MAIN_LOG| 2024-11-18 00:58:34,899 - INFO - Request - add scrollpage links to scraping queue
+|MAIN_LOG| 2024-11-18 00:58:34,900 - INFO - Fetching 6000 scrollpage links.
+|MAIN_LOG| 2024-11-18 00:58:35,193 - INFO - Marking scollpage links as being scraped
+|MAIN_LOG| 2024-11-18 00:58:35,249 - INFO - Passing 5411 links in 6 batches to Redis queue
+|MAIN_LOG| 2024-11-18 00:58:35,275 - INFO - Scrollpage links added to Queue - commiting changes to DB
+|MAIN_LOG| 2024-11-18 00:58:38,077 - INFO - Scrollpage links successfully added to Redis Queue. Links: 5411 Batches: 6
+|MAIN_LOG| 2024-11-18 01:00:41,480 - INFO - Emptying queue link_scraping_queue
+|MAIN_LOG| 2024-11-18 01:00:41,488 - INFO - Queue link_scraping_queue was emptied
+|MAIN_LOG| 2024-11-18 01:03:08,306 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-18 01:03:08,323 - INFO - Marking scrollpage links as part of failed process
+|MAIN_LOG| 2024-11-18 01:03:48,269 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-18 01:03:48,269 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-18 01:03:48,270 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-18 01:03:48,272 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-18 01:03:48,311 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-18 01:03:48,330 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-18 01:03:48,331 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-18 01:03:48,333 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-18 01:03:48,333 - INFO - Defining queues
+|MAIN_LOG| 2024-11-18 01:03:49,774 - INFO - MAIN_LOG initialised
+|MAIN_LOG| 2024-11-18 01:03:49,774 - INFO - Logger initialised.
+|MAIN_LOG| 2024-11-18 01:03:49,775 - INFO - Initialising Flask App
+|MAIN_LOG| 2024-11-18 01:03:49,778 - INFO - Initialising Database
+|MAIN_LOG| 2024-11-18 01:03:49,816 - INFO - Creating DB tables if they dont exist yet
+|MAIN_LOG| 2024-11-18 01:03:49,837 - INFO - Initialising redis.
+|MAIN_LOG| 2024-11-18 01:03:49,838 - INFO - Checking connection to redis server
+|MAIN_LOG| 2024-11-18 01:03:49,840 - INFO - Successfully pinged Redis server
+|MAIN_LOG| 2024-11-18 01:03:49,840 - INFO - Defining queues
+|MAIN_LOG| 2024-11-18 01:03:53,873 - INFO - Request - add scrollpage links to scraping queue
+|MAIN_LOG| 2024-11-18 01:03:53,874 - INFO - Fetching 6000 scrollpage links.
+|MAIN_LOG| 2024-11-18 01:03:54,102 - INFO - Marking scollpage links as being scraped
+|MAIN_LOG| 2024-11-18 01:03:55,190 - INFO - Passing 5411 links in 1083 batches to Redis queue
+|MAIN_LOG| 2024-11-18 01:03:57,190 - INFO - Scrollpage links added to Queue - commiting changes to DB
+|MAIN_LOG| 2024-11-18 01:04:01,433 - INFO - Scrollpage links successfully added to Redis Queue. Links: 5411 Batches: 1083
+|MAIN_LOG| 2024-11-18 01:06:33,773 - INFO - Received message with offer links from worker.
+|MAIN_LOG| 2024-11-18 01:06:33,776 - DEBUG - Adding 32 links for scrapepage ID 1 to DB.
+|MAIN_LOG| 2024-11-18 01:06:33,912 - DEBUG - Adding 32 links for scrapepage ID 2 to DB.
+|MAIN_LOG| 2024-11-18 01:06:34,021 - DEBUG - Adding 32 links for scrapepage ID 3 to DB.
+|MAIN_LOG| 2024-11-18 01:06:34,126 - DEBUG - Adding 32 links for scrapepage ID 4 to DB.
+|MAIN_LOG| 2024-11-18 01:06:34,245 - DEBUG - Adding 32 links for scrapepage ID 5 to DB.
+|MAIN_LOG| 2024-11-18 01:06:34,387 - INFO - Commiting 160 / 160 links to the Database.
+|MAIN_LOG| 2024-11-18 01:06:34,764 - INFO - Added 160 / 160 links to the Database.
